@@ -1,0 +1,78 @@
+.h-18 {
+  height: 18px;
+}
+
+.h-30 {
+  height: 30px;
+}
+
+.h-34 {
+  height: 34px;
+}
+
+.w-30 {
+  width: 30px;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-45 {
+  width: 45%;
+}
+
+.w-48 {
+  width: 48%;
+}
+
+.w-34 {
+  width: 34px;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-55 {
+  width: 55%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-85 {
+  width: 85%;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-450 {
+  width: 450px;
+  min-width: 450px;
+}
+
+@media (max-width: 768px) {
+  .column-mobile {
+    flex-direction: column;
+  }
+
+  .row-mobile {
+    flex-direction: row;
+  }
+
+  .w-100-mobile {
+    width: 100%;
+  }
+}

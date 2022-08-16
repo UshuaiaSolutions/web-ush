@@ -1,0 +1,223 @@
+.texto-regular {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+
+.texto-regular-bold {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+
+.texto-negro {
+  color: #393939;
+}
+
+.h1-web {
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 64px;
+  letter-spacing: 0em;
+}
+
+.h1-web-sub {
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-decoration: underline;
+}
+
+.destacado-bold {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+}
+
+.destacado-regular {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+}
+
+.destacado-italic {
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+}
+
+.destacado-medium {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+}
+
+.destacado-alta {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+}
+
+.h3-web {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+}
+
+.h3-mayus {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  text-transform: uppercase;
+  letter-spacing: 0em;
+}
+
+.h2-web {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0em;
+}
+
+.input-form {
+  background: #f6f3e8;
+  border: 3px solid #393939;
+  border-radius: 8px;
+  height: 27px;
+  padding: 8px;
+  font-family: "Poppins", sans-serif;
+}
+
+.textarea-form {
+  font-family: "Poppins", sans-serif;
+  background: #f6f3e8;
+  border: 3px solid #393939;
+  border-radius: 8px;
+  height: 296px;
+  padding: 8px;
+}
+
+.label-form {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+
+@media (max-width: 768px) {
+  .hero-section-titles-mobile {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+  }
+
+  .hero-section-alto-mobile {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-decoration: underline;
+  }
+
+  .destacados-mobile {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+  }
+
+  .h1-mobile {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 0em;
+  }
+
+  .h2-mobile {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+  }
+
+  .h3-mobile {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+  }
+
+  .txt-mobile {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .txt-minimo-mobile {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0em;
+  }
+
+  .txt-regular-mobile {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+  }
+
+  .txt-destacados-alta-mobile {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+  }
+
+  .extra-dest-mobile {
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 16px;
+    text-transform: none;
+    letter-spacing: 0em;
+  }
+
+  .label-form {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+  }
+
+  .input-form,
+  .input-form:focus,
+  .input-form:focus-visible {
+    padding: 4px;
+    border: 2px solid #393939;
+    height: calc(31px - 8px);
+    outline: none;
+  }
+
+  .textarea-form,
+  .textarea-form:focus,
+  .textarea-form:focus-visible {
+    padding: 4px;
+    border: 2px solid #393939;
+    height: calc(160px - 8px);
+    outline: none;
+  }
+}
