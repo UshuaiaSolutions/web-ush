@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Autoplay, Pagination, Navigation } from "swiper";
+import { Autoplay } from "swiper";
 import "swiper/swiper.min.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "../styles/slider.css";
@@ -24,6 +24,14 @@ const Content = styled.div`
   @media (min-width: 1025px) {
     flex-direction: row-reverse;
     align-items: center;
+
+    & .desktop-column {
+      width: 45%;
+    }
+
+    & .mySwiper {
+      width: 45%;
+    }
   }
 `;
 
@@ -44,11 +52,7 @@ function TeamingWithClients() {
               delay: 2500,
               disableOnInteraction: false,
             }}
-            pagination={{
-              clickable: true,
-            }}
-            navigation={true}
-            modules={[Autoplay, Pagination, Navigation]}
+            modules={[Autoplay]}
             className="mySwiper"
           >
             <SwiperSlide>
@@ -61,8 +65,8 @@ function TeamingWithClients() {
               <img className="clients" src="/slider/primero.png" alt="brands" />
             </SwiperSlide>
           </Swiper>
-          <div>
-            <p className="txt-mobile mb-40-mobile mb-40">
+          <div className="desktop-column">
+            <p className="txt-mobile destacado-medium mb-40-mobile mb-40">
               Our highly esteemed client list includes partner LSPs as well as
               B2B customers who have come to rely on us as an extension of their
               in-house teams. Let us help you too!

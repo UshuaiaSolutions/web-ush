@@ -22,6 +22,11 @@ const Column = styled.div`
 const Card = styled.div`
   width: 136px;
   height: 136px;
+
+  @media (min-width: 1025px) {
+    width: 240px;
+    height: 240px;
+  }
 `;
 
 const Icon = styled.img`
@@ -29,22 +34,65 @@ const Icon = styled.img`
   height: 100%;
 `;
 
+const Row = styled.div`
+  @media (min-width: 1025px) {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+
+    & h2 {
+      width: 40%;
+    }
+    & p {
+      width: 55%;
+    }
+  }
+`;
+
 function GetToKnow() {
   return (
     <StyledContainer>
       <Container>
-        <h2 className="h2-mobile mb-20-mobile">Get to know USH</h2>
-        <p className="txt-destacados-alta-mobile mb-40-mobile">
-          Our strongest trait is teamwork! We encourage positive leadership to
-          motivate our talented professionals to work together as one and
-          achieve greater goals.
-        </p>
+        <Row>
+          <h2 className="h2-mobile h2-web mb-20-mobile">Get to know USH</h2>
+          <p className="txt-destacados-alta-mobile destacado-medium mb-40-mobile">
+            Our strongest trait is teamwork! We encourage positive leadership to
+            motivate our talented professionals to work together as one and
+            achieve greater goals.
+          </p>
+        </Row>
         <Swiper
           slidesPerView={"auto"}
           spaceBetween={0}
           modules={[Pagination]}
           className="mySwiper member"
         >
+          <SwiperSlide>
+            <Column>
+              <Card>
+                <Icon src="/members/member.png" alt="icon" />
+              </Card>
+              <Card>
+                <Icon src="/members/member.png" alt="icon" />
+              </Card>
+              <Card>
+                <Icon src="/members/member.png" alt="icon" />
+              </Card>
+            </Column>
+          </SwiperSlide>
+          <SwiperSlide>
+            <Column>
+              <Card>
+                <Icon src="/members/member.png" alt="icon" />
+              </Card>
+              <Card>
+                <Icon src="/members/member.png" alt="icon" />
+              </Card>
+              <Card>
+                <Icon src="/members/member.png" alt="icon" />
+              </Card>
+            </Column>
+          </SwiperSlide>
           <SwiperSlide>
             <Column>
               <Card>

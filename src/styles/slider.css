@@ -116,3 +116,40 @@
     width: 55%;
   }
 }
+
+@media (min-width: 1025px) {
+  .member .swiper-slide {
+    width: 20%;
+  }
+
+  .member .swiper-slide:nth-child(2n) {
+    width: 20%;
+  }
+
+  .member .swiper-slide:nth-child(3n) {
+    width: 20%;
+  }
+
+  .member .swiper-slide:nth-child(4n) {
+    width: 20%;
+  }
+
+  .member .swiper-slide:nth-child(5n) {
+    width: 20%;
+  }
+}
+
+/* DESKTOP ABOUT US */
+.mySwiperAbout {
+  width: 100%;
+  height: 100%;
+}
+
+.mySwiperAbout .swiper-button-next,
+.mySwiperAbout .swiper-button-prev {
+  color: #474747;
+}
+
+.mySwiperAbout .swiper-pagination-bullet-active {
+  background: #474747;
+}

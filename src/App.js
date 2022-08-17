@@ -15,6 +15,7 @@ import Contacto from "./pages/contacto";
 import Expertise from "./pages/expertise";
 import Services from "./pages/services";
 import About from "./pages/about";
+import NoMatch from "./pages/nomatch";
 
 const theme = {
   lilaush: "#7839C4",
@@ -37,6 +38,7 @@ function App() {
             <Route path="/expertise" element={<Expertise />} />
             <Route path="/services" element={<Services />} />
             <Route path="/about" element={<About />} />
+            <Route path="*" element={<NoMatch />} />
           </Routes>
         </Layout>
         <Footer />

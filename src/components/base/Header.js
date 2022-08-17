@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import BotonSecundario from "./BotonSecundario";
 import MenuMobile from "./MenuMobile";
 
@@ -34,10 +34,42 @@ const StyledLink = styled(Link)`
   text-decoration: none;
   color: ${(props) => props.theme.textonegro};
   opacity: 0.6;
+  border: ${(props) =>
+    props.selected ? `2px solid ${props.theme.textonegro}` : "none"};
+  border-radius: 154px;
+  margin-right: 10px;
+  transition: all 0.3s linear;
 `;
 
 const StyledBoton = styled(BotonSecundario)`
-  padding: 8px 40px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  padding: 8px 0px;
+  background-color: ${(props) => props.theme.fondo};
+  color: ${(props) => props.theme.textonegro};
+  transition: 0.3s;
+  width: 100%;
+  border: 2px solid ${(props) => props.theme.textonegro};
+  border-radius: 1389px;
+
+  &:hover {
+    background-color: ${(props) => props.theme.rosaush};
+    box-shadow: inset 4px 4px 4px rgb(57 57 57 / 40%);
+  }
+
+  @media (min-width: 1025px) {
+    padding: 8px 40px;
+    width: fit-content;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    border-radius: 60px;
+    border: none;
+    background-color: ${(props) => props.theme.rosaush};
+  }
 `;
 
 const ContainerMenu = styled.div`
@@ -117,15 +149,28 @@ const Toggle = styled.button`
 function Header() {
   const [openMobile, setOpenMobile] = useState(false);
 
+  let location = useLocation();
+
+  console.log(location.pathname === "/about");
+
   return (
     <Container>
       <Link to="/">
         <Logo />
       </Link>
       <ContainerMenu className="d-flex align-center">
-        <StyledLink to="/about">About us</StyledLink>
-        <StyledLink to="/services">Services</StyledLink>
-        <StyledLink to="/expertise">Expertise</StyledLink>
+        <StyledLink to="/about" selected={location.pathname === "/about"}>
+          About us
+        </StyledLink>
+        <StyledLink to="/services" selected={location.pathname === "/services"}>
+          Services
+        </StyledLink>
+        <StyledLink
+          to="/expertise"
+          selected={location.pathname === "/expertise"}
+        >
+          Expertise
+        </StyledLink>
         <Link to="/contact">
           <StyledBoton>Get in touch</StyledBoton>
         </Link>

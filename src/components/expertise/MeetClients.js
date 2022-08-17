@@ -7,9 +7,9 @@ import "../../styles/slider.css";
 import Container from "../base/Container";
 
 const StyledContainer = styled.div`
-  padding: 70px 0;
+  padding: 30px 0 70px;
   color: ${(props) => props.theme.textonegro};
-  background: ${(props) => props.theme.verdeush};
+  background: ${(props) => props.theme.fondo};
   display: flex;
   flex-direction: column;
 `;
@@ -17,7 +17,7 @@ const StyledContainer = styled.div`
 const ContainerSwiper = styled.div`
   display: none;
 
-  @media (max-width: 1100px) {
+  @media (max-width: 1024px) {
     display: block;
     width: 100%;
   }
@@ -35,12 +35,35 @@ const Card = styled.div`
   flex-direction: column;
   align-items: center;
 
-  @media (min-width: 768px) {
+  @media (min-width: 1025px) {
     border: 3px solid ${(props) => props.theme.textonegro};
     border-radius: 32px;
-    padding-top: 40px;
-    width: 334px;
-    height: 294px;
+    padding: 80px 30px;
+    max-height: 435px;
+    width: calc(533px - 60px - 6px);
+  }
+`;
+
+const ContainerDesktop = styled.div`
+  display: none;
+  @media (min-width: 1025px) {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+`;
+
+const Column = styled.div`
+  display: none;
+  @media (min-width: 1025px) {
+    display: block;
+  }
+`;
+
+const Logo = styled.img`
+  @media (min-width: 1025px) {
+    height: auto;
+    width: 232px;
   }
 `;
 
@@ -48,14 +71,12 @@ function MeetClients() {
   return (
     <StyledContainer>
       <Container>
-        <h1 className="h2-mobile mb-20-mobile">
-          Meet some of <br />
-          <u>our clients</u>
+        <h1 className="h2-mobile mb-20-mobile mb-40 text-left-mobile text-center">
+          Meet some of <u>our clients</u>
         </h1>
-        <p className="destacados-mobile mb-40-mobile">
-          Many companies and LSPs have come to <br />
-          rely on us as an extension of their in-house <br />
-          teams. We can help you too!
+        <p className="destacados-mobile destacado-medium mb-40-mobile mb-70 text-left-mobile text-center">
+          Many companies and LSPs have come to rely on us as an extension of
+          their in-house teams. We can help you too!
         </p>
         <ContainerSwiper className="mb-40">
           <Swiper
@@ -108,6 +129,35 @@ function MeetClients() {
             </SwiperSlide>
           </Swiper>
         </ContainerSwiper>
+        <ContainerDesktop>
+          <Column>
+            <p className="punteo-desktop mb-15">The World Bank Group</p>
+            <p className="punteo-desktop mb-15">Ericsson</p>
+            <p className="punteo-desktop mb-15">Rockwell Automation, Inc</p>
+            <p className="punteo-desktop mb-15">BID</p>
+            <p className="punteo-desktop mb-15">Avaya</p>
+            <p className="punteo-desktop mb-15">Agilent Technologies, Inc</p>
+            <p className="punteo-desktop mb-15">NTT</p>
+            <p className="punteo-desktop mb-15">Sanford Guide</p>
+            <p className="punteo-desktop mb-15">Pacifictech</p>
+            <p className="punteo-desktop mb-15">ORCI</p>
+            <p className="punteo-desktop mb-15">The Sage Group</p>
+            <p className="punteo-desktop mb-15">Pivotal</p>
+            <p className="punteo-desktop">LivePerson</p>
+          </Column>
+          <Card>
+            <Logo
+              className="mb-20-mobile mb-40"
+              src="/logos/Logo-client.png"
+              alt="Client"
+            />
+            <p className="txt-mobile text-left-mobile text-center">
+              The World Bank Group is one of the largest international financial
+              institutions. We've been working with the World Bank Group for
+              several years, helping them localize their content.
+            </p>
+          </Card>
+        </ContainerDesktop>
       </Container>
     </StyledContainer>
   );
