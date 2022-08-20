@@ -17,8 +17,8 @@ const About = () => {
     <Background>
       <MeetYourLanguage />
       <GetToKnow />
-      <MeetYourNeeds />
       <TeamingWithClients />
+      <MeetYourNeeds />
       <Memberships />
       <BookMeeting />
     </Background>

@@ -7,6 +7,7 @@ import "swiper/swiper-bundle.min.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper";
 import "../../styles/slider.css";
+import { CorteDesktop, CorteMobile } from "../base/Cortes";
 
 const StyledContainer = styled.div`
   padding: 40px 0;
@@ -32,7 +33,7 @@ const Image = styled.img`
 
   @media (min-width: 1025px) {
     height: auto;
-    width: 450px;
+    width: 300px;
     margin-top: 0px;
   }
 `;
@@ -46,16 +47,16 @@ const Card = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 128px;
+  width: calc(178px - 6px);
   height: 200px;
-  padding: 40px 25px 0;
+  padding: 40px 0 0;
   position: relative;
 
   @media (min-width: 1025px) {
-    width: calc(320px - 34px);
-    height: auto;
-    max-height: 370px;
-    padding: 50px 32px;
+    width: calc(421px - 6px);
+    height: calc(370px - 6px);
+    padding: 0;
+    justify-content: inherit;
   }
 `;
 
@@ -131,17 +132,19 @@ function MeetYourLanguage() {
           <div>
             <h1 className="hero-section-titles-mobile h1-web mb-20-mobile mb-40">
               Meet your language
-              <br />
-              <u>service partner</u>
+              <CorteDesktop />
+              <CorteMobile /> <u>service partner</u>
             </h1>
             <p className="destacados-mobile destacado-regular mb-40-mobile mb-40">
               We deliver multilingual ISO certified solutions
-              <br /> to help you face and solve your global <br />
-              challenges. We can blend linguistic, <br />
-              technical, marketing and cultural <br />
-              requirements to offer an optimized <br />
-              translation and localization solution.
-              <br />
+              <CorteMobile /> to help you face
+              <CorteDesktop /> and solve your global
+              <CorteMobile /> challenges. We can blend linguistic,
+              <CorteDesktop />
+              <CorteMobile /> technical, marketing and cultural
+              <CorteMobile /> requirements to offer an
+              <CorteDesktop /> optimized
+              <CorteMobile /> translation and localization solution.
             </p>
             <BotonSecundario>Get in touch</BotonSecundario>
           </div>
@@ -170,10 +173,11 @@ function MeetYourLanguage() {
                   </Circle>
                   <h3 className="h3-web mb-20">Experience</h3>
                   <p className="texto-regular text-center">
-                    We know what we do. With more than 20 years in the language
-                    services industry, we have the capacity to build and
-                    maintain on-site dedicated teams of highly skilled
-                    professionals for your account.
+                    We know what we do. With more than 20
+                    <CorteDesktop /> years in the language services industry,
+                    <CorteDesktop /> we have the capacity to build and maintain
+                    <CorteDesktop /> on-site dedicated teams of highly skilled
+                    <CorteDesktop /> professionals for your account.
                   </p>
                 </Card>
               </SwiperSlide>
@@ -184,10 +188,12 @@ function MeetYourLanguage() {
                   </Circle>
                   <h3 className="h3-web mb-20">Innovation</h3>
                   <p className="texto-regular text-center">
-                    We're geeks! We strategically use the latest tech trends to
-                    help you expand your possibilities. Plus, our flexibility
-                    enables us to adapt to any technology, platform or process
-                    you use.
+                    We're geeks! We strategically use the latest
+                    <CorteDesktop /> tech trends to help you expand your
+                    <CorteDesktop /> possibilities. Plus, our flexibility
+                    enables us
+                    <CorteDesktop /> to adapt to any technology, platform or
+                    <CorteDesktop /> process you use.
                   </p>
                 </Card>
               </SwiperSlide>
@@ -198,10 +204,14 @@ function MeetYourLanguage() {
                   </Circle>
                   <h3 className="h3-web mb-20">Teamwork</h3>
                   <p className="texto-regular text-center">
-                    Positive leadership, empathy and honesty are our core work
-                    values. We strongly believe the collaborative effort of a
-                    team to achieve a common goal leads to much more effective
-                    and efficient solutions. Better together!
+                    Positive leadership, empathy and honesty
+                    <CorteDesktop /> are our core work values. We strongly
+                    believe
+                    <CorteDesktop /> the collaborative effort of a team to
+                    achieve
+                    <CorteDesktop /> a common goal leads to much more
+                    <CorteDesktop /> effective and efficient solutions.
+                    <CorteDesktop /> Better together!
                   </p>
                 </Card>
               </SwiperSlide>
@@ -222,10 +232,16 @@ function MeetYourLanguage() {
                 </Circle>
                 <h3 className="h3-mobile mb-10-mobile">Experience</h3>
                 <p className="txt-minimo-mobile text-center">
-                  We know what we do. With more than 20 years in the language
-                  services industry, we have the capacity to build and maintain
-                  on-site dedicated teams of highly skilled professionals for
-                  your account.
+                  We know what we do.
+                  <CorteMobile /> With more than 20 years
+                  <CorteMobile /> in the language services
+                  <CorteMobile /> industry, we have the
+                  <CorteMobile /> capacity to build and
+                  <CorteMobile /> maintain on-site
+                  <CorteMobile /> dedicated teams of
+                  <CorteMobile /> highly skilled
+                  <CorteMobile /> professionals for
+                  <CorteMobile /> your account.
                 </p>
               </Card>
             </SwiperSlide>
@@ -236,10 +252,14 @@ function MeetYourLanguage() {
                 </Circle>
                 <h3 className="h3-mobile mb-10-mobile">Innovation</h3>
                 <p className="txt-minimo-mobile text-center">
-                  We're geeks! We strategically use the latest tech trends to
-                  help you expand your possibilities. Plus, our flexibility
-                  enables us to adapt to any technology, platform or process you
-                  use.
+                  We're geeks! We
+                  <CorteMobile /> strategically use the
+                  <CorteMobile /> latest tech trends to help
+                  <CorteMobile /> you expand your
+                  <CorteMobile /> possibilities. Plus, our
+                  <CorteMobile /> flexibility enables us to
+                  <CorteMobile /> adapt to any technology,
+                  <CorteMobile /> platform or process you use.
                 </p>
               </Card>
             </SwiperSlide>
@@ -250,10 +270,16 @@ function MeetYourLanguage() {
                 </Circle>
                 <h3 className="h3-mobile mb-10-mobile">Teamwork</h3>
                 <p className="txt-minimo-mobile text-center">
-                  Positive leadership, empathy and honesty are our core work
-                  values. We strongly believe the collaborative effort of a team
-                  to achieve a common goal leads to much more effective and
-                  efficient solutions. Better together!
+                  Positive leadership,
+                  <CorteMobile /> empathy and honesty are
+                  <CorteMobile /> our core work values.
+                  <CorteMobile /> We strongly believe the
+                  <CorteMobile /> collaborative effort of
+                  <CorteMobile /> a team to achieve
+                  <CorteMobile /> a common goal leads to
+                  <CorteMobile /> much more effective and
+                  <CorteMobile /> efficient solutions.
+                  <CorteMobile /> Better together!
                 </p>
               </Card>
             </SwiperSlide>

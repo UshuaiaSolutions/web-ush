@@ -5,6 +5,7 @@ import "swiper/swiper.min.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 import "../../styles/slider.css";
+import { CorteDesktop, CorteMobile } from "../base/Cortes";
 
 const StyledContainer = styled.div`
   padding: 40px 0;
@@ -43,13 +44,6 @@ const Row = styled.div`
     display: flex;
     justify-content: space-between;
     margin-bottom: 70px;
-
-    & h2 {
-      width: 40%;
-    }
-    & p {
-      width: 55%;
-    }
   }
 `;
 
@@ -60,9 +54,12 @@ function GetToKnow() {
         <Row>
           <h2 className="h2-mobile h2-web mb-20-mobile">Get to know USH</h2>
           <p className="txt-destacados-alta-mobile destacado-medium mb-40-mobile">
-            Our strongest trait is teamwork! We encourage positive leadership to
-            motivate our talented professionals to work together as one and
-            achieve greater goals.
+            Our strongest trait is teamwork!
+            <CorteMobile /> We encourage positive
+            <CorteDesktop /> leadership to
+            <CorteMobile /> motivate our talented professionals
+            <CorteDesktop /> to work
+            <CorteMobile /> together as one and achieve greater goals.
           </p>
         </Row>
         <Swiper

@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Container from "./base/Container";
+import { CorteDesktop, CorteMobile } from "./base/Cortes";
 
 const StyledContainer = styled.div`
   padding: 60px 0;
@@ -53,8 +54,11 @@ function Memberships() {
               Our Memberships
             </h2>
             <p className="txt-regular-mobile destacado-regular mb-20-mobile">
-              Networking and sharing experiences is the best way to improve both
-              our services and the language industry as a whole.
+              Networking and sharing experiences is the
+              <CorteDesktop />
+              <CorteMobile /> best way to improve both our services and
+              <CorteDesktop />
+              <CorteMobile /> the language industry as a whole.
             </p>
           </div>
           <div className="d-flex flex-column">

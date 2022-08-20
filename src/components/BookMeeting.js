@@ -25,8 +25,6 @@ const MediaContainer = styled.div`
 `;
 
 const FirstContainer = styled.div`
-  width: 40%;
-
   @media (max-width: 1100px) {
     width: 100%;
   }
@@ -79,8 +77,7 @@ function BookMeeting() {
             </p>
             <p className="txt-destacados-alta-mobile destacado-italic mb-20">
               What languages do you need
-              <CorteMobile /> us
-              <CorteDesktop /> to work with?
+              <CorteMobile /> us <CorteDesktop /> to work with?
             </p>
             <p className="txt-destacados-alta-mobile destacado-italic mb-40">
               Is your request urgent?
