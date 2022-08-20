@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Container from "../base/Container";
+import { CorteDesktop, CorteMobile } from "../base/Cortes";
 
 const StyledContainer = styled.div`
   padding: 40px 0;
@@ -40,16 +41,20 @@ function MeetYourNeeds() {
     <StyledContainer>
       <Container>
         <h1 className="hero-section-titles-mobile h1-web mb-20-mobile mb-40 text-center text-left-mobile">
-          We can meet <u>your needs</u>
+          We can meet
+          <CorteMobile /> <u>your needs</u>
         </h1>
         <p className="destacados-mobile destacado-regular mb-40-mobile text-center text-left-mobile">
-          We offer a wide variety of multilingual solutions, from translation
-          and localization to content creation and video editing. USH is a
-          synonym of flexibility, scalability and efficiency.
+          We offer a wide variety of multilingual
+          <CorteMobile /> solutions, from translation and
+          <CorteMobile /> localization to content
+          <CorteDesktop /> creation and
+          <CorteMobile /> video editing. USH is a synonym of
+          <CorteMobile /> flexibility, scalability and efficiency.
         </p>
         <p className="destacados-mobile destacado-bold mb-40-mobile mb-40 text-center text-left-mobile">
-          We're your language service partner for Latin America, Europe and the
-          world.
+          We're your language service partner for
+          <CorteMobile /> Latin America, Europe and the world.
         </p>
         <ContainerIcon>
           <Image className="" src="/icons/finger-down.png" alt="See more" />

@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Container from "../base/Container";
+import { CorteDesktop, CorteMobile } from "../base/Cortes";
 
 const StyledContainer = styled.div`
   padding: 40px 0;
@@ -56,13 +57,8 @@ const Image = styled.img`
 const DesktopRow = styled.div`
   @media (min-width: 1025px) {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-bottom: 100px;
-
-    & p,
-    & h2 {
-      width: 40%;
-    }
   }
 `;
 
@@ -73,8 +69,11 @@ function ExpertiseAreas() {
         <DesktopRow>
           <h2 className="h2-mobile h2-web mb-20-mobile">Expertise areas</h2>
           <p className="txt-regular-mobile destacado-medium mb-40-mobile">
-            With over 20 years' experience, we've managed to select and train
-            highly skilled professionals specialized in different fields.
+            With over 20 years' experience, we've
+            <CorteMobile />
+            <CorteDesktop /> managed to select and train highly skilled
+            <CorteMobile />
+            <CorteDesktop /> professionals specialized in different fields.
           </p>
         </DesktopRow>
         <Column>
@@ -99,7 +98,9 @@ function ExpertiseAreas() {
           <Row>
             <Image src="/icons/check.png" alt="Checked" />
             <h3 className="txt-destacados-alta-mobile destacado-alta mb-15-mobile">
-              Enterprise software (ERP, CMS, HCM)
+              Enterprise software
+              <CorteMobile />
+              <CorteDesktop /> (ERP, CMS, HCM)
             </h3>
           </Row>
           <Row>
@@ -111,7 +112,8 @@ function ExpertiseAreas() {
           <Row>
             <Image src="/icons/check.png" alt="Checked" />
             <h3 className="txt-destacados-alta-mobile destacado-alta mb-15-mobile">
-              Healthcare and Life Sciences
+              Healthcare and
+              <CorteMobile /> Life Sciences
             </h3>
           </Row>
           <Row>
@@ -123,7 +125,9 @@ function ExpertiseAreas() {
           <Row>
             <Image src="/icons/check.png" alt="Checked" />
             <h3 className="txt-destacados-alta-mobile destacado-alta mb-15-mobile">
-              Finance, Business and Banking
+              Finance, Business
+              <CorteMobile />
+              <CorteDesktop /> and Banking
             </h3>
           </Row>
           <Row>
@@ -135,13 +139,17 @@ function ExpertiseAreas() {
           <Row>
             <Image src="/icons/check.png" alt="Checked" />
             <h3 className="txt-destacados-alta-mobile destacado-alta mb-15-mobile">
-              Marketing and Human Resources
+              Marketing and
+              <CorteMobile />
+              <CorteDesktop /> Human Resources
             </h3>
           </Row>
           <Row>
             <Image src="/icons/check.png" alt="Checked" />
             <h3 className="txt-destacados-alta-mobile destacado-alta mb-15-mobile">
-              Mechanical, Automotive and Heavy Machinery
+              Mechanical, Automotive
+              <CorteMobile />
+              <CorteDesktop /> and Heavy Machinery
             </h3>
           </Row>
           <Row>
@@ -153,7 +161,9 @@ function ExpertiseAreas() {
           <Row>
             <Image src="/icons/check.png" alt="Checked" />
             <h3 className="txt-destacados-alta-mobile destacado-alta mb-15-mobile">
-              Fitness, Cosmetics and Beauty Products
+              Fitness, Cosmetics and
+              <CorteMobile />
+              <CorteDesktop /> Beauty Products
             </h3>
           </Row>
           <Row>

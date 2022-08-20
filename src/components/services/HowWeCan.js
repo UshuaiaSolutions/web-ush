@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Container from "../base/Container";
+import { CorteDesktop, CorteMobile } from "../base/Cortes";
 
 const StyledContainer = styled.div`
   padding: 20px 0 40px;
@@ -35,14 +36,6 @@ const ContentDesktop = styled.div`
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
-
-    & > div:first-child {
-      width: 35%;
-    }
-
-    & > div:last-child {
-      width: 55%;
-    }
   }
 `;
 
@@ -53,7 +46,9 @@ function HowWeCan() {
         <ContentDesktop>
           <div>
             <h1 className="h2-mobile mb-40-mobile">
-              How we can <u>make it happen</u>
+              How we can
+              <CorteMobile />
+              <CorteDesktop /> <u>make it happen</u>
             </h1>
             <Image src="/illustration-why.png" alt="Illustration" />
           </div>
@@ -63,9 +58,12 @@ function HowWeCan() {
                 01&ensp;&ensp;You tell us what you need
               </h3>
               <p className="txt-regular-mobile mb-40-mobile">
-                We can discuss together your goals, scope of the project,
-                software needed, and more. We can adapt to any technology,
-                platform or process you already use.
+                We can discuss together your goals, scope
+                <CorteMobile /> of the project, software
+                <CorteDesktop /> needed, and more.
+                <CorteMobile /> We can adapt to any technology, platform or
+                <CorteDesktop />
+                <CorteMobile /> process you already use.
               </p>
             </Column>
             <Column>
@@ -73,10 +71,13 @@ function HowWeCan() {
                 02&ensp;&ensp;We manage your project
               </h3>
               <p className="txt-regular-mobile mb-40-mobile">
-                We have the capacity to build and maintain on-site dedicated
-                teams for your content types and required tools. We can handle
-                projects of any size thanks to the committed work of our project
-                managers.
+                We have the capacity to build and maintain
+                <CorteMobile /> on-site dedicated teams for
+                <CorteDesktop /> your content
+                <CorteMobile /> types and required tools. We can handle
+                <CorteMobile /> projects of any size
+                <CorteDesktop /> thanks to the committed
+                <CorteMobile /> work of our project managers.
               </p>
             </Column>
             <Column>
@@ -84,9 +85,11 @@ function HowWeCan() {
                 03&ensp;&ensp;Your project is ready
               </h3>
               <p className="txt-regular-mobile mb-40-mobile">
-                As an ISO certified language service company, we ensure that our
-                services meet high quality standards and are delivered on time
-                at competitive rates.
+                As an ISO certified language service
+                <CorteMobile /> company, we ensure that our services
+                <CorteDesktop /> meet
+                <CorteMobile /> high quality standards and are delivered on
+                <CorteMobile /> time at competitive rates.
               </p>
             </Column>
           </div>

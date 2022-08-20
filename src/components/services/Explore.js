@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import Container from "../base/Container";
+import { CorteDesktop, CorteMobile } from "../base/Cortes";
 
 const StyledContainer = styled.div`
   padding: 60px 0;
@@ -71,10 +72,6 @@ const RowDesktop = styled.div`
     display: flex;
     justify-content: space-between;
     margin-bottom: 100px;
-
-    & p {
-      width: 50%;
-    }
   }
 `;
 
@@ -91,13 +88,13 @@ function Explore() {
         <RowDesktop>
           <h2 className="h2-mobile h2-web mb-40-mobile">
             Explore how
-            <br />
-            <u>we can help you</u>
+            <CorteDesktop />
+            <CorteMobile /> <u>we can help you</u>
           </h2>
           <p className="destacado-medium d-none-mobile">
-            We can blend linguistic, technical, marketing and cultural
-            requirements to offer an optimized translation and localization
-            solution.
+            We can blend linguistic, technical, marketing
+            <CorteDesktop /> and cultural requirements to offer an optimized
+            <CorteDesktop /> translation and localization solution.
           </p>
         </RowDesktop>
         <Dropdown>
@@ -113,10 +110,14 @@ function Explore() {
             </ItemTitle>
             {open && (
               <p className="txt-mobile texto-regular">
-                Translation, Localization or Transcreation. We specialize in
-                software localization and translation of corporate content.
-                Specific services include machine translation post-editing,
-                translation, review, proofreading and language testing.
+                Translation, Localization or Transcreation.
+                <CorteMobile /> We specialize in software localization and
+                <CorteMobile /> translation of
+                <CorteDesktop /> corporate content. Specific
+                <CorteMobile /> services include machine translation
+                <CorteMobile /> post-editing, translation, review,
+                <CorteDesktop /> proofreading
+                <CorteMobile /> and language testing.
               </p>
             )}
           </Item>
@@ -132,11 +133,14 @@ function Explore() {
             </ItemTitle>
             {open && (
               <p className="txt-mobile texto-regular">
-                You can trust our team to steer your project from start to
-                finish: from source evaluation, quoting and planning to quality
-                assurance, our Team Leaders are ready to take good care of
-                projects of any size, from large turn-key projects to agile
-                language services.
+                You can trust our team to steer your project
+                <CorteMobile /> from start to finish: from source evaluation,
+                <CorteMobile /> quoting and
+                <CorteDesktop /> planning to quality assurance,
+                <CorteMobile /> our Team Leaders are ready to take good
+                <CorteMobile /> care of projects of any size, from
+                <CorteDesktop /> large turn-key
+                <CorteMobile /> projects to agile language services.
               </p>
             )}
           </Item>
@@ -154,9 +158,11 @@ function Explore() {
             </ItemTitle>
             {open && (
               <p className="txt-mobile texto-regular">
-                We offer multilingual desktop publishing in a wide range of
-                suites, but also original design for your campaigns, including
-                illustration, photography and infographics!
+                We offer multilingual desktop publishing in
+                <CorteMobile /> a wide range of suites, but also original
+                <CorteMobile /> design for your
+                <CorteDesktop /> campaigns, including
+                <CorteMobile /> illustration, photography and infographics!
               </p>
             )}
           </Item>
@@ -172,8 +178,10 @@ function Explore() {
             </ItemTitle>
             {open && (
               <p className="txt-mobile texto-regular">
-                We can help prepare and format your e-learning content and
-                localize on-screen text for your video content
+                We can help prepare and format your
+                <CorteMobile /> e-learning content and localize on-screen
+                <CorteMobile /> text for your video
+                <CorteDesktop /> content
               </p>
             )}
           </Item>
@@ -189,10 +197,12 @@ function Explore() {
             </ItemTitle>
             {open && (
               <p className="txt-mobile texto-regular">
-                We work with our customers' marketing team to create social
-                media content in Spanish and Portuguese and deliver a unified
-                brand message in Brazil and the rest of Latin America and the
-                US!
+                We work with our customers' marketing
+                <CorteMobile /> team to create social media content in
+                <CorteMobile /> Spanish and Portuguese
+                <CorteDesktop /> and deliver a<CorteMobile /> unified brand
+                message in Latin America, Europe
+                <CorteMobile /> and the US!
               </p>
             )}
           </Item>
