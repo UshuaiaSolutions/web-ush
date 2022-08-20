@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "../styles/slider.css";
 import Container from "./base/Container";
 import BotonSecundario from "./base/BotonSecundario";
+import { CorteDesktop, CorteMobile } from "./base/Cortes";
 
 const StyledContainer = styled.div`
   padding: 100px 0;
@@ -29,8 +30,8 @@ const Card = styled.div`
   border-radius: 32px;
   color: ${(props) => props.theme.textonegro};
   text-align: center;
-  padding: 40px 24px 30px;
-  width: calc(178px - 48px - 4px);
+  padding: 40px 0 30px;
+  width: calc(178px - 4px);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -115,13 +116,14 @@ function Needs() {
                   <Circle>
                     <Icon src="/icons/needs-1.png" alt="icon" />
                   </Circle>
-                  <h3 className="h3-web h3-mobile mb-30 mb-20-mobile">
-                    Language services
-                  </h3>
-                  <p className="texto-regular txt-minimo-mobile">
-                    Translation, localization, transcreation, review and more.
-                    We provide customized multilingual solutions to help you
-                    reach global audiences.
+                  <h3 className="h3-mobile mb-20-mobile">Language services</h3>
+                  <p className="txt-minimo-mobile">
+                    Translation, localization,
+                    <CorteMobile /> transcreation, review and
+                    <CorteMobile /> more. We provide
+                    <CorteMobile /> customized multilingual
+                    <CorteMobile /> solutions to help you
+                    <CorteMobile /> reach global audiences.
                   </p>
                 </Card>
               </SwiperSlide>
@@ -130,14 +132,16 @@ function Needs() {
                   <Circle>
                     <Icon src="/icons/needs-2.png" alt="icon" />
                   </Circle>
-                  <h3 className="h3-web h3-mobile mb-30 mb-20-mobile">
-                    Content creation
-                  </h3>
-                  <p className="texto-regular txt-minimo-mobile">
-                    Our creative team can help you boost your marketing
-                    strategy. We can work together with your staff to create
-                    social media content, including graphic design, copywriting
-                    and video editing.
+                  <h3 className="h3-mobile mb-20-mobile">Content creation</h3>
+                  <p className="txt-minimo-mobile">
+                    Our creative team can
+                    <CorteMobile /> help you boost your
+                    <CorteMobile /> marketing strategy. We
+                    <CorteMobile /> can work together with
+                    <CorteMobile /> your staff to create social
+                    <CorteMobile /> media content, including
+                    <CorteMobile /> graphic design,
+                    <CorteMobile /> copywriting and video editing.
                   </p>
                 </Card>
               </SwiperSlide>
@@ -146,14 +150,17 @@ function Needs() {
                   <Circle>
                     <Icon src="/icons/needs-3.png" alt="icon" />
                   </Circle>
-                  <h3 className="h3-web h3-mobile mb-30 mb-20-mobile">
-                    Know - how
-                  </h3>
-                  <p className="texto-regular txt-minimo-mobile">
-                    You can trust our team to steer your project from start to
-                    finish. Our translators, designers and IT professionals are
-                    trained to adapt to any technology and respond with best
-                    practices and industry standards.
+                  <h3 className="h3-mobile mb-20-mobile">Know - how</h3>
+                  <p className="txt-minimo-mobile">
+                    You can trust our team
+                    <CorteMobile /> to steer your project from
+                    <CorteMobile /> start to finish.
+                    <CorteMobile /> Our translators, designers
+                    <CorteMobile /> and IT professionals are
+                    <CorteMobile /> trained to adapt to any
+                    <CorteMobile /> technology and respond with
+                    <CorteMobile /> best practices and
+                    <CorteMobile /> industry standards.
                   </p>
                 </Card>
               </SwiperSlide>
@@ -166,9 +173,11 @@ function Needs() {
               </Circle>
               <h3 className="h3-web mb-30">Language services</h3>
               <p className="texto-regular px-15">
-                Translation, localization, transcreation, review and more. We
-                provide customized multilingual solutions to help you reach
-                global audiences.
+                Translation, localization,
+                <CorteDesktop /> transcreation, review and more.
+                <CorteDesktop /> We provide customized multilingual
+                <CorteDesktop /> solutions to help you reach
+                <CorteDesktop /> global audiences.
               </p>
             </Card>
             <Card>
@@ -177,10 +186,12 @@ function Needs() {
               </Circle>
               <h3 className="h3-web mb-30">Content creation</h3>
               <p className="texto-regular px-15">
-                Our creative team can help you boost your marketing strategy. We
-                can work together with your staff to create social media
-                content, including graphic design, copywriting and video
-                editing.
+                Our creative team can help
+                <CorteDesktop /> you boost your marketing strategy.
+                <CorteDesktop /> We can work together with your staff
+                <CorteDesktop /> to create social media content,
+                <CorteDesktop /> including graphic design,
+                <CorteDesktop /> copywriting and video editing.
               </p>
             </Card>
             <Card>
@@ -189,10 +200,12 @@ function Needs() {
               </Circle>
               <h3 className="h3-web mb-30">Know - how</h3>
               <p className="texto-regular px-15">
-                You can trust our team to steer your project from start to
-                finish. Our translators, designers and IT professionals are
-                trained to adapt to any technology and respond with best
-                practices and industry standards.
+                You can trust our team to steer
+                <CorteDesktop /> your project from start to finish.
+                <CorteDesktop /> Our translators, designers and IT
+                <CorteDesktop /> professionals are trained to adapt
+                <CorteDesktop /> to any technology and respond with
+                <CorteDesktop /> best practices and industry standards.
               </p>
             </Card>
           </ContentDesktop>

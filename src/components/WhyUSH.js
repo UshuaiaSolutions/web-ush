@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import BotonSecundario from "./base/BotonSecundario";
 import Container from "./base/Container";
+import { CorteDesktop, CorteMobile } from "./base/Cortes";
 
 const StyledContainer = styled.div`
   padding: 60px 0;
@@ -63,11 +64,21 @@ function WhyUSH() {
               </Areas>
 
               <p className="texto-regular txt-regular-mobile mb-40">
-                We offer a unique combination of technological innovation and
-                professional expertise to help you solve multilingual
-                challenges. But our strongest trait is teamwork! We encourage
-                positive leadership to motivate our talented professionals to
-                work together as one and achieve greater goals.
+                We offer a unique combination of
+                <CorteDesktop />
+                <CorteMobile /> technological innovation and professional
+                <CorteDesktop />
+                <CorteMobile /> expertise to help you solve multilingual
+                <CorteDesktop />
+                <CorteMobile /> challenges. But our strongest trait is
+                <CorteDesktop />
+                <CorteMobile /> teamwork! We encourage positive
+                <CorteDesktop />
+                <CorteMobile /> leadership to motivate our talented
+                <CorteDesktop />
+                <CorteMobile /> professionals to work together as one
+                <CorteDesktop /> and
+                <CorteMobile /> achieve greater goals.
               </p>
             </Reverse>
 

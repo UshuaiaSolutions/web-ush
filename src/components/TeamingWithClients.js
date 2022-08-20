@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "../styles/slider.css";
 import Container from "./base/Container";
 import BotonSecundario from "./base/BotonSecundario";
-import { CorteMobile } from "./base/Cortes";
+import { CorteDesktop, CorteMobile } from "./base/Cortes";
 
 const StyledContainer = styled.div`
   padding: 30px 0px 60px;
@@ -46,6 +46,7 @@ function TeamingWithClients() {
       <Container>
         <h2 className="h2-mobile h2-web mb-40-mobile">
           Teaming with
+          <CorteDesktop />
           <CorteMobile /> <u>clients worldwide</u>
         </h2>
         <Content>
@@ -73,10 +74,15 @@ function TeamingWithClients() {
           </Swiper>
           <div className="desktop-column">
             <p className="txt-mobile destacado-medium mb-40-mobile mb-40">
-              Our highly esteemed client list includes partner
-              <CorteMobile /> LSPs as well as B2B customers who have come
-              <CorteMobile /> to rely on us as an extension of their in-house
-              <CorteMobile /> teams. Let us help you too!
+              Our highly esteemed client
+              <CorteDesktop /> list includes partner
+              <CorteMobile /> LSPs as
+              <CorteDesktop /> well as B2B customers who
+              <CorteDesktop /> have come
+              <CorteMobile /> to rely on us as
+              <CorteDesktop /> an extension of their in-house
+              <CorteMobile />
+              <CorteDesktop /> teams. Let us help you too!
             </p>
             <BotonSecundario>View study cases</BotonSecundario>
           </div>

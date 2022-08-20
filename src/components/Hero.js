@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import BotonSecundario from "./base/BotonSecundario";
 import Container from "./base/Container";
+import { CorteDesktop, CorteMobile } from "./base/Cortes";
 
 const Content = styled.div`
   display: flex;
@@ -33,12 +34,18 @@ function Hero() {
       <Content>
         <div className="mb-20-mobile">
           <h1 className="h1-web hero-section-titles-mobile mb-40">
-            Expand your <u>global potential</u>
+            Expand your
+            <CorteDesktop />
+            <CorteMobile /> <u>global potential</u>
           </h1>
           <p className="destacado-regular h1-mobile mb-40 mb-20-mobile">
-            Specialized professionals empowered by the latest technology{" "}
+            Specialized professionals empowered by
+            <CorteDesktop />
+            <CorteMobile /> the latest technology{" "}
             <span className="destacado-bold h1-mobile">
-              to help you succeed in international markets.
+              to help you succeed
+              <CorteDesktop /> in
+              <CorteMobile /> international markets.
             </span>
           </p>
           <BotonSecundario>Get in touch</BotonSecundario>
