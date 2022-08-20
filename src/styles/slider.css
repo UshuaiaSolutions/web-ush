@@ -65,17 +65,17 @@
   width: 35%;
 }
 
-@media (min-width: 350px) and (max-width: 768px) {
+@media (min-width: 400px) and (max-width: 768px) {
   .why .swiper-slide {
-    width: 60%;
+    width: 55%;
   }
 
   .why .swiper-slide:nth-child(2n) {
-    width: 60%;
+    width: 55%;
   }
 
   .why .swiper-slide:nth-child(3n) {
-    width: 60%;
+    width: 55%;
   }
 
   .member .swiper-slide {
@@ -91,17 +91,17 @@
   }
 }
 
-@media (max-width: 349px) {
+@media (max-width: 399px) {
   .why .swiper-slide {
-    width: 85%;
+    width: 80%;
   }
 
   .why .swiper-slide:nth-child(2n) {
-    width: 85%;
+    width: 80%;
   }
 
   .why .swiper-slide:nth-child(3n) {
-    width: 85%;
+    width: 80%;
   }
 
   .member .swiper-slide {

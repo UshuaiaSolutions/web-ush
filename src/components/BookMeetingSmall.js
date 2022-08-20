@@ -14,12 +14,21 @@ const StyledContainer = styled.div`
   @media (min-width: 1025px) {
     padding: 150px 0;
   }
+
+  @media (min-width: 1500px) {
+    padding: 100px 0;
+  }
 `;
 
 const Column = styled.div`
   @media (min-width: 1025px) {
     display: flex;
     justify-content: space-between;
+
+    & div,
+    & h1 {
+      width: 50%;
+    }
   }
 `;
 

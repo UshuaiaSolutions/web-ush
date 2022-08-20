@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 import "../../styles/slider.css";
 import Container from "../base/Container";
+import { CorteDesktop, CorteMobile } from "../base/Cortes";
 
 const StyledContainer = styled.div`
   display: flex;
@@ -18,6 +19,10 @@ const StyledContainer = styled.div`
   @media (min-width: 1025px) {
     padding: 90px 0;
   }
+
+  @media (min-width: 1500px) {
+    padding: 100px 0;
+  }
 `;
 
 const Card = styled.div`
@@ -26,20 +31,28 @@ const Card = styled.div`
   border-radius: 32px;
   color: ${(props) => props.theme.textonegro};
   text-align: center;
-  width: calc(178px - 48px - 4px);
+  width: calc(178px - 4px);
   height: 200px;
-  padding: 40px 24px 0;
+  padding: 40px 0 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
 
+  @media (min-width: 769px) and (max-width: 1024px) {
+    border: 3px solid ${(props) => props.theme.textonegro};
+    border-radius: 32px;
+    height: calc(404px - 75px - 6px);
+    width: calc(232px - 20px - 8px);
+    padding: 75px 10px 0;
+  }
+
   @media (min-width: 1025px) {
     border: 3px solid ${(props) => props.theme.textonegro};
     border-radius: 32px;
     height: calc(404px - 95px - 6px);
-    width: calc(342px - 60px - 8px);
-    padding: 95px 30px 0;
+    width: calc(342px - 6px);
+    padding: 95px 0 0;
   }
 `;
 
@@ -56,11 +69,16 @@ const Circle = styled.div`
   align-items: center;
   background: ${(props) => props.theme.fondo};
 
-  @media (max-width: 1024px) {
+  @media (max-width: 768px) {
     width: 56px;
     height: 56px;
     top: -30px;
     right: 60px;
+  }
+
+  @media (min-width: 769px) and (max-width: 1025px) {
+    top: -60px;
+    right: 50px;
   }
 `;
 
@@ -68,7 +86,7 @@ const Icon = styled.img`
   width: 68px;
   height: 68px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 768px) {
     width: 40px;
     height: 40px;
   }
@@ -77,7 +95,7 @@ const Icon = styled.img`
 const ContainerSwiper = styled.div`
   display: none;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1215px) {
     display: block;
     width: 100%;
   }
@@ -85,12 +103,11 @@ const ContainerSwiper = styled.div`
 
 const ContainerDesktop = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-top: 125px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1215px) {
     display: none;
-    width: 100%;
   }
 `;
 
@@ -113,16 +130,18 @@ function WhyUsh() {
                 <Circle>
                   <Icon src="/icons/needs-4.png" alt="icon" />
                 </Circle>
-                <h3 className="h3-web h3-mobile mb-30 mb-20-mobile">
-                  Scalability
-                </h3>
-                <p className="texto-regular txt-minimo-mobile mb-20">
-                  We have the capacity to build and maintain on-site dedicated
-                  teams for your account.
+                <h3 className="h3-mobile mb-20-mobile">Scalability</h3>
+                <p className="txt-minimo-mobile mb-20">
+                  We have the capacity
+                  <CorteMobile /> to build and maintain
+                  <CorteMobile /> on-site dedicated teams
+                  <CorteMobile /> for your account.
                 </p>
-                <p className="texto-regular txt-minimo-mobile">
-                  We specialize in mid to long-term programs that truly adapt to
-                  your needs
+                <p className="txt-minimo-mobile">
+                  We specialize in mid
+                  <CorteMobile /> to long-term programs
+                  <CorteMobile /> that truly adapt to your
+                  <CorteMobile /> needs
                 </p>
               </Card>
             </SwiperSlide>
@@ -131,17 +150,21 @@ function WhyUsh() {
                 <Circle>
                   <Icon src="/icons/needs-5.png" alt="icon" />
                 </Circle>
-                <h3 className="h3-web h3-mobile mb-30 mb-20-mobile">
-                  Flexibility
-                </h3>
-                <p className="texto-regular txt-minimo-mobile mb-20">
-                  We can adapt to any technology, platform or process you
-                  already use.
+                <h3 className="h3-mobile mb-20-mobile">Flexibility</h3>
+                <p className="txt-minimo-mobile mb-20">
+                  We can adapt to any
+                  <CorteMobile />
+                  technology, platform or
+                  <CorteMobile />
+                  process you already use.
                 </p>
-                <p className="texto-regular txt-minimo-mobile">
-                  Or, if you prefer, you can use our Customer Portal, upload the
-                  files and follow-up on the status and budget of your project
-                  with us!
+                <p className="txt-minimo-mobile">
+                  Or, if you prefer, you
+                  <CorteMobile /> can use our Customer
+                  <CorteMobile /> Portal, upload the files
+                  <CorteMobile /> and follow-up on the
+                  <CorteMobile /> status and budget of
+                  <CorteMobile /> your project with us!
                 </p>
               </Card>
             </SwiperSlide>
@@ -150,14 +173,18 @@ function WhyUsh() {
                 <Circle>
                   <Icon src="/icons/needs-6.png" alt="icon" />
                 </Circle>
-                <h3 className="h3-web h3-mobile mb-30 mb-20-mobile">
-                  Experience
-                </h3>
-                <p className="texto-regular txt-minimo-mobile">
-                  With more than 20 years in the language services industry, we
-                  have carefully selected and trained translators, linguists,
-                  designers and IT staff to be able to respond with best
-                  practices and industry standards.
+                <h3 className="h3-mobile mb-20-mobile">Experience</h3>
+                <p className="txt-minimo-mobile">
+                  With more than 20 years
+                  <CorteMobile /> in the language
+                  <CorteMobile /> services industry,
+                  <CorteMobile /> we have carefully
+                  <CorteMobile /> selected and trained
+                  <CorteMobile /> translators, linguists,
+                  <CorteMobile /> designers and IT staff
+                  <CorteMobile /> to be able to respond
+                  <CorteMobile /> with best practices
+                  <CorteMobile /> and industry standards.
                 </p>
               </Card>
             </SwiperSlide>
@@ -168,41 +195,47 @@ function WhyUsh() {
             <Circle>
               <Icon src="/icons/needs-4.png" alt="icon" />
             </Circle>
-            <h3 className="h3-web h3-mobile mb-30 mb-20-mobile">Scalability</h3>
-            <p className="texto-regular txt-minimo-mobile mb-20">
-              We have the capacity to build and maintain on-site dedicated teams
-              for your account.
+            <h3 className="h3-web mb-30">Scalability</h3>
+            <p className="texto-regular mb-20">
+              We have the capacity to build and
+              <CorteDesktop /> maintain on-site dedicated teams
+              <CorteDesktop /> for your account.
             </p>
-            <p className="texto-regular txt-minimo-mobile">
-              We specialize in mid to long-term programs that truly adapt to
-              your needs
+            <p className="texto-regular">
+              We specialize in mid to long-term
+              <CorteDesktop /> programs that truly adapt to your
+              <CorteDesktop /> needs
             </p>
           </Card>
           <Card>
             <Circle>
               <Icon src="/icons/needs-5.png" alt="icon" />
             </Circle>
-            <h3 className="h3-web h3-mobile mb-30 mb-20-mobile">Flexibility</h3>
-            <p className="texto-regular txt-minimo-mobile mb-20">
-              We can adapt to any technology, platform or process you already
-              use.
+            <h3 className="h3-web mb-30">Flexibility</h3>
+            <p className="texto-regular mb-20">
+              We can adapt to any technology,
+              <CorteDesktop /> platform or process you already use.
             </p>
-            <p className="texto-regular txt-minimo-mobile">
-              Or, if you prefer, you can use our Customer Portal, upload the
-              files and follow-up on the status and budget of your project with
-              us!
+            <p className="texto-regular">
+              Or, if you prefer, you can use our
+              <CorteDesktop /> Customer Portal, upload the files and
+              <CorteDesktop /> follow-up on the status and budget of
+              <CorteDesktop /> your project with us!
             </p>
           </Card>
           <Card>
             <Circle>
               <Icon src="/icons/needs-6.png" alt="icon" />
             </Circle>
-            <h3 className="h3-web h3-mobile mb-30 mb-20-mobile">Experience</h3>
-            <p className="texto-regular txt-minimo-mobile">
-              With more than 20 years in the language services industry, we have
-              carefully selected and trained translators, linguists, designers
-              and IT staff to be able to respond with best practices and
-              industry standards.
+            <h3 className="h3-web mb-30">Experience</h3>
+            <p className="texto-regular">
+              With more than 20 years in the
+              <CorteDesktop /> language services industry, we have
+              <CorteDesktop /> carefully selected and trained
+              <CorteDesktop /> translators, linguists, designers and IT
+              <CorteDesktop /> staff to be able to respond
+              <CorteDesktop /> with best practices and industry
+              <CorteDesktop /> standards.
             </p>
           </Card>
         </ContainerDesktop>

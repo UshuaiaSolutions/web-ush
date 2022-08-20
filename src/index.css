@@ -7,6 +7,7 @@ button {
 }
 
 /* CRITERIO MEDIA QUERIES */
-/* base hasta 768px (mobile y tablets) */
-/* entre 769px — 1024px pantallas pequeñas y laptops */
-/* mayor a 1025px para destktop y pantallas grandes */
+/* ?? MOBILE hasta 768px (base) */
+/* ?? DESKTOP entre 769 y 1024 tablets */
+/* ?? DESKTOP entre 1025 y 1499 notebooks */
+/* ?? DESKTOP desde 1500 monitores grandes */

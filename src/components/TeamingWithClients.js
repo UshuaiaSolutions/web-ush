@@ -15,13 +15,17 @@ const StyledContainer = styled.div`
   background: ${(props) => props.theme.lilaush};
   width: 100%;
   color: ${(props) => props.theme.fondo};
+
+  @media (min-width: 1500px) {
+    padding: 0 0 100px;
+  }
 `;
 
 const Content = styled.div`
   display: flex;
   flex-direction: column;
 
-  @media (min-width: 1025px) {
+  @media (min-width: 769px) {
     flex-direction: row-reverse;
     align-items: center;
 

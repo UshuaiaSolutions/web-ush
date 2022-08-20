@@ -12,6 +12,10 @@ const StyledContainer = styled.div`
   @media (min-width: 1025px) {
     padding: 125px 0;
   }
+
+  @media (min-width: 1500px) {
+    padding: 100px 0;
+  }
 `;
 
 const Dropdown = styled.div`

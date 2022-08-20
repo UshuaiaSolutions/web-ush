@@ -14,6 +14,10 @@ const Content = styled.div`
     flex-direction: row;
     padding: 20px 0 50px;
   }
+
+  @media (min-width: 1500px) {
+    padding: 100px 0;
+  }
 `;
 
 const Image = styled.img`

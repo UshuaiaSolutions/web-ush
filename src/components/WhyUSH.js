@@ -9,6 +9,10 @@ const StyledContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   background: ${(props) => props.theme.verdeush};
+
+  @media (min-width: 1500px) {
+    padding: 100px 0;
+  }
 `;
 
 const Image = styled.img`

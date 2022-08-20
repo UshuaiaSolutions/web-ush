@@ -18,6 +18,10 @@ const StyledContainer = styled.div`
   @media (min-width: 1025px) {
     padding: 80px 0 40px;
   }
+
+  @media (min-width: 1500px) {
+    padding: 100px 0;
+  }
 `;
 
 const Image = styled.img`

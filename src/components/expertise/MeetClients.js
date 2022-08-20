@@ -12,6 +12,10 @@ const StyledContainer = styled.div`
   background: ${(props) => props.theme.fondo};
   display: flex;
   flex-direction: column;
+
+  @media (min-width: 1500px) {
+    padding: 100px 0;
+  }
 `;
 
 const ContainerSwiper = styled.div`

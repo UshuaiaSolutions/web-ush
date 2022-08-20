@@ -18,10 +18,31 @@ const Container = styled.div`
   z-index: 10;
   height: 51px;
 
-  @media (min-width: 769px) {
+  @media (min-width: 1025px) {
     height: 100px;
     width: calc(100% - 120px);
     padding: 0 60px;
+  }
+
+  @media (min-width: 1500px) {
+    padding: 0 150px 0;
+    width: calc(100% - 300px);
+  }
+`;
+
+const Content = styled.div`
+  @media (min-width: 1025px) and (max-width: 1499px) {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  @media (min-width: 1500px) {
+    width: 100%;
+    max-width: 1700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
   }
 `;
 
@@ -73,7 +94,7 @@ const StyledBoton = styled(BotonSecundario)`
 `;
 
 const ContainerMenu = styled.div`
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     display: none;
   }
 `;
@@ -84,7 +105,7 @@ const Logo = styled.div`
   width: 78px;
   background: url(/logos/ush-mobile.png);
 
-  @media (min-width: 769px) {
+  @media (min-width: 1025px) {
     background: url(/logos/ush.png);
     width: 138px;
     height: 34px;
@@ -141,7 +162,7 @@ const Toggle = styled.button`
     }
   }
 
-  @media (min-width: 769px) {
+  @media (min-width: 1025px) {
     display: none;
   }
 `;
@@ -151,30 +172,33 @@ function Header() {
 
   let location = useLocation();
 
-  console.log(location.pathname === "/about");
-
   return (
     <Container>
-      <Link to="/">
-        <Logo />
-      </Link>
-      <ContainerMenu className="d-flex align-center">
-        <StyledLink to="/about" selected={location.pathname === "/about"}>
-          About us
-        </StyledLink>
-        <StyledLink to="/services" selected={location.pathname === "/services"}>
-          Services
-        </StyledLink>
-        <StyledLink
-          to="/expertise"
-          selected={location.pathname === "/expertise"}
-        >
-          Expertise
-        </StyledLink>
-        <Link to="/contact">
-          <StyledBoton>Get in touch</StyledBoton>
+      <Content>
+        <Link to="/">
+          <Logo />
         </Link>
-      </ContainerMenu>
+        <ContainerMenu className="d-flex align-center">
+          <StyledLink to="/about" selected={location.pathname === "/about"}>
+            About us
+          </StyledLink>
+          <StyledLink
+            to="/services"
+            selected={location.pathname === "/services"}
+          >
+            Services
+          </StyledLink>
+          <StyledLink
+            to="/expertise"
+            selected={location.pathname === "/expertise"}
+          >
+            Expertise
+          </StyledLink>
+          <Link to="/contact">
+            <StyledBoton>Get in touch</StyledBoton>
+          </Link>
+        </ContainerMenu>
+      </Content>
       <Toggle
         isOpen={openMobile}
         onClick={() => setOpenMobile((prevOpenMobile) => !prevOpenMobile)}
@@ -189,6 +213,7 @@ function Header() {
           <span></span>
         </div>
       </Toggle>
+
       {openMobile && <MenuMobile />}
     </Container>
   );

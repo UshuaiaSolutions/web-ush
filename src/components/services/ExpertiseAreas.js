@@ -12,6 +12,10 @@ const StyledContainer = styled.div`
   @media (min-width: 1025px) {
     padding: 200px 0 160px;
   }
+
+  @media (min-width: 1500px) {
+    padding: 100px 0;
+  }
 `;
 
 const Column = styled.div`
@@ -68,7 +72,7 @@ function ExpertiseAreas() {
       <Container>
         <DesktopRow>
           <h2 className="h2-mobile h2-web mb-20-mobile">Expertise areas</h2>
-          <p className="txt-regular-mobile mb-40-mobile">
+          <p className="txt-regular-mobile destacado-medium mb-40-mobile">
             With over 20 years' experience, we've managed to select and train
             highly skilled professionals specialized in different fields.
           </p>

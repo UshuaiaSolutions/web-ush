@@ -130,6 +130,19 @@
   letter-spacing: 0em;
 }
 
+.scroll-to-top {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #393939;
+  position: initial !important;
+  border: none !important;
+  box-shadow: none !important;
+  width: 100% !important;
+  background-color: #f6f3e8 !important;
+}
+
 @media (max-width: 768px) {
   .hero-section-titles-mobile {
     font-size: 24px;
@@ -234,5 +247,12 @@
     border: 2px solid #393939;
     height: calc(160px - 8px);
     outline: none;
+  }
+
+  .scroll-to-top {
+    font-size: 10px !important;
+    font-weight: 400 !important;
+    line-height: 12px !important;
+    letter-spacing: 0em !important;
   }
 }

@@ -90,7 +90,7 @@ const ContentDesktop = styled.div`
   @media (min-width: 1025px) {
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 64px 0;
   }
 `;
