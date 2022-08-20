@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Redes from "../Redes";
 import ScrollToTop from "react-scroll-to-top";
+import { CorteDesktop, CorteMobile } from "./Cortes";
 
 const Relative = styled.div`
   z-index: 11;
@@ -185,13 +186,17 @@ function Footer() {
           <Content>
             <ContainerText>
               <p className="texto-regular txt-minimo-mobile text-center-mobile mb-20-mobile">
-                We're committed to protecting your privacy. The information you
-                provide will only be used to respond to your inquiry.
+                We're committed to protecting your privacy.
+                <CorteMobile /> The information
+                <CorteDesktop /> you provide will only be used
+                <CorteMobile /> to respond to your inquiry.
                 <br />
                 <br />
-                Ushuaia Solutions is an ISO certified language services company
-                with more than 20 years' experience. We can be reached at our
-                offices in Latin America and Europe.
+                Ushuaia Solutions is an ISO certified language services
+                <CorteMobile /> company
+                <CorteDesktop /> with more than 20 years' experience.
+                <CorteMobile /> We can be reached at our
+                <CorteDesktop /> offices in Latin America and Europe.
               </p>
               <ContainerRedesFooter>
                 <ContainerRed

@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import BotonPrincipal from "./base/BotonPrincipal";
 import Container from "./base/Container";
+import { CorteDesktop, CorteMobile } from "./base/Cortes";
 
 const StyledContainer = styled.div`
   padding: 45px 0;
@@ -24,11 +25,6 @@ const Column = styled.div`
   @media (min-width: 1025px) {
     display: flex;
     justify-content: space-between;
-
-    & div,
-    & h1 {
-      width: 50%;
-    }
   }
 `;
 
@@ -38,17 +34,19 @@ function BookMeetingSmall() {
       <Container>
         <Column>
           <h1 className="text-center-mobile hero-section-titles-mobile h1-web-sub mb-20-mobile w-100-mobile w-40">
-            Book a meeting!
+            Book a<CorteDesktop /> meeting!
           </h1>
           <div>
             <p className="text-center-mobile destacados-mobile destacado-italic mb-20-mobile">
               What services are you looking for?
             </p>
             <p className="text-center-mobile destacados-mobile destacado-italic mb-20-mobile">
-              What languages do you need us to work with?
+              What languages do you
+              <CorteMobile /> need us to work with?
             </p>
             <p className="text-center-mobile destacados-mobile destacado-italic mb-20-mobile mb-40">
-              Is your request urgent? When do you need it?
+              Is your request urgent?
+              <CorteMobile /> When do you need it?
             </p>
             <BotonPrincipal>Get in touch</BotonPrincipal>
           </div>

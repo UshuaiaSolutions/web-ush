@@ -5,6 +5,7 @@ import "swiper/swiper.min.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "../../styles/slider.css";
 import Container from "../base/Container";
+import { CorteDesktop, CorteMobile } from "../base/Cortes";
 
 const StyledContainer = styled.div`
   padding: 30px 0 70px;
@@ -79,8 +80,10 @@ function MeetClients() {
           Meet some of <u>our clients</u>
         </h1>
         <p className="destacados-mobile destacado-medium mb-40-mobile mb-70 text-left-mobile text-center">
-          Many companies and LSPs have come to rely on us as an extension of
-          their in-house teams. We can help you too!
+          Many companies and LSPs have come to
+          <CorteMobile /> rely on us as an extension of their
+          <CorteDesktop /> in-house
+          <CorteMobile /> teams. We can help you too!
         </p>
         <ContainerSwiper className="mb-40">
           <Swiper

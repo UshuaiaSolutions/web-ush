@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Container from "../base/Container";
+import { CorteDesktop, CorteMobile } from "../base/Cortes";
 
 const StyledContainer = styled.div`
   padding: 40px 0;
@@ -31,12 +32,18 @@ function Teaming() {
         <h1 className="hero-section-titles-mobile h1-web mb-20-mobile mb-40 text-left-mobile text-center">
           Teaming with clients worldwide
         </h1>
-        <p className="destacados-mobile destacado-regular mb-40-mobile mb-70">
-          Our expertise enables us to offer different localization solutions. We
-          provide several services from file processing and content parsing to
-          dubbing, MTPE, audio and video, DTP, voice-recording and testing
-          services. Plus, we've localized and tested apps on iOS and Android
-          devices and we've helped create corporate social media content.
+        <p className="destacados-mobile destacado-regular mb-40-mobile mb-70 text-left-mobile text-center">
+          Our expertise enables us to offer different
+          <CorteMobile /> localization solutions. We provide several
+          <CorteDesktop />
+          <CorteMobile /> services from file processing and content
+          <CorteMobile /> parsing to dubbing, MTPE, audio and video
+          <CorteDesktop />
+          <CorteMobile /> editing, DTP, voice-recording and testing.
+          <CorteMobile /> Plus, we've localized and tested apps on
+          <CorteMobile /> iOS
+          <CorteDesktop /> and Android devices and we've helped
+          <CorteMobile /> create corporate social media content.
         </p>
         <ContainerIcon>
           <img className="" src="/icons/finger-down.png" alt="See more" />
