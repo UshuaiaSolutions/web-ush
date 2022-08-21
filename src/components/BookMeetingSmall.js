@@ -36,7 +36,7 @@ function BookMeetingSmall() {
           <h1 className="text-center-mobile hero-section-titles-mobile h1-web-sub mb-20-mobile w-100-mobile w-40">
             Book a<CorteDesktop /> meeting!
           </h1>
-          <div>
+          <div className="w-50">
             <p className="text-center-mobile destacados-mobile destacado-italic mb-20-mobile">
               What services are you looking for?
             </p>

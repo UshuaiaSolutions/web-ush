@@ -8,7 +8,7 @@ const StyledContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: ${(props) => props.theme.fondo};
+  background: ${(props) => props.theme.verdeush};
 
   @media (min-width: 1500px) {
     padding: 100px 0;
@@ -37,7 +37,7 @@ const StyledImgLast = styled.img`
 
 const Content = styled.div`
   display: flex;
-  justify-content: between;
+  justify-content: space-between;
 
   @media (max-width: 1025px) {
     flex-direction: column;
@@ -50,7 +50,7 @@ function Memberships() {
       <Container>
         <Content>
           <div className="d-flex flex-column justify-center">
-            <h2 className="h3-web h2-mobile mb-40 mb-20-mobile">
+            <h2 className="h2-web h2-mobile mb-40 mb-20-mobile">
               Our Memberships
             </h2>
             <p className="txt-regular-mobile destacado-regular mb-20-mobile">
@@ -61,7 +61,7 @@ function Memberships() {
               <CorteMobile /> the language industry as a whole.
             </p>
           </div>
-          <div className="d-flex flex-column">
+          <div className="d-flex flex-column w-50">
             <div className="d-flex justify-evenly">
               <StyledImg
                 src="/logos/logo-aasl.png"

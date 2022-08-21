@@ -251,7 +251,6 @@ function Footer() {
               <span className="texto-regular mb-30">SERVICES</span>
               <span className="texto-regular mb-30">EXPERTISE</span>
               <span className="texto-regular mb-30">GET IN TOUCH</span>
-              <span className="texto-regular">USH PEOPLE</span>
             </Column>
             <ColumnSecond>
               <Logo src="/logo-footer.png" alt="Logo ushuaia" />

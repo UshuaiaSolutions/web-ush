@@ -13,7 +13,7 @@ const StyledContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: ${(props) => props.theme.lilaush};
+  background: ${(props) => props.theme.textonegro};
   width: 100%;
   color: ${(props) => props.theme.fondo};
 
@@ -31,11 +31,11 @@ const Content = styled.div`
     align-items: center;
 
     & .desktop-column {
-      width: 45%;
+      width: 50%;
     }
 
     & .mySwiper {
-      width: 45%;
+      width: 50%;
     }
   }
 `;

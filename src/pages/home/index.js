@@ -18,8 +18,8 @@ const Home = () => {
       <Hero />
       <Needs />
       <TeamingWithClients />
-      <WhyUSH />
       <Memberships />
+      <WhyUSH />
       <BookMeeting />
     </Background>
   );

@@ -22,7 +22,6 @@ const StyledContainer = styled.div`
 const Column = styled.div`
   display: flex;
   flex-direction: column;
-  padding-left: 30px;
 
   @media (min-width: 1025px) {
     flex-wrap: wrap;
@@ -67,8 +66,10 @@ function ExpertiseAreas() {
     <StyledContainer>
       <Container>
         <DesktopRow>
-          <h2 className="h2-mobile h2-web mb-20-mobile">Expertise areas</h2>
-          <p className="txt-regular-mobile destacado-medium mb-40-mobile">
+          <h2 className="h2-mobile h2-web mb-20-mobile">
+            <u>Expertise areas</u>
+          </h2>
+          <p className="txt-regular-mobile destacado-medium mb-40-mobile w-50">
             With over 20 years' experience, we've
             <CorteMobile />
             <CorteDesktop /> managed to select and train highly skilled

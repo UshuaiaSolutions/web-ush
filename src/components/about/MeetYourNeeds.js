@@ -7,7 +7,7 @@ import { CorteDesktop, CorteMobile } from "../base/Cortes";
 const StyledContainer = styled.div`
   padding: 60px 0;
   color: ${(props) => props.theme.fondo};
-  background: ${(props) => props.theme.lilaush};
+  background: ${(props) => props.theme.textonegro};
   display: flex;
   flex-direction: column;
 
@@ -24,6 +24,11 @@ const Column = styled.div`
   display: flex;
   flex-direction: column;
   padding-left: 30px;
+
+  @media (min-width: 1500px) {
+    padding-left: 0;
+    width: 50%;
+  }
 `;
 
 const Row = styled.div`

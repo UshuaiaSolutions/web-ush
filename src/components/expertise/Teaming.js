@@ -30,11 +30,14 @@ function Teaming() {
     <StyledContainer>
       <Container>
         <h1 className="hero-section-titles-mobile h1-web mb-20-mobile mb-40 text-left-mobile text-center">
-          Teaming with clients worldwide
+          Teaming with <u>clients worldwide</u>
         </h1>
         <p className="destacados-mobile destacado-regular mb-40-mobile mb-70 text-left-mobile text-center">
-          Our expertise enables us to offer different
-          <CorteMobile /> localization solutions. We provide several
+          <b>
+            Our expertise enables us to offer different
+            <CorteMobile /> localization solutions.
+          </b>{" "}
+          We provide several
           <CorteDesktop />
           <CorteMobile /> services from file processing and content
           <CorteMobile /> parsing to dubbing, MTPE, audio and video

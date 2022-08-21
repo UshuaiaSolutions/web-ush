@@ -19,21 +19,21 @@ const StyledContainer = styled.div`
 `;
 
 const MediaContainer = styled.div`
-  @media (max-width: 1100px) {
+  @media (max-width: 768px) {
     flex-direction: column;
   }
 `;
 
 const FirstContainer = styled.div`
-  @media (max-width: 1100px) {
+  @media (max-width: 768px) {
     width: 100%;
   }
 `;
 
 const SecondContainer = styled.div`
-  width: 55%;
+  width: 50%;
 
-  @media (max-width: 1100px) {
+  @media (max-width: 768px) {
     width: 100%;
   }
 `;
@@ -41,7 +41,7 @@ const SecondContainer = styled.div`
 const ContainerInput = styled.div`
   width: 48%;
 
-  @media (max-width: 800px) {
+  @media (max-width: 768px) {
     width: 100%;
     margin-bottom: 30px;
   }
@@ -50,7 +50,7 @@ const ContainerInput = styled.div`
 const ColumnInput = styled.div`
   margin-bottom: 30px;
 
-  @media (max-width: 800px) {
+  @media (max-width: 768px) {
     flex-direction: column;
     margin-bottom: 0;
   }
@@ -99,20 +99,32 @@ function BookMeeting() {
                   <input className="input-form txt-destacados-alta-mobile texto-regular" />
                 </ContainerInput>
               </ColumnInput>
+              <ColumnInput className="d-flex justify-between">
+                <ContainerInput className="d-flex flex-column">
+                  <label className="label-form">E-Mail *</label>
+                  <input
+                    className="input-form txt-destacados-alta-mobile texto-regular"
+                    type="email"
+                  />
+                </ContainerInput>
+                <ContainerInput className="d-flex flex-column">
+                  <label className="label-form">Country</label>
+                  <input className="input-form txt-destacados-alta-mobile texto-regular" />
+                </ContainerInput>
+              </ColumnInput>
               <div className="d-flex flex-column mb-30">
-                <label className="label-form">E-Mail *</label>
+                <label className="label-form">Select a date</label>
                 <input
+                  type="date"
                   className="input-form txt-destacados-alta-mobile texto-regular"
-                  type="email"
                 />
               </div>
               <div className="d-flex flex-column mb-30">
-                <label className="label-form">Country</label>
-                <input className="input-form txt-destacados-alta-mobile texto-regular" />
-              </div>
-              <div className="d-flex flex-column mb-30">
                 <label className="label-form">How can we help?</label>
-                <textarea className="textarea-form txt-destacados-alta-mobile texto-regular" />
+                <textarea
+                  placeholder="Share with us a brief about your request..."
+                  className="textarea-form txt-destacados-alta-mobile texto-regular"
+                />
               </div>
             </form>
 

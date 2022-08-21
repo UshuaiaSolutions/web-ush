@@ -9,7 +9,7 @@ const StyledContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: ${(props) => props.theme.verdeush};
+  background: ${(props) => props.theme.fondo};
 
   @media (min-width: 1500px) {
     padding: 100px 0;
@@ -17,13 +17,15 @@ const StyledContainer = styled.div`
 `;
 
 const Image = styled.img`
-  width: 100%;
+  width: 647px;
+  max-width: 50%;
 `;
 
 const Content = styled.div`
   @media (min-width: 1025px) {
     display: flex;
     text-align: center;
+    justify-content: space-between;
   }
 `;
 
@@ -50,20 +52,26 @@ function WhyUSH() {
   return (
     <StyledContainer>
       <Container>
-        <h2 className="h2-web h2-mobile mb-40">Why USH?</h2>
-
         <Content>
           <Image src="/illustrations/high-five.png" alt="illustration" />
 
-          <div>
+          <div className="w-50">
+            <h2 className="h2-web h2-mobile mb-40">Why USH?</h2>
+
             <Reverse>
               <Areas>
-                <p className="extra-dest-mobile h3-mayus mb-20">Experience</p>
-                <p className="extra-dest-mobile h3-mayus mb-20">Innovation</p>
-                <p className="extra-dest-mobile h3-mayus mb-40">Team work</p>
+                <p className="extra-dest-mobile h3-mayus resaltado-underline mb-20">
+                  Experience
+                </p>
+                <p className="extra-dest-mobile h3-mayus resaltado-underline mb-20">
+                  Innovation
+                </p>
+                <p className="extra-dest-mobile h3-mayus resaltado-underline mb-40">
+                  Team work
+                </p>
               </Areas>
 
-              <p className="texto-regular txt-regular-mobile mb-40">
+              <p className="txt-regular-mobile destacado-regular mb-40">
                 We offer a unique combination of
                 <CorteDesktop />
                 <CorteMobile /> technological innovation and professional

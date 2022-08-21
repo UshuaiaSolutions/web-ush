@@ -2,22 +2,32 @@ import React from "react";
 import styled from "styled-components";
 
 const Container = styled.div`
-  position: fixed;
-  display: flex;
-  flex-direction: column;
-  top: 50%;
-  left: 64px;
-  transform: translate(-0px, -50%);
+  display: none;
 
-  @media (max-width: 1024px) {
-    display: none;
+  @media (min-width: 1025px) and (max-width: 1499px) {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 64px;
+    transform: translate(-0px, -50%);
   }
 
   @media (min-width: 1500px) {
-    left: 150px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    transform: translate(-0px, -50%);
+    left: 5%;
   }
 
   @media (min-width: 2000px) {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    transform: translate(-0px, -50%);
     left: 300px;
   }
 `;

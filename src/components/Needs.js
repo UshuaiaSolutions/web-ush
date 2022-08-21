@@ -13,7 +13,7 @@ const StyledContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: ${(props) => props.theme.lilaush};
+  background: ${(props) => props.theme.textonegro};
   width: 100%;
   color: ${(props) => props.theme.fondo};
 

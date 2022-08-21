@@ -45,19 +45,19 @@ function HowWeCan() {
       <Container>
         <ContentDesktop>
           <div>
-            <h1 className="h2-mobile mb-40-mobile">
+            <h1 className="h2-mobile h2-web mb-40-mobile">
               How we can
               <CorteMobile />
               <CorteDesktop /> <u>make it happen</u>
             </h1>
             <Image src="/illustration-why.png" alt="Illustration" />
           </div>
-          <div>
+          <div className="w-50">
             <Column>
-              <h3 className="h3-mobile mb-10-mobile">
+              <h3 className="h3-mobile h3-web mb-10-mobile mb-20 resaltado">
                 01&ensp;&ensp;You tell us what you need
               </h3>
-              <p className="txt-regular-mobile mb-40-mobile">
+              <p className="txt-regular-mobile texto-regular mb-40-mobile">
                 We can discuss together your goals, scope
                 <CorteMobile /> of the project, software
                 <CorteDesktop /> needed, and more.
@@ -67,10 +67,10 @@ function HowWeCan() {
               </p>
             </Column>
             <Column>
-              <h3 className="h3-mobile mb-10-mobile">
+              <h3 className="h3-mobile h3-web mb-10-mobile mb-20 resaltado">
                 02&ensp;&ensp;We manage your project
               </h3>
-              <p className="txt-regular-mobile mb-40-mobile">
+              <p className="txt-regular-mobile texto-regular mb-40-mobile">
                 We have the capacity to build and maintain
                 <CorteMobile /> on-site dedicated teams for
                 <CorteDesktop /> your content
@@ -81,10 +81,10 @@ function HowWeCan() {
               </p>
             </Column>
             <Column>
-              <h3 className="h3-mobile mb-10-mobile">
+              <h3 className="h3-mobile h3-web mb-10-mobile mb-20 resaltado">
                 03&ensp;&ensp;Your project is ready
               </h3>
-              <p className="txt-regular-mobile mb-40-mobile">
+              <p className="txt-regular-mobile texto-regular mb-40-mobile">
                 As an ISO certified language service
                 <CorteMobile /> company, we ensure that our services
                 <CorteDesktop /> meet

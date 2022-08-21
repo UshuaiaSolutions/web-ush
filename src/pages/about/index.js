@@ -5,7 +5,6 @@ import MeetYourLanguage from "../../components/about/MeetYourLanguage";
 import MeetYourNeeds from "../../components/about/MeetYourNeeds";
 import BookMeeting from "../../components/BookMeeting";
 import Memberships from "../../components/Memberships";
-import TeamingWithClients from "../../components/TeamingWithClients";
 
 const Background = styled.div`
   background-color: ${(props) => props.theme.fondo};
@@ -17,7 +16,6 @@ const About = () => {
     <Background>
       <MeetYourLanguage />
       <GetToKnow />
-      <TeamingWithClients />
       <MeetYourNeeds />
       <Memberships />
       <BookMeeting />

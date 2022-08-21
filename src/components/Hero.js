@@ -22,6 +22,7 @@ const Content = styled.div`
 `;
 
 const Image = styled.img`
+  max-width: 50%;
   @media (max-width: 768px) {
     width: 100%;
     height: auto;

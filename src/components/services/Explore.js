@@ -40,9 +40,9 @@ const Item = styled.div`
     border-bottom: none;
   }
 
-  @media (min-width: 1025px) {
-    padding: 20px 50px;
-    width: calc(100% - 150px);
+  @media (min-width: 1500px) {
+    padding: 20px 80px;
+    width: calc(1050px - 160px);
   }
 `;
 
@@ -76,10 +76,14 @@ const RowDesktop = styled.div`
 `;
 
 function Explore() {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState("none");
 
-  const toggleSideNav = () => {
-    setOpen((prevOpen) => !prevOpen);
+  const toggleSideNav = (id) => {
+    if (open === id) {
+      setOpen("none");
+    } else {
+      setOpen(id);
+    }
   };
 
   return (
@@ -91,7 +95,7 @@ function Explore() {
             <CorteDesktop />
             <CorteMobile /> <u>we can help you</u>
           </h2>
-          <p className="destacado-medium d-none-mobile">
+          <p className="destacado-medium d-none-mobile w-50">
             We can blend linguistic, technical, marketing
             <CorteDesktop /> and cultural requirements to offer an optimized
             <CorteDesktop /> translation and localization solution.
@@ -100,15 +104,17 @@ function Explore() {
         <Dropdown>
           <Item>
             <ItemTitle>
-              <h3 className="h3-mobile">LANGUAGE SOLUTIONS</h3>
+              <h3 className="h3-mobile dropdown-title-web">
+                LANGUAGE SOLUTIONS
+              </h3>
               <IconToggle
-                onClick={() => toggleSideNav()}
-                isOpen={open}
+                onClick={() => toggleSideNav("language")}
+                isOpen={open === "language"}
                 src="/icons/Toggle.png"
                 alt="Show information"
               />
             </ItemTitle>
-            {open && (
+            {open === "language" && (
               <p className="txt-mobile texto-regular">
                 Translation, Localization or Transcreation.
                 <CorteMobile /> We specialize in software localization and
@@ -123,15 +129,17 @@ function Explore() {
           </Item>
           <Item>
             <ItemTitle>
-              <h3 className="h3-mobile">PROJECT MANAGEMENT</h3>
+              <h3 className="h3-mobile dropdown-title-web">
+                PROJECT MANAGEMENT
+              </h3>
               <IconToggle
-                onClick={() => toggleSideNav()}
-                isOpen={open}
+                onClick={() => toggleSideNav("project")}
+                isOpen={open === "project"}
                 src="/icons/Toggle.png"
                 alt="Show information"
               />
             </ItemTitle>
-            {open && (
+            {open === "project" && (
               <p className="txt-mobile texto-regular">
                 You can trust our team to steer your project
                 <CorteMobile /> from start to finish: from source evaluation,
@@ -146,17 +154,17 @@ function Explore() {
           </Item>
           <Item>
             <ItemTitle>
-              <h3 className="h3-mobile">
+              <h3 className="h3-mobile dropdown-title-web">
                 DESKTOP PUBLISHING AND CREATIVE VISUALS
               </h3>
               <IconToggle
-                onClick={() => toggleSideNav()}
-                isOpen={open}
+                onClick={() => toggleSideNav("desktop")}
+                isOpen={open === "desktop"}
                 src="/icons/Toggle.png"
                 alt="Show information"
               />
             </ItemTitle>
-            {open && (
+            {open === "desktop" && (
               <p className="txt-mobile texto-regular">
                 We offer multilingual desktop publishing in
                 <CorteMobile /> a wide range of suites, but also original
@@ -168,15 +176,17 @@ function Explore() {
           </Item>
           <Item>
             <ItemTitle>
-              <h3 className="h3-mobile">E-LEARNING AND VIDEO</h3>
+              <h3 className="h3-mobile dropdown-title-web">
+                E-LEARNING AND VIDEO
+              </h3>
               <IconToggle
-                onClick={() => toggleSideNav()}
-                isOpen={open}
+                onClick={() => toggleSideNav("video")}
+                isOpen={open === "video"}
                 src="/icons/Toggle.png"
                 alt="Show information"
               />
             </ItemTitle>
-            {open && (
+            {open === "video" && (
               <p className="txt-mobile texto-regular">
                 We can help prepare and format your
                 <CorteMobile /> e-learning content and localize on-screen
@@ -187,15 +197,15 @@ function Explore() {
           </Item>
           <Item>
             <ItemTitle>
-              <h3 className="h3-mobile">CONTENT CREATION</h3>
+              <h3 className="h3-mobile dropdown-title-web">CONTENT CREATION</h3>
               <IconToggle
-                onClick={() => toggleSideNav()}
-                isOpen={open}
+                onClick={() => toggleSideNav("content")}
+                isOpen={open === "content"}
                 src="/icons/Toggle.png"
                 alt="Show information"
               />
             </ItemTitle>
-            {open && (
+            {open === "content" && (
               <p className="txt-mobile texto-regular">
                 We work with our customers' marketing
                 <CorteMobile /> team to create social media content in
