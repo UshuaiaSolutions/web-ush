@@ -95,7 +95,7 @@ function Explore() {
             <CorteDesktop />
             <CorteMobile /> <u>we can help you</u>
           </h2>
-          <p className="destacado-medium d-none-mobile w-50">
+          <p className="destacado-medium d-none-mobile w-50-desktop-grande">
             We can blend linguistic, technical, marketing
             <CorteDesktop /> and cultural requirements to offer an optimized
             <CorteDesktop /> translation and localization solution.

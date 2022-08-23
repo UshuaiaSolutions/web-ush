@@ -37,6 +37,11 @@ const Container = styled.div`
     width: calc(100% - 38px);
   }
 
+  @media (min-width: 1025px) and (max-width: 1124px) {
+    padding: 67px 25px;
+    width: calc(100% - 50px);
+  }
+
   @media (min-width: 1500px) {
     padding: 55px 150px;
     width: calc(100% - 300px);
@@ -177,7 +182,7 @@ function Footer() {
             component={
               <>
                 <Arrow src="/arrow-up.png" alt="arrow up" className="me-5" />
-                <span>Back to top</span>
+                <span className="underline-mobile">Back to top</span>
               </>
             }
           />

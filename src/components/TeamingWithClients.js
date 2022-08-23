@@ -73,7 +73,7 @@ function TeamingWithClients() {
             </SwiperSlide>
           </Swiper>
           <div className="desktop-column">
-            <p className="txt-mobile destacado-medium mb-40-mobile mb-40">
+            <p className="txt-minimo-mobile destacado-medium mb-40-mobile mb-40">
               Our highly esteemed client
               <CorteDesktop /> list includes partner
               <CorteMobile /> LSPs as

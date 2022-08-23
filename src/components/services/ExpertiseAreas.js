@@ -69,7 +69,7 @@ function ExpertiseAreas() {
           <h2 className="h2-mobile h2-web mb-20-mobile">
             <u>Expertise areas</u>
           </h2>
-          <p className="txt-regular-mobile destacado-medium mb-40-mobile w-50">
+          <p className="txt-regular-mobile destacado-medium mb-40-mobile w-50-desktop-grande">
             With over 20 years' experience, we've
             <CorteMobile />
             <CorteDesktop /> managed to select and train highly skilled

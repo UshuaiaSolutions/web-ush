@@ -70,10 +70,11 @@ const Circle = styled.div`
   background: ${(props) => props.theme.fondo};
 
   @media (max-width: 768px) {
-    width: 56px;
-    height: 56px;
+    width: calc(56px - 4px);
+    height: calc(56px - 4px);
     top: -30px;
     right: 60px;
+    border: 2px solid ${(props) => props.theme.textonegro};
   }
 
   @media (min-width: 769px) and (max-width: 1025px) {
@@ -176,13 +177,13 @@ function WhyUsh() {
                 <h3 className="h3-mobile mb-20-mobile">Experience</h3>
                 <p className="txt-minimo-mobile">
                   With more than 20 years
-                  <CorteMobile /> in the language
-                  <CorteMobile /> services industry,
-                  <CorteMobile /> we have carefully
-                  <CorteMobile /> selected and trained
-                  <CorteMobile /> translators, linguists,
-                  <CorteMobile /> designers and IT staff
-                  <CorteMobile /> to be able to respond
+                  <CorteMobile /> in the language services
+                  <CorteMobile /> industry, we have
+                  <CorteMobile /> carefully selected
+                  <CorteMobile /> and trained translators,
+                  <CorteMobile /> linguists, designers and
+                  <CorteMobile /> IT staff to be able to
+                  <CorteMobile /> respond
                   <CorteMobile /> with best practices
                   <CorteMobile /> and industry standards.
                 </p>

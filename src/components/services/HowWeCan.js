@@ -52,7 +52,7 @@ function HowWeCan() {
             </h1>
             <Image src="/illustration-why.png" alt="Illustration" />
           </div>
-          <div className="w-50">
+          <div className="w-50-desktop-grande">
             <Column>
               <h3 className="h3-mobile h3-web mb-10-mobile mb-20 resaltado">
                 01&ensp;&ensp;You tell us what you need

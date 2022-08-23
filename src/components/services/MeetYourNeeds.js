@@ -44,7 +44,7 @@ function MeetYourNeeds() {
           We can meet
           <CorteMobile /> <u>your needs</u>
         </h1>
-        <p className="destacados-mobile destacado-regular mb-40-mobile text-center text-left-mobile">
+        <p className="destacados-mobile destacado-regular mb-0-mobile text-center text-left-mobile">
           We offer a wide variety of multilingual
           <CorteMobile /> solutions, from translation and
           <CorteMobile /> localization to content

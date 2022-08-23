@@ -392,6 +392,9 @@
     margin-right: 0px;
   }
 
+  .mb-0-mobile {
+    margin-bottom: 0px;
+  }
   .mb-10-mobile {
     margin-bottom: 10px;
   }

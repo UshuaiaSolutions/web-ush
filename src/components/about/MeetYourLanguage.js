@@ -40,16 +40,16 @@ const Image = styled.img`
 
 const Card = styled.div`
   background: ${(props) => props.theme.fondo};
-  border: 3px solid ${(props) => props.theme.textonegro};
+  border: 2px solid ${(props) => props.theme.textonegro};
   border-radius: 32px;
   color: ${(props) => props.theme.textonegro};
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: calc(178px - 6px);
-  height: 200px;
-  padding: 40px 0 0;
+  width: calc(178px - 4px);
+  // height: 200px;
+  padding: 40px 0;
   position: relative;
 
   @media (min-width: 1025px) {
@@ -57,23 +57,25 @@ const Card = styled.div`
     height: calc(370px - 6px);
     padding: 0;
     justify-content: inherit;
+    border: 3px solid ${(props) => props.theme.textonegro};
   }
 `;
 
 const Circle = styled.div`
   position: absolute;
-  border: 3px solid ${(props) => props.theme.textonegro};
+  border: 2px solid ${(props) => props.theme.textonegro};
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   background: ${(props) => props.theme.fondo};
-  width: 56px;
-  height: 56px;
+  width: calc(56px - 4px);
+  height: calc(56px - 4px);
   top: -30px;
-  right: 60px;
+  right: 56px;
 
   @media (min-width: 1025px) {
+    border: 3px solid ${(props) => props.theme.textonegro};
     width: calc(100px - 6px);
     top: -55px;
     left: 125px;
@@ -119,6 +121,8 @@ const ContainerMobile = styled.div`
 `;
 
 const Video = styled.img`
+  width: 100%;
+
   @media (min-width: 1025px) {
     width: 45%;
   }

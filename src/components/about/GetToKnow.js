@@ -53,7 +53,7 @@ function GetToKnow() {
       <Container>
         <Row>
           <h2 className="h2-mobile h2-web mb-20-mobile">Get to know USH</h2>
-          <p className="txt-destacados-alta-mobile destacado-medium mb-40-mobile w-50">
+          <p className="txt-destacados-alta-mobile destacado-medium mb-40-mobile w-50-desktop-grande">
             Our strongest trait is teamwork!
             <CorteMobile /> We encourage <CorteDesktop />
             positive leadership to

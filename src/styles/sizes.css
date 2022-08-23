@@ -30,10 +30,6 @@
   width: 34px;
 }
 
-.w-50 {
-  width: 50%;
-}
-
 .w-55 {
   width: 55%;
 }
@@ -74,5 +70,11 @@
 
   .w-100-mobile {
     width: 100%;
+  }
+}
+
+@media (min-width: 1500px) {
+  .w-50-desktop-grande {
+    width: 50%;
   }
 }

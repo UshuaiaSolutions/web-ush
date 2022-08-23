@@ -18,7 +18,12 @@ const Container = styled.div`
   z-index: 10;
   height: 51px;
 
-  @media (min-width: 1025px) {
+  @media (min-width: 1025px) and (max-width: 1124px) {
+    padding: 25px 25px;
+    width: calc(100% - 50px);
+  }
+
+  @media (min-width: 1125px) {
     height: 100px;
     width: calc(100% - 120px);
     padding: 0 60px;

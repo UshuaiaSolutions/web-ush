@@ -287,4 +287,23 @@
   .resaltado-mobile {
     text-shadow: #72f285 1px 1px 1px;
   }
+
+  .destacados-semibold-mobile {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+  }
+
+  .destacados-italic-mobile {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+  }
+
+  .underline-mobile {
+    text-decoration: underline;
+  }
 }

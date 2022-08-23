@@ -7,7 +7,7 @@ import { CorteDesktop, CorteMobile } from "./base/Cortes";
 const StyledContainer = styled.div`
   background: ${(props) => props.theme.rosaush};
   width: 100%;
-  padding: 60px 0;
+  padding: 45px 0;
 
   @media (min-width: 1025px) {
     padding: 90px 0;
@@ -65,21 +65,21 @@ function BookMeeting() {
             <h1 className="hero-section-alto-mobile h1-web-sub mb-20-mobile mb-40">
               Book a<CorteDesktop /> meeting!
             </h1>
-            <p className="txt-destacados-alta-mobile destacado-medium mb-60 mb-20-mobile">
+            <p className="destacados-semibold-mobile destacado-medium mb-60 mb-20-mobile">
               Constructing a brief could be a<CorteDesktop /> difficult
               <CorteMobile /> task. Here are some
               <CorteDesktop /> questions to guide
               <CorteMobile /> your request.
             </p>
 
-            <p className="txt-destacados-alta-mobile destacado-italic mb-20">
+            <p className="destacados-italic-mobile destacado-italic mb-20">
               What services are you looking for?
             </p>
-            <p className="txt-destacados-alta-mobile destacado-italic mb-20">
+            <p className="destacados-italic-mobile destacado-italic mb-20">
               What languages do you need
               <CorteMobile /> us <CorteDesktop /> to work with?
             </p>
-            <p className="txt-destacados-alta-mobile destacado-italic mb-40">
+            <p className="destacados-italic-mobile destacado-italic mb-40">
               Is your request urgent?
               <CorteMobile />
               <CorteDesktop /> When do you need it?
@@ -93,9 +93,7 @@ function BookMeeting() {
                   <input className="input-form txt-destacados-alta-mobile texto-regular" />
                 </ContainerInput>
                 <ContainerInput className="d-flex flex-column">
-                  <label className="label-form">
-                    Organization / Company Name *
-                  </label>
+                  <label className="label-form">Company Name *</label>
                   <input className="input-form txt-destacados-alta-mobile texto-regular" />
                 </ContainerInput>
               </ColumnInput>

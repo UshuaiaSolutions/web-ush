@@ -3,15 +3,20 @@ import styled from "styled-components";
 
 const StyledContainer = styled.div`
   // MOBILE
-  padding: 0 25px;
-  width: calc(100% - 50px);
+  margin: 0 auto;
+  width: 276px;
 
   @media (min-width: 769px) and (max-width: 1024px) {
     padding: 0 40px;
     width: calc(100% - 80px);
   }
 
-  @media (min-width: 1125px) {
+  @media (min-width: 1025px) and (max-width: 1125px) {
+    padding: 0 20px;
+    width: calc(100% - 40px);
+  }
+
+  @media (min-width: 1126px) and (max-width: 1499px) {
     margin-left: 10vw;
     width: 1062px;
     padding: 0;

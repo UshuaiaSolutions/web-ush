@@ -26,6 +26,7 @@ const Image = styled.img`
   @media (max-width: 768px) {
     width: 100%;
     height: auto;
+    max-width: 100%;
   }
 `;
 
@@ -34,7 +35,7 @@ function Hero() {
     <Container>
       <Content>
         <div className="mb-20-mobile">
-          <h1 className="h1-web hero-section-titles-mobile mb-40">
+          <h1 className="h1-web hero-section-titles-mobile mb-40 mb-20-mobile">
             Expand your
             <CorteDesktop />
             <CorteMobile /> <u>global potential</u>

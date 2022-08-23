@@ -30,7 +30,8 @@ function Teaming() {
     <StyledContainer>
       <Container>
         <h1 className="hero-section-titles-mobile h1-web mb-20-mobile mb-40 text-left-mobile text-center">
-          Teaming with <u>clients worldwide</u>
+          Teaming with
+          <CorteMobile /> <u>clients worldwide</u>
         </h1>
         <p className="destacados-mobile destacado-regular mb-40-mobile mb-70 text-left-mobile text-center">
           <b>

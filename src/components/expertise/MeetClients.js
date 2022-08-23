@@ -152,7 +152,7 @@ function MeetClients() {
             <p className="punteo-desktop mb-15">Pivotal</p>
             <p className="punteo-desktop">LivePerson</p>
           </Column>
-          <div className="w-50">
+          <div className="w-50-desktop-grande">
             <Card>
               <Logo
                 className="mb-20-mobile mb-40"

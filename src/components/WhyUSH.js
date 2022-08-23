@@ -16,9 +16,22 @@ const StyledContainer = styled.div`
   }
 `;
 
-const Image = styled.img`
-  width: 647px;
-  max-width: 50%;
+const ImageDesktop = styled.img`
+  display: none;
+
+  @media (min-width: 769px) {
+    width: 647px;
+    max-width: 50%;
+  }
+`;
+
+const ImageMobile = styled.img`
+  width: 100%;
+  height: auto;
+
+  @media (min-width: 769px) {
+    display: none;
+  }
 `;
 
 const Content = styled.div`
@@ -43,6 +56,12 @@ const Areas = styled.div`
     justify-content: center;
 
     & p {
+      margin: 0 20px 30px;
+    }
+  }
+
+  @media (min-width: 1500px) {
+    & p {
       margin: 0 40px 30px;
     }
   }
@@ -53,10 +72,17 @@ function WhyUSH() {
     <StyledContainer>
       <Container>
         <Content>
-          <Image src="/illustrations/high-five.png" alt="illustration" />
+          <ImageDesktop src="/illustrations/high-five.png" alt="illustration" />
 
-          <div className="w-50">
-            <h2 className="h2-web h2-mobile mb-40">Why USH?</h2>
+          <div className="w-50-desktop-grande">
+            <h2 className="h2-web h2-mobile mb-40 mb-0-mobile underline-mobile">
+              Why USH?
+            </h2>
+
+            <ImageMobile
+              src="/illustrations/high-five.png"
+              alt="illustration"
+            />
 
             <Reverse>
               <Areas>

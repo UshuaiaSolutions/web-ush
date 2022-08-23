@@ -76,7 +76,7 @@ const Icon = styled.img`
 `;
 
 const ContainerSwiper = styled.div`
-  margin: 40px 0;
+  margin: 0px 0 20px;
   display: block;
   width: 100%;
 

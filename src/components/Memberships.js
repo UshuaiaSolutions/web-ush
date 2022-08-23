@@ -39,7 +39,7 @@ const Content = styled.div`
   display: flex;
   justify-content: space-between;
 
-  @media (max-width: 1025px) {
+  @media (max-width: 768px) {
     flex-direction: column;
   }
 `;
@@ -61,7 +61,7 @@ function Memberships() {
               <CorteMobile /> the language industry as a whole.
             </p>
           </div>
-          <div className="d-flex flex-column w-50">
+          <div className="d-flex flex-column w-50-desktop-grande">
             <div className="d-flex justify-evenly">
               <StyledImg
                 src="/logos/logo-aasl.png"
