@@ -10,6 +10,10 @@ const StyledContainer = styled.div`
   display: flex;
   flex-direction: column;
 
+  @media (min-width: 769px) and (max-width: 1024px) {
+    padding: 60px 0;
+  }
+
   @media (min-width: 1025px) {
     padding: 200px 0 160px;
   }
@@ -23,7 +27,7 @@ const Column = styled.div`
   display: flex;
   flex-direction: column;
 
-  @media (min-width: 1025px) {
+  @media (min-width: 769px) {
     flex-wrap: wrap;
     flex-direction: row;
 
@@ -36,6 +40,10 @@ const Column = styled.div`
 const Row = styled.div`
   display: flex;
 
+  @media (min-width: 769px) and (max-width: 1024px) {
+    margin-bottom: 10px;
+  }
+
   @media (min-width: 1025px) {
     margin-bottom: 40px;
   }
@@ -45,6 +53,7 @@ const Image = styled.img`
   height: 14px;
   width: 14px;
   margin-right: 19px;
+  margin-top: 2px;
 
   @media (min-width: 1025px) {
     width: 24px;
@@ -54,6 +63,12 @@ const Image = styled.img`
 `;
 
 const DesktopRow = styled.div`
+  @media (min-width: 769px) and (max-width: 1024px) {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+  }
+
   @media (min-width: 1025px) {
     display: flex;
     justify-content: space-between;
@@ -69,7 +84,7 @@ function ExpertiseAreas() {
           <h2 className="h2-mobile h2-web mb-20-mobile">
             <u>Expertise areas</u>
           </h2>
-          <p className="txt-regular-mobile destacado-medium mb-40-mobile w-50-desktop-grande">
+          <p className="txt-regular-mobile destacado-medium mb-40-mobile w-50-desktop-grande w-50-desktop-chico">
             With over 20 years' experience, we've
             <CorteMobile />
             <CorteDesktop /> managed to select and train highly skilled

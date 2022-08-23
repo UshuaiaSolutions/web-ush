@@ -11,9 +11,14 @@ const Content = styled.div`
   flex-direction: column;
   padding: 60px 0;
 
-  @media (min-width: 1025px) {
+  @media (min-width: 769px) {
     flex-direction: row;
     padding: 20px 0 50px;
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    & .corte-exacto-desktop-chico {
+    }
   }
 
   @media (min-width: 1500px) {
@@ -23,6 +28,11 @@ const Content = styled.div`
 
 const Image = styled.img`
   max-width: 50%;
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    width: 50%;
+  }
+
   @media (max-width: 768px) {
     width: 100%;
     height: auto;
@@ -34,7 +44,7 @@ function Hero() {
   return (
     <Container>
       <Content>
-        <div className="mb-20-mobile">
+        <div className="mb-20-mobile corte-exacto-desktop-chico">
           <h1 className="h1-web hero-section-titles-mobile mb-40 mb-20-mobile">
             Expand your
             <CorteDesktop />

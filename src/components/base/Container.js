@@ -11,14 +11,9 @@ const StyledContainer = styled.div`
     width: calc(100% - 80px);
   }
 
-  @media (min-width: 1025px) and (max-width: 1125px) {
-    padding: 0 20px;
-    width: calc(100% - 40px);
-  }
-
-  @media (min-width: 1126px) and (max-width: 1499px) {
+  @media (min-width: 1025px) and (max-width: 1499px) {
     margin-left: 10vw;
-    width: 1062px;
+    width: 962px;
     padding: 0;
   }
 

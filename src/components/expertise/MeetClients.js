@@ -22,7 +22,7 @@ const StyledContainer = styled.div`
 const ContainerSwiper = styled.div`
   display: none;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 768px) {
     display: block;
     width: 100%;
   }
@@ -40,18 +40,30 @@ const Card = styled.div`
   flex-direction: column;
   align-items: center;
 
-  @media (min-width: 1025px) {
+  @media (min-width: 769px) {
     border: 3px solid ${(props) => props.theme.textonegro};
     border-radius: 32px;
-    padding: 80px 30px;
-    max-height: 435px;
-    width: calc(533px - 60px - 6px);
+    padding: 0 30px;
+    height: 415px;
+    width: calc(513px - 60px - 6px);
+    display: flex;
+    justify-content: center;
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    border: 3px solid ${(props) => props.theme.textonegro};
+    border-radius: 32px;
+    padding: 0 20px;
+    height: 300px;
+    width: calc(398px - 40px - 6px);
+    display: flex;
+    justify-content: center;
   }
 `;
 
 const ContainerDesktop = styled.div`
   display: none;
-  @media (min-width: 1025px) {
+  @media (min-width: 769px) {
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -60,13 +72,13 @@ const ContainerDesktop = styled.div`
 
 const Column = styled.div`
   display: none;
-  @media (min-width: 1025px) {
+  @media (min-width: 769px) {
     display: block;
   }
 `;
 
 const Logo = styled.img`
-  @media (min-width: 1025px) {
+  @media (min-width: 769px) {
     height: auto;
     width: 232px;
   }

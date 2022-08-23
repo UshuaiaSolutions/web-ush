@@ -19,7 +19,7 @@ const StyledBoton = styled.button`
     box-shadow: inset 4px 4px 8px rgba(57, 57, 57, 0.4);
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     width: 100%;
     padding: 8px 40px;
     font-style: normal;

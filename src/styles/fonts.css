@@ -171,7 +171,7 @@
   text-decoration: underline;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .hero-section-titles-mobile {
     font-size: 24px;
     font-weight: 700;
@@ -282,6 +282,9 @@
     font-weight: 400 !important;
     line-height: 12px !important;
     letter-spacing: 0em !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
   }
 
   .resaltado-mobile {

@@ -26,16 +26,25 @@ const Column = styled.div`
   display: flex;
   flex-direction: column;
 
-  @media (min-width: 1025px) {
+  @media (min-width: 769px) {
     margin-bottom: 30px;
   }
 `;
 
 const ContentDesktop = styled.div`
-  @media (min-width: 1025px) {
+  @media (min-width: 769px) {
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
+  }
+
+  @media (min-width: 769px) and (max-width: 1025px) {
+    margin-bottom: 0px;
+
+    & .desktop-chico-exacto {
+      max-width: 515px;
+      width: 50%;
+    }
   }
 `;
 
@@ -52,7 +61,7 @@ function HowWeCan() {
             </h1>
             <Image src="/illustration-why.png" alt="Illustration" />
           </div>
-          <div className="w-50-desktop-grande">
+          <div className="w-50-desktop-grande desktop-chico-exacto">
             <Column>
               <h3 className="h3-mobile h3-web mb-10-mobile mb-20 resaltado">
                 01&ensp;&ensp;You tell us what you need

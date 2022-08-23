@@ -31,6 +31,10 @@ const Image = styled.img`
   height: 334px;
   object-fit: cover;
 
+  @media (min-width: 769px) and (max-width: 1024px) {
+    width: 303px;
+  }
+
   @media (min-width: 1025px) {
     height: auto;
     width: 300px;
@@ -48,9 +52,16 @@ const Card = styled.div`
   flex-direction: column;
   align-items: center;
   width: calc(178px - 4px);
-  // height: 200px;
   padding: 40px 0;
   position: relative;
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    width: calc(321px - 6px);
+    height: calc(270px - 6px);
+    padding: 0;
+    justify-content: inherit;
+    border: 3px solid ${(props) => props.theme.textonegro};
+  }
 
   @media (min-width: 1025px) {
     width: calc(421px - 6px);
@@ -74,6 +85,14 @@ const Circle = styled.div`
   top: -30px;
   right: 56px;
 
+  @media (min-width: 769px) and (max-width: 1024px) {
+    border: 3px solid ${(props) => props.theme.textonegro};
+    width: calc(80px - 6px);
+    top: -40px;
+    left: 120px;
+    height: calc(80px - 6px);
+  }
+
   @media (min-width: 1025px) {
     border: 3px solid ${(props) => props.theme.textonegro};
     width: calc(100px - 6px);
@@ -94,6 +113,15 @@ const Icon = styled.img`
 `;
 
 const Column = styled.div`
+  @media (min-width: 769px) and (max-width: 1024px) {
+    display: flex;
+    justify-content: space-between;
+
+    & .corte-exacto-desktop-chico {
+      width: 373px;
+    }
+  }
+
   @media (min-width: 1025px) {
     display: flex;
     margin-bottom: 70px;
@@ -104,18 +132,20 @@ const Column = styled.div`
 
 const ContainerDesktop = styled.div`
   display: none;
+  @media (min-width: 769px) and (max-width: 1024px) {
+    display: flex;
+    width: 425px;
+    height: 400px;
+  }
+
   @media (min-width: 1025px) {
     display: flex;
-
     width: 50%;
-
-    & .mySwiperAbout {
-    }
   }
 `;
 
 const ContainerMobile = styled.div`
-  @media (min-width: 1025px) {
+  @media (min-width: 769px) {
     display: none;
   }
 `;
@@ -123,7 +153,7 @@ const ContainerMobile = styled.div`
 const Video = styled.img`
   width: 100%;
 
-  @media (min-width: 1025px) {
+  @media (min-width: 769px) {
     width: 45%;
   }
 `;
@@ -139,7 +169,7 @@ function MeetYourLanguage() {
               <CorteDesktop />
               <CorteMobile /> <u>service partner</u>
             </h1>
-            <p className="destacados-mobile destacado-regular mb-40-mobile mb-40">
+            <p className="destacados-mobile destacado-regular mb-40-mobile mb-40 corte-exacto-desktop-chico">
               We deliver multilingual ISO certified solutions
               <CorteMobile /> to help you face
               <CorteDesktop /> and solve your global
@@ -175,8 +205,8 @@ function MeetYourLanguage() {
                   <Circle>
                     <Icon src="/icons/needs-1.png" alt="icon" />
                   </Circle>
-                  <h3 className="h3-web mb-20">Experience</h3>
-                  <p className="texto-regular text-center">
+                  <h3 className="h3-web h3-mobile mb-20">Experience</h3>
+                  <p className="texto-regular txt-minimo-mobile text-center">
                     We know what we do. With more than 20
                     <CorteDesktop /> years in the language services industry,
                     <CorteDesktop /> we have the capacity to build and maintain
@@ -190,8 +220,8 @@ function MeetYourLanguage() {
                   <Circle>
                     <Icon src="/icons/needs-2.png" alt="icon" />
                   </Circle>
-                  <h3 className="h3-web mb-20">Innovation</h3>
-                  <p className="texto-regular text-center">
+                  <h3 className="h3-web h3-mobile mb-20">Innovation</h3>
+                  <p className="texto-regular txt-minimo-mobile text-center">
                     We're geeks! We strategically use the latest
                     <CorteDesktop /> tech trends to help you expand your
                     <CorteDesktop /> possibilities. Plus, our flexibility
@@ -206,8 +236,8 @@ function MeetYourLanguage() {
                   <Circle>
                     <Icon src="/icons/needs-3.png" alt="icon" />
                   </Circle>
-                  <h3 className="h3-web mb-20">Teamwork</h3>
-                  <p className="texto-regular text-center">
+                  <h3 className="h3-web h3-mobile mb-20">Teamwork</h3>
+                  <p className="texto-regular txt-minimo-mobile text-center">
                     Positive leadership, empathy and honesty
                     <CorteDesktop /> are our core work values. We strongly
                     believe

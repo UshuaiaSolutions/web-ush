@@ -73,6 +73,12 @@
   }
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+  .w-50-desktop-chico {
+    width: 50%;
+  }
+}
+
 @media (min-width: 1500px) {
   .w-50-desktop-grande {
     width: 50%;

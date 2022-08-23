@@ -10,6 +10,10 @@ const StyledContainer = styled.div`
   display: flex;
   flex-direction: column;
 
+  @media (min-width: 769px) and (max-width: 1024px) {
+    padding: 60px 0;
+  }
+
   @media (min-width: 1025px) {
     padding: 125px 0;
   }
@@ -24,7 +28,7 @@ const Dropdown = styled.div`
   border-radius: 32px;
   padding: 15px 0;
 
-  @media (min-width: 1025px) {
+  @media (min-width: 769px) {
     padding: 30px 0;
   }
 `;
@@ -38,6 +42,11 @@ const Item = styled.div`
 
   &:last-child {
     border-bottom: none;
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    padding: 20px 30px;
+    width: calc(100% - 135px);
   }
 
   @media (min-width: 1500px) {
@@ -68,6 +77,12 @@ const IconToggle = styled.img`
 `;
 
 const RowDesktop = styled.div`
+  @media (min-width: 769px) and (max-width: 1024px) {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
   @media (min-width: 1025px) {
     display: flex;
     justify-content: space-between;
@@ -95,7 +110,7 @@ function Explore() {
             <CorteDesktop />
             <CorteMobile /> <u>we can help you</u>
           </h2>
-          <p className="destacado-medium d-none-mobile w-50-desktop-grande">
+          <p className="destacado-medium txt-regular-mobile d-none-mobile w-50-desktop-grande w-50-desktop-chico">
             We can blend linguistic, technical, marketing
             <CorteDesktop /> and cultural requirements to offer an optimized
             <CorteDesktop /> translation and localization solution.

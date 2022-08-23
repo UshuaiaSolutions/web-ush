@@ -22,7 +22,7 @@ const StyledContainer = styled.div`
 `;
 
 const Column = styled.div`
-  @media (min-width: 1025px) {
+  @media (min-width: 769px) {
     display: flex;
     justify-content: space-between;
   }
@@ -36,7 +36,7 @@ function BookMeetingSmall() {
           <h1 className="text-center-mobile hero-section-titles-mobile h1-web-sub mb-20-mobile w-100-mobile w-40">
             Book a<CorteDesktop /> meeting!
           </h1>
-          <div className="w-50-desktop-grande">
+          <div className="w-50-desktop-grande w-50-desktop-chico">
             <p className="text-center-mobile destacados-italic-mobile destacado-italic mb-20-mobile">
               What services are you looking for?
             </p>

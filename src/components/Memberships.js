@@ -20,7 +20,7 @@ const StyledImg = styled.img`
   width: 160px;
   object-fit: none;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     width: 67.65px;
     object-fit: contain;
   }
@@ -30,7 +30,7 @@ const StyledImgLast = styled.img`
   height: fit-content;
   width: 360px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     width: 184.5px;
   }
 `;
@@ -61,7 +61,7 @@ function Memberships() {
               <CorteMobile /> the language industry as a whole.
             </p>
           </div>
-          <div className="d-flex flex-column w-50-desktop-grande">
+          <div className="d-flex flex-column w-50-desktop-grande w-50-desktop-chico">
             <div className="d-flex justify-evenly">
               <StyledImg
                 src="/logos/logo-aasl.png"

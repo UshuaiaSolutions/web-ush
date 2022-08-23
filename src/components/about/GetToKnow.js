@@ -28,7 +28,7 @@ const Card = styled.div`
   width: 136px;
   height: 136px;
 
-  @media (min-width: 1025px) {
+  @media (min-width: 769px) {
     width: 240px;
     height: 240px;
   }
@@ -40,7 +40,7 @@ const Icon = styled.img`
 `;
 
 const Row = styled.div`
-  @media (min-width: 1025px) {
+  @media (min-width: 769px) {
     display: flex;
     justify-content: space-between;
     margin-bottom: 70px;
@@ -53,7 +53,7 @@ function GetToKnow() {
       <Container>
         <Row>
           <h2 className="h2-mobile h2-web mb-20-mobile">Get to know USH</h2>
-          <p className="txt-destacados-alta-mobile destacado-medium mb-40-mobile w-50-desktop-grande">
+          <p className="txt-destacados-alta-mobile destacado-medium mb-40-mobile w-50-desktop-grande w-50-desktop-chico">
             Our strongest trait is teamwork!
             <CorteMobile /> We encourage <CorteDesktop />
             positive leadership to

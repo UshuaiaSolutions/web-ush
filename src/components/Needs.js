@@ -36,6 +36,13 @@ const Card = styled.div`
   flex-direction: column;
   align-items: center;
 
+  @media (min-width: 769px) and (max-width: 1024px) {
+    border: 3px solid ${(props) => props.theme.textonegro};
+    border-radius: 32px;
+    width: calc(232px - 20px - 8px);
+    padding: 55px 10px 75px;
+  }
+
   @media (min-width: 1025px) {
     height: calc(384px - 96px);
     width: 336px;
@@ -57,11 +64,18 @@ const Circle = styled.div`
   align-items: center;
   background: ${(props) => props.theme.fondo};
 
-  @media (max-width: 1100px) {
-    width: 56px;
-    height: 56px;
+  @media (min-width: 769px) and (max-width: 1024px) {
     top: -30px;
-    right: 60px;
+    right: 80px;
+    width: calc(56px - 4px);
+    height: calc(56px - 4px);
+  }
+
+  @media (max-width: 768px) {
+    width: calc(56px - 4px);
+    height: calc(56px - 4px);
+    top: -30px;
+    right: 55px;
   }
 `;
 
@@ -69,7 +83,7 @@ const Icon = styled.img`
   width: 68px;
   height: 68px;
 
-  @media (max-width: 1100px) {
+  @media (max-width: 1024px) {
     width: 40px;
     height: 40px;
   }
@@ -79,6 +93,10 @@ const ContainerSwiper = styled.div`
   margin: 0px 0 20px;
   display: block;
   width: 100%;
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    height: 300px;
+  }
 
   @media (min-width: 1025px) {
     display: none;
@@ -171,8 +189,8 @@ function Needs() {
               <Circle>
                 <Icon src="/icons/needs-1.png" alt="icon" />
               </Circle>
-              <h3 className="h3-web mb-30">Language services</h3>
-              <p className="texto-regular px-15">
+              <h3 className="h3-web h3-mobile mb-30">Language services</h3>
+              <p className="texto-regular txt-minimo-mobile px-15">
                 Translation, localization,
                 <CorteDesktop /> transcreation, review and more.
                 <CorteDesktop /> We provide customized multilingual
@@ -184,8 +202,8 @@ function Needs() {
               <Circle>
                 <Icon src="/icons/needs-2.png" alt="icon" />
               </Circle>
-              <h3 className="h3-web mb-30">Content creation</h3>
-              <p className="texto-regular px-15">
+              <h3 className="h3-web h3-mobile mb-30">Content creation</h3>
+              <p className="texto-regular txt-minimo-mobile px-15">
                 Our creative team can help
                 <CorteDesktop /> you boost your marketing strategy.
                 <CorteDesktop /> We can work together with your staff
@@ -198,8 +216,8 @@ function Needs() {
               <Circle>
                 <Icon src="/icons/needs-3.png" alt="icon" />
               </Circle>
-              <h3 className="h3-web mb-30">Know - how</h3>
-              <p className="texto-regular px-15">
+              <h3 className="h3-web h3-mobile mb-30">Know - how</h3>
+              <p className="texto-regular txt-minimo-mobile px-15">
                 You can trust our team to steer
                 <CorteDesktop /> your project from start to finish.
                 <CorteDesktop /> Our translators, designers and IT

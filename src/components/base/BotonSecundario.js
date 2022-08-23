@@ -19,6 +19,17 @@ const StyledBoton = styled.button`
     box-shadow: inset 4px 4px 4px rgb(57 57 57 / 40%);
   }
 
+  @media (min-width: 769px) and (max-width: 1024px) {
+    padding: 10px 40px;
+    width: fit-content;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    border: 2px solid ${(props) => props.theme.textonegro};
+    border-radius: 60px;
+  }
+
   @media (min-width: 1025px) {
     padding: 18px 48px;
     width: fit-content;

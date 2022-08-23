@@ -42,9 +42,9 @@ const Card = styled.div`
   @media (min-width: 769px) and (max-width: 1024px) {
     border: 3px solid ${(props) => props.theme.textonegro};
     border-radius: 32px;
-    height: calc(404px - 75px - 6px);
     width: calc(232px - 20px - 8px);
-    padding: 75px 10px 0;
+    padding: 55px 10px 75px;
+    height: auto;
   }
 
   @media (min-width: 1025px) {
@@ -69,6 +69,7 @@ const Circle = styled.div`
   align-items: center;
   background: ${(props) => props.theme.fondo};
 
+  // MOBILE
   @media (max-width: 768px) {
     width: calc(56px - 4px);
     height: calc(56px - 4px);
@@ -78,27 +79,34 @@ const Circle = styled.div`
   }
 
   @media (min-width: 769px) and (max-width: 1025px) {
-    top: -60px;
-    right: 50px;
+    top: -30px;
+    right: 80px;
+    width: calc(56px - 4px);
+    height: calc(56px - 4px);
   }
 `;
 
 const Icon = styled.img`
-  width: 68px;
-  height: 68px;
+  width: 40px;
+  height: 40px;
 
-  @media (max-width: 768px) {
-    width: 40px;
-    height: 40px;
+  @media (min-width: 1025px) {
+    width: 68px;
+    height: 68px;
   }
 `;
 
+// ESCRITORIO PEQUEÑO --> TABLET CON SWIPER
 const ContainerSwiper = styled.div`
   display: none;
 
-  @media (max-width: 1215px) {
+  @media (max-width: 1024px) {
     display: block;
     width: 100%;
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    height: 310px;
   }
 `;
 
@@ -107,7 +115,7 @@ const ContainerDesktop = styled.div`
   justify-content: space-evenly;
   margin-top: 125px;
 
-  @media (max-width: 1215px) {
+  @media (max-width: 1024px) {
     display: none;
   }
 `;
@@ -131,7 +139,7 @@ function WhyUsh() {
                 <Circle>
                   <Icon src="/icons/needs-4.png" alt="icon" />
                 </Circle>
-                <h3 className="h3-mobile mb-20-mobile">Scalability</h3>
+                <h3 className="h3-mobile mb-20-mobile mb-20">Scalability</h3>
                 <p className="txt-minimo-mobile mb-20">
                   We have the capacity
                   <CorteMobile /> to build and maintain
@@ -151,7 +159,7 @@ function WhyUsh() {
                 <Circle>
                   <Icon src="/icons/needs-5.png" alt="icon" />
                 </Circle>
-                <h3 className="h3-mobile mb-20-mobile">Flexibility</h3>
+                <h3 className="h3-mobile mb-20-mobile mb-20">Flexibility</h3>
                 <p className="txt-minimo-mobile mb-20">
                   We can adapt to any
                   <CorteMobile />
@@ -174,7 +182,7 @@ function WhyUsh() {
                 <Circle>
                   <Icon src="/icons/needs-6.png" alt="icon" />
                 </Circle>
-                <h3 className="h3-mobile mb-20-mobile">Experience</h3>
+                <h3 className="h3-mobile mb-20-mobile mb-20">Experience</h3>
                 <p className="txt-minimo-mobile">
                   With more than 20 years
                   <CorteMobile /> in the language services

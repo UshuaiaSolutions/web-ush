@@ -22,6 +22,7 @@ const ImageDesktop = styled.img`
   @media (min-width: 769px) {
     width: 647px;
     max-width: 50%;
+    display: block;
   }
 `;
 
@@ -35,7 +36,7 @@ const ImageMobile = styled.img`
 `;
 
 const Content = styled.div`
-  @media (min-width: 1025px) {
+  @media (min-width: 769px) {
     display: flex;
     text-align: center;
     justify-content: space-between;
@@ -43,13 +44,24 @@ const Content = styled.div`
 `;
 
 const Reverse = styled.div`
-  @media (min-width: 1025px) {
+  @media (min-width: 769px) {
     display: flex;
     flex-direction: column-reverse;
+    margin-top: 40px;
   }
 `;
 
 const Areas = styled.div`
+  @media (min-width: 769px) and (max-width: 1024px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    & p {
+      margin: 0 50px 30px;
+    }
+  }
+
   @media (min-width: 1025px) {
     display: flex;
     flex-wrap: wrap;

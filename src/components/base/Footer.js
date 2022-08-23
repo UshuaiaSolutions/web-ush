@@ -37,6 +37,11 @@ const Container = styled.div`
     width: calc(100% - 38px);
   }
 
+  @media (min-width: 769px) and (max-width: 1024px) {
+    padding: 25px;
+    width: calc(100% - 50px);
+  }
+
   @media (min-width: 1025px) and (max-width: 1124px) {
     padding: 67px 25px;
     width: calc(100% - 50px);
@@ -53,6 +58,7 @@ const Content = styled.div`
     display: flex;
     justify-content: space-between;
     width: 100%;
+    align-items: center;
   }
 
   @media (min-width: 1500px) {
@@ -65,9 +71,9 @@ const Content = styled.div`
 `;
 
 const ContainerText = styled.div`
-  max-width: 517px;
+  max-width: 560px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 768px) {
     max-width: 500px;
     text-align: center;
     width: fit-content;
@@ -80,7 +86,7 @@ const ContainerRedesFooter = styled.div`
   display: flex;
   margin-top: 45px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 768px) {
     margin-top: 0;
     margin-bottom: 30px;
     justify-content: space-evenly;
@@ -90,6 +96,10 @@ const ContainerRedesFooter = styled.div`
 const Red = styled.p`
   margin-right: 20px;
   text-decoration: underline;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
 
   @media (max-width: 1024px) {
     font-size: 10px;
@@ -104,7 +114,7 @@ const Column = styled.div`
   display: flex;
   flex-direction: column;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 768px) {
     display: none;
   }
 `;
@@ -113,7 +123,7 @@ const ColumnSecond = styled.div`
   display: flex;
   flex-direction: column;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 768px) {
     align-items: center;
   }
 `;
@@ -142,7 +152,7 @@ const Iso = styled.img`
 const Arrow = styled.img`
   height: 18px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 768px) {
     height: auto;
     width: 7px;
     image-rendering: pixelated;
@@ -154,9 +164,11 @@ const ContainerRed = styled.a`
   align-items: center;
   color: ${(props) => props.theme.fondo};
   text-decoration: none;
+  margin-right: 10px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 768px) {
     flex-direction: column;
+    margin-right: 0px;
   }
 `;
 
@@ -255,7 +267,7 @@ function Footer() {
               <span className="texto-regular mb-30">ABOUT</span>
               <span className="texto-regular mb-30">SERVICES</span>
               <span className="texto-regular mb-30">EXPERTISE</span>
-              <span className="texto-regular mb-30">GET IN TOUCH</span>
+              <span className="texto-regular">GET IN TOUCH</span>
             </Column>
             <ColumnSecond>
               <Logo src="/logo-footer.png" alt="Logo ushuaia" />
