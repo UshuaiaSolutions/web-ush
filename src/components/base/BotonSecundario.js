@@ -9,14 +9,14 @@ const StyledBoton = styled.button`
   padding: 8px 0px;
   background-color: ${(props) => props.theme.fondo};
   color: ${(props) => props.theme.textonegro};
-  transition: 0.3s;
+  transition: all 0.3s ease-in-out;
   width: 100%;
   border: 2px solid ${(props) => props.theme.textonegro};
-  border-radius: 1389px;
+  border-radius: 60px;
 
   &:hover {
     background-color: ${(props) => props.theme.rosaush};
-    box-shadow: inset 4px 4px 4px rgb(57 57 57 / 40%);
+    box-shadow: inset 8px 8px 4px rgba(57, 57, 57, 0.4);
   }
 
   @media (min-width: 769px) and (max-width: 1024px) {
@@ -33,7 +33,7 @@ const StyledBoton = styled.button`
   @media (min-width: 1025px) {
     padding: 18px 48px;
     width: fit-content;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 24px;
     line-height: 36px;
     border: 4px solid ${(props) => props.theme.textonegro};

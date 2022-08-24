@@ -119,7 +119,7 @@ function MeetYourNeeds() {
             </Row>
           </Column>
         </RowDesktop>
-        <BotonSecundario>Explore USH</BotonSecundario>
+        <BotonSecundario>Explore USH services</BotonSecundario>
       </Container>
     </StyledContainer>
   );

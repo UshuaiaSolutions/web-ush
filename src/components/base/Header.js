@@ -61,12 +61,17 @@ const StyledLink = styled(Link)`
   line-height: 24px;
   text-decoration: none;
   color: ${(props) => props.theme.textonegro};
-  opacity: 0.6;
+  opacity: ${(props) => (props.selected ? "1" : "0.6")};
   border: ${(props) =>
     props.selected ? `2px solid ${props.theme.textonegro}` : "none"};
   border-radius: 154px;
   margin-right: 10px;
   transition: all 0.3s linear;
+
+  &:hover {
+    background: ${(props) => props.theme.rosaush};
+    opacity: 1;
+  }
 
   @media (min-width: 769px) and (max-width: 1024px) {
     padding: 5px 15px;
@@ -92,7 +97,7 @@ const StyledBoton = styled(BotonSecundario)`
   }
 
   @media (min-width: 769px) and (max-width: 1024px) {
-    padding: 5px 15px;
+    padding: 3px 13px;
     width: fit-content;
     font-size: 16px;
     font-weight: 700;
@@ -101,10 +106,15 @@ const StyledBoton = styled(BotonSecundario)`
     border-radius: 60px;
     border: none;
     background-color: ${(props) => props.theme.rosaush};
+
+    &:hover {
+      background-color: ${(props) => props.theme.fondo};
+      border: 2px solid ${(props) => props.theme.textonegro};
+    }
   }
 
   @media (min-width: 1025px) {
-    padding: 8px 40px;
+    padding: 5px 37px;
     width: fit-content;
     font-size: 16px;
     font-weight: 700;
@@ -113,6 +123,11 @@ const StyledBoton = styled(BotonSecundario)`
     border-radius: 60px;
     border: none;
     background-color: ${(props) => props.theme.rosaush};
+
+    &:hover {
+      background-color: ${(props) => props.theme.fondo};
+      border: 3px solid ${(props) => props.theme.textonegro};
+    }
   }
 `;
 

@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import BotonSecundario from "./base/BotonSecundario";
+import BotonPrincipal from "./base/BotonPrincipal";
 import Container from "./base/Container";
 import { CorteDesktop, CorteMobile } from "./base/Cortes";
 
@@ -128,7 +128,7 @@ function BookMeeting() {
               </div>
             </form>
 
-            <BotonSecundario>Get in touch</BotonSecundario>
+            <BotonPrincipal>Get in touch</BotonPrincipal>
           </SecondContainer>
         </MediaContainer>
       </Container>

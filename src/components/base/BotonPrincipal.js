@@ -3,20 +3,20 @@ import styled from "styled-components";
 
 const StyledBoton = styled.button`
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 24px;
   line-height: 36px;
-  padding: 18px 52px;
-  background-color: ${(props) => props.theme.lilaush};
-  color: ${(props) => props.theme.fondo};
-  border: none;
+  padding: 18px 48px;
+  background-color: ${(props) => props.theme.fondo};
+  color: ${(props) => props.theme.textonegro};
+  border: 4px solid ${(props) => props.theme.textonegro};
   border-radius: 60px;
-  transition: 0.3s;
+  transition: all 0.3s ease-in-out;
   width: fit-content;
 
   &:hover {
-    background-color: ${(props) => props.theme.azulush};
-    box-shadow: inset 4px 4px 8px rgba(57, 57, 57, 0.4);
+    background-color: ${(props) => props.theme.textonegro};
+    color: ${(props) => props.theme.rosaush};
   }
 
   @media (max-width: 1024px) {
