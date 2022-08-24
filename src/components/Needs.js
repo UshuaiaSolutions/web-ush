@@ -43,7 +43,19 @@ const Card = styled.div`
     padding: 55px 10px 75px;
   }
 
-  @media (min-width: 1025px) {
+  @media (min-width: 1025px) and (max-width: 1499px) {
+    height: calc(384px - 96px);
+    width: 316px;
+    border: 3px solid ${(props) => props.theme.textonegro};
+    padding: 96px 0 0;
+
+    & p {
+      padding-right: 5px;
+      padding-left: 5px;
+    }
+  }
+
+  @media (min-width: 1500px) {
     height: calc(384px - 96px);
     width: 336px;
     border: 3px solid ${(props) => props.theme.textonegro};

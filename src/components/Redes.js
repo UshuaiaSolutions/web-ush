@@ -4,14 +4,14 @@ import styled from "styled-components";
 const Container = styled.div`
   display: none;
 
-  @media (min-width: 1025px) and (max-width: 1124px) {
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    top: 50%;
-    left: 2%;
-    transform: translate(-0px, -50%);
-  }
+  // @media (min-width: 1025px) and (max-width: 1124px) {
+  //   position: fixed;
+  //   display: flex;
+  //   flex-direction: column;
+  //   top: 50%;
+  //   left: 2%;
+  //   transform: translate(-0px, -50%);
+  // }
 
   @media (min-width: 1125px) and (max-width: 1499px) {
     position: fixed;

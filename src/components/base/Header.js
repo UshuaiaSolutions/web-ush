@@ -23,15 +23,17 @@ const Container = styled.div`
     width: calc(100% - 50px);
   }
 
-  @media (min-width: 1025px) {
+  @media (min-width: 1025px) and (max-width: 1499px) {
     height: 100px;
-    width: calc(100% - 120px);
-    padding: 0 60px;
+    padding: 0 4%;
+    width: 92%;
+    max-width: 1314px;
   }
 
   @media (min-width: 1500px) {
     padding: 0 150px 0;
     width: calc(100% - 300px);
+    height: 100px;
   }
 `;
 
@@ -67,7 +69,7 @@ const StyledLink = styled(Link)`
   transition: all 0.3s linear;
 
   @media (min-width: 769px) and (max-width: 1024px) {
-    padding: 2px 15px;
+    padding: 5px 15px;
   }
 `;
 
@@ -90,7 +92,7 @@ const StyledBoton = styled(BotonSecundario)`
   }
 
   @media (min-width: 769px) and (max-width: 1024px) {
-    padding: 2px 15px;
+    padding: 5px 15px;
     width: fit-content;
     font-size: 16px;
     font-weight: 700;
@@ -235,7 +237,7 @@ function Header() {
         </div>
       </Toggle>
 
-      {openMobile && <MenuMobile />}
+      {openMobile && <MenuMobile func={setOpenMobile} />}
     </Container>
   );
 }

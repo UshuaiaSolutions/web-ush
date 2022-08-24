@@ -42,9 +42,11 @@ const Container = styled.div`
     width: calc(100% - 50px);
   }
 
-  @media (min-width: 1025px) and (max-width: 1124px) {
-    padding: 67px 25px;
-    width: calc(100% - 50px);
+  @media (min-width: 1025px) and (max-width: 1499px) {
+    padding: 67px 4%;
+    width: 92%;
+    margin: 0;
+    max-width: 1314px;
   }
 
   @media (min-width: 1500px) {
@@ -107,6 +109,10 @@ const Red = styled.p`
     line-height: 13px;
     letter-spacing: 0em;
     margin-right: 0px;
+  }
+
+  @media (min-width: 1025px) and (max-width: 1499px) {
+    margin-right: 10px;
   }
 `;
 

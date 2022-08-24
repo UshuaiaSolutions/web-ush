@@ -24,6 +24,11 @@ const StyledImg = styled.img`
     width: 67.65px;
     object-fit: contain;
   }
+
+  @media (min-width: 1025px) and (max-width: 1499px) {
+    width: 117.65px;
+    object-fit: contain;
+  }
 `;
 
 const StyledImgLast = styled.img`
@@ -32,6 +37,10 @@ const StyledImgLast = styled.img`
 
   @media (max-width: 1024px) {
     width: 184.5px;
+  }
+
+  @media (min-width: 1025px) and (max-width: 1499px) {
+    width: 234.5px;
   }
 `;
 
@@ -42,6 +51,11 @@ const Content = styled.div`
   @media (max-width: 768px) {
     flex-direction: column;
   }
+  @media (min-width: 1025px) and (max-width: 1499px) {
+    & .corte-exacto-medio {
+      min-width: 518px;
+    }
+  }
 `;
 
 function Memberships() {
@@ -49,7 +63,7 @@ function Memberships() {
     <StyledContainer>
       <Container>
         <Content>
-          <div className="d-flex flex-column justify-center">
+          <div className="d-flex flex-column justify-center w-50-desktop-medio corte-exacto-medio">
             <h2 className="h2-web h2-mobile mb-40 mb-20-mobile">
               Our Memberships
             </h2>
@@ -61,7 +75,7 @@ function Memberships() {
               <CorteMobile /> the language industry as a whole.
             </p>
           </div>
-          <div className="d-flex flex-column w-50-desktop-grande w-50-desktop-chico">
+          <div className="d-flex flex-column w-50-desktop-grande w-50-desktop-chico ">
             <div className="d-flex justify-evenly">
               <StyledImg
                 src="/logos/logo-aasl.png"

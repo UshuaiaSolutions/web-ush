@@ -38,11 +38,20 @@ const ContentDesktop = styled.div`
     margin-bottom: 50px;
   }
 
-  @media (min-width: 769px) and (max-width: 1025px) {
+  @media (min-width: 769px) and (max-width: 1024px) {
     margin-bottom: 0px;
 
     & .desktop-chico-exacto {
       max-width: 515px;
+      width: 50%;
+    }
+  }
+
+  @media (min-width: 1025px) and (max-width: 1499px) {
+    margin-bottom: 0px;
+
+    & .desktop-chico-exacto {
+      max-width: 580px;
       width: 50%;
     }
   }

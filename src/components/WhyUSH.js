@@ -41,6 +41,11 @@ const Content = styled.div`
     text-align: center;
     justify-content: space-between;
   }
+  @media (min-width: 1025px) and (max-width: 1499px) {
+    & .corte-exacto-desktop-medio {
+      min-width: 526px;
+    }
+  }
 `;
 
 const Reverse = styled.div`
@@ -86,7 +91,7 @@ function WhyUSH() {
         <Content>
           <ImageDesktop src="/illustrations/high-five.png" alt="illustration" />
 
-          <div className="w-50-desktop-grande">
+          <div className="w-50-desktop-grande w-50-desktop-medio corte-exacto-desktop-medio">
             <h2 className="h2-web h2-mobile mb-40 mb-0-mobile underline-mobile">
               Why USH?
             </h2>

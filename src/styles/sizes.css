@@ -79,6 +79,12 @@
   }
 }
 
+@media (min-width: 1025px) and (max-width: 1499px) {
+  .w-50-desktop-medio {
+    width: 50%;
+  }
+}
+
 @media (min-width: 1500px) {
   .w-50-desktop-grande {
     width: 50%;

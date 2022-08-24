@@ -13,11 +13,12 @@ const Content = styled.div`
 
   @media (min-width: 769px) {
     flex-direction: row;
-    padding: 20px 0 50px;
+    padding: 50px 0;
   }
 
-  @media (min-width: 769px) and (max-width: 1024px) {
-    & .corte-exacto-desktop-chico {
+  @media (min-width: 769px) and (max-width: 1499px) {
+    & .corte-exacto-desktop-medio {
+      min-width: 520px;
     }
   }
 
@@ -44,7 +45,7 @@ function Hero() {
   return (
     <Container>
       <Content>
-        <div className="mb-20-mobile corte-exacto-desktop-chico">
+        <div className="mb-20-mobile corte-exacto-desktop-chico corte-exacto-desktop-medio">
           <h1 className="h1-web hero-section-titles-mobile mb-40 mb-20-mobile">
             Expand your
             <CorteDesktop />
