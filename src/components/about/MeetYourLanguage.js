@@ -176,9 +176,12 @@ function MeetYourLanguage() {
               <CorteMobile /> challenges. We can blend linguistic,
               <CorteDesktop />
               <CorteMobile /> technical, marketing and cultural
-              <CorteMobile /> requirements to offer an
-              <CorteDesktop /> optimized
-              <CorteMobile /> translation and localization solution.
+              <CorteMobile /> requirements to offer{" "}
+              <span className="destacado-bold">
+                an
+                <CorteDesktop /> optimized
+                <CorteMobile /> translation and localization solution.
+              </span>
             </p>
             <BotonSecundario>Get in touch</BotonSecundario>
           </div>

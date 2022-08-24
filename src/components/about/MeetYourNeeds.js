@@ -58,7 +58,7 @@ function MeetYourNeeds() {
   return (
     <StyledContainer>
       <Container>
-        <h2 className="h2-mobile h2-web mb-20-mobile mb-40-desktop-chico mb-40 text-left-mobile text-center">
+        <h2 className="h2-mobile h2-web mb-20-mobile mb-40-desktop-chico mb-70 text-left-mobile text-center">
           We can meet <u>your needs.</u>
         </h2>
         <RowDesktop>

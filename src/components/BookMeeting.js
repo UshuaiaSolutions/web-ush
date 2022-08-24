@@ -106,17 +106,19 @@ function BookMeeting() {
                   />
                 </ContainerInput>
                 <ContainerInput className="d-flex flex-column">
-                  <label className="label-form">Country</label>
+                  <label className="label-form">Country *</label>
                   <input className="input-form txt-destacados-alta-mobile texto-regular" />
                 </ContainerInput>
               </ColumnInput>
-              <div className="d-flex flex-column mb-30">
-                <label className="label-form">Select a date</label>
-                <input
-                  type="date"
-                  className="input-form txt-destacados-alta-mobile texto-regular"
-                />
-              </div>
+              <ColumnInput className="d-flex justify-between">
+                <ContainerInput className="d-flex flex-column">
+                  <label className="label-form">Select a date *</label>
+                  <input
+                    type="date"
+                    className="input-form txt-destacados-alta-mobile texto-regular"
+                  />
+                </ContainerInput>
+              </ColumnInput>
               <div className="d-flex flex-column mb-30">
                 <label className="label-form">How can we help?</label>
                 <textarea

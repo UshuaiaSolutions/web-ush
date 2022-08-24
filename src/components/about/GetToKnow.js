@@ -55,11 +55,11 @@ function GetToKnow() {
           <h2 className="h2-mobile h2-web mb-20-mobile">Get to know USH</h2>
           <p className="txt-destacados-alta-mobile destacado-medium mb-40-mobile w-50-desktop-grande w-50-desktop-chico">
             Our strongest trait is teamwork!
-            <CorteMobile /> We encourage <CorteDesktop />
-            positive leadership to
-            <CorteMobile /> motivate our talented professionals to work
-            <CorteMobile /> together as one and
-            <CorteDesktop /> achieve greater goals.
+            <CorteMobile /> We encourage positive
+            <CorteDesktop /> leadership to
+            <CorteMobile /> motivate our talented professionals
+            <CorteDesktop /> to work
+            <CorteMobile /> together as one and achieve greater goals.
           </p>
         </Row>
         <Swiper

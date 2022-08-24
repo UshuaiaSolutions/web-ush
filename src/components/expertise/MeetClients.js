@@ -171,7 +171,7 @@ function MeetClients() {
                 src="/logos/Logo-client.png"
                 alt="Client"
               />
-              <p className="txt-mobile text-left-mobile text-center">
+              <p className="txt-mobile texto-regular text-left-mobile text-center">
                 The World Bank Group is one of the largest international
                 financial institutions. We've been working with the World Bank
                 Group for several years, helping them localize their content.

@@ -5,8 +5,8 @@ import { CorteDesktop, CorteMobile } from "../base/Cortes";
 
 const StyledContainer = styled.div`
   padding: 60px 0;
-  color: ${(props) => props.theme.textonegro};
-  background: ${(props) => props.theme.verdeush};
+  color: ${(props) => props.theme.fondo};
+  background: ${(props) => props.theme.azulush};
   display: flex;
   flex-direction: column;
 
@@ -25,6 +25,7 @@ const StyledContainer = styled.div`
 
 const Dropdown = styled.div`
   background: ${(props) => props.theme.fondo};
+  color: ${(props) => props.theme.textonegro};
   border-radius: 32px;
   padding: 15px 0;
 

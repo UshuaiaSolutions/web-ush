@@ -13,32 +13,32 @@ const Container = styled.div`
   //   transform: translate(-0px, -50%);
   // }
 
-  @media (min-width: 1125px) and (max-width: 1499px) {
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    top: 50%;
-    left: 5%;
-    transform: translate(-0px, -50%);
-  }
+  // @media (min-width: 1125px) and (max-width: 1499px) {
+  //   position: fixed;
+  //   display: flex;
+  //   flex-direction: column;
+  //   top: 50%;
+  //   left: 5%;
+  //   transform: translate(-0px, -50%);
+  // }
 
-  @media (min-width: 1500px) {
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    top: 50%;
-    transform: translate(-0px, -50%);
-    left: 5%;
-  }
+  // @media (min-width: 1500px) {
+  //   position: fixed;
+  //   display: flex;
+  //   flex-direction: column;
+  //   top: 50%;
+  //   transform: translate(-0px, -50%);
+  //   left: 5%;
+  // }
 
-  @media (min-width: 2000px) {
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    top: 50%;
-    transform: translate(-0px, -50%);
-    left: 300px;
-  }
+  // @media (min-width: 2000px) {
+  //   position: fixed;
+  //   display: flex;
+  //   flex-direction: column;
+  //   top: 50%;
+  //   transform: translate(-0px, -50%);
+  //   left: 300px;
+  // }
 `;
 
 function Redes() {

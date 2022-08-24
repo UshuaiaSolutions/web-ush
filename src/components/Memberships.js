@@ -8,7 +8,8 @@ const StyledContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: ${(props) => props.theme.verdeush};
+  background: ${(props) => props.theme.azulush};
+  color: ${(props) => props.theme.fondo};
 
   @media (min-width: 1500px) {
     padding: 100px 0;
