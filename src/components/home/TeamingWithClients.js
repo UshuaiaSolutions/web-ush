@@ -3,10 +3,11 @@ import styled from "styled-components";
 import { Autoplay } from "swiper";
 import "swiper/swiper.min.css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "../styles/slider.css";
-import Container from "./base/Container";
-import BotonSecundario from "./base/BotonSecundario";
-import { CorteDesktop, CorteMobile } from "./base/Cortes";
+import "../../styles/slider.css";
+import Container from "../base/Container";
+import BotonSecundario from "../base/BotonSecundario";
+import { CorteDesktop, CorteMobile } from "../base/Cortes";
+import { Link } from "react-router-dom";
 
 const StyledContainer = styled.div`
   padding: 30px 0px 60px;
@@ -84,7 +85,9 @@ function TeamingWithClients() {
               <CorteMobile />
               <CorteDesktop /> teams. Let us help you too!
             </p>
-            <BotonSecundario>View study cases</BotonSecundario>
+            <Link to="/expertise">
+              <BotonSecundario>View study cases</BotonSecundario>
+            </Link>
           </div>
         </Content>
       </Container>

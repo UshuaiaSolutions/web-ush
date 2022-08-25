@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import BotonPrincipal from "./base/BotonPrincipal";
 import Container from "./base/Container";
@@ -48,7 +49,9 @@ function BookMeetingSmall() {
               Is your request urgent?
               <CorteMobile /> When do you need it?
             </p>
-            <BotonPrincipal>Get in touch</BotonPrincipal>
+            <Link to="/contact">
+              <BotonPrincipal>Get in touch</BotonPrincipal>
+            </Link>
           </div>
         </Column>
       </Container>

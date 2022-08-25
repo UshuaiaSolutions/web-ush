@@ -383,7 +383,7 @@
   margin-bottom: 100px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .mt-0-mobile {
     margin-top: 0px;
   }
@@ -421,11 +421,5 @@
 
   .pt-40-mobile {
     padding-top: 40px;
-  }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-  .mb-40-desktop-chico {
-    margin-bottom: 40px;
   }
 }

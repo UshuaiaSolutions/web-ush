@@ -1,312 +1,312 @@
-.texto-regular {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 20px;
+.hero-section-titles-mobile {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
   letter-spacing: 0em;
 }
 
-.punteo-desktop {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 20px;
+.hero-section-alto-mobile {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 28px;
   letter-spacing: 0em;
-  text-transform: uppercase;
+  text-decoration: underline;
 }
 
-.texto-regular-bold {
-  font-size: 16px;
+.destacados-mobile {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+}
+
+.h1-mobile {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0em;
+}
+
+.h2-mobile {
+  font-size: 20px;
   font-weight: 600;
   line-height: 24px;
   letter-spacing: 0em;
 }
 
-.texto-negro {
-  color: #393939;
-}
-
-.h1-web {
-  font-size: 56px;
-  font-weight: 800;
-  line-height: 64px;
-  letter-spacing: 0em;
-}
-
-.h1-web-sub {
-  font-size: 56px;
-  font-weight: 800;
-  line-height: 64px;
-  letter-spacing: 0em;
-  text-decoration: underline;
-}
-
-.destacado-bold {
-  font-size: 24px;
+.h3-mobile {
+  font-size: 16px;
   font-weight: 700;
-  line-height: 28px;
+  line-height: 19px;
   letter-spacing: 0em;
 }
 
-.destacado-regular {
-  font-size: 24px;
+.txt-mobile {
+  font-size: 10px;
   font-weight: 400;
-  line-height: 32px;
+  line-height: 12px;
   letter-spacing: 0em;
+  text-align: left;
 }
 
-.destacado-italic {
-  font-size: 24px;
-  font-style: italic;
-  font-weight: 600;
-  line-height: 32px;
-  letter-spacing: 0em;
-}
-
-.destacado-medium {
-  font-size: 24px;
+.txt-minimo-mobile {
+  font-size: 10px;
   font-weight: 500;
-  line-height: 32px;
+  line-height: 14px;
   letter-spacing: 0em;
 }
 
-.destacado-alta {
-  font-size: 24px;
+.txt-regular-mobile {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+}
+
+.txt-destacados-alta-mobile {
+  font-size: 12px;
   font-weight: 500;
-  line-height: 28px;
-  letter-spacing: 0em;
-  text-transform: uppercase;
-}
-
-.dropdown-title-web {
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 28px;
+  line-height: 16px;
   letter-spacing: 0em;
 }
 
-.h3-web {
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 40px;
+.extra-dest-mobile {
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 16px;
+  text-transform: none;
   letter-spacing: 0em;
 }
 
-.destacado-item {
-  font-size: 32px;
-  font-weight: 600;
-  line-height: 38px;
+.label-form {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
   letter-spacing: 0em;
-}
-
-.h3-mayus {
-  font-size: 32px;
-  font-weight: 600;
-  line-height: 40px;
-  text-transform: uppercase;
-  letter-spacing: 0em;
-}
-
-.h2-web {
-  font-size: 48px;
-  font-weight: 600;
-  line-height: 56px;
-  letter-spacing: 0em;
-}
-
-.input-form {
-  background: #f6f3e8;
-  border: 3px solid #393939;
-  border-radius: 8px;
-  height: 27px;
-  padding: 8px;
-  font-family: "Poppins", sans-serif;
 }
 
 .input-form,
 .input-form:focus,
 .input-form:focus-visible {
+  padding: 4px;
+  border: 2px solid #393939;
+  height: calc(31px - 8px);
   outline: none;
-}
-
-.textarea-form {
-  font-family: "Poppins", sans-serif;
-  background: #f6f3e8;
-  border: 3px solid #393939;
-  border-radius: 8px;
-  height: 296px;
-  padding: 8px;
 }
 
 .textarea-form,
 .textarea-form:focus,
 .textarea-form:focus-visible {
+  padding: 4px;
+  border: 2px solid #393939;
+  height: calc(160px - 8px);
   outline: none;
 }
 
-.label-form {
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 20px;
-  letter-spacing: 0em;
-}
-
 .scroll-to-top {
-  font-size: 16px;
+  font-size: 10px !important;
+  font-weight: 400 !important;
+  line-height: 12px !important;
+  letter-spacing: 0em !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.resaltado-mobile {
+  text-shadow: #72f285 1px 1px 1px;
+}
+
+.destacados-semibold-mobile {
+  font-size: 12px;
   font-weight: 600;
-  line-height: 24px;
+  line-height: 16px;
   letter-spacing: 0em;
-  color: #393939;
-  position: initial !important;
-  border: none !important;
-  box-shadow: none !important;
-  width: 100% !important;
-  background-color: #f6f3e8 !important;
 }
 
-.resaltado {
-  text-shadow: #72f285 1px 1px 1px;
+.destacados-italic-mobile {
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
 }
 
-.resaltado-underline {
-  text-shadow: #72f285 1px 1px 1px;
+.underline-mobile {
   text-decoration: underline;
 }
 
-@media (max-width: 1024px) {
-  .hero-section-titles-mobile {
-    font-size: 24px;
-    font-weight: 700;
+@media (min-width: 1125px) {
+  .texto-regular {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+  }
+
+  .punteo-desktop {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+  }
+
+  .texto-regular-bold {
+    font-size: 16px;
+    font-weight: 600;
     line-height: 24px;
     letter-spacing: 0em;
   }
 
-  .hero-section-alto-mobile {
-    font-size: 24px;
+  .texto-negro {
+    color: #393939;
+  }
+
+  .h1-web {
+    font-size: 56px;
     font-weight: 800;
-    line-height: 28px;
+    line-height: 64px;
+    letter-spacing: 0em;
+  }
+
+  .h1-web-sub {
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 64px;
     letter-spacing: 0em;
     text-decoration: underline;
   }
 
-  .destacados-mobile {
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 16px;
-    letter-spacing: 0em;
-  }
-
-  .h1-mobile {
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 14px;
-    letter-spacing: 0em;
-  }
-
-  .h2-mobile {
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 24px;
-    letter-spacing: 0em;
-  }
-
-  .h3-mobile {
-    font-size: 16px;
+  .destacado-bold {
+    font-size: 24px;
     font-weight: 700;
-    line-height: 19px;
+    line-height: 28px;
     letter-spacing: 0em;
   }
 
-  .txt-mobile {
-    font-size: 10px;
+  .destacado-regular {
+    font-size: 24px;
     font-weight: 400;
-    line-height: 12px;
+    line-height: 32px;
     letter-spacing: 0em;
-    text-align: left;
   }
 
-  .txt-minimo-mobile {
-    font-size: 10px;
+  .destacado-italic {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+  }
+
+  .destacado-medium {
+    font-size: 24px;
     font-weight: 500;
-    line-height: 14px;
+    line-height: 32px;
     letter-spacing: 0em;
   }
 
-  .txt-regular-mobile {
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 16px;
-    letter-spacing: 0em;
-  }
-
-  .txt-destacados-alta-mobile {
-    font-size: 12px;
+  .destacado-alta {
+    font-size: 24px;
     font-weight: 500;
-    line-height: 16px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+  }
+
+  .dropdown-title-web {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
     letter-spacing: 0em;
   }
 
-  .extra-dest-mobile {
-    font-size: 12px;
-    font-weight: 800;
-    line-height: 16px;
-    text-transform: none;
+  .h3-web {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
     letter-spacing: 0em;
   }
 
-  .label-form {
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 16px;
+  .destacado-item {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
     letter-spacing: 0em;
+  }
+
+  .h3-mayus {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 0em;
+  }
+
+  .h2-web {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+  }
+
+  .input-form {
+    background: #f6f3e8;
+    border: 3px solid #393939;
+    border-radius: 8px;
+    height: 27px;
+    padding: 8px;
+    font-family: "Poppins", sans-serif;
   }
 
   .input-form,
   .input-form:focus,
   .input-form:focus-visible {
-    padding: 4px;
-    border: 2px solid #393939;
-    height: calc(31px - 8px);
     outline: none;
+  }
+
+  .textarea-form {
+    font-family: "Poppins", sans-serif;
+    background: #f6f3e8;
+    border: 3px solid #393939;
+    border-radius: 8px;
+    height: 296px;
+    padding: 8px;
   }
 
   .textarea-form,
   .textarea-form:focus,
   .textarea-form:focus-visible {
-    padding: 4px;
-    border: 2px solid #393939;
-    height: calc(160px - 8px);
     outline: none;
   }
 
-  .scroll-to-top {
-    font-size: 10px !important;
-    font-weight: 400 !important;
-    line-height: 12px !important;
-    letter-spacing: 0em !important;
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
+  .label-form {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
   }
 
-  .resaltado-mobile {
+  .scroll-to-top {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #393939;
+    position: initial !important;
+    border: none !important;
+    box-shadow: none !important;
+    width: 100% !important;
+    background-color: #f6f3e8 !important;
+  }
+
+  .resaltado {
     text-shadow: #72f285 1px 1px 1px;
   }
 
-  .destacados-semibold-mobile {
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 16px;
-    letter-spacing: 0em;
-  }
-
-  .destacados-italic-mobile {
-    font-size: 12px;
-    font-style: italic;
-    font-weight: 600;
-    line-height: 16px;
-    letter-spacing: 0em;
-  }
-
-  .underline-mobile {
+  .resaltado-underline {
+    text-shadow: #72f285 1px 1px 1px;
     text-decoration: underline;
   }
 }

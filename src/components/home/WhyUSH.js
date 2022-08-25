@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
-import BotonSecundario from "./base/BotonSecundario";
-import Container from "./base/Container";
-import { CorteDesktop, CorteMobile } from "./base/Cortes";
+import BotonSecundario from "../base/BotonSecundario";
+import Container from "../base/Container";
+import { CorteDesktop, CorteMobile } from "../base/Cortes";
 
 const StyledContainer = styled.div`
   padding: 60px 0;
@@ -133,7 +134,9 @@ function WhyUSH() {
               </p>
             </Reverse>
 
-            <BotonSecundario>Meet USH team</BotonSecundario>
+            <Link to="/about">
+              <BotonSecundario>Meet USH team</BotonSecundario>
+            </Link>
           </div>
         </Content>
       </Container>

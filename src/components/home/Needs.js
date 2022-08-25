@@ -3,22 +3,23 @@ import styled from "styled-components";
 import { Pagination } from "swiper";
 import "swiper/swiper.min.css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "../styles/slider.css";
-import Container from "./base/Container";
-import BotonSecundario from "./base/BotonSecundario";
-import { CorteDesktop, CorteMobile } from "./base/Cortes";
+import "../../styles/slider.css";
+import Container from "../base/Container";
+import BotonSecundario from "../base/BotonSecundario";
+import { CorteDesktop, CorteMobile } from "../base/Cortes";
+import { Link } from "react-router-dom";
 
 const StyledContainer = styled.div`
-  padding: 100px 0;
+  padding: 30px 0px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: ${(props) => props.theme.textonegro};
-  width: 100%;
   color: ${(props) => props.theme.fondo};
 
-  @media (max-width: 768px) {
-    padding: 30px 0px;
+  @media (min-width: 769px) {
+    padding: 100px 0;
     width: 100%;
   }
 `;
@@ -36,28 +37,17 @@ const Card = styled.div`
   flex-direction: column;
   align-items: center;
 
-  @media (min-width: 769px) and (max-width: 1024px) {
+  // ACA VA TABLET (DE A UNO COMO ABOUT)
+  @media (min-width: 769px) and (max-width: 1124px) {
     border: 3px solid ${(props) => props.theme.textonegro};
     border-radius: 32px;
     width: calc(232px - 20px - 8px);
     padding: 55px 10px 75px;
   }
 
-  @media (min-width: 1025px) and (max-width: 1499px) {
-    height: calc(384px - 96px);
-    width: 316px;
-    border: 3px solid ${(props) => props.theme.textonegro};
-    padding: 96px 0 0;
-
-    & p {
-      padding-right: 5px;
-      padding-left: 5px;
-    }
-  }
-
-  @media (min-width: 1500px) {
-    height: calc(384px - 96px);
-    width: 336px;
+  @media (min-width: 1125px) {
+    height: calc(384px - 96px - 6px);
+    width: calc(342px - 6px);
     border: 3px solid ${(props) => props.theme.textonegro};
     padding: 96px 0 0;
   }
@@ -202,7 +192,7 @@ function Needs() {
                 <Icon src="/icons/needs-1.png" alt="icon" />
               </Circle>
               <h3 className="h3-web h3-mobile mb-30">Language services</h3>
-              <p className="texto-regular txt-minimo-mobile px-15">
+              <p className="texto-regular txt-minimo-mobile">
                 Translation, localization,
                 <CorteDesktop /> transcreation, review and more.
                 <CorteDesktop /> We provide customized multilingual
@@ -215,7 +205,7 @@ function Needs() {
                 <Icon src="/icons/needs-2.png" alt="icon" />
               </Circle>
               <h3 className="h3-web h3-mobile mb-30">Content creation</h3>
-              <p className="texto-regular txt-minimo-mobile px-15">
+              <p className="texto-regular txt-minimo-mobile">
                 Our creative team can help
                 <CorteDesktop /> you boost your marketing strategy.
                 <CorteDesktop /> We can work together with your staff
@@ -229,7 +219,7 @@ function Needs() {
                 <Icon src="/icons/needs-3.png" alt="icon" />
               </Circle>
               <h3 className="h3-web h3-mobile mb-30">Know - how</h3>
-              <p className="texto-regular txt-minimo-mobile px-15">
+              <p className="texto-regular txt-minimo-mobile">
                 You can trust our team to steer
                 <CorteDesktop /> your project from start to finish.
                 <CorteDesktop /> Our translators, designers and IT
@@ -239,7 +229,9 @@ function Needs() {
               </p>
             </Card>
           </ContentDesktop>
-          <BotonSecundario>Explore USH</BotonSecundario>
+          <Link to="/services">
+            <BotonSecundario>Explore USH</BotonSecundario>
+          </Link>
         </div>
       </Container>
     </StyledContainer>

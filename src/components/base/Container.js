@@ -6,21 +6,16 @@ const StyledContainer = styled.div`
   margin: 0 auto;
   width: 276px;
 
-  @media (min-width: 769px) and (max-width: 1024px) {
+  // TABLET
+  @media (min-width: 769px) and (max-width: 1124px) {
     padding: 0 40px;
     width: calc(100% - 80px);
   }
 
-  @media (min-width: 1025px) and (max-width: 1499px) {
+  // PC
+  @media (min-width: 1125px) {
     margin: 0 auto;
-    max-width: 1100px;
-    padding: 0;
-    width: 92%;
-  }
-
-  @media (min-width: 1500px) {
-    margin: 0 auto;
-    width: 1250px;
+    width: 1089px;
   }
 `;
 

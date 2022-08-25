@@ -56,9 +56,9 @@ const ColumnInput = styled.div`
   }
 `;
 
-function BookMeeting() {
+const BookMeeting = () => {
   return (
-    <StyledContainer>
+    <StyledContainer id="contact">
       <Container>
         <MediaContainer className="d-flex justify-between">
           <FirstContainer className="d-flex flex-column">
@@ -134,6 +134,6 @@ function BookMeeting() {
       </Container>
     </StyledContainer>
   );
-}
+};
 
 export default BookMeeting;

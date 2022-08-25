@@ -1,4 +1,5 @@
 import React from "react";
+import { HashLink } from "react-router-hash-link";
 import styled from "styled-components";
 import BotonSecundario from "../base/BotonSecundario";
 import Container from "../base/Container";
@@ -183,7 +184,9 @@ function MeetYourLanguage() {
                 <CorteMobile /> translation and localization solution.
               </span>
             </p>
-            <BotonSecundario>Get in touch</BotonSecundario>
+            <HashLink smooth to="/about#contact">
+              <BotonSecundario>Get in touch</BotonSecundario>
+            </HashLink>
           </div>
           <Image src="/illustration-why.png" alt="hero illustration" />
         </Column>

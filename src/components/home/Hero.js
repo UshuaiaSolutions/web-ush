@@ -1,8 +1,9 @@
 import React from "react";
+import { HashLink } from "react-router-hash-link";
 import styled from "styled-components";
-import BotonSecundario from "./base/BotonSecundario";
-import Container from "./base/Container";
-import { CorteDesktop, CorteMobile } from "./base/Cortes";
+import BotonSecundario from "../base/BotonSecundario";
+import Container from "../base/Container";
+import { CorteDesktop, CorteMobile } from "../base/Cortes";
 
 const Content = styled.div`
   display: flex;
@@ -11,37 +12,40 @@ const Content = styled.div`
   flex-direction: column;
   padding: 60px 0;
 
-  @media (min-width: 769px) {
+  @media (min-width: 769px) and (max-width: 1124px) {
     flex-direction: row;
     padding: 50px 0;
-  }
 
-  @media (min-width: 769px) and (max-width: 1499px) {
     & .corte-exacto-desktop-medio {
-      min-width: 520px;
+      width: 50%;
     }
   }
 
-  @media (min-width: 1500px) {
+  @media (min-width: 1125px) {
+    flex-direction: row;
     padding: 100px 0;
+
+    & .corte-exacto-desktop-medio {
+      min-width: 507px;
+    }
   }
 `;
 
 const Image = styled.img`
-  max-width: 50%;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
 
-  @media (min-width: 769px) and (max-width: 1024px) {
+  @media (min-width: 769px) and (max-width: 1124px) {
     width: 50%;
   }
 
-  @media (max-width: 768px) {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
+  @media (min-width: 1125px) {
+    width: 50%;
   }
 `;
 
-function Hero() {
+const Hero = () => {
   return (
     <Container>
       <Content>
@@ -61,12 +65,14 @@ function Hero() {
               <CorteMobile /> international markets.
             </span>
           </p>
-          <BotonSecundario>Get in touch</BotonSecundario>
+          <HashLink smooth to="/#contact">
+            <BotonSecundario>Get in touch</BotonSecundario>
+          </HashLink>
         </div>
         <Image src="/hero-image.png" alt="hero illustration" />
       </Content>
     </Container>
   );
-}
+};
 
 export default Hero;

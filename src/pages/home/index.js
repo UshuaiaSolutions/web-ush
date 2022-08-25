@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 import BookMeeting from "../../components/BookMeeting";
-import Hero from "../../components/Hero";
+import Hero from "../../components/home/Hero";
 import Memberships from "../../components/Memberships";
-import Needs from "../../components/Needs";
-import TeamingWithClients from "../../components/TeamingWithClients";
-import WhyUSH from "../../components/WhyUSH";
+import Needs from "../../components/home/Needs";
+import TeamingWithClients from "../../components/home/TeamingWithClients";
+import WhyUSH from "../../components/home/WhyUSH";
 
 const Background = styled.div`
   background-color: ${(props) => props.theme.fondo};
