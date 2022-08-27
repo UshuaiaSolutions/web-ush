@@ -8,8 +8,9 @@ const StyledContainer = styled.div`
 
   // TABLET
   @media (min-width: 769px) and (max-width: 1124px) {
-    padding: 0 40px;
-    width: calc(100% - 80px);
+    min-width: 680px;
+    width: 80%;
+    max-width: 1089px;
   }
 
   // PC

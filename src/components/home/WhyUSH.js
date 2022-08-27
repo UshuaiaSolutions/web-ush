@@ -104,13 +104,13 @@ function WhyUSH() {
 
             <Reverse>
               <Areas>
-                <p className="extra-dest-mobile h3-mayus resaltado-underline mb-20">
+                <p className="extra-dest-mobile h3-mayus resaltado-underline resaltado-underline-mobile mb-20">
                   Experience
                 </p>
-                <p className="extra-dest-mobile h3-mayus resaltado-underline mb-20">
+                <p className="extra-dest-mobile h3-mayus resaltado-underline resaltado-underline-mobile mb-20">
                   Innovation
                 </p>
-                <p className="extra-dest-mobile h3-mayus resaltado-underline mb-40">
+                <p className="extra-dest-mobile h3-mayus resaltado-underline resaltado-underline-mobile mb-40">
                   Team work
                 </p>
               </Areas>

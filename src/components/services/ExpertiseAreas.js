@@ -10,15 +10,7 @@ const StyledContainer = styled.div`
   display: flex;
   flex-direction: column;
 
-  @media (min-width: 769px) and (max-width: 1024px) {
-    padding: 60px 0;
-  }
-
-  @media (min-width: 1025px) {
-    padding: 200px 0 160px;
-  }
-
-  @media (min-width: 1500px) {
+  @media (min-width: 769px) {
     padding: 100px 0;
   }
 `;
@@ -40,11 +32,7 @@ const Column = styled.div`
 const Row = styled.div`
   display: flex;
 
-  @media (min-width: 769px) and (max-width: 1024px) {
-    margin-bottom: 10px;
-  }
-
-  @media (min-width: 1025px) {
+  @media (min-width: 769px) {
     margin-bottom: 40px;
   }
 `;
@@ -55,7 +43,7 @@ const Image = styled.img`
   margin-right: 19px;
   margin-top: 2px;
 
-  @media (min-width: 1025px) {
+  @media (min-width: 1125px) {
     width: 24px;
     height: 24px;
     margin-top: 5px;
@@ -63,16 +51,21 @@ const Image = styled.img`
 `;
 
 const DesktopRow = styled.div`
-  @media (min-width: 769px) and (max-width: 1024px) {
+  @media (min-width: 769px) {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 0px;
+    margin-bottom: 70px;
+
+    .exacto-desktop {
+      max-width: 400px;
+      width: 50%;
+    }
   }
 
-  @media (min-width: 1025px) {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 100px;
+  @media (min-width: 1125px) {
+    .exacto-desktop {
+      width: 541px;
+    }
   }
 `;
 
@@ -84,7 +77,7 @@ function ExpertiseAreas() {
           <h2 className="h2-mobile h2-web mb-20-mobile">
             <u>Expertise areas</u>
           </h2>
-          <p className="txt-regular-mobile destacado-medium mb-40-mobile w-50-desktop-grande w-50-desktop-chico">
+          <p className="txt-regular-mobile destacado-medium mb-40-mobile exacto-desktop">
             With over 20 years' experience, we've
             <CorteMobile />
             <CorteDesktop /> managed to select and train highly skilled
@@ -95,25 +88,25 @@ function ExpertiseAreas() {
         <Column>
           <Row>
             <Image src="/icons/check.png" alt="Checked" />
-            <h3 className="txt-destacados-alta-mobile destacado-alta mb-15-mobile">
+            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
               Cloud Computing
             </h3>
           </Row>
           <Row>
             <Image src="/icons/check.png" alt="Checked" />
-            <h3 className="txt-destacados-alta-mobile destacado-alta mb-15-mobile">
+            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
               Artificial Intelligence
             </h3>
           </Row>
           <Row>
             <Image src="/icons/check.png" alt="Checked" />
-            <h3 className="txt-destacados-alta-mobile destacado-alta mb-15-mobile">
+            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
               Retail and e-Commerce
             </h3>
           </Row>
           <Row>
             <Image src="/icons/check.png" alt="Checked" />
-            <h3 className="txt-destacados-alta-mobile destacado-alta mb-15-mobile">
+            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
               Enterprise software
               <CorteMobile />
               <CorteDesktop /> (ERP, CMS, HCM)
@@ -121,26 +114,26 @@ function ExpertiseAreas() {
           </Row>
           <Row>
             <Image src="/icons/check.png" alt="Checked" />
-            <h3 className="txt-destacados-alta-mobile destacado-alta mb-15-mobile">
+            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
               Industrial Automation
             </h3>
           </Row>
           <Row>
             <Image src="/icons/check.png" alt="Checked" />
-            <h3 className="txt-destacados-alta-mobile destacado-alta mb-15-mobile">
+            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
               Healthcare and
               <CorteMobile /> Life Sciences
             </h3>
           </Row>
           <Row>
             <Image src="/icons/check.png" alt="Checked" />
-            <h3 className="txt-destacados-alta-mobile destacado-alta mb-15-mobile">
+            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
               Industry and Logistics
             </h3>
           </Row>
           <Row>
             <Image src="/icons/check.png" alt="Checked" />
-            <h3 className="txt-destacados-alta-mobile destacado-alta mb-15-mobile">
+            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
               Finance, Business
               <CorteMobile />
               <CorteDesktop /> and Banking
@@ -148,13 +141,13 @@ function ExpertiseAreas() {
           </Row>
           <Row>
             <Image src="/icons/check.png" alt="Checked" />
-            <h3 className="txt-destacados-alta-mobile destacado-alta mb-15-mobile">
+            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
               Insurance and Legal
             </h3>
           </Row>
           <Row>
             <Image src="/icons/check.png" alt="Checked" />
-            <h3 className="txt-destacados-alta-mobile destacado-alta mb-15-mobile">
+            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
               Marketing and
               <CorteMobile />
               <CorteDesktop /> Human Resources
@@ -162,7 +155,7 @@ function ExpertiseAreas() {
           </Row>
           <Row>
             <Image src="/icons/check.png" alt="Checked" />
-            <h3 className="txt-destacados-alta-mobile destacado-alta mb-15-mobile">
+            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
               Mechanical, Automotive
               <CorteMobile />
               <CorteDesktop /> and Heavy Machinery
@@ -170,13 +163,13 @@ function ExpertiseAreas() {
           </Row>
           <Row>
             <Image src="/icons/check.png" alt="Checked" />
-            <h3 className="txt-destacados-alta-mobile destacado-alta mb-15-mobile">
+            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
               Tourism, Hotels and Leisure
             </h3>
           </Row>
           <Row>
             <Image src="/icons/check.png" alt="Checked" />
-            <h3 className="txt-destacados-alta-mobile destacado-alta mb-15-mobile">
+            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
               Fitness, Cosmetics and
               <CorteMobile />
               <CorteDesktop /> Beauty Products
@@ -184,7 +177,7 @@ function ExpertiseAreas() {
           </Row>
           <Row>
             <Image src="/icons/check.png" alt="Checked" />
-            <h3 className="txt-destacados-alta-mobile destacado-alta mb-15-mobile">
+            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
               Arts and Design
             </h3>
           </Row>

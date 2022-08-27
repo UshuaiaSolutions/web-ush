@@ -1,60 +1,15 @@
 import React from "react";
-import styled from "styled-components";
 import BotonPrincipal from "./base/BotonPrincipal";
 import Container from "./base/Container";
 import { CorteDesktop, CorteMobile } from "./base/Cortes";
-
-const StyledContainer = styled.div`
-  background: ${(props) => props.theme.rosaush};
-  width: 100%;
-  padding: 45px 0;
-
-  @media (min-width: 1025px) {
-    padding: 90px 0;
-  }
-
-  @media (min-width: 1500px) {
-    padding: 100px 0;
-  }
-`;
-
-const MediaContainer = styled.div`
-  @media (max-width: 768px) {
-    flex-direction: column;
-  }
-`;
-
-const FirstContainer = styled.div`
-  @media (max-width: 768px) {
-    width: 100%;
-  }
-`;
-
-const SecondContainer = styled.div`
-  width: 50%;
-
-  @media (max-width: 768px) {
-    width: 100%;
-  }
-`;
-
-const ContainerInput = styled.div`
-  width: 48%;
-
-  @media (max-width: 768px) {
-    width: 100%;
-    margin-bottom: 30px;
-  }
-`;
-
-const ColumnInput = styled.div`
-  margin-bottom: 30px;
-
-  @media (max-width: 768px) {
-    flex-direction: column;
-    margin-bottom: 0;
-  }
-`;
+import {
+  StyledContainer,
+  MediaContainer,
+  FirstContainer,
+  SecondContainer,
+  ColumnInput,
+  ContainerInput,
+} from "./BookMeetingComp";
 
 const BookMeeting = () => {
   return (

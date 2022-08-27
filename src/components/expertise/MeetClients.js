@@ -1,88 +1,11 @@
 import React from "react";
-import styled from "styled-components";
-import { Pagination } from "swiper";
+import { Autoplay } from "swiper";
 import "swiper/swiper.min.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "../../styles/slider.css";
 import Container from "../base/Container";
 import { CorteDesktop, CorteMobile } from "../base/Cortes";
-
-const StyledContainer = styled.div`
-  padding: 30px 0 70px;
-  color: ${(props) => props.theme.textonegro};
-  background: ${(props) => props.theme.fondo};
-  display: flex;
-  flex-direction: column;
-
-  @media (min-width: 1500px) {
-    padding: 100px 0;
-  }
-`;
-
-const ContainerSwiper = styled.div`
-  display: none;
-
-  @media (max-width: 768px) {
-    display: block;
-    width: 100%;
-  }
-`;
-
-const Card = styled.div`
-  background: ${(props) => props.theme.fondo};
-  border: 2px solid ${(props) => props.theme.textonegro};
-  border-radius: 21px;
-  padding: 32px 24px;
-  width: calc(178px - 48px);
-  height: auto;
-  color: ${(props) => props.theme.textonegro};
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  @media (min-width: 769px) {
-    border: 3px solid ${(props) => props.theme.textonegro};
-    border-radius: 32px;
-    padding: 0 30px;
-    height: 415px;
-    width: calc(513px - 60px - 6px);
-    display: flex;
-    justify-content: center;
-  }
-
-  @media (min-width: 769px) and (max-width: 1024px) {
-    border: 3px solid ${(props) => props.theme.textonegro};
-    border-radius: 32px;
-    padding: 0 20px;
-    height: 300px;
-    width: calc(398px - 40px - 6px);
-    display: flex;
-    justify-content: center;
-  }
-`;
-
-const ContainerDesktop = styled.div`
-  display: none;
-  @media (min-width: 769px) {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-  }
-`;
-
-const Column = styled.div`
-  display: none;
-  @media (min-width: 769px) {
-    display: block;
-  }
-`;
-
-const Logo = styled.img`
-  @media (min-width: 769px) {
-    height: auto;
-    width: 232px;
-  }
-`;
+import { StyledContainer } from "./MeetClientsComp";
 
 function MeetClients() {
   return (
@@ -97,7 +20,8 @@ function MeetClients() {
           <CorteDesktop /> in-house
           <CorteMobile /> teams. We can help you too!
         </p>
-        <ContainerSwiper className="mb-40">
+        <>
+          {/* <ContainerSwiper className="mb-40">
           <Swiper
             slidesPerView={"auto"}
             spaceBetween={0}
@@ -147,8 +71,8 @@ function MeetClients() {
               </Card>
             </SwiperSlide>
           </Swiper>
-        </ContainerSwiper>
-        <ContainerDesktop>
+        </ContainerSwiper> */}
+          {/* <ContainerDesktop>
           <Column>
             <p className="punteo-desktop mb-15">The World Bank Group</p>
             <p className="punteo-desktop mb-15">Ericsson</p>
@@ -164,7 +88,7 @@ function MeetClients() {
             <p className="punteo-desktop mb-15">Pivotal</p>
             <p className="punteo-desktop">LivePerson</p>
           </Column>
-          <div className="w-50-desktop-grande">
+           <div>
             <Card>
               <Logo
                 className="mb-20-mobile mb-40"
@@ -177,8 +101,32 @@ function MeetClients() {
                 Group for several years, helping them localize their content.
               </p>
             </Card>
-          </div>
-        </ContainerDesktop>
+          </div> 
+        </ContainerDesktop>*/}
+        </>
+
+        <Swiper
+          spaceBetween={30}
+          slidesPerView={3}
+          centeredSlides={true}
+          loop={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          modules={[Autoplay]}
+          className="mySwiper"
+        >
+          <SwiperSlide>
+            <img className="clients" src="/slider/primero.png" alt="brands" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img className="clients" src="/slider/primero.png" alt="brands" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img className="clients" src="/slider/primero.png" alt="brands" />
+          </SwiperSlide>
+        </Swiper>
       </Container>
     </StyledContainer>
   );

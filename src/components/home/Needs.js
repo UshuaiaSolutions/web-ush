@@ -1,5 +1,4 @@
 import React from "react";
-import styled from "styled-components";
 import { Pagination } from "swiper";
 import "swiper/swiper.min.css";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -7,121 +6,21 @@ import "../../styles/slider.css";
 import Container from "../base/Container";
 import BotonSecundario from "../base/BotonSecundario";
 import { CorteDesktop, CorteMobile } from "../base/Cortes";
-import { Link } from "react-router-dom";
-
-const StyledContainer = styled.div`
-  padding: 30px 0px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: ${(props) => props.theme.textonegro};
-  color: ${(props) => props.theme.fondo};
-
-  @media (min-width: 769px) {
-    padding: 100px 0;
-    width: 100%;
-  }
-`;
-
-const Card = styled.div`
-  position: relative;
-  background: ${(props) => props.theme.fondo};
-  border: 2px solid ${(props) => props.theme.textonegro};
-  border-radius: 32px;
-  color: ${(props) => props.theme.textonegro};
-  text-align: center;
-  padding: 40px 0 30px;
-  width: calc(178px - 4px);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  // ACA VA TABLET (DE A UNO COMO ABOUT)
-  @media (min-width: 769px) and (max-width: 1124px) {
-    border: 3px solid ${(props) => props.theme.textonegro};
-    border-radius: 32px;
-    width: calc(232px - 20px - 8px);
-    padding: 55px 10px 75px;
-  }
-
-  @media (min-width: 1125px) {
-    height: calc(384px - 96px - 6px);
-    width: calc(342px - 6px);
-    border: 3px solid ${(props) => props.theme.textonegro};
-    padding: 96px 0 0;
-  }
-`;
-
-const Circle = styled.div`
-  top: -60px;
-  right: 110px;
-  position: absolute;
-  width: 114px;
-  height: 114px;
-  border: 3px solid ${(props) => props.theme.textonegro};
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: ${(props) => props.theme.fondo};
-
-  @media (min-width: 769px) and (max-width: 1024px) {
-    top: -30px;
-    right: 80px;
-    width: calc(56px - 4px);
-    height: calc(56px - 4px);
-  }
-
-  @media (max-width: 768px) {
-    width: calc(56px - 4px);
-    height: calc(56px - 4px);
-    top: -30px;
-    right: 55px;
-  }
-`;
-
-const Icon = styled.img`
-  width: 68px;
-  height: 68px;
-
-  @media (max-width: 1024px) {
-    width: 40px;
-    height: 40px;
-  }
-`;
-
-const ContainerSwiper = styled.div`
-  margin: 0px 0 20px;
-  display: block;
-  width: 100%;
-
-  @media (min-width: 769px) and (max-width: 1024px) {
-    height: 300px;
-  }
-
-  @media (min-width: 1025px) {
-    display: none;
-  }
-`;
-
-const ContentDesktop = styled.div`
-  display: none;
-
-  @media (min-width: 1025px) {
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly;
-    margin: 64px 0;
-  }
-`;
+import {
+  Card,
+  Circle,
+  ContainerDesktop,
+  ContainerSwiper,
+  Icon,
+} from "../contacto/WhyUshComp";
+import { StyledContainer, StyledLink } from "./NeedsComp";
 
 function Needs() {
   return (
     <StyledContainer>
       <Container>
         <div className="d-flex flex-column align-center">
-          <h2 className="h2-web h2-mobile mb-60 mb-20-mobile">
+          <h2 className="h2-web h2-mobile">
             We can meet <u>your needs</u>
           </h2>
           <ContainerSwiper>
@@ -186,7 +85,7 @@ function Needs() {
               </SwiperSlide>
             </Swiper>
           </ContainerSwiper>
-          <ContentDesktop>
+          <ContainerDesktop>
             <Card>
               <Circle>
                 <Icon src="/icons/needs-1.png" alt="icon" />
@@ -228,10 +127,10 @@ function Needs() {
                 <CorteDesktop /> best practices and industry standards.
               </p>
             </Card>
-          </ContentDesktop>
-          <Link to="/services">
+          </ContainerDesktop>
+          <StyledLink to="/services">
             <BotonSecundario>Explore USH</BotonSecundario>
-          </Link>
+          </StyledLink>
         </div>
       </Container>
     </StyledContainer>

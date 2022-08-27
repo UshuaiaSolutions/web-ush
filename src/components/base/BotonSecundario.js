@@ -13,31 +13,25 @@ const StyledBoton = styled.button`
   width: 100%;
   border: 2px solid ${(props) => props.theme.textonegro};
   border-radius: 60px;
+  text-decoration: none;
 
   &:hover {
     background-color: ${(props) => props.theme.rosaush};
-    box-shadow: inset 8px 8px 4px rgba(57, 57, 57, 0.4);
+    box-shadow: inset 6px 6px 4px rgba(57, 57, 57, 0.4);
   }
 
-  @media (min-width: 769px) and (max-width: 1024px) {
-    padding: 10px 40px;
+  @media (min-width: 769px) {
     width: fit-content;
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 16px;
-    letter-spacing: 0em;
-    border: 2px solid ${(props) => props.theme.textonegro};
-    border-radius: 60px;
+    padding: 8px 40px;
   }
 
-  @media (min-width: 1025px) {
+  @media (min-width: 1125px) {
     padding: 18px 48px;
     width: fit-content;
     font-weight: 700;
     font-size: 24px;
     line-height: 36px;
     border: 4px solid ${(props) => props.theme.textonegro};
-    border-radius: 60px;
   }
 `;
 

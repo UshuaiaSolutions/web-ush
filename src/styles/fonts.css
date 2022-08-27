@@ -70,6 +70,14 @@
   letter-spacing: 0em;
 }
 
+.destacados-alta-mobile {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+}
+
 .extra-dest-mobile {
   font-size: 12px;
   font-weight: 800;
@@ -92,6 +100,7 @@
   border: 2px solid #393939;
   height: calc(31px - 8px);
   outline: none;
+  border-radius: 8px;
 }
 
 .textarea-form,
@@ -101,6 +110,7 @@
   border: 2px solid #393939;
   height: calc(160px - 8px);
   outline: none;
+  border-radius: 8px;
 }
 
 .scroll-to-top {
@@ -115,6 +125,11 @@
 
 .resaltado-mobile {
   text-shadow: #72f285 1px 1px 1px;
+}
+
+.resaltado-underline-mobile {
+  text-shadow: #72f285 1px 1px 1px;
+  text-decoration: underline;
 }
 
 .destacados-semibold-mobile {
@@ -289,11 +304,11 @@
   }
 
   .scroll-to-top {
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 24px;
-    letter-spacing: 0em;
-    color: #393939;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    line-height: 24px !important;
+    letter-spacing: 0em !important;
+    color: #393939 !important;
     position: initial !important;
     border: none !important;
     box-shadow: none !important;

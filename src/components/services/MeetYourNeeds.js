@@ -1,40 +1,7 @@
 import React from "react";
-import styled from "styled-components";
 import Container from "../base/Container";
 import { CorteDesktop, CorteMobile } from "../base/Cortes";
-
-const StyledContainer = styled.div`
-  padding: 40px 0;
-  color: ${(props) => props.theme.textonegro};
-  background: ${(props) => props.theme.fondo};
-  display: flex;
-  flex-direction: column;
-
-  @media (min-width: 1025px) {
-    padding: 90px 0 40px;
-  }
-
-  @media (min-width: 1500px) {
-    padding: 100px 0;
-  }
-`;
-
-const ContainerIcon = styled.div`
-  width: 100%;
-  display: flex;
-  justify-content: center;
-
-  @media (min-width: 1025px) {
-    margin-bottom: 20px;
-  }
-`;
-
-const Image = styled.img`
-  @media (min-width: 1025px) {
-    height: 68px;
-    width: 68px;
-  }
-`;
+import { StyledContainer, ContainerIcon, Image } from "./MeetYourNeedsComp";
 
 function MeetYourNeeds() {
   return (

@@ -23,169 +23,144 @@ const ContainerTop = styled.div`
 `;
 
 const Container = styled.div`
-  width: calc(100% - 120px);
-  padding: 67px 60px;
   display: flex;
   justify-content: space-between;
   background: ${(props) => props.theme.textonegro};
   color: ${(props) => props.theme.fondo};
   align-items: center;
+  flex-direction: column;
+  padding: 55px 19px;
+  width: calc(100% - 38px);
 
-  @media (max-width: 768px) {
-    flex-direction: column;
-    padding: 55px 19px;
-    width: calc(100% - 38px);
-  }
-
-  @media (min-width: 769px) and (max-width: 1024px) {
+  @media (min-width: 769px) and (max-width: 1124px) {
     padding: 25px;
     width: calc(100% - 50px);
   }
 
-  @media (min-width: 1025px) and (max-width: 1499px) {
+  @media (min-width: 1125px) {
     padding: 67px 4%;
     width: 92%;
     margin: 0;
     max-width: 1314px;
   }
-
-  @media (min-width: 1500px) {
-    padding: 55px 150px;
-    width: calc(100% - 300px);
-  }
 `;
 
 const Content = styled.div`
-  @media (min-width: 769px) and (max-width: 1499px) {
+  @media (min-width: 769px) {
     display: flex;
     justify-content: space-between;
     width: 100%;
     align-items: center;
   }
-
-  @media (min-width: 1500px) {
-    width: 100%;
-    max-width: 1700px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-  }
 `;
 
 const ContainerText = styled.div`
-  max-width: 560px;
-
-  @media (max-width: 768px) {
-    max-width: 500px;
-    text-align: center;
-    width: fit-content;
-    flex-direction: column-reverse;
-    display: flex;
-  }
+  max-width: 500px;
+  text-align: center;
+  width: fit-content;
+  flex-direction: column-reverse;
+  display: flex;
 `;
 
 const ContainerRedesFooter = styled.div`
   display: flex;
-  margin-top: 45px;
+  justify-content: space-between;
+  margin-bottom: 35px;
 
-  @media (max-width: 768px) {
-    margin-top: 0;
-    margin-bottom: 30px;
-    justify-content: space-evenly;
+  @media (min-width: 769px) {
+    margin-top: 45px;
+    margin-bottom: 0;
   }
 `;
 
 const Red = styled.p`
-  margin-right: 20px;
   text-decoration: underline;
-  font-size: 16px;
+  font-size: 10px;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 13px;
   letter-spacing: 0em;
+  margin-right: 0px;
 
-  @media (max-width: 1024px) {
-    font-size: 10px;
-    font-weight: 400;
-    line-height: 13px;
-    letter-spacing: 0em;
-    margin-right: 0px;
-  }
-
-  @media (min-width: 1025px) and (max-width: 1499px) {
+  @media (min-width: 1125px) {
     margin-right: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
   }
 `;
 
 const Column = styled.div`
-  display: flex;
-  flex-direction: column;
+  display: none;
 
-  @media (max-width: 768px) {
-    display: none;
+  @media (min-width: 769px) {
+    display: flex;
+    flex-direction: column;
   }
 `;
 
 const ColumnSecond = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
 
-  @media (max-width: 768px) {
-    align-items: center;
+  @media (min-width: 769px) {
+    align-items: start;
   }
 `;
 
 const Logo = styled.img`
-  width: 270px;
-  height: 190px;
-  object-fit: cover;
+  height: auto;
+  width: 158px;
 
-  @media (max-width: 1024px) {
-    height: auto;
-    width: 158px;
+  @media (min-width: 1125px) {
+    width: 270px;
+    height: 190px;
+    object-fit: cover;
   }
 `;
 
 const Iso = styled.img`
-  width: 126px;
-  height: 60px;
+  height: auto;
+  width: 46px;
 
-  @media (max-width: 1024px) {
-    height: auto;
-    width: 46px;
+  @media (min-width: 1125px) {
+    width: 126px;
+    height: 60px;
   }
 `;
 
 const Arrow = styled.img`
-  height: 18px;
+  height: auto;
+  width: 7px;
+  image-rendering: pixelated;
 
-  @media (max-width: 768px) {
-    height: auto;
-    width: 7px;
-    image-rendering: pixelated;
+  @media (min-width: 769px) {
+    height: 18px;
   }
 `;
 
 const ContainerRed = styled.a`
-  display: flex;
-  align-items: center;
-  color: ${(props) => props.theme.fondo};
-  text-decoration: none;
-  margin-right: 10px;
+  flex-direction: column;
+  margin-right: 0px;
 
-  @media (max-width: 768px) {
-    flex-direction: column;
-    margin-right: 0px;
+  @media (min-width: 769px) {
+    display: flex;
+    align-items: center;
+    color: ${(props) => props.theme.fondo};
+    text-decoration: none;
+    margin-right: 10px;
   }
 `;
 
 const RedImage = styled.img`
-  width: 30px;
-  height: 30px;
+  width: 18px;
+  height: 18px;
+  margin-bottom: 5px;
 
-  @media (max-width: 1024px) {
-    width: 18px;
-    height: 18px;
-    margin-bottom: 5px;
+  @media (min-width: 1125px) {
+    width: 30px;
+    height: 30px;
   }
 `;
 
