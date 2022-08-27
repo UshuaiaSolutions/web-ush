@@ -121,6 +121,12 @@
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
+  color: #393939 !important;
+  position: initial !important;
+  border: none !important;
+  box-shadow: none !important;
+  width: 100% !important;
+  background-color: #f6f3e8 !important;
 }
 
 .resaltado-mobile {
@@ -309,6 +315,9 @@
     line-height: 24px !important;
     letter-spacing: 0em !important;
     color: #393939 !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
     position: initial !important;
     border: none !important;
     box-shadow: none !important;
