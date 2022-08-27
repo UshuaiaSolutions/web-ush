@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import Redes from "../Redes";
+import Redes from "./Redes";
 import ScrollToTop from "react-scroll-to-top";
-import { CorteDesktop, CorteMobile } from "./Cortes";
+import { CorteDesktop, CorteMobile } from "../base/Cortes";
 
 const Relative = styled.div`
   z-index: 11;

@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import Container from "./base/Container";
-import { CorteDesktop, CorteMobile } from "./base/Cortes";
+import Container from "../base/Container";
+import { CorteDesktop, CorteMobile } from "../base/Cortes";
 
 const StyledContainer = styled.div`
   padding: 60px 0;

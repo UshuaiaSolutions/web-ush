@@ -7,8 +7,8 @@ import "./styles/sizes.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 
-import Header from "./components/base/Header";
-import Footer from "./components/base/Footer";
+import Header from "./components/menues/Header";
+import Footer from "./components/menues/Footer";
 import Layout from "./components/base/Layout";
 import Home from "./pages/home";
 import Contacto from "./pages/contacto";

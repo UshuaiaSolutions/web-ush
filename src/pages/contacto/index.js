@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import BookMeeting from "../../components/BookMeeting";
+import BookMeeting from "../../components/compartidos/BookMeeting";
 import WhyUsh from "../../components/contacto/WhyUsh";
 
 const Background = styled.div`

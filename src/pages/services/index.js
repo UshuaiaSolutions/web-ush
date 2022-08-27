@@ -1,5 +1,5 @@
 import React from "react";
-import BookMeetingSmall from "../../components/BookMeetingSmall";
+import BookMeetingSmall from "../../components/compartidos/BookMeetingSmall";
 import ExpertiseAreas from "../../components/services/ExpertiseAreas";
 import Explore from "../../components/services/Explore";
 import HowWeCan from "../../components/services/HowWeCan";

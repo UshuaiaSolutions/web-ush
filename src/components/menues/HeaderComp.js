@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import BotonSecundario from "./BotonSecundario";
+import BotonSecundario from "../base/BotonSecundario";
 import { Link } from "react-router-dom";
 
 export const Container = styled.div`

@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import BotonPrincipal from "./base/BotonPrincipal";
-import Container from "./base/Container";
-import { CorteDesktop, CorteMobile } from "./base/Cortes";
+import BotonPrincipal from "../base/BotonPrincipal";
+import Container from "../base/Container";
+import { CorteDesktop, CorteMobile } from "../base/Cortes";
 import { StyledContainer, Column } from "./BookMeetingSmallComp";
 
 function BookMeetingSmall() {
