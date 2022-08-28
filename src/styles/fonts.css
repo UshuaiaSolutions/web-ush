@@ -68,6 +68,7 @@
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0em;
+  font-family: "Poppins", sans-serif;
 }
 
 .destacados-alta-mobile {
@@ -93,24 +94,28 @@
   letter-spacing: 0em;
 }
 
-.input-form,
-.input-form:focus,
-.input-form:focus-visible {
+.input-form {
   padding: 4px;
   border: 2px solid #393939;
   height: calc(31px - 8px);
-  outline: none;
   border-radius: 8px;
 }
 
-.textarea-form,
-.textarea-form:focus,
-.textarea-form:focus-visible {
+.input-form:focus,
+.input-form:focus-visible {
+  outline: none;
+}
+
+.textarea-form {
   padding: 4px;
   border: 2px solid #393939;
   height: calc(160px - 8px);
-  outline: none;
   border-radius: 8px;
+}
+
+.textarea-form:focus,
+.textarea-form:focus-visible {
+  outline: none;
 }
 
 .scroll-to-top {

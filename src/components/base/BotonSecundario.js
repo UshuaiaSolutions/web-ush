@@ -14,6 +14,7 @@ const StyledBoton = styled.button`
   border: 2px solid ${(props) => props.theme.textonegro};
   border-radius: 60px;
   text-decoration: none;
+  cursor: pointer;
 
   &:hover {
     background-color: ${(props) => props.theme.rosaush};

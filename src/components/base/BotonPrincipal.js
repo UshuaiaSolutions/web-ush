@@ -14,6 +14,7 @@ const StyledBoton = styled.button`
   border: 2px solid ${(props) => props.theme.textonegro};
   border-radius: 60px;
   text-decoration: none;
+  cursor: pointer;
 
   &:hover {
     background-color: ${(props) => props.theme.textonegro};
@@ -34,9 +35,8 @@ const StyledBoton = styled.button`
     border: 4px solid ${(props) => props.theme.textonegro};
   }
 `;
-
-function BotonPrincipal({ children }) {
-  return <StyledBoton>{children}</StyledBoton>;
-}
+const BotonPrincipal = ({ onClick, children }) => {
+  return <StyledBoton onClick={onClick()}>{children}</StyledBoton>;
+};
 
 export default BotonPrincipal;

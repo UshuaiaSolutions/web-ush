@@ -1,5 +1,4 @@
-import React from "react";
-import BotonPrincipal from "../base/BotonPrincipal";
+import React, { useState } from "react";
 import Container from "../base/Container";
 import { CorteDesktop, CorteMobile } from "../base/Cortes";
 import {
@@ -9,11 +8,39 @@ import {
   SecondContainer,
   ColumnInput,
   ContainerInput,
+  Boton,
 } from "./BookMeetingComp";
+import Success from "./Success";
 
 const BookMeeting = () => {
+  const [contactForm, setContactForm] = useState({});
+  const [showSuccess, setShowSuccess] = useState(false);
+
+  const handleChange = (id, value) => {
+    setContactForm({ ...contactForm, [id]: value });
+  };
+
+  const handleSend = () => {
+    if (
+      contactForm.name &&
+      contactForm.name.length > 0 &&
+      contactForm.mail &&
+      contactForm.mail.length > 0 &&
+      contactForm.country &&
+      contactForm.country.length > 0 &&
+      contactForm.company &&
+      contactForm.company.length > 0 &&
+      contactForm.date_reunion &&
+      contactForm.date_reunion.length > 0
+    ) {
+      setShowSuccess(true);
+      setContactForm({});
+    }
+  };
+
   return (
     <StyledContainer id="contact">
+      {showSuccess && <Success func={setShowSuccess} />}
       <Container>
         <MediaContainer className="d-flex justify-between">
           <FirstContainer className="d-flex flex-column">
@@ -45,30 +72,50 @@ const BookMeeting = () => {
               <ColumnInput className="d-flex justify-between">
                 <ContainerInput className="d-flex flex-column">
                   <label className="label-form">Name *</label>
-                  <input className="input-form txt-destacados-alta-mobile texto-regular" />
+                  <input
+                    value={contactForm.name ? contactForm.name : ""}
+                    onChange={(e) => handleChange("name", e.target.value)}
+                    className="input-form txt-destacados-alta-mobile texto-regular"
+                  />
                 </ContainerInput>
                 <ContainerInput className="d-flex flex-column">
                   <label className="label-form">Company Name *</label>
-                  <input className="input-form txt-destacados-alta-mobile texto-regular" />
+                  <input
+                    value={contactForm.company ? contactForm.company : ""}
+                    onChange={(e) => handleChange("company", e.target.value)}
+                    className="input-form txt-destacados-alta-mobile texto-regular"
+                  />
                 </ContainerInput>
               </ColumnInput>
               <ColumnInput className="d-flex justify-between">
                 <ContainerInput className="d-flex flex-column">
                   <label className="label-form">E-Mail *</label>
                   <input
+                    value={contactForm.mail ? contactForm.mail : ""}
+                    onChange={(e) => handleChange("mail", e.target.value)}
                     className="input-form txt-destacados-alta-mobile texto-regular"
                     type="email"
                   />
                 </ContainerInput>
                 <ContainerInput className="d-flex flex-column">
                   <label className="label-form">Country *</label>
-                  <input className="input-form txt-destacados-alta-mobile texto-regular" />
+                  <input
+                    value={contactForm.country ? contactForm.country : ""}
+                    onChange={(e) => handleChange("country", e.target.value)}
+                    className="input-form txt-destacados-alta-mobile texto-regular"
+                  />
                 </ContainerInput>
               </ColumnInput>
               <ColumnInput className="d-flex justify-between">
                 <ContainerInput className="d-flex flex-column">
                   <label className="label-form">Select a date *</label>
                   <input
+                    value={
+                      contactForm.date_reunion ? contactForm.date_reunion : ""
+                    }
+                    onChange={(e) =>
+                      handleChange("date_reunion", e.target.value)
+                    }
                     type="date"
                     className="input-form txt-destacados-alta-mobile texto-regular"
                   />
@@ -77,13 +124,15 @@ const BookMeeting = () => {
               <div className="d-flex flex-column mb-30">
                 <label className="label-form">How can we help?</label>
                 <textarea
+                  value={contactForm.comment ? contactForm.comment : ""}
+                  onChange={(e) => handleChange("comment", e.target.value)}
                   placeholder="Share with us a brief about your request..."
                   className="textarea-form txt-destacados-alta-mobile texto-regular"
                 />
               </div>
             </form>
 
-            <BotonPrincipal>Get in touch</BotonPrincipal>
+            <Boton onClick={() => handleSend()}>Get in touch</Boton>
           </SecondContainer>
         </MediaContainer>
       </Container>
