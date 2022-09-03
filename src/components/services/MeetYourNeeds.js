@@ -11,17 +11,15 @@ function MeetYourNeeds() {
           We can meet
           <CorteMobile /> <u>your needs</u>
         </h1>
-        <p className="destacados-mobile destacado-regular mb-0-mobile text-center text-left-mobile">
-          We offer a wide variety of multilingual
-          <CorteMobile /> solutions, from translation and
-          <CorteMobile /> localization to content
-          <CorteDesktop /> creation and
-          <CorteMobile /> video editing. USH is a synonym of
-          <CorteMobile /> flexibility, scalability and efficiency.
-        </p>
-        <p className="destacados-mobile destacado-bold mb-40-mobile mb-40 text-center text-left-mobile">
-          We're your language service partner for
-          <CorteMobile /> Latin America, Europe and the world.
+        <p className="txt-regular-mobile destacado-regular mb-40-mobile mb-40 text-center text-center-mobile">
+          USH is a synonym of flexibility, scalability
+          <CorteMobile /> and efficiency.
+          <CorteDesktop />{" "}
+          <span className="destacados-semibold-mobile destacado-bold">
+            We're your language service
+            <CorteMobile /> partner for Latin America,
+            <CorteMobile /> Europe and the world.
+          </span>
         </p>
         <ContainerIcon>
           <Image className="" src="/icons/finger-down.png" alt="See more" />

@@ -93,6 +93,7 @@ export const RowDesktop = styled.div`
   @media (min-width: 1125px) {
     & .ancho-exacto {
       width: 529px;
+      max-width: 529px;
     }
   }
 `;

@@ -116,21 +116,19 @@ function WhyUSH() {
               </Areas>
 
               <p className="txt-regular-mobile destacado-regular mb-40">
-                We offer a unique combination of
+                We are there where you need us, when you
+                <CorteDesktop />
+                <CorteMobile /> need us. We offer a unique combination of
                 <CorteDesktop />
                 <CorteMobile /> technological innovation and professional
                 <CorteDesktop />
                 <CorteMobile /> expertise to help you solve multilingual
                 <CorteDesktop />
-                <CorteMobile /> challenges. But our strongest trait is
-                <CorteDesktop />
-                <CorteMobile /> teamwork! We encourage positive
+                <CorteMobile /> challenges. Plus, we encourage positive
                 <CorteDesktop />
                 <CorteMobile /> leadership to motivate our talented
                 <CorteDesktop />
-                <CorteMobile /> professionals to work together as one
-                <CorteDesktop /> and
-                <CorteMobile /> achieve greater goals.
+                <CorteMobile /> professionals to work together as one.
               </p>
             </Reverse>
 

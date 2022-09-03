@@ -44,6 +44,41 @@ export const ContainerInput = styled.div`
   }
 `;
 
+export const DateContainer = styled.div`
+  width: 100%;
+
+  & .react-datepicker__input-container input {
+    padding: 4px;
+    border: 2px solid #393939;
+    height: calc(31px - 8px);
+    border-radius: 8px;
+    width: calc(100% - 8px - 4px);
+  }
+
+  & .react-datepicker__input-container input:focus,
+  & .react-datepicker__input-container input:focus-visible {
+    outline: none;
+  }
+
+  @media (min-width: 1125px) {
+    & .react-datepicker__input-container input {
+      background: #f6f3e8;
+      border: 3px solid #393939;
+      border-radius: 8px;
+      height: 27px;
+      padding: 8px;
+      font-family: "Poppins", sans-serif;
+      width: calc(100% - 16px - 6px);
+    }
+
+    & .react-datepicker__input-container input,
+    & .react-datepicker__input-container input:focus,
+    & .react-datepicker__input-container input:focus-visible {
+      outline: none;
+    }
+  }
+`;
+
 export const ColumnInput = styled.div`
   flex-direction: column;
   margin-bottom: 0;

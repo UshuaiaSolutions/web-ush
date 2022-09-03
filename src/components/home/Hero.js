@@ -55,14 +55,14 @@ const Hero = () => {
             <CorteDesktop />
             <CorteMobile /> <u>global potential</u>
           </h1>
-          <p className="destacado-regular h1-mobile mb-40 mb-20-mobile">
+          <p className="destacado-regular txt-regular-mobile mb-40 mb-20-mobile">
             Specialized professionals empowered by
             <CorteDesktop />
             <CorteMobile /> the latest technology{" "}
-            <span className="destacado-bold h1-mobile">
+            <span className="destacado-bold destacados-semibold-mobile">
               to help you succeed
-              <CorteDesktop /> in
-              <CorteMobile /> international markets.
+              <CorteDesktop />
+              <CorteMobile /> in international markets.
             </span>
           </p>
           <HashLink smooth to="/#contact">

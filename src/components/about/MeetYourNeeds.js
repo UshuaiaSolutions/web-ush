@@ -63,7 +63,7 @@ function MeetYourNeeds() {
           We can meet <u>your needs.</u>
         </h2>
         <RowDesktop>
-          <p className="txt-regular-mobile destacado-medium mb-40-mobile mb-40">
+          <p className="destacados-mobile destacado-medium mb-40-mobile mb-40">
             We offer a wide variety of multilingual
             <CorteDesktop />
             <CorteMobile /> solutions, from translation and localization
@@ -72,49 +72,44 @@ function MeetYourNeeds() {
             <CorteDesktop />
             <CorteMobile /> We have dedicated translators on staff for
             <CorteDesktop />
-            <CorteMobile /> the major European languages and their
+            <CorteMobile /> the major European and Latin American
             <CorteDesktop />
-            <CorteMobile /> varieties. Our core competence involves
-            <CorteDesktop />
-            <CorteMobile /> English, German, Spanish, Catalan and
-            <CorteDesktop />
-            <CorteMobile /> Portuguese in any direction and
-            <CorteDesktop /> combination.
+            <CorteMobile /> languages, and their varieties.
           </p>
           <Column>
             <Row>
               <Image src="/icons/check-blanco.png" alt="Checked" />
-              <h3 className="txt-destacados-alta-mobile destacado-item mb-15-mobile mb-20">
+              <h3 className="destacados-semibold-mobile destacado-item mb-15-mobile mb-20">
                 Language Solutions
               </h3>
             </Row>
             <Row>
               <Image src="/icons/check-blanco.png" alt="Checked" />
-              <h3 className="txt-destacados-alta-mobile destacado-item mb-15-mobile mb-20">
+              <h3 className="destacados-semibold-mobile destacado-item mb-15-mobile mb-20">
                 Project Management
               </h3>
             </Row>
             <Row>
               <Image src="/icons/check-blanco.png" alt="Checked" />
-              <h3 className="txt-destacados-alta-mobile destacado-item mb-15-mobile mb-20">
+              <h3 className="destacados-semibold-mobile destacado-item mb-15-mobile mb-20">
                 Desktop Publishing
               </h3>
             </Row>
             <Row>
               <Image src="/icons/check-blanco.png" alt="Checked" />
-              <h3 className="txt-destacados-alta-mobile destacado-item mb-15-mobile mb-20">
+              <h3 className="destacados-semibold-mobile destacado-item mb-15-mobile mb-20">
                 Creative Visuals
               </h3>
             </Row>
             <Row>
               <Image src="/icons/check-blanco.png" alt="Checked" />
-              <h3 className="txt-destacados-alta-mobile destacado-item mb-15-mobile mb-20">
+              <h3 className="destacados-semibold-mobile destacado-item mb-15-mobile mb-20">
                 Content Creation
               </h3>
             </Row>
             <Row>
               <Image src="/icons/check-blanco.png" alt="Checked" />
-              <h3 className="txt-destacados-alta-mobile destacado-item mb-40-mobile">
+              <h3 className="destacados-semibold-mobile destacado-item mb-40-mobile">
                 E-learning and Video
               </h3>
             </Row>

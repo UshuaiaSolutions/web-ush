@@ -65,6 +65,7 @@ const DesktopRow = styled.div`
   @media (min-width: 1125px) {
     .exacto-desktop {
       width: 541px;
+      max-width: 541px;
     }
   }
 `;
@@ -78,11 +79,11 @@ function ExpertiseAreas() {
             <u>Expertise areas</u>
           </h2>
           <p className="txt-regular-mobile destacado-medium mb-40-mobile exacto-desktop">
-            With over 20 years' experience, we've
+            We've managed to select and train
             <CorteMobile />
-            <CorteDesktop /> managed to select and train highly skilled
+            <CorteDesktop /> highly skilled professionals specialized
             <CorteMobile />
-            <CorteDesktop /> professionals specialized in different fields.
+            <CorteDesktop /> in different fields.
           </p>
         </DesktopRow>
         <Column>
@@ -95,48 +96,14 @@ function ExpertiseAreas() {
           <Row>
             <Image src="/icons/check.png" alt="Checked" />
             <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
-              Artificial Intelligence
-            </h3>
-          </Row>
-          <Row>
-            <Image src="/icons/check.png" alt="Checked" />
-            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
-              Retail and e-Commerce
-            </h3>
-          </Row>
-          <Row>
-            <Image src="/icons/check.png" alt="Checked" />
-            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
-              Enterprise software
-              <CorteMobile />
-              <CorteDesktop /> (ERP, CMS, HCM)
-            </h3>
-          </Row>
-          <Row>
-            <Image src="/icons/check.png" alt="Checked" />
-            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
-              Industrial Automation
-            </h3>
-          </Row>
-          <Row>
-            <Image src="/icons/check.png" alt="Checked" />
-            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
-              Healthcare and
-              <CorteMobile /> Life Sciences
-            </h3>
-          </Row>
-          <Row>
-            <Image src="/icons/check.png" alt="Checked" />
-            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
-              Industry and Logistics
-            </h3>
-          </Row>
-          <Row>
-            <Image src="/icons/check.png" alt="Checked" />
-            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
               Finance, Business
-              <CorteMobile />
               <CorteDesktop /> and Banking
+            </h3>
+          </Row>
+          <Row>
+            <Image src="/icons/check.png" alt="Checked" />
+            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
+              Artificial Intelligence
             </h3>
           </Row>
           <Row>
@@ -148,17 +115,20 @@ function ExpertiseAreas() {
           <Row>
             <Image src="/icons/check.png" alt="Checked" />
             <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
-              Marketing and
-              <CorteMobile />
-              <CorteDesktop /> Human Resources
+              Retail and e-Commerce
             </h3>
           </Row>
           <Row>
             <Image src="/icons/check.png" alt="Checked" />
             <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
-              Mechanical, Automotive
-              <CorteMobile />
-              <CorteDesktop /> and Heavy Machinery
+              Marketing and <CorteDesktop /> Human Resources
+            </h3>
+          </Row>
+          <Row>
+            <Image src="/icons/check.png" alt="Checked" />
+            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
+              Enterprise software
+              <CorteDesktop /> (ERP, CMS, HCM)
             </h3>
           </Row>
           <Row>
@@ -170,9 +140,33 @@ function ExpertiseAreas() {
           <Row>
             <Image src="/icons/check.png" alt="Checked" />
             <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
+              Industrial Automation
+            </h3>
+          </Row>
+          <Row>
+            <Image src="/icons/check.png" alt="Checked" />
+            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
+              Mechanical, Automotive
+              <CorteDesktop /> and Heavy Machinery
+            </h3>
+          </Row>
+          <Row>
+            <Image src="/icons/check.png" alt="Checked" />
+            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
+              Healthcare and Life Sciences
+            </h3>
+          </Row>
+          <Row>
+            <Image src="/icons/check.png" alt="Checked" />
+            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
               Fitness, Cosmetics and
-              <CorteMobile />
               <CorteDesktop /> Beauty Products
+            </h3>
+          </Row>
+          <Row>
+            <Image src="/icons/check.png" alt="Checked" />
+            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
+              Industry and Logistics
             </h3>
           </Row>
           <Row>

@@ -33,8 +33,8 @@ function Explore() {
           <p className="destacado-medium txt-regular-mobile d-none-mobile ancho-exacto">
             We can blend linguistic, technical,
             <CorteDesktop /> marketing and cultural requirements
-            <CorteDesktop /> to offer an optimized translation
-            <CorteDesktop /> and localization solution.
+            <CorteDesktop /> to offer an optimized translation and
+            <CorteDesktop /> localization solution.
           </p>
         </RowDesktop>
         <Dropdown>

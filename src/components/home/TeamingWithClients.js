@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Autoplay } from "swiper";
-import "swiper/swiper.min.css";
+import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "../../styles/slider.css";
 import Container from "../base/Container";
@@ -75,15 +75,13 @@ function TeamingWithClients() {
           </Swiper>
           <div className="desktop-column">
             <p className="txt-minimo-mobile destacado-medium mb-40-mobile mb-40">
-              Our highly esteemed client
-              <CorteDesktop /> list includes partner
-              <CorteMobile /> LSPs as
-              <CorteDesktop /> well as B2B customers who
+              Our highly esteemed client list includes
+              <CorteDesktop /> partner
+              <CorteMobile /> LSPs as well as B2B customers who
               <CorteDesktop /> have come
-              <CorteMobile /> to rely on us as
-              <CorteDesktop /> an extension of their in-house
-              <CorteMobile />
-              <CorteDesktop /> teams. Let us help you too!
+              <CorteMobile /> to rely on us as an extension
+              <CorteDesktop /> of their in-house
+              <CorteMobile /> teams. Let us help you too!
             </p>
             <Link to="/expertise">
               <BotonSecundario>View study cases</BotonSecundario>

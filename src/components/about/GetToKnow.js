@@ -1,7 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import Container from "../base/Container";
-import "swiper/swiper.min.css";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 import "../../styles/slider.css";
@@ -53,13 +55,14 @@ function GetToKnow() {
       <Container>
         <Row>
           <h2 className="h2-mobile h2-web mb-20-mobile">Get to know USH</h2>
-          <p className="txt-destacados-alta-mobile destacado-medium mb-40-mobile w-50-desktop-grande w-50-desktop-chico">
+          <p className="destacados-semibold-mobile destacado-medium mb-40-mobile w-50-desktop-grande w-50-desktop-chico">
             Our strongest trait is teamwork!
-            <CorteMobile /> We encourage positive
-            <CorteDesktop /> leadership to
-            <CorteMobile /> motivate our talented professionals
-            <CorteDesktop /> to work
-            <CorteMobile /> together as one and achieve greater goals.
+            <CorteMobile />
+            <CorteDesktop /> We encourage positive leadership to
+            <CorteMobile />
+            <CorteDesktop /> motivate our talented professionals to work
+            <CorteMobile />
+            <CorteDesktop /> together as one and achieve greater goals.
           </p>
         </Row>
         <Swiper

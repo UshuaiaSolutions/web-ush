@@ -9,7 +9,7 @@ function HowWeCan() {
       <Container>
         <ContentDesktop>
           <div>
-            <h1 className="h2-mobile h2-web mb-40-mobile">
+            <h1 className="h2-mobile h2-web mb-40-mobile text-center-mobile">
               How we can
               <CorteMobile />
               <CorteDesktop /> <u>make it happen</u>
@@ -22,12 +22,11 @@ function HowWeCan() {
                 01&ensp;&ensp;You tell us what you need
               </h3>
               <p className="txt-regular-mobile texto-regular mb-40-mobile">
-                We can discuss together your goals, scope
-                <CorteMobile /> of the project, software
-                <CorteDesktop /> needed, and more.
-                <CorteMobile /> We can adapt to any technology, platform or
-                <CorteDesktop />
-                <CorteMobile /> process you already use.
+                We can discuss together your goals, target audiences, scope of
+                <CorteDesktop /> the project, software needed, and more. We can
+                adapt to any
+                <CorteDesktop /> technology, platform or process you already
+                use.
               </p>
             </Column>
             <Column>
@@ -36,12 +35,10 @@ function HowWeCan() {
               </h3>
               <p className="txt-regular-mobile texto-regular mb-40-mobile">
                 We have the capacity to build and maintain
-                <CorteMobile /> on-site dedicated
-                <CorteDesktop /> teams for your content
+                <CorteMobile /> on-site dedicated teams for your content
                 <CorteMobile /> types and required tools. We can handle
-                <CorteMobile /> <CorteDesktop /> projects of any size thanks to
-                the committed
-                <CorteMobile /> work of our project <CorteDesktop /> managers.
+                <CorteMobile /> projects of any size thanks to the committed
+                <CorteMobile /> work of our project managers.
               </p>
             </Column>
             <Column>
@@ -50,11 +47,9 @@ function HowWeCan() {
               </h3>
               <p className="txt-regular-mobile texto-regular mb-40-mobile">
                 As an ISO certified language service
-                <CorteMobile /> company, we ensure that our
-                <CorteDesktop /> services meet
+                <CorteMobile /> company, we ensure that our services meet
                 <CorteMobile /> high quality standards and are delivered on
-                <CorteMobile /> time at
-                <CorteDesktop /> competitive rates.
+                <CorteMobile /> time at competitive rates.
               </p>
             </Column>
           </div>

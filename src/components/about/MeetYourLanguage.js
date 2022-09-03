@@ -3,8 +3,7 @@ import { HashLink } from "react-router-hash-link";
 import styled from "styled-components";
 import BotonSecundario from "../base/BotonSecundario";
 import Container from "../base/Container";
-import "swiper/swiper.min.css";
-import "swiper/swiper-bundle.min.css";
+import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper";
 import "../../styles/slider.css";
@@ -170,18 +169,19 @@ function MeetYourLanguage() {
               <CorteDesktop />
               <CorteMobile /> <u>service partner</u>
             </h1>
-            <p className="destacados-mobile destacado-regular mb-40-mobile mb-40 corte-exacto-desktop-chico">
+            <p className="txt-regular-mobile destacado-regular mb-40-mobile mb-40 corte-exacto-desktop-chico">
               We deliver multilingual ISO certified solutions
-              <CorteMobile /> to help you face
-              <CorteDesktop /> and solve your global
-              <CorteMobile /> challenges. We can blend linguistic,
-              <CorteDesktop />
-              <CorteMobile /> technical, marketing and cultural
+              <CorteMobile /> to
+              <CorteDesktop /> help you face and solve your global
+              <CorteMobile /> challenges.
+              <CorteDesktop /> We can blend linguistic,
+              <CorteMobile /> technical, marketing and
+              <CorteDesktop /> cultural
               <CorteMobile /> requirements to offer{" "}
-              <span className="destacado-bold">
-                an
-                <CorteDesktop /> optimized
-                <CorteMobile /> translation and localization solution.
+              <span className="destacado-bold destacados-semibold-mobile">
+                an optimized
+                <CorteMobile />
+                <CorteDesktop /> translation and localization solution.
               </span>
             </p>
             <HashLink smooth to="/about#contact">
