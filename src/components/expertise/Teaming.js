@@ -22,9 +22,8 @@ function Teaming() {
           <CorteMobile /> parsing to dubbing, MTPE, audio and video
           <CorteDesktop />
           <CorteMobile /> editing, DTP, voice-recording and testing.
-          <CorteMobile /> Plus, we've localized and tested apps on
-          <CorteMobile /> iOS
-          <CorteDesktop /> and Android devices and we've helped
+          <CorteMobile /> Plus, we've localized and tested apps on iOS
+          <CorteMobile /> <CorteDesktop /> and Android devices and we've helped
           <CorteMobile /> create corporate social media content.
         </p>
         <ContainerIcon>

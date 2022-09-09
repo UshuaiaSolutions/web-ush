@@ -22,17 +22,23 @@ function HowWeCan() {
                 01&ensp;&ensp;You tell us what you need
               </h3>
               <p className="txt-regular-mobile texto-regular mb-40-mobile">
-                Easier said than done? We can help you reach your community
-                <CorteDesktop /> with services ranging from{" "}
+                Easier said than done? We can help you
+                <CorteMobile /> reach your community
+                <CorteDesktop /> with services
+                <CorteMobile /> ranging from{" "}
                 <span className="important-text">copywriting</span>,{" "}
-                <span className="important-text">translation</span> and
+                <span className="important-text">translation</span>
+                <CorteMobile /> and
                 <CorteDesktop />{" "}
                 <span className="important-text">transcreation</span> to{" "}
-                <span className="important-text">multilingual</span> customer
-                service, engaging <span className="important-text">video</span>
-                <CorteDesktop /> content and{" "}
+                <span className="important-text">multilingual</span>
+                <CorteMobile /> customer service, engaging{" "}
+                <span className="important-text">video</span>
+                <CorteDesktop /> content
+                <CorteMobile /> and{" "}
                 <span className="important-text">e-learning</span> initiatives
-                to cover the language needs
+                to cover
+                <CorteMobile /> the language needs
                 <CorteDesktop /> of your international team.
               </p>
             </Column>
