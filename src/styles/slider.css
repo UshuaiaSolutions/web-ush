@@ -25,24 +25,34 @@
   align-items: baseline;
 }
 
+.swiper-slide,
+.swiper-slide-prev,
+.swiper-slide-next {
+  display: flex;
+  flex-direction: column;
+}
+
 .swiper-slide .clients {
   display: block;
-  height: 434px;
-  width: 212px;
-  object-fit: cover;
+  height: 190px;
+  max-width: 212px;
+  object-fit: contain;
   padding: 0 10px;
+  margin: 30px 0;
 }
 
 .swiper-slide-prev .clients {
-  height: 332px;
-  width: 128px;
+  height: 120px;
+  max-width: 128px;
   opacity: 0.6;
+  margin: 15px 0;
 }
 
 .swiper-slide-next .clients {
-  height: 332px;
-  width: 128px;
+  height: 120px;
+  max-width: 128px;
   opacity: 0.6;
+  margin: 15px 0;
 }
 
 .why .swiper-slide {

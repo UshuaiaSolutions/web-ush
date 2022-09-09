@@ -16,32 +16,31 @@ const StyledContainer = styled.div`
   }
 `;
 
-const StyledImg = styled.img`
-  height: auto;
-  width: 160px;
-  object-fit: none;
-
-  @media (max-width: 1024px) {
-    width: 67.65px;
-    object-fit: contain;
+const StyledImgAASL = styled.img`
+  @media (min-width: 1125px) {
+    width: 140.79px;
+    height: fit-content;
   }
+`;
 
-  @media (min-width: 1025px) and (max-width: 1499px) {
-    width: 117.65px;
-    object-fit: contain;
+const StyledImgGALA = styled.img`
+  @media (min-width: 1125px) {
+    width: 126.44px;
+    height: fit-content;
+  }
+`;
+
+const StyledImgELIA = styled.img`
+  @media (min-width: 1125px) {
+    width: 121.06px;
+    height: fit-content;
   }
 `;
 
 const StyledImgLast = styled.img`
-  height: fit-content;
-  width: 360px;
-
-  @media (max-width: 1024px) {
-    width: 184.5px;
-  }
-
-  @media (min-width: 1025px) and (max-width: 1499px) {
-    width: 234.5px;
+  @media (min-width: 1125px) {
+    height: fit-content;
+    width: 330px;
   }
 `;
 
@@ -78,22 +77,22 @@ function Memberships() {
           </div>
           <div className="d-flex flex-column w-50-desktop-grande w-50-desktop-chico ">
             <div className="d-flex justify-evenly">
-              <StyledImg
-                src="/logos/logo-aasl.png"
+              <StyledImgAASL
+                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/AASLWhite.png"
                 alt="Asociación Argentina de Servicios Lingüísticos"
               />
-              <StyledImg
-                src="/logos/logo-gala.png"
+              <StyledImgGALA
+                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/GALAWhite.png"
                 alt="Globalization and localization association"
               />
             </div>
             <div className="d-flex justify-between align-center justify-evenly-mobile">
-              <StyledImg
-                src="/logos/logo-elia.png"
+              <StyledImgELIA
+                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/EliaWhite.png"
                 alt="European Language Industry Association"
               />
               <StyledImgLast
-                src="/logos/logo-translated.png"
+                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/TinAWhite.png"
                 alt="Translated in Argentina"
               />
             </div>

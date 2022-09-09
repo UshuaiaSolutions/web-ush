@@ -7,7 +7,6 @@ export const StyledContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: ${(props) => props.theme.textonegro};
   color: ${(props) => props.theme.fondo};
 
   @media (min-width: 769px) {

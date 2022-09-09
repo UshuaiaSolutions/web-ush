@@ -31,7 +31,10 @@ function WhyUsh() {
             <SwiperSlide>
               <Card>
                 <Circle>
-                  <Icon src="/icons/needs-4.png" alt="icon" />
+                  <Icon
+                    src="https://ushmultimedia.blob.core.windows.net/ushwebsite/ScalabilityIcon.png"
+                    alt="icon"
+                  />
                 </Circle>
                 <h3 className="h3-mobile mb-20-mobile mb-20">Scalability</h3>
                 <p className="txt-minimo-mobile mb-20">
@@ -51,7 +54,10 @@ function WhyUsh() {
             <SwiperSlide>
               <Card>
                 <Circle>
-                  <Icon src="/icons/needs-5.png" alt="icon" />
+                  <Icon
+                    src="https://ushmultimedia.blob.core.windows.net/ushwebsite/FlexibilityIcon.png"
+                    alt="icon"
+                  />
                 </Circle>
                 <h3 className="h3-mobile mb-20-mobile mb-20">Flexibility</h3>
                 <p className="txt-minimo-mobile mb-20">
@@ -74,7 +80,10 @@ function WhyUsh() {
             <SwiperSlide>
               <Card>
                 <Circle>
-                  <Icon src="/icons/needs-6.png" alt="icon" />
+                  <Icon
+                    src="https://ushmultimedia.blob.core.windows.net/ushwebsite/ExpIcon.png"
+                    alt="icon"
+                  />
                 </Circle>
                 <h3 className="h3-mobile mb-20-mobile mb-20">Experience</h3>
                 <p className="txt-minimo-mobile">
@@ -96,7 +105,10 @@ function WhyUsh() {
         <ContainerDesktop>
           <Card>
             <Circle>
-              <Icon src="/icons/needs-4.png" alt="icon" />
+              <Icon
+                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/ScalabilityIcon.png"
+                alt="icon"
+              />
             </Circle>
             <h3 className="h3-web h3-mobile mb-30">Scalability</h3>
             <p className="texto-regular txt-minimo-mobile mb-20">
@@ -112,7 +124,10 @@ function WhyUsh() {
           </Card>
           <Card>
             <Circle>
-              <Icon src="/icons/needs-5.png" alt="icon" />
+              <Icon
+                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/FlexibilityIcon.png"
+                alt="icon"
+              />
             </Circle>
             <h3 className="h3-web h3-mobile mb-30">Flexibility</h3>
             <p className="texto-regular txt-minimo-mobile mb-20">
@@ -128,7 +143,10 @@ function WhyUsh() {
           </Card>
           <Card>
             <Circle>
-              <Icon src="/icons/needs-6.png" alt="icon" />
+              <Icon
+                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/ExpIcon.png"
+                alt="icon"
+              />
             </Circle>
             <h3 className="h3-web h3-mobile mb-30">Experience</h3>
             <p className="texto-regular txt-minimo-mobile">

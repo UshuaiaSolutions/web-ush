@@ -45,7 +45,7 @@ function Explore() {
               </h3>
               <IconToggle
                 isOpen={open === "language"}
-                src="/icons/Toggle.png"
+                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/Closeicon.png"
                 alt="Show information"
               />
             </ItemTitle>
@@ -69,7 +69,7 @@ function Explore() {
               </h3>
               <IconToggle
                 isOpen={open === "project"}
-                src="/icons/Toggle.png"
+                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/Closeicon.png"
                 alt="Show information"
               />
             </ItemTitle>
@@ -93,7 +93,7 @@ function Explore() {
               </h3>
               <IconToggle
                 isOpen={open === "desktop"}
-                src="/icons/Toggle.png"
+                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/Closeicon.png"
                 alt="Show information"
               />
             </ItemTitle>
@@ -114,7 +114,7 @@ function Explore() {
               </h3>
               <IconToggle
                 isOpen={open === "video"}
-                src="/icons/Toggle.png"
+                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/Closeicon.png"
                 alt="Show information"
               />
             </ItemTitle>
@@ -132,7 +132,7 @@ function Explore() {
               <h3 className="h3-mobile dropdown-title-web">CONTENT CREATION</h3>
               <IconToggle
                 isOpen={open === "content"}
-                src="/icons/Toggle.png"
+                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/Closeicon.png"
                 alt="Show information"
               />
             </ItemTitle>

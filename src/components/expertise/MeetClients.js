@@ -119,13 +119,76 @@ function MeetClients() {
           className="mySwiper"
         >
           <SwiperSlide>
-            <img className="clients" src="/slider/primero.png" alt="brands" />
+            <img
+              className="clients"
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/AgilentWhite.png"
+              alt="brands"
+            />
+            <img
+              className="clients"
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/AvayaWhite.png"
+              alt="brands"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img className="clients" src="/slider/primero.png" alt="brands" />
+            <img
+              className="clients"
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/BIDWhite.png"
+              alt="brands"
+            />
+            <img
+              className="clients"
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/EliaWhite.png"
+              alt="brands"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img className="clients" src="/slider/primero.png" alt="brands" />
+            <img
+              className="clients"
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/PacifictechWhite.png"
+              alt="brands"
+            />
+            <img
+              className="clients"
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/RockwellWhite.png"
+              alt="brands"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              className="clients"
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/SageWhite.png"
+              alt="brands"
+            />
+            <img
+              className="clients"
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/StanfordWhite.png"
+              alt="brands"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              className="clients"
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/WorldBankWhite.png"
+              alt="brands"
+            />
+            <img
+              className="clients"
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/NTTWhite.png"
+              alt="brands"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              className="clients"
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/EricssonWhite.png"
+              alt="brands"
+            />
+            <img
+              className="clients"
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/OrciWhite.png"
+              alt="brands"
+            />
           </SwiperSlide>
         </Swiper>
       </Container>

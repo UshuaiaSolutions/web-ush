@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const StyledContainer = styled.div`
-  background: ${(props) => props.theme.rosaush};
+  background-color: ${(props) => props.theme.rosaush};
   width: 100%;
   padding: 45px 0;
+  background-image: url(https://ushmultimedia.blob.core.windows.net/ushwebsite/TramaFormGrande.png);
 
   @media (min-width: 769px) {
     padding: 140px 0;

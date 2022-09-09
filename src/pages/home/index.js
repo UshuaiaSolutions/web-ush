@@ -12,12 +12,19 @@ const Background = styled.div`
   color: ${(props) => props.theme.textonegro};
 `;
 
+const TramaContainer = styled.div`
+  background-image: url(https://ushmultimedia.blob.core.windows.net/ushwebsite/TramaWeCanMeetYourNeeds.png);
+  background-color: ${(props) => props.theme.textonegro};
+`;
+
 const Home = () => {
   return (
     <Background>
       <Hero />
-      <Needs />
-      <TeamingWithClients />
+      <TramaContainer>
+        <Needs />
+        <TeamingWithClients />
+      </TramaContainer>
       <Memberships />
       <WhyUSH />
       <BookMeeting />

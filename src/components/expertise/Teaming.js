@@ -28,7 +28,11 @@ function Teaming() {
           <CorteMobile /> create corporate social media content.
         </p>
         <ContainerIcon>
-          <img className="" src="/icons/finger-down.png" alt="See more" />
+          <img
+            className=""
+            src="https://ushmultimedia.blob.core.windows.net/ushwebsite/ManitoIcon.png"
+            alt="See more"
+          />
         </ContainerIcon>
       </Container>
     </StyledContainer>

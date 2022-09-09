@@ -31,13 +31,13 @@ const Image = styled.img`
   height: 334px;
   object-fit: cover;
 
-  @media (min-width: 769px) and (max-width: 1024px) {
+  @media (min-width: 769px) and (max-width: 1124px) {
     width: 303px;
   }
 
-  @media (min-width: 1025px) {
-    height: auto;
-    width: 300px;
+  @media (min-width: 1125px) {
+    height: 373px;
+    width: 421px;
     margin-top: 0px;
   }
 `;
@@ -85,19 +85,19 @@ const Circle = styled.div`
   top: -30px;
   right: 56px;
 
-  @media (min-width: 769px) and (max-width: 1024px) {
+  @media (min-width: 769px) and (max-width: 1124px) {
     border: 3px solid ${(props) => props.theme.textonegro};
     width: calc(80px - 6px);
     top: -40px;
-    left: 120px;
+    left: calc(50% - 80px / 2);
     height: calc(80px - 6px);
   }
 
-  @media (min-width: 1025px) {
+  @media (min-width: 1125px) {
     border: 3px solid ${(props) => props.theme.textonegro};
     width: calc(100px - 6px);
     top: -55px;
-    left: 125px;
+    left: calc(50% - 100px / 2);
     height: calc(100px - 6px);
   }
 `;
@@ -113,7 +113,7 @@ const Icon = styled.img`
 `;
 
 const Column = styled.div`
-  @media (min-width: 769px) and (max-width: 1024px) {
+  @media (min-width: 769px) and (max-width: 1124px) {
     display: flex;
     justify-content: space-between;
 
@@ -122,11 +122,12 @@ const Column = styled.div`
     }
   }
 
-  @media (min-width: 1025px) {
+  @media (min-width: 1125px) {
     display: flex;
     margin-bottom: 70px;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
   }
 `;
 
@@ -141,6 +142,7 @@ const ContainerDesktop = styled.div`
   @media (min-width: 1025px) {
     display: flex;
     width: 50%;
+    height: 475px;
   }
 `;
 
@@ -188,7 +190,10 @@ function MeetYourLanguage() {
               <BotonSecundario>Get in touch</BotonSecundario>
             </HashLink>
           </div>
-          <Image src="/illustration-why.png" alt="hero illustration" />
+          <Image
+            src="https://ushmultimedia.blob.core.windows.net/ushwebsite/AboutHeroSection.png"
+            alt="hero illustration"
+          />
         </Column>
         <Column>
           <Video src="/illustration-why.png" alt="hero illustration" />
@@ -209,7 +214,10 @@ function MeetYourLanguage() {
                 {" "}
                 <Card>
                   <Circle>
-                    <Icon src="/icons/needs-1.png" alt="icon" />
+                    <Icon
+                      src="https://ushmultimedia.blob.core.windows.net/ushwebsite/ExpIcon.png"
+                      alt="icon"
+                    />
                   </Circle>
                   <h3 className="h3-web h3-mobile mb-20">Experience</h3>
                   <p className="texto-regular txt-minimo-mobile text-center">
@@ -224,7 +232,10 @@ function MeetYourLanguage() {
               <SwiperSlide data-hash="slide2">
                 <Card>
                   <Circle>
-                    <Icon src="/icons/needs-2.png" alt="icon" />
+                    <Icon
+                      src="https://ushmultimedia.blob.core.windows.net/ushwebsite/InnovationIcon.png"
+                      alt="icon"
+                    />
                   </Circle>
                   <h3 className="h3-web h3-mobile mb-20">Innovation</h3>
                   <p className="texto-regular txt-minimo-mobile text-center">
@@ -240,7 +251,10 @@ function MeetYourLanguage() {
               <SwiperSlide data-hash="slide3">
                 <Card>
                   <Circle>
-                    <Icon src="/icons/needs-3.png" alt="icon" />
+                    <Icon
+                      src="https://ushmultimedia.blob.core.windows.net/ushwebsite/TeamWorkIcon.png"
+                      alt="icon"
+                    />
                   </Circle>
                   <h3 className="h3-web h3-mobile mb-20">Teamwork</h3>
                   <p className="texto-regular txt-minimo-mobile text-center">
@@ -268,7 +282,10 @@ function MeetYourLanguage() {
             <SwiperSlide>
               <Card>
                 <Circle>
-                  <Icon src="/icons/needs-1.png" alt="icon" />
+                  <Icon
+                    src="https://ushmultimedia.blob.core.windows.net/ushwebsite/ExpIcon.png"
+                    alt="icon"
+                  />
                 </Circle>
                 <h3 className="h3-mobile mb-10-mobile">Experience</h3>
                 <p className="txt-minimo-mobile text-center">
@@ -288,7 +305,10 @@ function MeetYourLanguage() {
             <SwiperSlide>
               <Card>
                 <Circle>
-                  <Icon src="/icons/needs-2.png" alt="icon" />
+                  <Icon
+                    src="https://ushmultimedia.blob.core.windows.net/ushwebsite/InnovationIcon.png"
+                    alt="icon"
+                  />
                 </Circle>
                 <h3 className="h3-mobile mb-10-mobile">Innovation</h3>
                 <p className="txt-minimo-mobile text-center">
@@ -306,7 +326,10 @@ function MeetYourLanguage() {
             <SwiperSlide>
               <Card>
                 <Circle>
-                  <Icon src="/icons/needs-3.png" alt="icon" />
+                  <Icon
+                    src="https://ushmultimedia.blob.core.windows.net/ushwebsite/TeamWorkIcon.png"
+                    alt="icon"
+                  />
                 </Circle>
                 <h3 className="h3-mobile mb-10-mobile">Teamwork</h3>
                 <p className="txt-minimo-mobile text-center">

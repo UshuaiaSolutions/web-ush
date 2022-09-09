@@ -22,34 +22,48 @@ function HowWeCan() {
                 01&ensp;&ensp;You tell us what you need
               </h3>
               <p className="txt-regular-mobile texto-regular mb-40-mobile">
-                We can discuss together your goals, target audiences, scope of
-                <CorteDesktop /> the project, software needed, and more. We can
-                adapt to any
-                <CorteDesktop /> technology, platform or process you already
-                use.
+                Easier said than done? We can help you reach your community
+                <CorteDesktop /> with services ranging from{" "}
+                <span className="important-text">copywriting</span>,{" "}
+                <span className="important-text">translation</span> and
+                <CorteDesktop />{" "}
+                <span className="important-text">transcreation</span> to{" "}
+                <span className="important-text">multilingual</span> customer
+                service, engaging <span className="important-text">video</span>
+                <CorteDesktop /> content and{" "}
+                <span className="important-text">e-learning</span> initiatives
+                to cover the language needs
+                <CorteDesktop /> of your international team.
               </p>
             </Column>
             <Column>
               <h3 className="h3-mobile h3-web mb-10-mobile mb-20 resaltado resaltado-mobile">
-                02&ensp;&ensp;We manage your project
+                02&ensp;&ensp;We make a work plan
               </h3>
               <p className="txt-regular-mobile texto-regular mb-40-mobile">
-                We have the capacity to build and maintain
-                <CorteMobile /> on-site dedicated teams for your content
-                <CorteMobile /> types and required tools. We can handle
-                <CorteMobile /> projects of any size thanks to the committed
-                <CorteMobile /> work of our project managers.
+                Project-based, or on-going service,{" "}
+                <span className="important-text">customized</span> and{" "}
+                <span className="important-text">automated</span>
+                <CorteDesktop /> as needed, using the latest language and
+                content <span className="important-text">technologies</span>,
+                <CorteDesktop /> we agree on what needs to be done. Our{" "}
+                <span className="important-text">multidisciplinary team</span>
+                <CorteDesktop /> will work closely with your own teams to
+                provide language and
+                <CorteDesktop /> content services as you need them.
               </p>
             </Column>
             <Column>
               <h3 className="h3-mobile h3-web mb-10-mobile mb-20 resaltado resaltado-mobile">
-                03&ensp;&ensp;Your project is ready
+                03&ensp;&ensp;Delivery and follow-up
               </h3>
               <p className="txt-regular-mobile texto-regular mb-40-mobile">
-                As an ISO certified language service
-                <CorteMobile /> company, we ensure that our services meet
-                <CorteMobile /> high quality standards and are delivered on
-                <CorteMobile /> time at competitive rates.
+                We ensure that our services meet high quality standards and are
+                <CorteDesktop /> delivered on time at competitive rates. After
+                initial delivery, we
+                <CorteDesktop /> work closely with your team to make sure the
+                content helps you
+                <CorteDesktop /> reach your goals!
               </p>
             </Column>
           </div>

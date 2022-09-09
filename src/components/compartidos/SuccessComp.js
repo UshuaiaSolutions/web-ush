@@ -33,11 +33,11 @@ export const Container = styled.div`
 
 export const Close = styled.img`
   position: absolute;
-  right: 20px;
-  top: 20px;
+  right: 35px;
+  top: 25px;
   height: 26px;
   width: 26px;
-  transform: rotate(45deg);
+  object-fit: scale-down;
 
   @media (min-width: 769px) {
     right: 70px;
@@ -47,5 +47,17 @@ export const Close = styled.img`
   @media (min-width: 1125px) {
     height: 38px;
     width: 38px;
+  }
+`;
+
+export const Img = styled.img`
+  height: 48px;
+  width: 48px;
+  margin-bottom: 25px;
+
+  @media (min-width: 1125px) {
+    height: 90px;
+    width: 90px;
+    margin-bottom: 30px;
   }
 `;

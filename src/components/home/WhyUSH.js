@@ -90,7 +90,10 @@ function WhyUSH() {
     <StyledContainer>
       <Container>
         <Content>
-          <ImageDesktop src="/illustrations/high-five.png" alt="illustration" />
+          <ImageDesktop
+            src="https://ushmultimedia.blob.core.windows.net/ushwebsite/HomeWhyUSHDesktop.png"
+            alt="illustration"
+          />
 
           <div className="w-50-desktop-grande w-50-desktop-medio corte-exacto-desktop-medio">
             <h2 className="h2-web h2-mobile mb-40 mb-0-mobile underline-mobile">
@@ -98,7 +101,7 @@ function WhyUSH() {
             </h2>
 
             <ImageMobile
-              src="/illustrations/high-five.png"
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/HomeWhyUSHMobile.png"
               alt="illustration"
             />
 

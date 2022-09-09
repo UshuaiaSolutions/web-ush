@@ -80,8 +80,20 @@ export const Icon = styled.img`
   height: 40px;
 
   @media (min-width: 1125px) {
-    width: 68px;
-    height: 68px;
+    &.first {
+      height: 52px;
+      width: 69px;
+    }
+
+    &.second {
+      height: 48px;
+      width: 57px;
+    }
+
+    &.third {
+      height: 60.02px;
+      width: 49.34px;
+    }
   }
 `;
 

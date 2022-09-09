@@ -3,7 +3,8 @@ import styled from "styled-components";
 export const StyledContainer = styled.div`
   padding: 60px 0;
   color: ${(props) => props.theme.fondo};
-  background: ${(props) => props.theme.azulush};
+  background-color: ${(props) => props.theme.azulush};
+  background-image: url(https://ushmultimedia.blob.core.windows.net/ushwebsite/TramaExploreHowWe.png);
   display: flex;
   flex-direction: column;
 
@@ -73,9 +74,10 @@ export const IconToggle = styled.img`
   -moz-transition: all 0.3s linear;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
-  -moz-transform: ${(props) => (props.isOpen ? "rotate(45deg)" : "")};
-  -webkit-transform: ${(props) => (props.isOpen ? "rotate(45deg)" : "")};
-  transform: ${(props) => (props.isOpen ? "rotate(45deg)" : "")};
+  -moz-transform: ${(props) => (props.isOpen ? "" : "rotate(45deg)")};
+  -webkit-transform: ${(props) => (props.isOpen ? "" : "rotate(45deg)")};
+  transform: ${(props) => (props.isOpen ? "" : "rotate(45deg)")};
+  cursor: pointer;
 `;
 
 export const RowDesktop = styled.div`

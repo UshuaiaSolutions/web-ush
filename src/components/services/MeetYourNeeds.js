@@ -22,7 +22,11 @@ function MeetYourNeeds() {
           </span>
         </p>
         <ContainerIcon>
-          <Image className="" src="/icons/finger-down.png" alt="See more" />
+          <Image
+            className=""
+            src="https://ushmultimedia.blob.core.windows.net/ushwebsite/ManitoIcon.png"
+            alt="See more"
+          />
         </ContainerIcon>
       </Container>
     </StyledContainer>

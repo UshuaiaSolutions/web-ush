@@ -33,7 +33,11 @@ function Needs() {
               <SwiperSlide>
                 <Card>
                   <Circle>
-                    <Icon src="/icons/needs-1.png" alt="icon" />
+                    <Icon
+                      src="https://ushmultimedia.blob.core.windows.net/ushwebsite/LangIcon.png"
+                      className="first"
+                      alt="icon"
+                    />
                   </Circle>
                   <h3 className="h3-mobile mb-20-mobile">Language services</h3>
                   <p className="txt-minimo-mobile">
@@ -49,7 +53,11 @@ function Needs() {
               <SwiperSlide>
                 <Card>
                   <Circle>
-                    <Icon src="/icons/needs-2.png" alt="icon" />
+                    <Icon
+                      src="https://ushmultimedia.blob.core.windows.net/ushwebsite/ContentIcon.png"
+                      className="second"
+                      alt="icon"
+                    />
                   </Circle>
                   <h3 className="h3-mobile mb-20-mobile">Content creation</h3>
                   <p className="txt-minimo-mobile">
@@ -67,7 +75,11 @@ function Needs() {
               <SwiperSlide>
                 <Card>
                   <Circle>
-                    <Icon src="/icons/needs-3.png" alt="icon" />
+                    <Icon
+                      src="https://ushmultimedia.blob.core.windows.net/ushwebsite/KnowHowIcon.png"
+                      className="third"
+                      alt="icon"
+                    />
                   </Circle>
                   <h3 className="h3-mobile mb-20-mobile">Know - how</h3>
                   <p className="txt-minimo-mobile">
@@ -88,7 +100,11 @@ function Needs() {
           <ContainerDesktop>
             <Card>
               <Circle>
-                <Icon src="/icons/needs-1.png" alt="icon" />
+                <Icon
+                  src="https://ushmultimedia.blob.core.windows.net/ushwebsite/LangIcon.png"
+                  className="first"
+                  alt="icon"
+                />
               </Circle>
               <h3 className="h3-web h3-mobile mb-30">Language services</h3>
               <p className="texto-regular txt-minimo-mobile">
@@ -101,7 +117,11 @@ function Needs() {
             </Card>
             <Card>
               <Circle>
-                <Icon src="/icons/needs-2.png" alt="icon" />
+                <Icon
+                  src="https://ushmultimedia.blob.core.windows.net/ushwebsite/ContentIcon.png"
+                  className="second"
+                  alt="icon"
+                />
               </Circle>
               <h3 className="h3-web h3-mobile mb-30">Content creation</h3>
               <p className="texto-regular txt-minimo-mobile">
@@ -115,7 +135,11 @@ function Needs() {
             </Card>
             <Card>
               <Circle>
-                <Icon src="/icons/needs-3.png" alt="icon" />
+                <Icon
+                  src="https://ushmultimedia.blob.core.windows.net/ushwebsite/KnowHowIcon.png"
+                  className="third"
+                  alt="icon"
+                />
               </Circle>
               <h3 className="h3-web h3-mobile mb-30">Know - how</h3>
               <p className="texto-regular txt-minimo-mobile">

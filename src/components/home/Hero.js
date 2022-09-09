@@ -69,7 +69,10 @@ const Hero = () => {
             <BotonSecundario>Get in touch</BotonSecundario>
           </HashLink>
         </div>
-        <Image src="/hero-image.png" alt="hero illustration" />
+        <Image
+          src="https://ushmultimedia.blob.core.windows.net/ushwebsite/HomeHeroSection.png"
+          alt="hero illustration"
+        />
       </Content>
     </Container>
   );

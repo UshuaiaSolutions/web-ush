@@ -58,7 +58,7 @@ function Footer() {
                 >
                   <RedImage
                     className="object-scale me-5 me-0-mobile"
-                    src="/icons/instagram-blanco.png"
+                    src="https://ushmultimedia.blob.core.windows.net/ushwebsite/Instagram.png"
                     alt="instagram"
                   />
                   <Red>Instagram</Red>
@@ -69,7 +69,7 @@ function Footer() {
                 >
                   <RedImage
                     className="object-scale me-5 me-0-mobile"
-                    src="/icons/linkedin-blanco.png"
+                    src="https://ushmultimedia.blob.core.windows.net/ushwebsite/Linkedin.png"
                     alt="linkedin"
                   />
                   <Red>Linked In</Red>
@@ -80,7 +80,7 @@ function Footer() {
                 >
                   <RedImage
                     className="object-scale me-5 me-0-mobile"
-                    src="/icons/facebook-blanco.png"
+                    src="https://ushmultimedia.blob.core.windows.net/ushwebsite/Facebook.png"
                     alt="facebook"
                   />
                   <Red>Facebook</Red>
@@ -91,7 +91,7 @@ function Footer() {
                 >
                   <RedImage
                     className="object-scale me-5 me-0-mobile"
-                    src="/icons/youtube-blanco.png"
+                    src="https://ushmultimedia.blob.core.windows.net/ushwebsite/Youtube.png"
                     alt="youtube"
                   />
                   <Red>Youtube</Red>
@@ -106,8 +106,14 @@ function Footer() {
               <span className="texto-regular">GET IN TOUCH</span>
             </Column>
             <ColumnSecond>
-              <Logo src="/logo-footer.png" alt="Logo ushuaia" />
-              <Iso src="/iso-footer.png" alt="ISO" />
+              <Logo
+                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/LogoUSHBajadaWhite.png"
+                alt="Logo ushuaia"
+              />
+              <Iso
+                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/LogoISO.png"
+                alt="ISO"
+              />
             </ColumnSecond>
           </Content>
         </Container>

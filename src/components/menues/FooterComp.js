@@ -115,7 +115,7 @@ export const ColumnSecond = styled.div`
   align-items: center;
 
   @media (min-width: 769px) {
-    align-items: start;
+    align-items: end;
   }
 `;
 
@@ -124,19 +124,21 @@ export const Logo = styled.img`
   width: 158px;
 
   @media (min-width: 1125px) {
-    width: 270px;
-    height: 190px;
-    object-fit: cover;
+    height: 104px;
+    width: 350px;
+    margin-bottom: 50px;
+    object-fit: none;
   }
 `;
 
 export const Iso = styled.img`
   height: auto;
   width: 46px;
+  object-fit: cover;
 
   @media (min-width: 1125px) {
-    width: 126px;
-    height: 60px;
+    height: 42px;
+    width: 103px;
   }
 `;
 
@@ -174,7 +176,7 @@ export const RedImage = styled.img`
   }
 
   @media (min-width: 1125px) {
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
   }
 `;

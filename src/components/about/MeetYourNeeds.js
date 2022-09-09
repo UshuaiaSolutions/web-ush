@@ -41,10 +41,11 @@ const Image = styled.img`
   width: 14px;
   margin-right: 19px;
 
-  @media (min-width: 1025px) {
+  @media (min-width: 1125px) {
     height: 31px;
     width: 31px;
     margin-top: 5px;
+    object-fit: scale-down;
   }
 `;
 
@@ -78,37 +79,55 @@ function MeetYourNeeds() {
           </p>
           <Column>
             <Row>
-              <Image src="/icons/check-blanco.png" alt="Checked" />
+              <Image
+                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
+                alt="Checked"
+              />
               <h3 className="destacados-semibold-mobile destacado-item mb-15-mobile mb-20">
                 Language Solutions
               </h3>
             </Row>
             <Row>
-              <Image src="/icons/check-blanco.png" alt="Checked" />
+              <Image
+                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
+                alt="Checked"
+              />
               <h3 className="destacados-semibold-mobile destacado-item mb-15-mobile mb-20">
                 Project Management
               </h3>
             </Row>
             <Row>
-              <Image src="/icons/check-blanco.png" alt="Checked" />
+              <Image
+                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
+                alt="Checked"
+              />
               <h3 className="destacados-semibold-mobile destacado-item mb-15-mobile mb-20">
                 Desktop Publishing
               </h3>
             </Row>
             <Row>
-              <Image src="/icons/check-blanco.png" alt="Checked" />
+              <Image
+                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
+                alt="Checked"
+              />
               <h3 className="destacados-semibold-mobile destacado-item mb-15-mobile mb-20">
                 Creative Visuals
               </h3>
             </Row>
             <Row>
-              <Image src="/icons/check-blanco.png" alt="Checked" />
+              <Image
+                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
+                alt="Checked"
+              />
               <h3 className="destacados-semibold-mobile destacado-item mb-15-mobile mb-20">
                 Content Creation
               </h3>
             </Row>
             <Row>
-              <Image src="/icons/check-blanco.png" alt="Checked" />
+              <Image
+                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
+                alt="Checked"
+              />
               <h3 className="destacados-semibold-mobile destacado-item mb-40-mobile">
                 E-learning and Video
               </h3>

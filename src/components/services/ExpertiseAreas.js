@@ -31,9 +31,14 @@ const Column = styled.div`
 
 const Row = styled.div`
   display: flex;
+  align-items: last baseline;
 
   @media (min-width: 769px) {
     margin-bottom: 40px;
+  }
+
+  & h3 {
+    align-items: flex-start;
   }
 `;
 
@@ -41,12 +46,11 @@ const Image = styled.img`
   height: 14px;
   width: 14px;
   margin-right: 19px;
-  margin-top: 2px;
+  align-items: flex-start;
 
   @media (min-width: 1125px) {
-    width: 24px;
-    height: 24px;
-    margin-top: 5px;
+    width: 31px;
+    height: 31px;
   }
 `;
 
@@ -88,89 +92,131 @@ function ExpertiseAreas() {
         </DesktopRow>
         <Column>
           <Row>
-            <Image src="/icons/check.png" alt="Checked" />
+            <Image
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
+              alt="Checked"
+            />
             <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
               Cloud Computing
             </h3>
           </Row>
           <Row>
-            <Image src="/icons/check.png" alt="Checked" />
+            <Image
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
+              alt="Checked"
+            />
             <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
               Finance, Business
               <CorteDesktop /> and Banking
             </h3>
           </Row>
           <Row>
-            <Image src="/icons/check.png" alt="Checked" />
+            <Image
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
+              alt="Checked"
+            />
             <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
               Artificial Intelligence
             </h3>
           </Row>
           <Row>
-            <Image src="/icons/check.png" alt="Checked" />
+            <Image
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
+              alt="Checked"
+            />
             <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
               Insurance and Legal
             </h3>
           </Row>
           <Row>
-            <Image src="/icons/check.png" alt="Checked" />
+            <Image
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
+              alt="Checked"
+            />
             <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
               Retail and e-Commerce
             </h3>
           </Row>
           <Row>
-            <Image src="/icons/check.png" alt="Checked" />
+            <Image
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
+              alt="Checked"
+            />
             <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
               Marketing and <CorteDesktop /> Human Resources
             </h3>
           </Row>
           <Row>
-            <Image src="/icons/check.png" alt="Checked" />
+            <Image
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
+              alt="Checked"
+            />
             <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
               Enterprise software
               <CorteDesktop /> (ERP, CMS, HCM)
             </h3>
           </Row>
           <Row>
-            <Image src="/icons/check.png" alt="Checked" />
+            <Image
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
+              alt="Checked"
+            />
             <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
               Tourism, Hotels and Leisure
             </h3>
           </Row>
           <Row>
-            <Image src="/icons/check.png" alt="Checked" />
+            <Image
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
+              alt="Checked"
+            />
             <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
               Industrial Automation
             </h3>
           </Row>
           <Row>
-            <Image src="/icons/check.png" alt="Checked" />
+            <Image
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
+              alt="Checked"
+            />
             <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
               Mechanical, Automotive
               <CorteDesktop /> and Heavy Machinery
             </h3>
           </Row>
           <Row>
-            <Image src="/icons/check.png" alt="Checked" />
+            <Image
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
+              alt="Checked"
+            />
             <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
               Healthcare and Life Sciences
             </h3>
           </Row>
           <Row>
-            <Image src="/icons/check.png" alt="Checked" />
+            <Image
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
+              alt="Checked"
+            />
             <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
               Fitness, Cosmetics and
               <CorteDesktop /> Beauty Products
             </h3>
           </Row>
           <Row>
-            <Image src="/icons/check.png" alt="Checked" />
+            <Image
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
+              alt="Checked"
+            />
             <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
               Industry and Logistics
             </h3>
           </Row>
           <Row>
-            <Image src="/icons/check.png" alt="Checked" />
+            <Image
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
+              alt="Checked"
+            />
             <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
               Arts and Design
             </h3>
