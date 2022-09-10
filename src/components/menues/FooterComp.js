@@ -84,6 +84,7 @@ export const ContainerRedesFooter = styled.div`
 `;
 
 export const Red = styled.p`
+  color: ${(props) => props.theme.fondo};
   text-decoration: underline;
   font-size: 10px;
   font-weight: 400;
@@ -103,7 +104,7 @@ export const Red = styled.p`
 export const Column = styled.div`
   display: none;
 
-  @media (min-width: 769px) {
+  @media (min-width: 1125px) {
     display: flex;
     flex-direction: column;
   }
@@ -120,25 +121,32 @@ export const ColumnSecond = styled.div`
 `;
 
 export const Logo = styled.img`
-  height: auto;
-  width: 158px;
+  height: 46px;
+  width: 154px;
+
+  @media (min-width: 769px) {
+    height: 84px;
+    width: 330px;
+    margin-bottom: 50px;
+    object-fit: scale-down;
+  }
 
   @media (min-width: 1125px) {
     height: 104px;
     width: 350px;
-    margin-bottom: 50px;
     object-fit: none;
   }
 `;
 
 export const Iso = styled.img`
-  height: auto;
+  height: 22px;
   width: 46px;
-  object-fit: cover;
+  margin-top: 30px;
 
-  @media (min-width: 1125px) {
+  @media (min-width: 769px) {
     height: 42px;
     width: 103px;
+    margin-top: 0px;
   }
 `;
 
@@ -167,12 +175,13 @@ export const ContainerRed = styled.a`
 `;
 
 export const RedImage = styled.img`
-  width: 18px;
-  height: 18px;
+  height: 20px;
+  width: 20px;
   margin-bottom: 5px;
 
   @media (min-width: 769px) {
     margin-bottom: 0px;
+    margin-right: 7px;
   }
 
   @media (min-width: 1125px) {

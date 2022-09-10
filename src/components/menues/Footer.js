@@ -57,7 +57,7 @@ function Footer() {
                   target="_blank"
                 >
                   <RedImage
-                    className="object-scale me-5 me-0-mobile"
+                    className="object-scale"
                     src="https://ushmultimedia.blob.core.windows.net/ushwebsite/Instagram.png"
                     alt="instagram"
                   />
@@ -68,18 +68,18 @@ function Footer() {
                   target="_blank"
                 >
                   <RedImage
-                    className="object-scale me-5 me-0-mobile"
+                    className="object-scale"
                     src="https://ushmultimedia.blob.core.windows.net/ushwebsite/Linkedin.png"
                     alt="linkedin"
                   />
-                  <Red>Linked In</Red>
+                  <Red>LinkedIn</Red>
                 </ContainerRed>
                 <ContainerRed
                   href="https://www.facebook.com/UshuaiaSolutions"
                   target="_blank"
                 >
                   <RedImage
-                    className="object-scale me-5 me-0-mobile"
+                    className="object-scale"
                     src="https://ushmultimedia.blob.core.windows.net/ushwebsite/Facebook.png"
                     alt="facebook"
                   />
@@ -90,7 +90,7 @@ function Footer() {
                   target="_blank"
                 >
                   <RedImage
-                    className="object-scale me-5 me-0-mobile"
+                    className="object-scale"
                     src="https://ushmultimedia.blob.core.windows.net/ushwebsite/Youtube.png"
                     alt="youtube"
                   />

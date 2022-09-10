@@ -33,6 +33,7 @@ function WhyUsh() {
                 <Circle>
                   <Icon
                     src="https://ushmultimedia.blob.core.windows.net/ushwebsite/ScalabilityIcon.png"
+                    className="first"
                     alt="icon"
                   />
                 </Circle>
@@ -56,6 +57,7 @@ function WhyUsh() {
                 <Circle>
                   <Icon
                     src="https://ushmultimedia.blob.core.windows.net/ushwebsite/FlexibilityIcon.png"
+                    className="second"
                     alt="icon"
                   />
                 </Circle>
@@ -82,6 +84,7 @@ function WhyUsh() {
                 <Circle>
                   <Icon
                     src="https://ushmultimedia.blob.core.windows.net/ushwebsite/ExpIcon.png"
+                    className="third"
                     alt="icon"
                   />
                 </Circle>
@@ -107,6 +110,7 @@ function WhyUsh() {
             <Circle>
               <Icon
                 src="https://ushmultimedia.blob.core.windows.net/ushwebsite/ScalabilityIcon.png"
+                className="first"
                 alt="icon"
               />
             </Circle>
@@ -126,6 +130,7 @@ function WhyUsh() {
             <Circle>
               <Icon
                 src="https://ushmultimedia.blob.core.windows.net/ushwebsite/FlexibilityIcon.png"
+                className="second"
                 alt="icon"
               />
             </Circle>
@@ -145,6 +150,7 @@ function WhyUsh() {
             <Circle>
               <Icon
                 src="https://ushmultimedia.blob.core.windows.net/ushwebsite/ExpIcon.png"
+                className="third"
                 alt="icon"
               />
             </Circle>

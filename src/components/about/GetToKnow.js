@@ -1,5 +1,4 @@
 import React from "react";
-import styled from "styled-components";
 import Container from "../base/Container";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -8,46 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 import "../../styles/slider.css";
 import { CorteDesktop, CorteMobile } from "../base/Cortes";
-
-const StyledContainer = styled.div`
-  padding: 40px 0;
-  color: ${(props) => props.theme.textonegro};
-  background: ${(props) => props.theme.fondo};
-  display: flex;
-  flex-direction: column;
-
-  @media (min-width: 1500px) {
-    padding: 0 0 100px;
-  }
-`;
-
-const Column = styled.div`
-  display: flex;
-  flex-direction: column;
-`;
-
-const Card = styled.div`
-  width: 136px;
-  height: 136px;
-
-  @media (min-width: 769px) {
-    width: 240px;
-    height: 240px;
-  }
-`;
-
-const Icon = styled.img`
-  width: 100%;
-  height: 100%;
-`;
-
-const Row = styled.div`
-  @media (min-width: 769px) {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 70px;
-  }
-`;
+import { StyledContainer, Row, Column, Card, Icon } from "./GetToKnowComp";
 
 function GetToKnow() {
   return (

@@ -5,6 +5,8 @@ export const StyledContainer = styled.div`
   color: ${(props) => props.theme.fondo};
   background-color: ${(props) => props.theme.azulush};
   background-image: url(https://ushmultimedia.blob.core.windows.net/ushwebsite/TramaExploreHowWe.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
 
@@ -69,15 +71,17 @@ export const ItemTitle = styled.div`
 `;
 
 export const IconToggle = styled.img`
-  height: 16px;
-  width: 16px;
-  -moz-transition: all 0.3s linear;
-  -webkit-transition: all 0.3s linear;
+  height: 8px;
+  width: 8px;
   transition: all 0.3s linear;
-  -moz-transform: ${(props) => (props.isOpen ? "" : "rotate(45deg)")};
-  -webkit-transform: ${(props) => (props.isOpen ? "" : "rotate(45deg)")};
   transform: ${(props) => (props.isOpen ? "" : "rotate(45deg)")};
   cursor: pointer;
+
+  @media (min-width: 769px) {
+    height: 20px;
+    width: 20px;
+    object-fit: scale-down;
+  }
 `;
 
 export const RowDesktop = styled.div`

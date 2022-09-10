@@ -1,6 +1,5 @@
 import React from "react";
 import { HashLink } from "react-router-hash-link";
-import styled from "styled-components";
 import BotonSecundario from "../base/BotonSecundario";
 import Container from "../base/Container";
 import "swiper/css";
@@ -8,157 +7,17 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper";
 import "../../styles/slider.css";
 import { CorteDesktop, CorteMobile } from "../base/Cortes";
-
-const StyledContainer = styled.div`
-  padding: 40px 0;
-  color: ${(props) => props.theme.textonegro};
-  background: ${(props) => props.theme.fondo};
-  display: flex;
-  flex-direction: column;
-
-  @media (min-width: 1025px) {
-    padding: 80px 0 40px;
-  }
-
-  @media (min-width: 1500px) {
-    padding: 100px 0;
-  }
-`;
-
-const Image = styled.img`
-  margin-top: 40px;
-  width: 100%;
-  height: 334px;
-  object-fit: cover;
-
-  @media (min-width: 769px) and (max-width: 1124px) {
-    width: 303px;
-  }
-
-  @media (min-width: 1125px) {
-    height: 373px;
-    width: 421px;
-    margin-top: 0px;
-  }
-`;
-
-const Card = styled.div`
-  background: ${(props) => props.theme.fondo};
-  border: 2px solid ${(props) => props.theme.textonegro};
-  border-radius: 32px;
-  color: ${(props) => props.theme.textonegro};
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: calc(178px - 4px);
-  padding: 40px 0;
-  position: relative;
-
-  @media (min-width: 769px) and (max-width: 1024px) {
-    width: calc(321px - 6px);
-    height: calc(270px - 6px);
-    padding: 0;
-    justify-content: inherit;
-    border: 3px solid ${(props) => props.theme.textonegro};
-  }
-
-  @media (min-width: 1025px) {
-    width: calc(421px - 6px);
-    height: calc(370px - 6px);
-    padding: 0;
-    justify-content: inherit;
-    border: 3px solid ${(props) => props.theme.textonegro};
-  }
-`;
-
-const Circle = styled.div`
-  position: absolute;
-  border: 2px solid ${(props) => props.theme.textonegro};
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: ${(props) => props.theme.fondo};
-  width: calc(56px - 4px);
-  height: calc(56px - 4px);
-  top: -30px;
-  right: 56px;
-
-  @media (min-width: 769px) and (max-width: 1124px) {
-    border: 3px solid ${(props) => props.theme.textonegro};
-    width: calc(80px - 6px);
-    top: -40px;
-    left: calc(50% - 80px / 2);
-    height: calc(80px - 6px);
-  }
-
-  @media (min-width: 1125px) {
-    border: 3px solid ${(props) => props.theme.textonegro};
-    width: calc(100px - 6px);
-    top: -55px;
-    left: calc(50% - 100px / 2);
-    height: calc(100px - 6px);
-  }
-`;
-
-const Icon = styled.img`
-  width: 40px;
-  height: 40px;
-
-  @media (min-width: 1025px) {
-    width: 55px;
-    height: 55px;
-  }
-`;
-
-const Column = styled.div`
-  @media (min-width: 769px) and (max-width: 1124px) {
-    display: flex;
-    justify-content: space-between;
-
-    & .corte-exacto-desktop-chico {
-      width: 373px;
-    }
-  }
-
-  @media (min-width: 1125px) {
-    display: flex;
-    margin-bottom: 70px;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-  }
-`;
-
-const ContainerDesktop = styled.div`
-  display: none;
-  @media (min-width: 769px) and (max-width: 1024px) {
-    display: flex;
-    width: 425px;
-    height: 400px;
-  }
-
-  @media (min-width: 1025px) {
-    display: flex;
-    width: 50%;
-    height: 475px;
-  }
-`;
-
-const ContainerMobile = styled.div`
-  @media (min-width: 769px) {
-    display: none;
-  }
-`;
-
-const Video = styled.img`
-  width: 100%;
-
-  @media (min-width: 769px) {
-    width: 45%;
-  }
-`;
+import {
+  StyledContainer,
+  Column,
+  Image,
+  Video,
+  ContainerDesktop,
+  ContainerMobile,
+  Card,
+  Circle,
+  Icon,
+} from "./MeetYourLanguageComp";
 
 function MeetYourLanguage() {
   return (
@@ -211,11 +70,11 @@ function MeetYourLanguage() {
               className="mySwiperAbout"
             >
               <SwiperSlide data-hash="slide1">
-                {" "}
                 <Card>
                   <Circle>
                     <Icon
                       src="https://ushmultimedia.blob.core.windows.net/ushwebsite/ExpIcon.png"
+                      className="first"
                       alt="icon"
                     />
                   </Circle>
@@ -234,6 +93,7 @@ function MeetYourLanguage() {
                   <Circle>
                     <Icon
                       src="https://ushmultimedia.blob.core.windows.net/ushwebsite/InnovationIcon.png"
+                      className="second"
                       alt="icon"
                     />
                   </Circle>
@@ -253,6 +113,7 @@ function MeetYourLanguage() {
                   <Circle>
                     <Icon
                       src="https://ushmultimedia.blob.core.windows.net/ushwebsite/TeamWorkIcon.png"
+                      className="third"
                       alt="icon"
                     />
                   </Circle>
@@ -284,6 +145,7 @@ function MeetYourLanguage() {
                 <Circle>
                   <Icon
                     src="https://ushmultimedia.blob.core.windows.net/ushwebsite/ExpIcon.png"
+                    className="first"
                     alt="icon"
                   />
                 </Circle>
@@ -307,6 +169,7 @@ function MeetYourLanguage() {
                 <Circle>
                   <Icon
                     src="https://ushmultimedia.blob.core.windows.net/ushwebsite/InnovationIcon.png"
+                    className="second"
                     alt="icon"
                   />
                 </Circle>
@@ -328,6 +191,7 @@ function MeetYourLanguage() {
                 <Circle>
                   <Icon
                     src="https://ushmultimedia.blob.core.windows.net/ushwebsite/TeamWorkIcon.png"
+                    className="third"
                     alt="icon"
                   />
                 </Circle>

@@ -79,20 +79,35 @@ export const Icon = styled.img`
   width: 40px;
   height: 40px;
 
-  @media (min-width: 1125px) {
+  &.first {
+    height: 26px;
+    width: 31px;
+  }
+
+  &.second {
+    height: 18px;
+    width: 35px;
+  }
+
+  &.third {
+    height: 30px;
+    width: 30px;
+  }
+
+  @media (min-width: 769px) {
     &.first {
-      height: 52px;
-      width: 69px;
+      height: 50px;
+      width: 61px;
     }
 
     &.second {
-      height: 48px;
-      width: 57px;
+      height: 40px;
+      width: 81px;
     }
 
     &.third {
-      height: 60.02px;
-      width: 49.34px;
+      height: 60px;
+      width: 60px;
     }
   }
 `;

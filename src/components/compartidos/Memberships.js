@@ -1,69 +1,21 @@
 import React from "react";
-import styled from "styled-components";
 import Container from "../base/Container";
 import { CorteDesktop, CorteMobile } from "../base/Cortes";
-
-const StyledContainer = styled.div`
-  padding: 60px 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: ${(props) => props.theme.azulush};
-  color: ${(props) => props.theme.fondo};
-
-  @media (min-width: 1500px) {
-    padding: 100px 0;
-  }
-`;
-
-const StyledImgAASL = styled.img`
-  @media (min-width: 1125px) {
-    width: 140.79px;
-    height: fit-content;
-  }
-`;
-
-const StyledImgGALA = styled.img`
-  @media (min-width: 1125px) {
-    width: 126.44px;
-    height: fit-content;
-  }
-`;
-
-const StyledImgELIA = styled.img`
-  @media (min-width: 1125px) {
-    width: 121.06px;
-    height: fit-content;
-  }
-`;
-
-const StyledImgLast = styled.img`
-  @media (min-width: 1125px) {
-    height: fit-content;
-    width: 330px;
-  }
-`;
-
-const Content = styled.div`
-  display: flex;
-  justify-content: space-between;
-
-  @media (max-width: 768px) {
-    flex-direction: column;
-  }
-  @media (min-width: 1025px) and (max-width: 1499px) {
-    & .corte-exacto-medio {
-      min-width: 518px;
-    }
-  }
-`;
+import {
+  StyledContainer,
+  StyledImgAASL,
+  StyledImgGALA,
+  StyledImgELIA,
+  StyledImgLast,
+  Content,
+} from "./MembershipsComp";
 
 function Memberships() {
   return (
     <StyledContainer>
       <Container>
         <Content>
-          <div className="d-flex flex-column justify-center w-50-desktop-medio corte-exacto-medio">
+          <div className="d-flex flex-column justify-center corte-exacto-medio">
             <h2 className="h2-web h2-mobile mb-40 mb-20-mobile">
               Our Memberships
             </h2>
@@ -75,8 +27,8 @@ function Memberships() {
               <CorteMobile /> the language industry as a whole.
             </p>
           </div>
-          <div className="d-flex flex-column w-50-desktop-grande w-50-desktop-chico ">
-            <div className="d-flex justify-evenly">
+          <div className="d-flex flex-column content-images">
+            <div className="d-flex justify-evenly mb-20-mobile mb-40">
               <StyledImgAASL
                 src="https://ushmultimedia.blob.core.windows.net/ushwebsite/AASLWhite.png"
                 alt="Asociación Argentina de Servicios Lingüísticos"

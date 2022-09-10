@@ -19,7 +19,10 @@ export const ContainerIcon = styled.div`
 `;
 
 export const Image = styled.img`
-  @media (min-width: 1125px) {
+  width: 19px;
+  height: 32px;
+
+  @media (min-width: 769px) {
     height: 68px;
     width: 41px;
   }

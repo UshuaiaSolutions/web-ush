@@ -42,9 +42,6 @@ export const Close = styled.img`
   @media (min-width: 769px) {
     right: 70px;
     top: 35px;
-  }
-
-  @media (min-width: 1125px) {
     height: 38px;
     width: 38px;
   }
@@ -55,7 +52,7 @@ export const Img = styled.img`
   width: 48px;
   margin-bottom: 25px;
 
-  @media (min-width: 1125px) {
+  @media (min-width: 769px) {
     height: 90px;
     width: 90px;
     margin-bottom: 30px;

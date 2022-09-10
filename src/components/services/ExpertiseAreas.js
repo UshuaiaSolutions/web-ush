@@ -1,78 +1,13 @@
 import React from "react";
-import styled from "styled-components";
 import Container from "../base/Container";
 import { CorteDesktop, CorteMobile } from "../base/Cortes";
-
-const StyledContainer = styled.div`
-  padding: 40px 0;
-  color: ${(props) => props.theme.textonegro};
-  background: ${(props) => props.theme.fondo};
-  display: flex;
-  flex-direction: column;
-
-  @media (min-width: 769px) {
-    padding: 100px 0;
-  }
-`;
-
-const Column = styled.div`
-  display: flex;
-  flex-direction: column;
-
-  @media (min-width: 769px) {
-    flex-wrap: wrap;
-    flex-direction: row;
-
-    & div {
-      width: 50%;
-    }
-  }
-`;
-
-const Row = styled.div`
-  display: flex;
-  align-items: last baseline;
-
-  @media (min-width: 769px) {
-    margin-bottom: 40px;
-  }
-
-  & h3 {
-    align-items: flex-start;
-  }
-`;
-
-const Image = styled.img`
-  height: 14px;
-  width: 14px;
-  margin-right: 19px;
-  align-items: flex-start;
-
-  @media (min-width: 1125px) {
-    width: 31px;
-    height: 31px;
-  }
-`;
-
-const DesktopRow = styled.div`
-  @media (min-width: 769px) {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 70px;
-
-    .exacto-desktop {
-      max-width: 400px;
-      width: 50%;
-    }
-  }
-
-  @media (min-width: 1125px) {
-    .exacto-desktop {
-      width: 541px;
-      max-width: 541px;
-    }
-  }
-`;
+import {
+  StyledContainer,
+  DesktopRow,
+  Column,
+  Row,
+  Image,
+} from "./ExpertiseAreasComp";
 
 function ExpertiseAreas() {
   return (

@@ -107,7 +107,7 @@ function MeetClients() {
         </>
 
         <Swiper
-          spaceBetween={30}
+          spaceBetween={50}
           slidesPerView={3}
           centeredSlides={true}
           loop={true}
@@ -116,7 +116,7 @@ function MeetClients() {
             disableOnInteraction: false,
           }}
           modules={[Autoplay]}
-          className="mySwiper"
+          className="mySwiper teaming-with-clients"
         >
           <SwiperSlide>
             <img
@@ -184,6 +184,105 @@ function MeetClients() {
               src="https://ushmultimedia.blob.core.windows.net/ushwebsite/EricssonWhite.png"
               alt="brands"
             />
+            <img
+              className="clients"
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/OrciWhite.png"
+              alt="brands"
+            />
+          </SwiperSlide>
+        </Swiper>
+
+        {/* MOBILE */}
+        <Swiper
+          spaceBetween={50}
+          slidesPerView={3}
+          centeredSlides={true}
+          loop={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          modules={[Autoplay]}
+          className="mySwiper teaming-with-clients-mobile"
+        >
+          <SwiperSlide>
+            <img
+              className="clients"
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/AgilentWhite.png"
+              alt="brands"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              className="clients"
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/AvayaWhite.png"
+              alt="brands"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              className="clients"
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/BIDWhite.png"
+              alt="brands"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              className="clients"
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/EliaWhite.png"
+              alt="brands"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              className="clients"
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/PacifictechWhite.png"
+              alt="brands"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              className="clients"
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/RockwellWhite.png"
+              alt="brands"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              className="clients"
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/SageWhite.png"
+              alt="brands"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              className="clients"
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/StanfordWhite.png"
+              alt="brands"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              className="clients"
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/WorldBankWhite.png"
+              alt="brands"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              className="clients"
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/NTTWhite.png"
+              alt="brands"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              className="clients"
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/EricssonWhite.png"
+              alt="brands"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
             <img
               className="clients"
               src="https://ushmultimedia.blob.core.windows.net/ushwebsite/OrciWhite.png"

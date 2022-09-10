@@ -11,9 +11,8 @@ import {
   Circle,
   ContainerDesktop,
   ContainerSwiper,
-  Icon,
 } from "../contacto/WhyUshComp";
-import { StyledContainer, StyledLink } from "./NeedsComp";
+import { StyledContainer, StyledLink, Icon } from "./NeedsComp";
 
 function Needs() {
   return (

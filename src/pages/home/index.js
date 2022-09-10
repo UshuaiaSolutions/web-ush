@@ -15,6 +15,8 @@ const Background = styled.div`
 const TramaContainer = styled.div`
   background-image: url(https://ushmultimedia.blob.core.windows.net/ushwebsite/TramaWeCanMeetYourNeeds.png);
   background-color: ${(props) => props.theme.textonegro};
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 `;
 
 const Home = () => {

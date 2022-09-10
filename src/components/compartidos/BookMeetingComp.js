@@ -5,6 +5,8 @@ export const StyledContainer = styled.div`
   width: 100%;
   padding: 45px 0;
   background-image: url(https://ushmultimedia.blob.core.windows.net/ushwebsite/TramaFormGrande.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 
   @media (min-width: 769px) {
     padding: 140px 0;

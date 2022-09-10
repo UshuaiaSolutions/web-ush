@@ -1,60 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import styled from "styled-components";
 import BotonSecundario from "../base/BotonSecundario";
 import Container from "../base/Container";
 import { CorteDesktop, CorteMobile } from "../base/Cortes";
-
-const StyledContainer = styled.div`
-  padding: 60px 0;
-  color: ${(props) => props.theme.fondo};
-  background: ${(props) => props.theme.textonegro};
-  display: flex;
-  flex-direction: column;
-
-  @media (min-width: 769px) {
-    padding: 70px 0;
-  }
-
-  @media (min-width: 1500px) {
-    padding: 100px 0;
-  }
-`;
-
-const Column = styled.div`
-  display: flex;
-  flex-direction: column;
-  padding-left: 30px;
-
-  @media (min-width: 769px) {
-    padding-left: 0;
-    width: 50%;
-  }
-`;
-
-const Row = styled.div`
-  display: flex;
-`;
-
-const Image = styled.img`
-  height: 14px;
-  width: 14px;
-  margin-right: 19px;
-
-  @media (min-width: 1125px) {
-    height: 31px;
-    width: 31px;
-    margin-top: 5px;
-    object-fit: scale-down;
-  }
-`;
-
-const RowDesktop = styled.div`
-  @media (min-width: 769px) {
-    display: flex;
-    justify-content: space-between;
-  }
-`;
+import {
+  StyledContainer,
+  RowDesktop,
+  Column,
+  Row,
+  Image,
+} from "./MeetYourNeedsComp";
 
 function MeetYourNeeds() {
   return (
@@ -83,7 +38,7 @@ function MeetYourNeeds() {
                 src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
                 alt="Checked"
               />
-              <h3 className="destacados-semibold-mobile destacado-item mb-15-mobile mb-20">
+              <h3 className="destacados-semibold-mobile destacado-item">
                 Language Solutions
               </h3>
             </Row>
@@ -92,7 +47,7 @@ function MeetYourNeeds() {
                 src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
                 alt="Checked"
               />
-              <h3 className="destacados-semibold-mobile destacado-item mb-15-mobile mb-20">
+              <h3 className="destacados-semibold-mobile destacado-item">
                 Project Management
               </h3>
             </Row>
@@ -101,7 +56,7 @@ function MeetYourNeeds() {
                 src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
                 alt="Checked"
               />
-              <h3 className="destacados-semibold-mobile destacado-item mb-15-mobile mb-20">
+              <h3 className="destacados-semibold-mobile destacado-item">
                 Desktop Publishing
               </h3>
             </Row>
@@ -110,7 +65,7 @@ function MeetYourNeeds() {
                 src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
                 alt="Checked"
               />
-              <h3 className="destacados-semibold-mobile destacado-item mb-15-mobile mb-20">
+              <h3 className="destacados-semibold-mobile destacado-item">
                 Creative Visuals
               </h3>
             </Row>
@@ -119,7 +74,7 @@ function MeetYourNeeds() {
                 src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
                 alt="Checked"
               />
-              <h3 className="destacados-semibold-mobile destacado-item mb-15-mobile mb-20">
+              <h3 className="destacados-semibold-mobile destacado-item">
                 Content Creation
               </h3>
             </Row>
@@ -128,7 +83,7 @@ function MeetYourNeeds() {
                 src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
                 alt="Checked"
               />
-              <h3 className="destacados-semibold-mobile destacado-item mb-40-mobile">
+              <h3 className="destacados-semibold-mobile destacado-item">
                 E-learning and Video
               </h3>
             </Row>

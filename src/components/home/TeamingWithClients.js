@@ -1,5 +1,4 @@
 import React from "react";
-import styled from "styled-components";
 import { Autoplay } from "swiper";
 import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -8,37 +7,7 @@ import Container from "../base/Container";
 import BotonSecundario from "../base/BotonSecundario";
 import { CorteDesktop, CorteMobile } from "../base/Cortes";
 import { Link } from "react-router-dom";
-
-const StyledContainer = styled.div`
-  padding: 30px 0px 60px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  color: ${(props) => props.theme.fondo};
-
-  @media (min-width: 1500px) {
-    padding: 0 0 100px;
-  }
-`;
-
-const Content = styled.div`
-  display: flex;
-  flex-direction: column;
-
-  @media (min-width: 769px) {
-    flex-direction: row-reverse;
-    align-items: center;
-
-    & .desktop-column {
-      width: 50%;
-    }
-
-    & .mySwiper {
-      width: 50%;
-    }
-  }
-`;
+import { StyledContainer, Content } from "./TeamingWithClientsComp";
 
 function TeamingWithClients() {
   return (
@@ -51,7 +20,7 @@ function TeamingWithClients() {
         </h2>
         <Content>
           <Swiper
-            spaceBetween={30}
+            spaceBetween={50}
             slidesPerView={3}
             centeredSlides={true}
             loop={true}
@@ -60,7 +29,7 @@ function TeamingWithClients() {
               disableOnInteraction: false,
             }}
             modules={[Autoplay]}
-            className="mySwiper"
+            className="mySwiper teaming-with-clients"
           >
             <SwiperSlide>
               <img
@@ -135,7 +104,107 @@ function TeamingWithClients() {
               />
             </SwiperSlide>
           </Swiper>
-          <div className="desktop-column">
+
+          {/* MOBILE */}
+          <Swiper
+            spaceBetween={50}
+            slidesPerView={3}
+            centeredSlides={true}
+            loop={true}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
+            modules={[Autoplay]}
+            className="mySwiper teaming-with-clients-mobile"
+          >
+            <SwiperSlide>
+              <img
+                className="clients"
+                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/AgilentWhite.png"
+                alt="brands"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                className="clients"
+                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/AvayaWhite.png"
+                alt="brands"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                className="clients"
+                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/BIDWhite.png"
+                alt="brands"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                className="clients"
+                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/EliaWhite.png"
+                alt="brands"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                className="clients"
+                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/PacifictechWhite.png"
+                alt="brands"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                className="clients"
+                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/RockwellWhite.png"
+                alt="brands"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                className="clients"
+                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/SageWhite.png"
+                alt="brands"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                className="clients"
+                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/StanfordWhite.png"
+                alt="brands"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                className="clients"
+                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/WorldBankWhite.png"
+                alt="brands"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                className="clients"
+                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/NTTWhite.png"
+                alt="brands"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                className="clients"
+                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/EricssonWhite.png"
+                alt="brands"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                className="clients"
+                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/OrciWhite.png"
+                alt="brands"
+              />
+            </SwiperSlide>
+          </Swiper>
+
+          <div className="desktop-column mt-40">
             <p className="txt-minimo-mobile destacado-medium mb-40-mobile mb-40">
               Our highly esteemed client list includes
               <CorteDesktop /> partner

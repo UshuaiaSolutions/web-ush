@@ -16,4 +16,16 @@ export const ContainerIcon = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
+
+  & img {
+    width: 19px;
+    height: 32px;
+  }
+
+  @media (min-width: 769px) {
+    & img {
+      width: 41px;
+      height: 68px;
+    }
+  }
 `;
