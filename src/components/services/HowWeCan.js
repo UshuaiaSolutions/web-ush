@@ -14,7 +14,10 @@ function HowWeCan() {
               <CorteMobile />
               <CorteDesktop /> <u>make it happen</u>
             </h1>
-            <Image src="/illustration-why.png" alt="Illustration" />
+            <Image
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/ServicesHeroSection.png"
+              alt="Illustration"
+            />
           </div>
           <div className="desktop-chico-exacto">
             <Column>

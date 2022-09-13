@@ -141,6 +141,7 @@
 .resaltado-underline-mobile {
   text-shadow: #72f285 1px 1px 1px;
   text-decoration: underline;
+  text-transform: uppercase;
 }
 
 .destacados-semibold-mobile {

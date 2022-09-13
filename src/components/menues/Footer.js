@@ -17,6 +17,7 @@ import {
   Arrow,
   ContainerRed,
   RedImage,
+  StyledLink,
 } from "./FooterComp";
 
 function Footer() {
@@ -99,11 +100,21 @@ function Footer() {
               </ContainerRedesFooter>
             </ContainerText>
             <Column>
-              <span className="texto-regular mb-30">HOME</span>
-              <span className="texto-regular mb-30">ABOUT</span>
-              <span className="texto-regular mb-30">SERVICES</span>
-              <span className="texto-regular mb-30">EXPERTISE</span>
-              <span className="texto-regular">GET IN TOUCH</span>
+              <StyledLink to="/">
+                <span className="texto-regular">HOME</span>
+              </StyledLink>
+              <StyledLink to="/about">
+                <span className="texto-regular">ABOUT</span>
+              </StyledLink>
+              <StyledLink to="/services">
+                <span className="texto-regular">SERVICES</span>
+              </StyledLink>
+              <StyledLink to="/expertise">
+                <span className="texto-regular">EXPERTISE</span>
+              </StyledLink>
+              <StyledLink to="/contact">
+                <span className="texto-regular">GET IN TOUCH</span>
+              </StyledLink>
             </Column>
             <ColumnSecond>
               <Logo

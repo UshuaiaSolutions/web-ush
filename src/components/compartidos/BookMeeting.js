@@ -23,7 +23,7 @@ const BookMeeting = () => {
 
   return (
     <StyledContainer id="contact">
-      {showSuccess && <Success func={setShowSuccess} />} *
+      {showSuccess && <Success func={setShowSuccess} />}
       <Container>
         <MediaContainer className="d-flex justify-between">
           <FirstContainer className="d-flex flex-column">

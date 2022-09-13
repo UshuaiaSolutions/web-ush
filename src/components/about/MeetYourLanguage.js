@@ -133,86 +133,86 @@ function MeetYourLanguage() {
             </Swiper>
           </ContainerDesktop>
         </Column>
-        <ContainerMobile className="pt-40-mobile">
-          <Swiper
-            slidesPerView={"auto"}
-            spaceBetween={0}
-            modules={[Pagination]}
-            className="mySwiper why"
-          >
-            <SwiperSlide>
-              <Card>
-                <Circle>
-                  <Icon
-                    src="https://ushmultimedia.blob.core.windows.net/ushwebsite/ExpIcon.png"
-                    className="first"
-                    alt="icon"
-                  />
-                </Circle>
-                <h3 className="h3-mobile mb-10-mobile">Experience</h3>
-                <p className="txt-minimo-mobile text-center">
-                  We know what we do.
-                  <CorteMobile /> With more than 20 years
-                  <CorteMobile /> in the language services
-                  <CorteMobile /> industry, we have the
-                  <CorteMobile /> capacity to build and
-                  <CorteMobile /> maintain on-site
-                  <CorteMobile /> dedicated teams of
-                  <CorteMobile /> highly skilled
-                  <CorteMobile /> professionals for
-                  <CorteMobile /> your account.
-                </p>
-              </Card>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Card>
-                <Circle>
-                  <Icon
-                    src="https://ushmultimedia.blob.core.windows.net/ushwebsite/InnovationIcon.png"
-                    className="second"
-                    alt="icon"
-                  />
-                </Circle>
-                <h3 className="h3-mobile mb-10-mobile">Innovation</h3>
-                <p className="txt-minimo-mobile text-center">
-                  We're geeks! We
-                  <CorteMobile /> strategically use the
-                  <CorteMobile /> latest tech trends to help
-                  <CorteMobile /> you expand your
-                  <CorteMobile /> possibilities. Plus, our
-                  <CorteMobile /> flexibility enables us to
-                  <CorteMobile /> adapt to any technology,
-                  <CorteMobile /> platform or process you use.
-                </p>
-              </Card>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Card>
-                <Circle>
-                  <Icon
-                    src="https://ushmultimedia.blob.core.windows.net/ushwebsite/TeamWorkIcon.png"
-                    className="third"
-                    alt="icon"
-                  />
-                </Circle>
-                <h3 className="h3-mobile mb-10-mobile">Teamwork</h3>
-                <p className="txt-minimo-mobile text-center">
-                  Positive leadership,
-                  <CorteMobile /> empathy and honesty are
-                  <CorteMobile /> our core work values.
-                  <CorteMobile /> We strongly believe the
-                  <CorteMobile /> collaborative effort of
-                  <CorteMobile /> a team to achieve
-                  <CorteMobile /> a common goal leads to
-                  <CorteMobile /> much more effective and
-                  <CorteMobile /> efficient solutions.
-                  <CorteMobile /> Better together!
-                </p>
-              </Card>
-            </SwiperSlide>
-          </Swiper>
-        </ContainerMobile>
       </Container>
+      <ContainerMobile className="pt-40-mobile">
+        <Swiper
+          slidesPerView={"auto"}
+          spaceBetween={0}
+          modules={[Pagination]}
+          className="mySwiper why"
+        >
+          <SwiperSlide>
+            <Card>
+              <Circle>
+                <Icon
+                  src="https://ushmultimedia.blob.core.windows.net/ushwebsite/ExpIcon.png"
+                  className="first"
+                  alt="icon"
+                />
+              </Circle>
+              <h3 className="h3-mobile mb-10-mobile">Experience</h3>
+              <p className="txt-minimo-mobile text-center">
+                We know what we do.
+                <CorteMobile /> With more than 20 years
+                <CorteMobile /> in the language services
+                <CorteMobile /> industry, we have the
+                <CorteMobile /> capacity to build and
+                <CorteMobile /> maintain on-site
+                <CorteMobile /> dedicated teams of
+                <CorteMobile /> highly skilled
+                <CorteMobile /> professionals for
+                <CorteMobile /> your account.
+              </p>
+            </Card>
+          </SwiperSlide>
+          <SwiperSlide>
+            <Card>
+              <Circle>
+                <Icon
+                  src="https://ushmultimedia.blob.core.windows.net/ushwebsite/InnovationIcon.png"
+                  className="second"
+                  alt="icon"
+                />
+              </Circle>
+              <h3 className="h3-mobile mb-10-mobile">Innovation</h3>
+              <p className="txt-minimo-mobile text-center">
+                We're geeks! We
+                <CorteMobile /> strategically use the
+                <CorteMobile /> latest tech trends to help
+                <CorteMobile /> you expand your
+                <CorteMobile /> possibilities. Plus, our
+                <CorteMobile /> flexibility enables us to
+                <CorteMobile /> adapt to any technology,
+                <CorteMobile /> platform or process you use.
+              </p>
+            </Card>
+          </SwiperSlide>
+          <SwiperSlide>
+            <Card>
+              <Circle>
+                <Icon
+                  src="https://ushmultimedia.blob.core.windows.net/ushwebsite/TeamWorkIcon.png"
+                  className="third"
+                  alt="icon"
+                />
+              </Circle>
+              <h3 className="h3-mobile mb-10-mobile">Teamwork</h3>
+              <p className="txt-minimo-mobile text-center">
+                Positive leadership,
+                <CorteMobile /> empathy and honesty are
+                <CorteMobile /> our core work values.
+                <CorteMobile /> We strongly believe the
+                <CorteMobile /> collaborative effort of
+                <CorteMobile /> a team to achieve
+                <CorteMobile /> a common goal leads to
+                <CorteMobile /> much more effective and
+                <CorteMobile /> efficient solutions.
+                <CorteMobile /> Better together!
+              </p>
+            </Card>
+          </SwiperSlide>
+        </Swiper>
+      </ContainerMobile>
     </StyledContainer>
   );
 }

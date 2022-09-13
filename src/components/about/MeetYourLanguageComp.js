@@ -124,6 +124,9 @@ export const ContainerDesktop = styled.div`
 `;
 
 export const ContainerMobile = styled.div`
+  margin-left: calc((100% - 276px) / 2);
+  width: calc(100% - ((100% - 276px) / 2));
+
   & .swiper-wrapper {
     align-items: baseline;
   }

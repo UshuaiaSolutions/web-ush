@@ -13,10 +13,17 @@ export const StyledContainer = styled.div`
 `;
 
 export const Image = styled.img`
-  height: 232px;
-  width: 100%;
+  height: 197px;
+  width: 227px;
   object-fit: cover;
   margin-bottom: 35px;
+
+  @media (min-width: 769px) {
+    margin-top: 35px;
+    height: 336px;
+    width: 387px;
+    margin-bottom: 0;
+  }
 `;
 
 export const Column = styled.div`

@@ -53,3 +53,9 @@
     display: none;
   }
 }
+
+@media (min-width: 769px) {
+  .d-none-desktop {
+    display: none;
+  }
+}

@@ -85,7 +85,7 @@ export const ContainerRed = styled.a`
 `;
 
 export const RedImage = styled.img`
-  width: 23px;
-  height: 23px;
+  width: 20px;
+  height: 20px;
   margin-bottom: 8px;
 `;

@@ -28,7 +28,7 @@ function Memberships() {
             </p>
           </div>
           <div className="d-flex flex-column content-images">
-            <div className="d-flex justify-evenly mb-20-mobile mb-40">
+            <div className="d-flex justify-evenly align-center mb-20-mobile mb-40">
               <StyledImgAASL
                 src="https://ushmultimedia.blob.core.windows.net/ushwebsite/AASLWhite.png"
                 alt="Asociación Argentina de Servicios Lingüísticos"

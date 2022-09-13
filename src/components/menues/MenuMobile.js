@@ -38,7 +38,7 @@ function MenuMobile({ func }) {
         >
           <RedImage
             className="object-scale me-5 me-0-mobile"
-            src="/icons/instagram-blanco.png"
+            src="https://ushmultimedia.blob.core.windows.net/ushwebsite/InstagramBlack.png"
             alt="instagram"
           />
           <Red>Instagram</Red>
@@ -49,7 +49,7 @@ function MenuMobile({ func }) {
         >
           <RedImage
             className="object-scale me-5 me-0-mobile"
-            src="/icons/linkedin-blanco.png"
+            src="https://ushmultimedia.blob.core.windows.net/ushwebsite/LinkedinBlack.png"
             alt="linkedin"
           />
           <Red>Linked In</Red>
@@ -60,7 +60,7 @@ function MenuMobile({ func }) {
         >
           <RedImage
             className="object-scale me-5 me-0-mobile"
-            src="/icons/facebook-blanco.png"
+            src="https://ushmultimedia.blob.core.windows.net/ushwebsite/FacebookBlack.png"
             alt="facebook"
           />
           <Red>Facebook</Red>
@@ -71,7 +71,7 @@ function MenuMobile({ func }) {
         >
           <RedImage
             className="object-scale me-5 me-0-mobile"
-            src="/icons/youtube-blanco.png"
+            src="https://ushmultimedia.blob.core.windows.net/ushwebsite/YoutubeBlack.png"
             alt="youtube"
           />
           <Red>Youtube</Red>

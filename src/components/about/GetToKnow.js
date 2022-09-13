@@ -29,7 +29,7 @@ function GetToKnow() {
           slidesPerView={"auto"}
           spaceBetween={0}
           modules={[Pagination]}
-          className="mySwiper member"
+          className="mySwiper member d-none-mobile"
         >
           <SwiperSlide>
             <Column>
@@ -98,6 +98,78 @@ function GetToKnow() {
           </SwiperSlide>
         </Swiper>
       </Container>
+      <Swiper
+        slidesPerView={"auto"}
+        spaceBetween={0}
+        modules={[Pagination]}
+        className="mySwiper member position-mobile d-none-desktop"
+      >
+        <SwiperSlide>
+          <Column>
+            <Card>
+              <Icon src="/members/member.png" alt="icon" />
+            </Card>
+            <Card>
+              <Icon src="/members/member.png" alt="icon" />
+            </Card>
+            <Card>
+              <Icon src="/members/member.png" alt="icon" />
+            </Card>
+          </Column>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Column>
+            <Card>
+              <Icon src="/members/member.png" alt="icon" />
+            </Card>
+            <Card>
+              <Icon src="/members/member.png" alt="icon" />
+            </Card>
+            <Card>
+              <Icon src="/members/member.png" alt="icon" />
+            </Card>
+          </Column>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Column>
+            <Card>
+              <Icon src="/members/member.png" alt="icon" />
+            </Card>
+            <Card>
+              <Icon src="/members/member.png" alt="icon" />
+            </Card>
+            <Card>
+              <Icon src="/members/member.png" alt="icon" />
+            </Card>
+          </Column>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Column>
+            <Card>
+              <Icon src="/members/member.png" alt="icon" />
+            </Card>
+            <Card>
+              <Icon src="/members/member.png" alt="icon" />
+            </Card>
+            <Card>
+              <Icon src="/members/member.png" alt="icon" />
+            </Card>
+          </Column>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Column>
+            <Card>
+              <Icon src="/members/member.png" alt="icon" />
+            </Card>
+            <Card>
+              <Icon src="/members/member.png" alt="icon" />
+            </Card>
+            <Card>
+              <Icon src="/members/member.png" alt="icon" />
+            </Card>
+          </Column>
+        </SwiperSlide>
+      </Swiper>
     </StyledContainer>
   );
 }

@@ -79,30 +79,30 @@
 
 @media (max-width: 768px) {
   .why .swiper-slide {
-    width: 80%;
+    width: 195px;
     height: 300px;
   }
 
   .why .swiper-slide:nth-child(2n) {
-    width: 80%;
+    width: 195px;
     height: 300px;
   }
 
   .why .swiper-slide:nth-child(3n) {
-    width: 80%;
+    width: 195px;
     height: 300px;
   }
 
   .member .swiper-slide {
-    width: 55%;
+    width: 150px;
   }
 
   .member .swiper-slide:nth-child(2n) {
-    width: 55%;
+    width: 150px;
   }
 
   .member .swiper-slide:nth-child(3n) {
-    width: 55%;
+    width: 150px;
   }
 }
 

@@ -1,13 +1,14 @@
 import styled from "styled-components";
 
 export const StyledContainer = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   background: ${(props) => props.theme.fondo};
   width: 100%;
   color: ${(props) => props.theme.textonegro};
   padding: 50px 0px;
+
+  & .swiper-wrapper {
+    align-items: baseline;
+  }
 
   @media (min-width: 769px) {
     padding: 90px 0;
@@ -21,8 +22,7 @@ export const Card = styled.div`
   color: ${(props) => props.theme.textonegro};
   text-align: center;
   width: calc(178px - 4px);
-  height: 200px;
-  padding: 40px 0 0;
+  padding: 40px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -114,8 +114,9 @@ export const Icon = styled.img`
 
 export const ContainerSwiper = styled.div`
   display: block;
-  width: 100%;
   margin-top: 70px;
+  margin-left: calc((100% - 276px) / 2);
+  width: calc(100% - ((100% - 276px) / 2));
 
   @media (min-width: 769px) {
     display: none;

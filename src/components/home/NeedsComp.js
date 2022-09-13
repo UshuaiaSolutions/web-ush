@@ -5,9 +5,14 @@ export const StyledContainer = styled.div`
   padding: 30px 0px;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   color: ${(props) => props.theme.fondo};
+
+  & .swiper-wrapper {
+    align-items: baseline;
+  }
 
   @media (min-width: 769px) {
     padding: 100px 0;

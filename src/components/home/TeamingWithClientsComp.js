@@ -11,6 +11,17 @@ export const StyledContainer = styled.div`
   @media (min-width: 1500px) {
     padding: 0 0 100px;
   }
+
+  @media (min-width: 769px) {
+    & .container-content {
+      display: flex;
+      justify-content: space-between;
+
+      .second-col {
+        width: 50%;
+      }
+    }
+  }
 `;
 
 export const Content = styled.div`
@@ -18,12 +29,6 @@ export const Content = styled.div`
   flex-direction: column;
 
   @media (min-width: 769px) {
-    flex-direction: row-reverse;
-
-    & .desktop-column {
-      width: 50%;
-    }
-
     & .mySwiper {
       width: 50%;
     }

@@ -6,8 +6,7 @@ export const StyledContainer = styled.div`
   flex-direction: column;
   background-color: ${(props) => props.theme.rosaush};
   background-image: url(https://ushmultimedia.blob.core.windows.net/ushwebsite/TramaFormChico.png);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
+  background-repeat: inherit;
   width: 100%;
   color: ${(props) => props.theme.textonegro};
 

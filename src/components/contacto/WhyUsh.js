@@ -21,90 +21,92 @@ function WhyUsh() {
         <h2 className="hero-section-alto-mobile h2-web text-left-mobile text-center">
           <u>Why USH?</u>
         </h2>
-        <ContainerSwiper>
-          <Swiper
-            slidesPerView={"auto"}
-            spaceBetween={0}
-            modules={[Pagination]}
-            className="mySwiper why"
-          >
-            <SwiperSlide>
-              <Card>
-                <Circle>
-                  <Icon
-                    src="https://ushmultimedia.blob.core.windows.net/ushwebsite/ScalabilityIcon.png"
-                    className="first"
-                    alt="icon"
-                  />
-                </Circle>
-                <h3 className="h3-mobile mb-20-mobile mb-20">Scalability</h3>
-                <p className="txt-minimo-mobile mb-20">
-                  We have the capacity
-                  <CorteMobile /> to build and maintain
-                  <CorteMobile /> on-site dedicated teams
-                  <CorteMobile /> for your account.
-                </p>
-                <p className="txt-minimo-mobile">
-                  We specialize in mid
-                  <CorteMobile /> to long-term programs
-                  <CorteMobile /> that truly adapt to your
-                  <CorteMobile /> needs
-                </p>
-              </Card>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Card>
-                <Circle>
-                  <Icon
-                    src="https://ushmultimedia.blob.core.windows.net/ushwebsite/FlexibilityIcon.png"
-                    className="second"
-                    alt="icon"
-                  />
-                </Circle>
-                <h3 className="h3-mobile mb-20-mobile mb-20">Flexibility</h3>
-                <p className="txt-minimo-mobile mb-20">
-                  We can adapt to any
-                  <CorteMobile />
-                  technology, platform or
-                  <CorteMobile />
-                  process you already use.
-                </p>
-                <p className="txt-minimo-mobile">
-                  Or, if you prefer, you
-                  <CorteMobile /> can use our Customer
-                  <CorteMobile /> Portal, upload the files
-                  <CorteMobile /> and follow-up on the
-                  <CorteMobile /> status and budget of
-                  <CorteMobile /> your project with us!
-                </p>
-              </Card>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Card>
-                <Circle>
-                  <Icon
-                    src="https://ushmultimedia.blob.core.windows.net/ushwebsite/ExpIcon.png"
-                    className="third"
-                    alt="icon"
-                  />
-                </Circle>
-                <h3 className="h3-mobile mb-20-mobile mb-20">Experience</h3>
-                <p className="txt-minimo-mobile">
-                  With more than 20 years
-                  <CorteMobile /> in the language services
-                  <CorteMobile /> industry, we have
-                  <CorteMobile /> carefully selected
-                  <CorteMobile /> and trained translators,
-                  <CorteMobile /> linguists, designers and
-                  <CorteMobile /> IT staff to be able to
-                  <CorteMobile /> respond
-                  <CorteMobile /> with best practices
-                  <CorteMobile /> and industry standards.
-                </p>
-              </Card>
-            </SwiperSlide>
-          </Swiper>
-        </ContainerSwiper>
+      </Container>
+      <ContainerSwiper>
+        <Swiper
+          slidesPerView={"auto"}
+          spaceBetween={0}
+          modules={[Pagination]}
+          className="mySwiper why"
+        >
+          <SwiperSlide>
+            <Card>
+              <Circle>
+                <Icon
+                  src="https://ushmultimedia.blob.core.windows.net/ushwebsite/ScalabilityIcon.png"
+                  className="first"
+                  alt="icon"
+                />
+              </Circle>
+              <h3 className="h3-mobile mb-20-mobile mb-20">Scalability</h3>
+              <p className="txt-minimo-mobile mb-20">
+                We have the capacity
+                <CorteMobile /> to build and maintain
+                <CorteMobile /> on-site dedicated teams
+                <CorteMobile /> for your account.
+              </p>
+              <p className="txt-minimo-mobile">
+                We specialize in mid
+                <CorteMobile /> to long-term programs
+                <CorteMobile /> that truly adapt to your
+                <CorteMobile /> needs
+              </p>
+            </Card>
+          </SwiperSlide>
+          <SwiperSlide>
+            <Card>
+              <Circle>
+                <Icon
+                  src="https://ushmultimedia.blob.core.windows.net/ushwebsite/FlexibilityIcon.png"
+                  className="second"
+                  alt="icon"
+                />
+              </Circle>
+              <h3 className="h3-mobile mb-20-mobile mb-20">Flexibility</h3>
+              <p className="txt-minimo-mobile mb-20">
+                We can adapt to any
+                <CorteMobile />
+                technology, platform or
+                <CorteMobile />
+                process you already use.
+              </p>
+              <p className="txt-minimo-mobile">
+                Or, if you prefer, you
+                <CorteMobile /> can use our Customer
+                <CorteMobile /> Portal, upload the files
+                <CorteMobile /> and follow-up on the
+                <CorteMobile /> status and budget of
+                <CorteMobile /> your project with us!
+              </p>
+            </Card>
+          </SwiperSlide>
+          <SwiperSlide>
+            <Card>
+              <Circle>
+                <Icon
+                  src="https://ushmultimedia.blob.core.windows.net/ushwebsite/ExpIcon.png"
+                  className="third"
+                  alt="icon"
+                />
+              </Circle>
+              <h3 className="h3-mobile mb-20-mobile mb-20">Experience</h3>
+              <p className="txt-minimo-mobile">
+                With more than 20 years
+                <CorteMobile /> in the language services
+                <CorteMobile /> industry, we have
+                <CorteMobile /> carefully selected
+                <CorteMobile /> and trained translators,
+                <CorteMobile /> linguists, designers and
+                <CorteMobile /> IT staff to be able to
+                <CorteMobile /> respond
+                <CorteMobile /> with best practices
+                <CorteMobile /> and industry standards.
+              </p>
+            </Card>
+          </SwiperSlide>
+        </Swiper>
+      </ContainerSwiper>
+      <Container>
         <ContainerDesktop>
           <Card>
             <Circle>

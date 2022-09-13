@@ -104,14 +104,15 @@ export const ContainerMenu = styled.div`
 
 export const Logo = styled.div`
   background-size: cover;
-  height: 16.900390625px;
-  width: 78px;
-  background: url(/logos/ush-mobile.png);
+  height: 17px;
+  width: 74px;
+  background: url(https://ushmultimedia.blob.core.windows.net/ushwebsite/LogoNav.png);
+  background-size: contain;
 
   @media (min-width: 769px) {
-    background: url(/logos/ush.png);
-    width: 138px;
-    height: 34px;
+    background: url(https://ushmultimedia.blob.core.windows.net/ushwebsite/LogoNav.png);
+    height: 28px;
+    width: 123px;
   }
 `;
 

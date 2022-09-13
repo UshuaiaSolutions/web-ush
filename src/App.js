@@ -16,6 +16,7 @@ import Expertise from "./pages/expertise";
 import Services from "./pages/services";
 import About from "./pages/about";
 import NoMatch from "./pages/nomatch";
+import ScrollToTop from "./components/base/ScrollToTop";
 
 const theme = {
   lilaush: "#7839C4",
@@ -30,6 +31,7 @@ function App() {
   return (
     <Router>
       <ThemeProvider theme={theme}>
+        <ScrollToTop />
         <Header />
         <Layout>
           <Routes>

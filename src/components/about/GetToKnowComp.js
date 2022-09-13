@@ -7,6 +7,11 @@ export const StyledContainer = styled.div`
   display: flex;
   flex-direction: column;
 
+  & .position-mobile {
+    margin-left: calc((100% - 276px) / 2);
+    width: calc(100% - ((100% - 276px) / 2));
+  }
+
   @media (min-width: 1500px) {
     padding: 0 0 100px;
   }

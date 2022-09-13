@@ -5,8 +5,7 @@ export const StyledContainer = styled.div`
   color: ${(props) => props.theme.fondo};
   background-color: ${(props) => props.theme.azulush};
   background-image: url(https://ushmultimedia.blob.core.windows.net/ushwebsite/TramaExploreHowWe.png);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
+  background-repeat: inherit;
   display: flex;
   flex-direction: column;
 
