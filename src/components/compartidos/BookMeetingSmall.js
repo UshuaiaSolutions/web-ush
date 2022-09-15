@@ -16,7 +16,8 @@ function BookMeetingSmall() {
           <div>
             <p className="text-center-mobile destacados-italic-mobile destacado-italic mb-20-mobile mb-40">
               Tell us what you need and we'll help you
-              <CorteDesktop /> succeed in new markets.
+              <CorteDesktop />
+              <CorteMobile /> succeed in new markets.
             </p>
 
             <Link to="/contact">

@@ -17,9 +17,9 @@ export const Fondo = styled.div`
 
 export const Logo = styled.div`
   background-size: cover;
-  height: 46px;
-  width: 169px;
-  background: url(/logos/ush-mobile-open.png);
+  height: 39px;
+  width: 170px;
+  background: url(https://ushmultimedia.blob.core.windows.net/ushwebsite/USHLogoMenu.png);
   margin-bottom: 30px;
 `;
 

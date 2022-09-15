@@ -15,7 +15,7 @@ import Success from "./Success";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.min.css";
 import { isWeekday, handleChange, handleSend } from "./BookMeetingFunc";
-// import SelectCountries from "./SelectCountries";
+import SelectCountries from "./SelectCountries";
 
 const BookMeeting = () => {
   const [contactForm, setContactForm] = useState({});
@@ -105,19 +105,7 @@ const BookMeeting = () => {
                 </ContainerInput>
                 <ContainerInput className="d-flex flex-column">
                   <label className="label-form">Country *</label>
-                  {/* <SelectCountries /> */}
-                  {/* <input
-                    value={contactForm.country ? contactForm.country : ""}
-                    onChange={(e) =>
-                      handleChange(
-                        "country",
-                        e.target.value,
-                        setContactForm,
-                        contactForm
-                      )
-                    }
-                    className="input-form txt-destacados-alta-mobile texto-regular"
-                  /> */}
+                  <SelectCountries data={contactForm} func={setContactForm} />
                 </ContainerInput>
               </ColumnInput>
               <DateContainer className="d-flex flex-column mb-30">

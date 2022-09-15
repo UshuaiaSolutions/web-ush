@@ -1,34 +1,32 @@
-import React, { useMemo, useState } from "react";
-import spacetime from "spacetime";
-import TimezoneSelect, { allTimezones } from "react-timezone-select";
+import React, { useMemo } from "react";
+import {
+  getTimeZones,
+  convertOffsetInMinutesToString,
+} from "./BookMeetingFunc";
 
-const SelectCountries = () => {
-  const [tz, setTz] = useState(
-    Intl.DateTimeFormat().resolvedOptions().timeZone
-  );
-  const [datetime, setDatetime] = useState(spacetime.now());
-
-  useMemo(() => {
-    const tzValue = tz.value ?? tz;
-    setDatetime(datetime.goto(tzValue));
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [tz]);
+const SelectCountries = ({ data, func }) => {
+  const timeZones = useMemo(getTimeZones, []);
 
   return (
-    <div className="App">
-      <div className="timezone--wrapper">
-        <TimezoneSelect
-          value={tz}
-          onChange={setTz}
-          labelStyle="altName"
-          timezones={{
-            ...allTimezones,
-            "America/Lima": "Pittsburgh",
-            "Europe/Berlin": "Frankfurt",
-          }}
-        />
-      </div>
-    </div>
+    <select
+      className="select-form txt-destacados-alta-mobile texto-regular"
+      onChange={(e) => {
+        func({ ...data, country: e.target.value });
+      }}
+    >
+      {timeZones
+        ?.filter((e) => e.countryName !== "Falkland Islands")
+        ?.map((e) => {
+          const title = e.countryName + " / " + e.mainCities[0];
+          return (
+            <option value={e.name} key={e.name}>
+              {convertOffsetInMinutesToString(e.rawOffsetInMinutes) +
+                " : " +
+                title}
+            </option>
+          );
+        })}
+    </select>
   );
 };
 

@@ -29,20 +29,35 @@ function HowWeCan() {
                 <CorteMobile /> reach your community
                 <CorteDesktop /> with services
                 <CorteMobile /> ranging from{" "}
-                <span className="important-text">copywriting</span>,{" "}
-                <span className="important-text">translation</span>
+                <span className="important-text destacados-semibold-mobile">
+                  copywriting
+                </span>
+                ,{" "}
+                <span className="important-text destacados-semibold-mobile">
+                  translation
+                </span>
                 <CorteMobile /> and
                 <CorteDesktop />{" "}
-                <span className="important-text">transcreation</span> to{" "}
-                <span className="important-text">multilingual</span>
+                <span className="important-text destacados-semibold-mobile">
+                  transcreation
+                </span>{" "}
+                to{" "}
+                <span className="important-text destacados-semibold-mobile">
+                  multilingual
+                </span>
                 <CorteMobile /> customer service, engaging{" "}
-                <span className="important-text">video</span>
+                <span className="important-text destacados-semibold-mobile">
+                  video
+                </span>
                 <CorteDesktop /> content
                 <CorteMobile /> and{" "}
-                <span className="important-text">e-learning</span> initiatives
-                to cover
+                <span className="important-text destacados-semibold-mobile">
+                  e-learning
+                </span>{" "}
+                initiatives to cover
                 <CorteMobile /> the language needs
-                <CorteDesktop /> of your international team.
+                <CorteDesktop /> of your{" "}
+                <span className="d-none-mobile">international</span> team.
               </p>
             </Column>
             <Column>
@@ -50,16 +65,32 @@ function HowWeCan() {
                 02&ensp;&ensp;We make a work plan
               </h3>
               <p className="txt-regular-mobile texto-regular mb-40-mobile">
-                Project-based, or on-going service,{" "}
-                <span className="important-text">customized</span> and{" "}
-                <span className="important-text">automated</span>
-                <CorteDesktop /> as needed, using the latest language and
-                content <span className="important-text">technologies</span>,
-                <CorteDesktop /> we agree on what needs to be done. Our{" "}
-                <span className="important-text">multidisciplinary team</span>
-                <CorteDesktop /> will work closely with your own teams to
-                provide language and
-                <CorteDesktop /> content services as you need them.
+                Project-based, or on-going service,
+                <CorteMobile />{" "}
+                <span className="important-text destacados-semibold-mobile">
+                  customized
+                </span>{" "}
+                and{" "}
+                <span className="important-text destacados-semibold-mobile">
+                  automated
+                </span>
+                <CorteDesktop /> as needed,
+                <CorteMobile /> using the latest language and content
+                <CorteMobile />{" "}
+                <span className="important-text destacados-semibold-mobile">
+                  technologies
+                </span>
+                ,
+                <CorteDesktop /> we agree on what needs
+                <CorteMobile /> to be done. Our{" "}
+                <span className="important-text destacados-semibold-mobile">
+                  multidisciplinary team
+                </span>
+                <CorteDesktop /> will
+                <CorteMobile /> work closely with your own teams to provide
+                <CorteMobile /> language and
+                <CorteDesktop /> content services as you
+                <CorteMobile /> need them.
               </p>
             </Column>
             <Column>
@@ -67,11 +98,13 @@ function HowWeCan() {
                 03&ensp;&ensp;Delivery and follow-up
               </h3>
               <p className="txt-regular-mobile texto-regular mb-40-mobile">
-                We ensure that our services meet high quality standards and are
-                <CorteDesktop /> delivered on time at competitive rates. After
-                initial delivery, we
-                <CorteDesktop /> work closely with your team to make sure the
-                content helps you
+                We ensure that our services meet high
+                <CorteMobile /> quality standards and are
+                <CorteDesktop /> delivered on time
+                <CorteMobile /> at competitive rates. After initial delivery,
+                <CorteMobile /> we
+                <CorteDesktop /> work closely with your team to make sure
+                <CorteMobile /> the content helps you
                 <CorteDesktop /> reach your goals!
               </p>
             </Column>
