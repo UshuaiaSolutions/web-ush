@@ -11,7 +11,6 @@ import {
   StyledContainer,
   Column,
   Image,
-  Video,
   ContainerDesktop,
   ContainerMobile,
   Card,
@@ -55,7 +54,7 @@ function MeetYourLanguage() {
           />
         </Column>
         <Column>
-          <Video src="/illustration-why.png" alt="hero illustration" />
+          {/* <Video src="/illustration-why.png" alt="hero illustration" /> */}
           <ContainerDesktop>
             <Swiper
               spaceBetween={30}

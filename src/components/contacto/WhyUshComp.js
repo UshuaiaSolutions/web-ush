@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const StyledContainer = styled.div`
-  background: ${(props) => props.theme.fondo};
+  background-color: ${(props) => props.theme.textonegro};
+  color: ${(props) => props.theme.fondo};
   width: 100%;
-  color: ${(props) => props.theme.textonegro};
   padding: 50px 0px;
 
   & .swiper-wrapper {

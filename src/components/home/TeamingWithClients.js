@@ -8,6 +8,7 @@ import BotonSecundario from "../base/BotonSecundario";
 import { CorteDesktop, CorteMobile } from "../base/Cortes";
 import { Link } from "react-router-dom";
 import { StyledContainer, Content } from "./TeamingWithClientsComp";
+import { clients, group } from "../expertise/Clients";
 
 function TeamingWithClients() {
   return (
@@ -34,90 +35,13 @@ function TeamingWithClients() {
               modules={[Autoplay]}
               className="mySwiper teaming-with-clients-mobile"
             >
-              <SwiperSlide>
-                <img
-                  className="clients"
-                  src="https://ushmultimedia.blob.core.windows.net/ushwebsite/AgilentWhite.png"
-                  alt="brands"
-                />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img
-                  className="clients"
-                  src="https://ushmultimedia.blob.core.windows.net/ushwebsite/AvayaWhite.png"
-                  alt="brands"
-                />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img
-                  className="clients"
-                  src="https://ushmultimedia.blob.core.windows.net/ushwebsite/BIDWhite.png"
-                  alt="brands"
-                />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img
-                  className="clients"
-                  src="https://ushmultimedia.blob.core.windows.net/ushwebsite/EliaWhite.png"
-                  alt="brands"
-                />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img
-                  className="clients"
-                  src="https://ushmultimedia.blob.core.windows.net/ushwebsite/PacifictechWhite.png"
-                  alt="brands"
-                />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img
-                  className="clients"
-                  src="https://ushmultimedia.blob.core.windows.net/ushwebsite/RockwellWhite.png"
-                  alt="brands"
-                />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img
-                  className="clients"
-                  src="https://ushmultimedia.blob.core.windows.net/ushwebsite/SageWhite.png"
-                  alt="brands"
-                />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img
-                  className="clients"
-                  src="https://ushmultimedia.blob.core.windows.net/ushwebsite/StanfordWhite.png"
-                  alt="brands"
-                />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img
-                  className="clients"
-                  src="https://ushmultimedia.blob.core.windows.net/ushwebsite/WorldBankWhite.png"
-                  alt="brands"
-                />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img
-                  className="clients"
-                  src="https://ushmultimedia.blob.core.windows.net/ushwebsite/NTTWhite.png"
-                  alt="brands"
-                />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img
-                  className="clients"
-                  src="https://ushmultimedia.blob.core.windows.net/ushwebsite/EricssonWhite.png"
-                  alt="brands"
-                />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img
-                  className="clients"
-                  src="https://ushmultimedia.blob.core.windows.net/ushwebsite/OrciWhite.png"
-                  alt="brands"
-                />
-              </SwiperSlide>
+              {clients?.map((e) => {
+                return (
+                  <SwiperSlide>
+                    <img className="clients" src={e.image_white} alt={e.name} />
+                  </SwiperSlide>
+                );
+              })}
             </Swiper>
 
             <div className="mt-40">
@@ -148,78 +72,19 @@ function TeamingWithClients() {
               modules={[Autoplay]}
               className="mySwiper teaming-with-clients"
             >
-              <SwiperSlide>
-                <img
-                  className="clients"
-                  src="https://ushmultimedia.blob.core.windows.net/ushwebsite/AgilentWhite.png"
-                  alt="brands"
-                />
-                <img
-                  className="clients"
-                  src="https://ushmultimedia.blob.core.windows.net/ushwebsite/AvayaWhite.png"
-                  alt="brands"
-                />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img
-                  className="clients"
-                  src="https://ushmultimedia.blob.core.windows.net/ushwebsite/BIDWhite.png"
-                  alt="brands"
-                />
-                <img
-                  className="clients"
-                  src="https://ushmultimedia.blob.core.windows.net/ushwebsite/EliaWhite.png"
-                  alt="brands"
-                />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img
-                  className="clients"
-                  src="https://ushmultimedia.blob.core.windows.net/ushwebsite/PacifictechWhite.png"
-                  alt="brands"
-                />
-                <img
-                  className="clients"
-                  src="https://ushmultimedia.blob.core.windows.net/ushwebsite/RockwellWhite.png"
-                  alt="brands"
-                />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img
-                  className="clients"
-                  src="https://ushmultimedia.blob.core.windows.net/ushwebsite/SageWhite.png"
-                  alt="brands"
-                />
-                <img
-                  className="clients"
-                  src="https://ushmultimedia.blob.core.windows.net/ushwebsite/StanfordWhite.png"
-                  alt="brands"
-                />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img
-                  className="clients"
-                  src="https://ushmultimedia.blob.core.windows.net/ushwebsite/WorldBankWhite.png"
-                  alt="brands"
-                />
-                <img
-                  className="clients"
-                  src="https://ushmultimedia.blob.core.windows.net/ushwebsite/NTTWhite.png"
-                  alt="brands"
-                />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img
-                  className="clients"
-                  src="https://ushmultimedia.blob.core.windows.net/ushwebsite/EricssonWhite.png"
-                  alt="brands"
-                />
-                <img
-                  className="clients"
-                  src="https://ushmultimedia.blob.core.windows.net/ushwebsite/OrciWhite.png"
-                  alt="brands"
-                />
-              </SwiperSlide>
+              {group(clients, 2).map((children) => {
+                return (
+                  <SwiperSlide>
+                    {children.map((x, i) => (
+                      <img
+                        className="clients"
+                        src={x.image_white}
+                        alt={x.name}
+                      />
+                    ))}
+                  </SwiperSlide>
+                );
+              })}
             </Swiper>
           </div>
         </div>

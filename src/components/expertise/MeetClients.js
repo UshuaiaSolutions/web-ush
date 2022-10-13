@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "../../styles/slider.css";
 import Container from "../base/Container";
 import { CorteDesktop, CorteMobile } from "../base/Cortes";
+import { clients, group } from "./Clients";
 import { StyledContainer } from "./MeetClientsComp";
 
 function MeetClients() {
@@ -21,90 +22,6 @@ function MeetClients() {
           <CorteDesktop /> in-house
           <CorteMobile /> teams. We can help you too!
         </p>
-        <>
-          {/* <ContainerSwiper className="mb-40">
-          <Swiper
-            slidesPerView={"auto"}
-            spaceBetween={0}
-            modules={[Pagination]}
-            className="mySwiper why"
-          >
-            <SwiperSlide>
-              <Card>
-                <img
-                  className="mb-20-mobile"
-                  src="/logos/Logo-client.png"
-                  alt="Client"
-                />
-                <p className="txt-mobile">
-                  The World Bank Group is one of the largest international
-                  financial institutions. We've been working with the World Bank
-                  Group for several years, helping them localize their content.
-                </p>
-              </Card>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Card>
-                <img
-                  className="mb-20-mobile"
-                  src="/logos/Logo-client.png"
-                  alt="Client"
-                />
-                <p className="txt-mobile">
-                  Ericsson is a Swedish multinational networking and
-                  telecommunications company. For them, we have translated many
-                  specialized documents.
-                </p>
-              </Card>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Card>
-                <img
-                  className="mb-20-mobile"
-                  src="/logos/Logo-client.png"
-                  alt="Client"
-                />
-                <p className="txt-mobile">
-                  Ericsson is a Swedish multinational networking and
-                  telecommunications company. For them, we have translated many
-                  specialized documents.
-                </p>
-              </Card>
-            </SwiperSlide>
-          </Swiper>
-        </ContainerSwiper> */}
-          {/* <ContainerDesktop>
-          <Column>
-            <p className="punteo-desktop mb-15">The World Bank Group</p>
-            <p className="punteo-desktop mb-15">Ericsson</p>
-            <p className="punteo-desktop mb-15">Rockwell Automation, Inc</p>
-            <p className="punteo-desktop mb-15">BID</p>
-            <p className="punteo-desktop mb-15">Avaya</p>
-            <p className="punteo-desktop mb-15">Agilent Technologies, Inc</p>
-            <p className="punteo-desktop mb-15">NTT</p>
-            <p className="punteo-desktop mb-15">Sanford Guide</p>
-            <p className="punteo-desktop mb-15">Pacifictech</p>
-            <p className="punteo-desktop mb-15">ORCI</p>
-            <p className="punteo-desktop mb-15">The Sage Group</p>
-            <p className="punteo-desktop mb-15">Pivotal</p>
-            <p className="punteo-desktop">LivePerson</p>
-          </Column>
-           <div>
-            <Card>
-              <Logo
-                className="mb-20-mobile mb-40"
-                src="/logos/Logo-client.png"
-                alt="Client"
-              />
-              <p className="txt-mobile texto-regular text-left-mobile text-center">
-                The World Bank Group is one of the largest international
-                financial institutions. We've been working with the World Bank
-                Group for several years, helping them localize their content.
-              </p>
-            </Card>
-          </div> 
-        </ContainerDesktop>*/}
-        </>
 
         <Swiper
           spaceBetween={50}
@@ -118,78 +35,15 @@ function MeetClients() {
           modules={[Autoplay]}
           className="mySwiper teaming-with-clients"
         >
-          <SwiperSlide>
-            <img
-              className="clients"
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/AgilentWhite.png"
-              alt="brands"
-            />
-            <img
-              className="clients"
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/AvayaWhite.png"
-              alt="brands"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
-              className="clients"
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/BIDWhite.png"
-              alt="brands"
-            />
-            <img
-              className="clients"
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/EliaWhite.png"
-              alt="brands"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
-              className="clients"
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/PacifictechWhite.png"
-              alt="brands"
-            />
-            <img
-              className="clients"
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/RockwellWhite.png"
-              alt="brands"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
-              className="clients"
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/SageWhite.png"
-              alt="brands"
-            />
-            <img
-              className="clients"
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/StanfordWhite.png"
-              alt="brands"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
-              className="clients"
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/WorldBankWhite.png"
-              alt="brands"
-            />
-            <img
-              className="clients"
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/NTTWhite.png"
-              alt="brands"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
-              className="clients"
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/EricssonWhite.png"
-              alt="brands"
-            />
-            <img
-              className="clients"
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/OrciWhite.png"
-              alt="brands"
-            />
-          </SwiperSlide>
+          {group(clients, 2).map((children) => {
+            return (
+              <SwiperSlide>
+                {children.map((x, i) => (
+                  <img className="clients" src={x.image_grey} alt={x.name} />
+                ))}
+              </SwiperSlide>
+            );
+          })}
         </Swiper>
 
         {/* MOBILE */}
@@ -205,90 +59,13 @@ function MeetClients() {
           modules={[Autoplay]}
           className="mySwiper teaming-with-clients-mobile"
         >
-          <SwiperSlide>
-            <img
-              className="clients"
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/AgilentWhite.png"
-              alt="brands"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
-              className="clients"
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/AvayaWhite.png"
-              alt="brands"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
-              className="clients"
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/BIDWhite.png"
-              alt="brands"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
-              className="clients"
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/EliaWhite.png"
-              alt="brands"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
-              className="clients"
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/PacifictechWhite.png"
-              alt="brands"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
-              className="clients"
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/RockwellWhite.png"
-              alt="brands"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
-              className="clients"
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/SageWhite.png"
-              alt="brands"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
-              className="clients"
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/StanfordWhite.png"
-              alt="brands"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
-              className="clients"
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/WorldBankWhite.png"
-              alt="brands"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
-              className="clients"
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/NTTWhite.png"
-              alt="brands"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
-              className="clients"
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/EricssonWhite.png"
-              alt="brands"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img
-              className="clients"
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/OrciWhite.png"
-              alt="brands"
-            />
-          </SwiperSlide>
+          {clients?.map((e) => {
+            return (
+              <SwiperSlide>
+                <img className="clients" src={e.image_grey} alt={e.name} />
+              </SwiperSlide>
+            );
+          })}
         </Swiper>
       </Container>
     </StyledContainer>

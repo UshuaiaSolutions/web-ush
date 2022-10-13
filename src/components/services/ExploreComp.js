@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const StyledContainer = styled.div`
   padding: 60px 0;
+  background-color: ${(props) => props.theme.textonegro};
   color: ${(props) => props.theme.fondo};
-  background-color: ${(props) => props.theme.azulush};
   background-image: url(https://ushmultimedia.blob.core.windows.net/ushwebsite/TramaExploreHowWe.png);
   background-repeat: inherit;
   display: flex;

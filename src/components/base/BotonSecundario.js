@@ -17,7 +17,7 @@ const StyledBoton = styled.button`
   cursor: pointer;
 
   &:hover {
-    background-color: ${(props) => props.theme.rosaush};
+    background-color: ${(props) => props.theme.amarillo};
     box-shadow: inset 6px 6px 4px rgba(57, 57, 57, 0.4);
   }
 

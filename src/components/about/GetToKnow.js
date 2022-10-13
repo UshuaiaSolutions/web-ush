@@ -7,7 +7,15 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 import "../../styles/slider.css";
 import { CorteDesktop, CorteMobile } from "../base/Cortes";
-import { StyledContainer, Row, Column, Card, Icon } from "./GetToKnowComp";
+import {
+  StyledContainer,
+  Row,
+  Column,
+  Card,
+  Icon,
+  ColumnDesktop,
+} from "./GetToKnowComp";
+import { group, members } from "./Members";
 
 function GetToKnow() {
   return (
@@ -25,150 +33,62 @@ function GetToKnow() {
             <CorteDesktop /> together as one and achieve greater goals.
           </p>
         </Row>
-        <Swiper
-          slidesPerView={"auto"}
-          spaceBetween={0}
-          modules={[Pagination]}
-          className="mySwiper member d-none-mobile"
-        >
-          <SwiperSlide>
-            <Column>
-              <Card>
-                <Icon src="/members/member.png" alt="icon" />
-              </Card>
-              <Card>
-                <Icon src="/members/member.png" alt="icon" />
-              </Card>
-              <Card>
-                <Icon src="/members/member.png" alt="icon" />
-              </Card>
-            </Column>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Column>
-              <Card>
-                <Icon src="/members/member.png" alt="icon" />
-              </Card>
-              <Card>
-                <Icon src="/members/member.png" alt="icon" />
-              </Card>
-              <Card>
-                <Icon src="/members/member.png" alt="icon" />
-              </Card>
-            </Column>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Column>
-              <Card>
-                <Icon src="/members/member.png" alt="icon" />
-              </Card>
-              <Card>
-                <Icon src="/members/member.png" alt="icon" />
-              </Card>
-              <Card>
-                <Icon src="/members/member.png" alt="icon" />
-              </Card>
-            </Column>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Column>
-              <Card>
-                <Icon src="/members/member.png" alt="icon" />
-              </Card>
-              <Card>
-                <Icon src="/members/member.png" alt="icon" />
-              </Card>
-              <Card>
-                <Icon src="/members/member.png" alt="icon" />
-              </Card>
-            </Column>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Column>
-              <Card>
-                <Icon src="/members/member.png" alt="icon" />
-              </Card>
-              <Card>
-                <Icon src="/members/member.png" alt="icon" />
-              </Card>
-              <Card>
-                <Icon src="/members/member.png" alt="icon" />
-              </Card>
-            </Column>
-          </SwiperSlide>
-        </Swiper>
+
+        {group(members, 4).map((children) => {
+          return (
+            <ColumnDesktop>
+              {children.map((x, i) => (
+                <Card>
+                  <div className="info">
+                    <span className="punteo-desktop">{x.country}</span>
+                    <span className="destacado-bold">
+                      {x.name}
+                      <br />
+                      {x.lastname}
+                    </span>
+                    <span className="texto-regular-bold">
+                      {x.job}
+                      {x?.job_last ? (
+                        <>
+                          <br />
+                          {x?.job_last}
+                        </>
+                      ) : (
+                        <>
+                          <br />
+                          <br />
+                        </>
+                      )}
+                    </span>
+                  </div>
+                  <Icon src={x.image} alt="icon" />
+                </Card>
+              ))}
+            </ColumnDesktop>
+          );
+        })}
       </Container>
+
+      {/* mobile */}
       <Swiper
         slidesPerView={"auto"}
         spaceBetween={0}
         modules={[Pagination]}
         className="mySwiper member position-mobile d-none-desktop"
       >
-        <SwiperSlide>
-          <Column>
-            <Card>
-              <Icon src="/members/member.png" alt="icon" />
-            </Card>
-            <Card>
-              <Icon src="/members/member.png" alt="icon" />
-            </Card>
-            <Card>
-              <Icon src="/members/member.png" alt="icon" />
-            </Card>
-          </Column>
-        </SwiperSlide>
-        <SwiperSlide>
-          <Column>
-            <Card>
-              <Icon src="/members/member.png" alt="icon" />
-            </Card>
-            <Card>
-              <Icon src="/members/member.png" alt="icon" />
-            </Card>
-            <Card>
-              <Icon src="/members/member.png" alt="icon" />
-            </Card>
-          </Column>
-        </SwiperSlide>
-        <SwiperSlide>
-          <Column>
-            <Card>
-              <Icon src="/members/member.png" alt="icon" />
-            </Card>
-            <Card>
-              <Icon src="/members/member.png" alt="icon" />
-            </Card>
-            <Card>
-              <Icon src="/members/member.png" alt="icon" />
-            </Card>
-          </Column>
-        </SwiperSlide>
-        <SwiperSlide>
-          <Column>
-            <Card>
-              <Icon src="/members/member.png" alt="icon" />
-            </Card>
-            <Card>
-              <Icon src="/members/member.png" alt="icon" />
-            </Card>
-            <Card>
-              <Icon src="/members/member.png" alt="icon" />
-            </Card>
-          </Column>
-        </SwiperSlide>
-        <SwiperSlide>
-          <Column>
-            <Card>
-              <Icon src="/members/member.png" alt="icon" />
-            </Card>
-            <Card>
-              <Icon src="/members/member.png" alt="icon" />
-            </Card>
-            <Card>
-              <Icon src="/members/member.png" alt="icon" />
-            </Card>
-          </Column>
-        </SwiperSlide>
+        {group(members, 3).map((children) => {
+          return (
+            <SwiperSlide>
+              <Column>
+                {children.map((x, i) => (
+                  <Card>
+                    <Icon src={x.image} alt="icon" />
+                  </Card>
+                ))}
+              </Column>
+            </SwiperSlide>
+          );
+        })}
       </Swiper>
     </StyledContainer>
   );

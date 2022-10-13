@@ -108,7 +108,7 @@ export const Column = styled.div`
     display: flex;
     margin-bottom: 70px;
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
 `;

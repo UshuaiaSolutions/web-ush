@@ -18,7 +18,7 @@ const StyledBoton = styled.button`
 
   &:hover {
     background-color: ${(props) => props.theme.textonegro};
-    color: ${(props) => props.theme.rosaush};
+    color: ${(props) => props.theme.amarillo};
   }
 
   @media (min-width: 769px) {

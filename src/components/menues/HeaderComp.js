@@ -68,11 +68,11 @@ export const StyledLink = styled(Link)`
   transition: all 0.3s linear;
 
   &:hover {
-    background: ${(props) => props.theme.rosaush};
+    background: ${(props) => props.theme.amarillo};
     border: ${(props) =>
       props.selected
         ? `2px solid ${props.theme.textonegro}`
-        : `2px solid ${props.theme.rosaush}`};
+        : `2px solid ${props.theme.amarillo}`};
     opacity: 1;
   }
 `;
@@ -84,8 +84,8 @@ export const StyledBoton = styled(BotonSecundario)`
   font-weight: 700;
   line-height: 24px;
   color: ${(props) => props.theme.textonegro};
-  background-color: ${(props) => props.theme.rosaush};
-  border: 3px solid ${(props) => props.theme.rosaush};
+  background-color: ${(props) => props.theme.amarillo};
+  border: 3px solid ${(props) => props.theme.amarillo};
   transition: all 0.3s linear;
 
   &:hover {
