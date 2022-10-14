@@ -23,7 +23,7 @@ function MeetYourLanguage() {
     <StyledContainer>
       <Container>
         <Column>
-          <div>
+          <div className="text">
             <h1 className="hero-section-titles-mobile h1-web mb-20-mobile mb-40">
               Meet your language
               <CorteDesktop />
@@ -49,7 +49,7 @@ function MeetYourLanguage() {
             </HashLink>
           </div>
           <Image
-            src="https://ushmultimedia.blob.core.windows.net/ushwebsite/AboutHeroSection.png"
+            src="https://ushmultimedia.blob.core.windows.net/ushwebsite/AboutHS.png"
             alt="hero illustration"
           />
         </Column>

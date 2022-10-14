@@ -18,7 +18,7 @@ function WhyUSH() {
       <Container>
         <Content>
           <ImageDesktop
-            src="https://ushmultimedia.blob.core.windows.net/ushwebsite/HomeWhyUSHDesktop.png"
+            src="https://ushmultimedia.blob.core.windows.net/ushwebsite/HomeWhyUSH.png"
             alt="illustration"
           />
 
@@ -28,7 +28,7 @@ function WhyUSH() {
             </h2>
 
             <ImageMobile
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/HomeWhyUSHMobile.png"
+              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/HomeWhyUSHMob.png"
               alt="illustration"
             />
 

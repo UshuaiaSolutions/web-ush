@@ -1,6 +1,5 @@
 import React from "react";
 import Container from "../base/Container";
-import { Link } from "react-router-dom";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";

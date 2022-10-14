@@ -40,8 +40,8 @@ export const ColumnDesktop = styled.div`
 `;
 
 export const Card = styled.div`
-  width: 136px;
-  height: 136px;
+  width: 130px;
+  height: 130px;
   position: relative;
 
   & .info {
@@ -60,7 +60,7 @@ export const Card = styled.div`
     align-items: center;
     color: ${(props) => props.theme.textonegro};
     justify-content: space-between;
-    padding: 30px 0;
+    padding: 20px 0;
     text-align: center;
   }
 
@@ -72,6 +72,10 @@ export const Card = styled.div`
   @media (min-width: 769px) {
     width: 223px;
     height: 223px;
+
+    & .info {
+      padding: 30px 0;
+    }
   }
 `;
 
@@ -87,12 +91,5 @@ export const Row = styled.div`
     display: flex;
     justify-content: space-between;
     margin-bottom: 70px;
-  }
-`;
-
-export const Info = styled.div`
-  display: none;
-
-  @media (min-width: 769px) {
   }
 `;

@@ -2,15 +2,15 @@ import React from "react";
 import Container from "../base/Container";
 import { CorteDesktop, CorteMobile } from "../base/Cortes";
 import {
-  StyledContainer,
   StyledImgAASL,
   StyledImgGALA,
   StyledImgELIA,
   StyledImgLast,
   Content,
-} from "./MembershipsComp";
+} from "../compartidos/MembershipsComp";
+import { StyledContainer } from "./OurMembershipsComp";
 
-function Memberships() {
+function OurMemberships() {
   return (
     <StyledContainer>
       <Container>
@@ -30,21 +30,21 @@ function Memberships() {
           <div className="d-flex flex-column content-images">
             <div className="d-flex justify-evenly align-center mb-20-mobile mb-40">
               <StyledImgAASL
-                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/AASLBlack.png"
+                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/AASLWhite.png"
                 alt="Asociación Argentina de Servicios Lingüísticos"
               />
               <StyledImgGALA
-                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/GALABlack.png"
+                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/GALAWhite.png"
                 alt="Globalization and localization association"
               />
             </div>
             <div className="d-flex justify-between align-center justify-evenly-mobile">
               <StyledImgELIA
-                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/EliaBlack.png"
+                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/EliaWhite.png"
                 alt="European Language Industry Association"
               />
               <StyledImgLast
-                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/TinABlack.png"
+                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/TinAWhite.png"
                 alt="Translated in Argentina"
               />
             </div>
@@ -55,4 +55,4 @@ function Memberships() {
   );
 }
 
-export default Memberships;
+export default OurMemberships;

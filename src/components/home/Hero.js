@@ -30,7 +30,7 @@ const Hero = () => {
           </HashLink>
         </div>
         <Image
-          src="https://ushmultimedia.blob.core.windows.net/ushwebsite/HomeHeroSection.png"
+          src="https://ushmultimedia.blob.core.windows.net/ushwebsite/HomeHS.png"
           alt="hero illustration"
         />
       </Content>

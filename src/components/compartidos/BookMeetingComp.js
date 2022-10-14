@@ -5,7 +5,7 @@ export const StyledContainer = styled.div`
   background-color: ${(props) => props.theme.fondo};
   width: 100%;
   padding: 45px 0;
-  background-image: url(https://ushmultimedia.blob.core.windows.net/ushwebsite/TramaFormGrande.png);
+  background-image: url(https://ushmultimedia.blob.core.windows.net/ushwebsite/TramaFormGrandeNew.png);
   background-repeat: inherit;
 
   @media (min-width: 769px) {

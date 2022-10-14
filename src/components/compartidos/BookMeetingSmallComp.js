@@ -6,7 +6,7 @@ export const StyledContainer = styled.div`
   flex-direction: column;
   background-color: ${(props) => props.theme.textonegro};
   color: ${(props) => props.theme.fondo};
-  background-image: url(https://ushmultimedia.blob.core.windows.net/ushwebsite/TramaFormChico.png);
+  background-image: url(https://ushmultimedia.blob.core.windows.net/ushwebsite/TramaFormChicaNew.png);
   background-repeat: inherit;
   width: 100%;
 

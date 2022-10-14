@@ -82,6 +82,30 @@ function GetToKnow() {
               <Column>
                 {children.map((x, i) => (
                   <Card>
+                    <div className="info">
+                      <span className="destacados-mobile text-center-mobile">
+                        {x.country}
+                      </span>
+                      <span className="h3-mobile text-center-mobile">
+                        {x.name}
+                        <br />
+                        {x.lastname}
+                      </span>
+                      <span className="txt-mobile text-center-mobile">
+                        {x.job}
+                        {x?.job_last ? (
+                          <>
+                            <br />
+                            {x?.job_last}
+                          </>
+                        ) : (
+                          <>
+                            <br />
+                            <br />
+                          </>
+                        )}
+                      </span>
+                    </div>
                     <Icon src={x.image} alt="icon" />
                   </Card>
                 ))}
