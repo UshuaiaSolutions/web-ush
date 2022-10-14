@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import { breakpoints } from "../base/breakpoints";
 
 export const StyledLink = styled(Link)`
   color: ${(props) => props.theme.fondo};
@@ -14,7 +15,7 @@ export const StyledLink = styled(Link)`
 export const Relative = styled.div`
   z-index: 11;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     position: relative;
   }
 `;
@@ -42,7 +43,7 @@ export const Container = styled.div`
 export const Content = styled.div`
   padding: 55px 0;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -51,17 +52,17 @@ export const Content = styled.div`
     width: calc(100% - 50px);
   }
 
-  @media (min-width: 1125px) {
+  ${breakpoints.min_desktop} {
     padding: 55px 65px;
     width: calc(100% - 130px);
   }
 
-  @media (min-width: 1500px) {
+  ${breakpoints.min_xl} {
     margin: 0 auto;
     width: 1314px;
   }
 
-  @media (min-width: 1800px) {
+  ${breakpoints.min_xxl} {
     margin: 0 auto;
     width: 1514px;
   }
@@ -74,11 +75,11 @@ export const ContainerText = styled.div`
   flex-direction: column-reverse;
   display: flex;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     flex-direction: column;
   }
 
-  @media (min-width: 1125px) {
+  ${breakpoints.min_desktop} {
     max-width: 517px;
   }
 `;
@@ -88,7 +89,7 @@ export const ContainerRedesFooter = styled.div`
   justify-content: space-between;
   margin-bottom: 35px;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     margin-top: 45px;
     margin-bottom: 0;
   }
@@ -103,7 +104,7 @@ export const Red = styled.p`
   letter-spacing: 0em;
   margin-right: 0px;
 
-  @media (min-width: 1125px) {
+  ${breakpoints.min_desktop} {
     margin-right: 10px;
     font-size: 16px;
     font-weight: 400;
@@ -115,7 +116,7 @@ export const Red = styled.p`
 export const Column = styled.div`
   display: none;
 
-  @media (min-width: 1125px) {
+  ${breakpoints.min_desktop} {
     display: flex;
     flex-direction: column;
   }
@@ -126,7 +127,7 @@ export const ColumnSecond = styled.div`
   flex-direction: column;
   align-items: center;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     align-items: end;
   }
 `;
@@ -135,14 +136,14 @@ export const Logo = styled.img`
   height: 46px;
   width: 154px;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     height: 84px;
     width: 330px;
     margin-bottom: 50px;
     object-fit: scale-down;
   }
 
-  @media (min-width: 1125px) {
+  ${breakpoints.min_desktop} {
     height: 104px;
     width: 350px;
     object-fit: none;
@@ -154,7 +155,7 @@ export const Iso = styled.img`
   width: 46px;
   margin-top: 30px;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     height: 42px;
     width: 103px;
     margin-top: 0px;
@@ -166,7 +167,7 @@ export const Arrow = styled.img`
   width: 7px;
   image-rendering: pixelated;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     height: 12px;
   }
 `;
@@ -175,7 +176,7 @@ export const ContainerRed = styled.a`
   flex-direction: column;
   margin-right: 0px;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     flex-direction: row;
     display: flex;
     align-items: center;
@@ -190,12 +191,12 @@ export const RedImage = styled.img`
   width: 20px;
   margin-bottom: 5px;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     margin-bottom: 0px;
     margin-right: 7px;
   }
 
-  @media (min-width: 1125px) {
+  ${breakpoints.min_desktop} {
     width: 28px;
     height: 28px;
   }

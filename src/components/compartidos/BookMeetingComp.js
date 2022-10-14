@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { breakpoints } from "../base/breakpoints";
 
 export const StyledContainer = styled.div`
   color: ${(props) => props.theme.textonegro};
@@ -8,7 +9,7 @@ export const StyledContainer = styled.div`
   background-image: url(https://ushmultimedia.blob.core.windows.net/ushwebsite/TramaFormGrandeNew.png);
   background-repeat: inherit;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     padding: 140px 0;
   }
 `;
@@ -16,7 +17,7 @@ export const StyledContainer = styled.div`
 export const MediaContainer = styled.div`
   flex-direction: column;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     flex-direction: row;
   }
 `;
@@ -24,7 +25,7 @@ export const MediaContainer = styled.div`
 export const FirstContainer = styled.div`
   width: 100%;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     width: auto;
   }
 `;
@@ -32,7 +33,7 @@ export const FirstContainer = styled.div`
 export const SecondContainer = styled.div`
   width: 100%;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     width: 50%;
   }
 `;
@@ -41,7 +42,7 @@ export const ContainerInput = styled.div`
   width: 100%;
   margin-bottom: 10px;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     width: 48%;
     margin-bottom: 0px;
   }
@@ -63,7 +64,7 @@ export const DateContainer = styled.div`
     outline: none;
   }
 
-  @media (min-width: 1125px) {
+  ${breakpoints.min_desktop} {
     & .react-datepicker__input-container input {
       background: #f6f3e8;
       border: 3px solid #393939;
@@ -86,7 +87,7 @@ export const ColumnInput = styled.div`
   flex-direction: column;
   margin-bottom: 0;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     margin-bottom: 30px;
     flex-direction: row;
   }
@@ -112,12 +113,12 @@ export const Boton = styled.button`
     color: ${(props) => props.theme.amarillo};
   }
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     width: fit-content;
     padding: 8px 40px;
   }
 
-  @media (min-width: 1125px) {
+  ${breakpoints.min_desktop} {
     padding: 18px 48px;
     width: fit-content;
     font-weight: 700;

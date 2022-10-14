@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { breakpoints } from "../base/breakpoints";
 
 export const Background = styled.div`
   background-color: ${(props) => props.theme.fondo};
@@ -11,7 +12,7 @@ export const Background = styled.div`
     display: none;
   }
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     height: calc(100vh - 100px);
     padding: 0;
 
@@ -50,7 +51,7 @@ export const Content = styled.div`
     position: absolute;
   }
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     height: 100%;
     padding: 25px;
     width: calc(100% - 50px);
@@ -66,12 +67,12 @@ export const Content = styled.div`
     }
   }
 
-  @media (min-width: 1125px) {
+  ${breakpoints.min_desktop} {
     padding: 25px 65px;
     width: calc(100% - 130px);
   }
 
-  @media (min-width: 1500px) {
+  ${breakpoints.min_xl} {
     margin: 0 auto;
     width: 1314px;
   }

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { breakpoints } from "../base/breakpoints";
 
 export const StyledContainer = styled.div`
   padding: 40px 0;
@@ -7,7 +8,7 @@ export const StyledContainer = styled.div`
   display: flex;
   flex-direction: column;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     padding: 100px 0;
     position: relative;
   }
@@ -20,7 +21,7 @@ export const Image = styled.img`
   max-width: 100%;
   border-radius: 0px;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     position: absolute;
     width: 50%;
     max-width: 679px;
@@ -44,7 +45,7 @@ export const Card = styled.div`
   padding: 40px 0;
   position: relative;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     width: calc(421px - 6px);
     height: calc(370px - 6px);
     padding: 0;
@@ -66,7 +67,7 @@ export const Circle = styled.div`
   top: -30px;
   right: 56px;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     border: 3px solid ${(props) => props.theme.textonegro};
     width: calc(120px - 6px);
     top: -60px;
@@ -91,7 +92,7 @@ export const Icon = styled.img`
     height: auto;
   }
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     &.first {
       width: 60px;
       height: 60px;
@@ -110,7 +111,7 @@ export const Icon = styled.img`
 `;
 
 export const Column = styled.div`
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     display: flex;
     margin-bottom: 70px;
     width: 100%;
@@ -126,7 +127,7 @@ export const Column = styled.div`
 export const ContainerDesktop = styled.div`
   display: none;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     display: flex;
     width: 50%;
     height: 485px;
@@ -140,7 +141,7 @@ export const ContainerMobile = styled.div`
   & .swiper-wrapper {
     align-items: baseline;
   }
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     display: none;
   }
 `;

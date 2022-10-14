@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { breakpoints } from "../base/breakpoints";
 
 export const StyledContainer = styled.div`
   padding: 40px 0;
@@ -7,7 +8,7 @@ export const StyledContainer = styled.div`
   display: flex;
   flex-direction: column;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     padding: 100px 0;
   }
 `;
@@ -22,7 +23,7 @@ export const Image = styled.img`
   width: 19px;
   height: 32px;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     height: 68px;
     width: 41px;
   }

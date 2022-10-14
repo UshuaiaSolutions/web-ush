@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { breakpoints } from "../base/breakpoints";
 
 export const StyledContainer = styled.div`
   padding: 0 0 40px;
@@ -7,7 +8,7 @@ export const StyledContainer = styled.div`
   display: flex;
   flex-direction: column;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     padding: 0 0 100px;
   }
 `;
@@ -18,7 +19,7 @@ export const Image = styled.img`
   object-fit: cover;
   margin-bottom: 35px;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     margin-top: 35px;
     height: 336px;
     width: 387px;
@@ -30,13 +31,13 @@ export const Column = styled.div`
   display: flex;
   flex-direction: column;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     margin-bottom: 30px;
   }
 `;
 
 export const ContentDesktop = styled.div`
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     display: flex;
     justify-content: space-between;
 
@@ -46,7 +47,7 @@ export const ContentDesktop = styled.div`
     }
   }
 
-  @media (min-width: 1125px) {
+  ${breakpoints.min_desktop} {
     & .desktop-chico-exacto {
       width: 531px;
     }

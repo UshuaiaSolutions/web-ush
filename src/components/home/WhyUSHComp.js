@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { breakpoints } from "../base/breakpoints";
 
 export const StyledContainer = styled.div`
   padding: 60px 0;
@@ -8,7 +9,7 @@ export const StyledContainer = styled.div`
   background: ${(props) => props.theme.textonegro};
   color: ${(props) => props.theme.fondo};
 
-  @media (min-width: 1500px) {
+  ${breakpoints.min_xl} {
     padding: 100px 0;
   }
 `;
@@ -16,7 +17,7 @@ export const StyledContainer = styled.div`
 export const ImageDesktop = styled.img`
   display: none;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     width: 509px;
     display: block;
   }
@@ -26,18 +27,18 @@ export const ImageMobile = styled.img`
   width: 100%;
   height: auto;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     display: none;
   }
 `;
 
 export const Content = styled.div`
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     display: flex;
     text-align: center;
     justify-content: space-between;
   }
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     & .corte-exacto-desktop-medio {
       min-width: fit-content;
     }
@@ -45,7 +46,7 @@ export const Content = styled.div`
 `;
 
 export const Reverse = styled.div`
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     display: flex;
     flex-direction: column-reverse;
     margin-top: 40px;
@@ -57,7 +58,7 @@ export const Areas = styled.div`
   display: flex;
   justify-content: space-between;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     margin-top: 0px;
     flex-wrap: wrap;
     justify-content: center;

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { breakpoints } from "../base/breakpoints";
 
 export const StyledContainer = styled.div`
   padding: 60px 0;
@@ -9,7 +10,7 @@ export const StyledContainer = styled.div`
   display: flex;
   flex-direction: column;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     padding: 100px 0;
   }
 `;
@@ -20,7 +21,7 @@ export const Dropdown = styled.div`
   border-radius: 32px;
   padding: 15px 0;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     padding: 30px 0;
   }
 `;
@@ -39,14 +40,14 @@ export const Item = styled.div`
     border-bottom: none;
   }
 
-  @media (min-width: 769px) and (max-width: 1124px) {
+  ${breakpoints.only_tablet} {
     width: calc(100% - 160px);
     height: auto;
     min-height: 136px;
     padding: 0 20px;
   }
 
-  @media (min-width: 1125px) {
+  ${breakpoints.min_desktop} {
     width: calc(1089px - 120px - 120px);
     height: auto;
     min-height: 136px;
@@ -64,7 +65,7 @@ export const ItemTitle = styled.div`
     width: 80%;
   }
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     height: 136px;
   }
 `;
@@ -76,7 +77,7 @@ export const IconToggle = styled.img`
   transform: ${(props) => (props.isOpen ? "" : "rotate(45deg)")};
   cursor: pointer;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     height: 20px;
     width: 20px;
     object-fit: scale-down;
@@ -84,7 +85,7 @@ export const IconToggle = styled.img`
 `;
 
 export const RowDesktop = styled.div`
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     display: flex;
     justify-content: space-between;
     margin-bottom: 100px;
@@ -95,7 +96,7 @@ export const RowDesktop = styled.div`
     }
   }
 
-  @media (min-width: 1125px) {
+  ${breakpoints.min_desktop} {
     & .ancho-exacto {
       width: 529px;
       max-width: 529px;

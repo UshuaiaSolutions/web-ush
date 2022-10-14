@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { breakpoints } from "../base/breakpoints";
 
 export const StyledContainer = styled.div`
   padding: 60px 0;
@@ -8,7 +9,7 @@ export const StyledContainer = styled.div`
   color: ${(props) => props.theme.fondo};
   background-color: ${(props) => props.theme.textonegro};
 
-  @media (min-width: 1500px) {
+  ${breakpoints.min_xl} {
     padding: 100px 0;
   }
 `;

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { breakpoints } from "../base/breakpoints";
 
 export const Fondo = styled.div`
   background: rgba(57, 57, 57, 0.7);
@@ -25,7 +26,7 @@ export const Container = styled.div`
   left: 50%;
   transform: translate(-50%, -50%);
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     height: 566px;
     width: 642px;
   }
@@ -39,7 +40,7 @@ export const Close = styled.img`
   width: 26px;
   object-fit: scale-down;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     right: 70px;
     top: 35px;
     height: 38px;
@@ -52,7 +53,7 @@ export const Img = styled.img`
   width: 48px;
   margin-bottom: 25px;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     height: 90px;
     width: 90px;
     margin-bottom: 30px;

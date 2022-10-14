@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { breakpoints } from "../base/breakpoints";
 
 export const StyledContainer = styled.div`
   padding: 45px 0;
@@ -10,13 +11,13 @@ export const StyledContainer = styled.div`
   background-repeat: inherit;
   width: 100%;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     padding: 100px 0;
   }
 `;
 
 export const Column = styled.div`
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     display: flex;
     justify-content: space-between;
   }

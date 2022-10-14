@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { breakpoints } from "../base/breakpoints";
 
 export const StyledContainer = styled.div`
   padding: 60px 0;
@@ -7,11 +8,11 @@ export const StyledContainer = styled.div`
   display: flex;
   flex-direction: column;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     padding: 70px 0;
   }
 
-  @media (min-width: 1500px) {
+  ${breakpoints.min_xl} {
     padding: 100px 0;
   }
 `;
@@ -21,7 +22,7 @@ export const Column = styled.div`
   flex-direction: column;
   padding-left: 30px;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     padding-left: 0;
     min-width: fit-content;
     width: 463px;
@@ -33,7 +34,7 @@ export const Row = styled.div`
   align-items: center;
   margin-bottom: 20px;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     &:last-child {
       margin-bottom: 0;
     }
@@ -45,7 +46,7 @@ export const Image = styled.img`
   width: 13px;
   margin-right: 19px;
 
-  @media (min-width: 1125px) {
+  ${breakpoints.min_desktop} {
     height: 27px;
     width: 27px;
     object-fit: scale-down;
@@ -55,7 +56,7 @@ export const Image = styled.img`
 export const RowDesktop = styled.div`
   margin-bottom: 20px;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     margin-bottom: 0px;
     display: flex;
     justify-content: space-between;

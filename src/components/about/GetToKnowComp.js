@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { breakpoints } from "../base/breakpoints";
 
 export const StyledContainer = styled.div`
   padding: 40px 0;
@@ -12,7 +13,7 @@ export const StyledContainer = styled.div`
     width: calc(100% - ((100% - 276px) / 2));
   }
 
-  @media (min-width: 1500px) {
+  ${breakpoints.min_xl} {
     padding: 0 0 100px;
   }
 `;
@@ -25,7 +26,7 @@ export const Column = styled.div`
 export const ColumnDesktop = styled.div`
   display: none;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
@@ -69,7 +70,7 @@ export const Card = styled.div`
     opacity: 1;
   }
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     width: 223px;
     height: 223px;
 
@@ -87,7 +88,7 @@ export const Icon = styled.img`
 `;
 
 export const Row = styled.div`
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     display: flex;
     justify-content: space-between;
     margin-bottom: 70px;

@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { breakpoints } from "./breakpoints";
 
 const StyledContainer = styled.div`
   // MOBILE
@@ -7,14 +8,14 @@ const StyledContainer = styled.div`
   width: 276px;
 
   // TABLET
-  @media (min-width: 769px) and (max-width: 1124px) {
+  ${breakpoints.only_tablet} {
     min-width: 680px;
     width: 80%;
     max-width: 1089px;
   }
 
   // PC
-  @media (min-width: 1125px) {
+  ${breakpoints.min_desktop} {
     margin: 0 auto;
     width: 1089px;
   }

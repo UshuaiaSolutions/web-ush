@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import BotonSecundario from "../base/BotonSecundario";
 import { Link } from "react-router-dom";
+import { breakpoints } from "../base/breakpoints";
 
 export const Container = styled.div`
   padding: 0 19px;
@@ -16,31 +17,31 @@ export const Container = styled.div`
   z-index: 10;
   height: 51px;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     height: calc(100px - 50px);
     padding: 25px;
     width: calc(100% - 50px);
   }
 
-  @media (min-width: 1125px) {
+  ${breakpoints.min_desktop} {
     padding: 25px 65px;
     width: calc(100% - 130px);
   }
 `;
 
 export const Content = styled.div`
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     display: flex;
     justify-content: space-between;
     width: 100%;
   }
 
-  @media (min-width: 1500px) {
+  ${breakpoints.min_xl} {
     margin: 0 auto;
     width: 1314px;
   }
 
-  @media (min-width: 1800px) {
+  ${breakpoints.min_xxl} {
     margin: 0 auto;
     width: 1514px;
   }
@@ -97,7 +98,7 @@ export const StyledBoton = styled(BotonSecundario)`
 export const ContainerMenu = styled.div`
   display: none;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     display: flex;
   }
 `;
@@ -109,7 +110,7 @@ export const Logo = styled.div`
   background: url(https://ushmultimedia.blob.core.windows.net/ushwebsite/LogoNav.png);
   background-size: contain;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     background: url(https://ushmultimedia.blob.core.windows.net/ushwebsite/LogoNav.png);
     height: 28px;
     width: 123px;
@@ -126,7 +127,6 @@ export const Toggle = styled.button`
   background: transparent;
   border: none;
   cursor: pointer;
-  padding: 0 16px;
   margin: 28px 0;
   z-index: 21;
   overflow: hidden;
@@ -141,32 +141,30 @@ export const Toggle = styled.button`
       opacity 300ms linear;
     position: relative;
     transform-origin: 1px;
-    min-height: 7px;
 
     span {
       background: ${(props) => props.theme.textonegro};
       height: 2px;
       display: block;
-      margin: 2px 0;
       border-radius: 5px;
     }
 
     :first-child {
       transform: ${(props) => (props.isOpen ? "rotate(45deg)" : "rotate(0)")};
-      width: ${(props) => (props.isOpen ? "22px" : "20px")};
+      width: ${(props) => (props.isOpen ? "18px" : "17px")};
     }
 
     :nth-child(2) {
-      width: ${(props) => (props.isOpen ? "0" : "20px")};
+      width: ${(props) => (props.isOpen ? "0" : "17px")};
     }
 
     :nth-child(3) {
       transform: ${(props) => (props.isOpen ? "rotate(-45deg)" : "rotate(0)")};
-      width: ${(props) => (props.isOpen ? "22px" : "20px")};
+      width: ${(props) => (props.isOpen ? "18px" : "20px")};
     }
   }
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     display: none;
   }
 `;

@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import { breakpoints } from "../base/breakpoints";
 
 export const StyledContainer = styled.div`
   padding: 30px 0px;
@@ -14,7 +15,7 @@ export const StyledContainer = styled.div`
     align-items: baseline;
   }
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     padding: 100px 0;
     width: 100%;
   }
@@ -47,7 +48,7 @@ export const Icon = styled.img`
     width: 23px;
   }
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     &.first {
       height: 52px;
       width: 69px;

@@ -1,10 +1,11 @@
 import React from "react";
 import styled from "styled-components";
+import { breakpoints } from "./breakpoints";
 
 const Container = styled.div`
   margin-top: 51px;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     margin-top: 100px;
   }
 `;

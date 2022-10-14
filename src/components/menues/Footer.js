@@ -1,5 +1,4 @@
 import React from "react";
-import Redes from "./Redes";
 import ScrollToTop from "react-scroll-to-top";
 import { CorteDesktop, CorteMobile } from "../base/Cortes";
 import {
@@ -23,7 +22,6 @@ import {
 function Footer() {
   return (
     <>
-      <Redes />
       <Relative>
         <ContainerTop>
           <ScrollToTop

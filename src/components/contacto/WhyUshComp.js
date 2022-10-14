@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { breakpoints } from "../base/breakpoints";
 
 export const StyledContainer = styled.div`
   background-color: ${(props) => props.theme.textonegro};
@@ -10,7 +11,7 @@ export const StyledContainer = styled.div`
     align-items: baseline;
   }
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     padding: 90px 0;
   }
 `;
@@ -28,14 +29,14 @@ export const Card = styled.div`
   align-items: center;
   position: relative;
 
-  @media (min-width: 769px) and (max-width: 1124px) {
+  ${breakpoints.only_tablet} {
     border: 3px solid ${(props) => props.theme.textonegro};
     width: calc(220px - 6px);
     padding: 55px 0px 75px;
     height: auto;
   }
 
-  @media (min-width: 1125px) {
+  ${breakpoints.min_desktop} {
     border: 3px solid ${(props) => props.theme.textonegro};
     height: calc(404px - 95px - 6px);
     width: calc(342px - 6px);
@@ -57,7 +58,7 @@ export const Circle = styled.div`
   background: ${(props) => props.theme.fondo};
 
   // TABLET
-  @media (min-width: 769px) and (max-width: 1124px) {
+  ${breakpoints.only_tablet} {
     top: -30px;
     right: calc(50% - 56px / 2);
     width: calc(56px - 4px);
@@ -65,7 +66,7 @@ export const Circle = styled.div`
   }
 
   // PC
-  @media (min-width: 1125px) {
+  ${breakpoints.min_desktop} {
     top: -60px;
     right: calc(50% - 120px / 2);
     width: calc(120px - 6px);
@@ -94,7 +95,7 @@ export const Icon = styled.img`
     width: 30px;
   }
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     &.first {
       height: 50px;
       width: 61px;
@@ -118,7 +119,7 @@ export const ContainerSwiper = styled.div`
   margin-left: calc((100% - 276px) / 2);
   width: calc(100% - ((100% - 276px) / 2));
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     display: none;
   }
 `;
@@ -126,7 +127,7 @@ export const ContainerSwiper = styled.div`
 export const ContainerDesktop = styled.div`
   display: none;
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     display: flex;
     justify-content: space-between;
     margin-top: 70px;

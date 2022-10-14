@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { breakpoints } from "./breakpoints";
 
 const StyledBoton = styled.button`
   font-size: 12px;
@@ -21,12 +22,12 @@ const StyledBoton = styled.button`
     color: ${(props) => props.theme.amarillo};
   }
 
-  @media (min-width: 769px) {
+  ${breakpoints.min_tablet} {
     width: fit-content;
     padding: 8px 40px;
   }
 
-  @media (min-width: 1125px) {
+  ${breakpoints.min_desktop} {
     padding: 18px 48px;
     width: fit-content;
     font-weight: 700;
