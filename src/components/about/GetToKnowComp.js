@@ -70,7 +70,7 @@ export const Card = styled.div`
     opacity: 1;
   }
 
-  ${breakpoints.min_tablet} {
+  ${breakpoints.min_desktop} {
     width: 223px;
     height: 223px;
 

@@ -40,13 +40,15 @@ function GetToKnow() {
               {children.map((x, i) => (
                 <Card>
                   <div className="info">
-                    <span className="punteo-desktop">{x.country}</span>
-                    <span className="destacado-bold">
+                    <span className="punteo-desktop destacados-mobile text-center-mobile text-center">
+                      {x.country}
+                    </span>
+                    <span className="destacado-bold h3-mobile text-center-mobile text-center">
                       {x.name}
                       <br />
                       {x.lastname}
                     </span>
-                    <span className="texto-regular-bold">
+                    <span className="texto-regular-bold txt-mobile text-center-mobile text-center">
                       {x.job}
                       {x?.job_last ? (
                         <>
@@ -74,7 +76,7 @@ function GetToKnow() {
         slidesPerView={"auto"}
         spaceBetween={0}
         modules={[Pagination]}
-        className="mySwiper member position-mobile d-none-desktop"
+        className="mySwiper member position-mobile d-none-tablet"
       >
         {group(members, 3).map((children) => {
           return (
@@ -83,15 +85,15 @@ function GetToKnow() {
                 {children.map((x, i) => (
                   <Card>
                     <div className="info">
-                      <span className="destacados-mobile text-center-mobile">
+                      <span className="destacados-mobile text-center-mobile text-center">
                         {x.country}
                       </span>
-                      <span className="h3-mobile text-center-mobile">
+                      <span className="h3-mobile text-center-mobile text-center">
                         {x.name}
                         <br />
                         {x.lastname}
                       </span>
-                      <span className="txt-mobile text-center-mobile">
+                      <span className="txt-mobile text-center-mobile text-center">
                         {x.job}
                         {x?.job_last ? (
                           <>

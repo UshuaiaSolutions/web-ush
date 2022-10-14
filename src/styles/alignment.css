@@ -55,7 +55,7 @@
 }
 
 @media (min-width: 769px) {
-  .d-none-desktop {
+  .d-none-tablet {
     display: none;
   }
 }

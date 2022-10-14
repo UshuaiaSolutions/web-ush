@@ -48,7 +48,7 @@ export const Icon = styled.img`
     width: 23px;
   }
 
-  ${breakpoints.min_tablet} {
+  ${breakpoints.min_desktop} {
     &.first {
       height: 52px;
       width: 69px;

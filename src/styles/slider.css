@@ -88,14 +88,13 @@
 .work-mobile {
   height: 128px;
   border-radius: 35px;
-  border: 10px solid #393939;
-  margin-left: calc((100% - 276px) / 2);
-  width: calc(100% - ((100% - 276px) / 2));
+  border: 3px solid #393939;
+  width: calc(276px - 6px);
 }
 
 .work-mobile img {
-  border-right: 10px solid #393939;
-  border-left: 10px solid #393939;
+  border-right: 3px solid #393939;
+  border-left: 3px solid #393939;
 }
 
 .work-mobile .swiper-slide {
@@ -165,7 +164,7 @@
   }
 }
 
-@media (min-width: 1125px) {
+@media (min-width: 769px) {
   .work-desktop {
     display: block;
   }
@@ -208,7 +207,9 @@
     width: 100%;
     height: auto;
   }
+}
 
+@media (min-width: 1125px) {
   .teaming-with-clients {
     display: block;
   }

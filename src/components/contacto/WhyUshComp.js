@@ -95,7 +95,7 @@ export const Icon = styled.img`
     width: 30px;
   }
 
-  ${breakpoints.min_tablet} {
+  ${breakpoints.min_desktop} {
     &.first {
       height: 50px;
       width: 61px;
