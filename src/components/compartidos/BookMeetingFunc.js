@@ -48,17 +48,38 @@ export const handleChange = (id, value, setContactForm, contactForm) => {
   setContactForm({ ...contactForm, [id]: value });
 };
 
-export const handleSend = (contactForm, setShowSuccess, setContactForm) => {
-  if (
-    contactForm?.name?.length > 0 &&
-    contactForm?.mail?.length > 0 &&
-    contactForm?.country?.length > 0 &&
-    contactForm?.company?.length > 0 &&
-    contactForm?.date_reunion?.length > 0
-  ) {
-    setShowSuccess(true);
-    setContactForm({});
-  }
+const mandatory = ["name", "mail", "country", "company", "date_reunion"];
+
+export const handleSend = (
+  contactForm,
+  setShowSuccess,
+  setContactForm,
+  setMissingFields
+) => {
+  let missing = [];
+
+  mandatory?.map((e, i) => {
+    if (e !== "date_reunion") {
+      if (!(contactForm?.[e] && contactForm?.[e].length !== 0)) {
+        missing.push(e);
+      }
+    } else {
+      if (contactForm?.[e] !== Object(contactForm?.[e])) {
+        missing.push(e);
+      }
+    }
+
+    if (i === mandatory?.length - 1) {
+      if (missing.length === 0) {
+        setShowSuccess(true);
+        setContactForm({});
+        setMissingFields([]);
+      } else {
+        setMissingFields(missing);
+      }
+    }
+    return missing;
+  });
 };
 
 export const isWeekday = (date) => {

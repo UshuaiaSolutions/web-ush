@@ -127,3 +127,9 @@ export const Boton = styled.button`
     border: 4px solid ${(props) => props.theme.textonegro};
   }
 `;
+
+export const ErrorMessage = styled.span`
+  color: ${(props) => props.theme.rojoush};
+  font-size: 12px;
+  padding-left: 5px;
+`;

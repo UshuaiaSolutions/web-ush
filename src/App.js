@@ -26,6 +26,7 @@ const theme = {
   textonegro: "#393939",
   rosaush: "#F29BCB",
   amarillo: "#F2CB05",
+  rojoush: "#F24607",
 };
 
 function App() {

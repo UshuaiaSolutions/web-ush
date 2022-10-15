@@ -10,6 +10,7 @@ import {
   ContainerInput,
   Boton,
   DateContainer,
+  ErrorMessage,
 } from "./BookMeetingComp";
 import Success from "./Success";
 import DatePicker from "react-datepicker";
@@ -20,6 +21,7 @@ import SelectCountries from "./SelectCountries";
 const BookMeeting = () => {
   const [contactForm, setContactForm] = useState({});
   const [showSuccess, setShowSuccess] = useState(false);
+  const [missingFields, setMissingFields] = useState([]);
 
   return (
     <StyledContainer id="contact">
@@ -69,6 +71,9 @@ const BookMeeting = () => {
                     }
                     className="input-form txt-destacados-alta-mobile texto-regular"
                   />
+                  {missingFields?.includes("name") && (
+                    <ErrorMessage>Wrong input</ErrorMessage>
+                  )}
                 </ContainerInput>
                 <ContainerInput className="d-flex flex-column">
                   <label className="label-form">Company Name *</label>
@@ -84,6 +89,9 @@ const BookMeeting = () => {
                     }
                     className="input-form txt-destacados-alta-mobile texto-regular"
                   />
+                  {missingFields?.includes("company") && (
+                    <ErrorMessage>Wrong input</ErrorMessage>
+                  )}
                 </ContainerInput>
               </ColumnInput>
               <ColumnInput className="d-flex justify-between">
@@ -102,10 +110,16 @@ const BookMeeting = () => {
                     className="input-form txt-destacados-alta-mobile texto-regular"
                     type="email"
                   />
+                  {missingFields?.includes("mail") && (
+                    <ErrorMessage>Wrong input</ErrorMessage>
+                  )}
                 </ContainerInput>
                 <ContainerInput className="d-flex flex-column">
                   <label className="label-form">Country *</label>
                   <SelectCountries data={contactForm} func={setContactForm} />
+                  {missingFields?.includes("country") && (
+                    <ErrorMessage>Wrong input</ErrorMessage>
+                  )}
                 </ContainerInput>
               </ColumnInput>
               <DateContainer className="d-flex flex-column mb-30">
@@ -122,6 +136,9 @@ const BookMeeting = () => {
                   filterDate={isWeekday}
                   minDate={new Date().setDate(new Date().getDate() + 2)}
                 />
+                {missingFields?.includes("date_reunion") && (
+                  <ErrorMessage>Wrong input</ErrorMessage>
+                )}
               </DateContainer>
               <div className="d-flex flex-column mb-30">
                 <label className="label-form">How can we help?</label>
@@ -143,7 +160,12 @@ const BookMeeting = () => {
 
             <Boton
               onClick={() =>
-                handleSend(contactForm, setShowSuccess, setContactForm)
+                handleSend(
+                  contactForm,
+                  setShowSuccess,
+                  setContactForm,
+                  setMissingFields
+                )
               }
             >
               Get in touch
