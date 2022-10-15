@@ -9,7 +9,7 @@ export const StyledContainer = styled.div`
   flex-direction: column;
 
   ${breakpoints.min_tablet} {
-    padding: 100px 0;
+    padding: 100px 0 50px;
   }
 `;
 
@@ -24,6 +24,13 @@ export const ContainerIcon = styled.div`
   }
 
   ${breakpoints.min_tablet} {
+    & img {
+      width: 31px;
+      height: auto;
+    }
+  }
+
+  ${breakpoints.min_desktop} {
     & img {
       width: 41px;
       height: 68px;

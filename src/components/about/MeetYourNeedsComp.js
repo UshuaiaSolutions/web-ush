@@ -1,19 +1,20 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 import { breakpoints } from "../base/breakpoints";
 
 export const StyledContainer = styled.div`
-  padding: 60px 0;
+  padding: 60px 0 0;
   color: ${(props) => props.theme.fondo};
   background: ${(props) => props.theme.textonegro};
   display: flex;
   flex-direction: column;
 
   ${breakpoints.min_tablet} {
-    padding: 70px 0;
+    padding: 70px 0 0;
   }
 
   ${breakpoints.min_xl} {
-    padding: 100px 0;
+    padding: 100px 0 0;
   }
 `;
 
@@ -24,6 +25,9 @@ export const Column = styled.div`
 
   ${breakpoints.min_tablet} {
     padding-left: 0;
+  }
+
+  ${breakpoints.min_desktop} {
     min-width: fit-content;
     width: 463px;
   }
@@ -59,6 +63,20 @@ export const RowDesktop = styled.div`
   ${breakpoints.min_tablet} {
     margin-bottom: 0px;
     display: flex;
+    justify-content: space-evenly;
+  }
+
+  ${breakpoints.min_desktop} {
     justify-content: space-between;
+  }
+`;
+
+export const StyledLink = styled(Link)`
+  ${breakpoints.only_tablet} {
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
   }
 `;

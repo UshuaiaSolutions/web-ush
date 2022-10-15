@@ -19,8 +19,15 @@ export const StyledImgAASL = styled.img`
   width: 64.27px;
 
   ${breakpoints.min_tablet} {
+    width: 120.79px;
+    max-height: 50px;
+    height: auto;
+  }
+
+  ${breakpoints.min_desktop} {
     width: 140.79px;
-    height: fit-content;
+    max-height: 50px;
+    height: auto;
   }
 `;
 
@@ -29,8 +36,15 @@ export const StyledImgGALA = styled.img`
   width: 57.72px;
 
   ${breakpoints.min_tablet} {
+    width: 106.44px;
+    max-height: 80px;
+    height: auto;
+  }
+
+  ${breakpoints.min_desktop} {
     width: 126.44px;
-    height: fit-content;
+    max-height: 80px;
+    height: auto;
   }
 `;
 
@@ -39,8 +53,15 @@ export const StyledImgELIA = styled.img`
   width: 55.27px;
 
   ${breakpoints.min_tablet} {
+    width: 91.06px;
+    max-height: 70px;
+    height: auto;
+  }
+
+  ${breakpoints.min_desktop} {
     width: 121.06px;
-    height: fit-content;
+    max-height: 70px;
+    height: auto;
   }
 `;
 
@@ -49,7 +70,15 @@ export const StyledImgLast = styled.img`
   width: 150.66px;
 
   ${breakpoints.min_tablet} {
-    height: fit-content;
+    height: auto;
+    max-height: 70px;
+    width: 300px;
+    margin-left: 15px;
+  }
+
+  ${breakpoints.min_desktop} {
+    height: auto;
+    max-height: 70px;
     width: 330px;
   }
 `;

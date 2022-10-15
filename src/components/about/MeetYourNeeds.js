@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import BotonSecundario from "../base/BotonSecundario";
 import Container from "../base/Container";
 import { CorteDesktop, CorteMobile } from "../base/Cortes";
@@ -9,6 +8,7 @@ import {
   Column,
   Row,
   Image,
+  StyledLink,
 } from "./MeetYourNeedsComp";
 
 function MeetYourNeeds() {
@@ -89,9 +89,9 @@ function MeetYourNeeds() {
             </Row>
           </Column>
         </RowDesktop>
-        <Link to="/services">
+        <StyledLink to="/services">
           <BotonSecundario>Explore USH services</BotonSecundario>
-        </Link>
+        </StyledLink>
       </Container>
     </StyledContainer>
   );

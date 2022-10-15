@@ -47,7 +47,7 @@ export const Image = styled.img`
   align-items: flex-start;
   line-height: 16px;
 
-  ${breakpoints.min_tablet} {
+  ${breakpoints.min_desktop} {
     width: 28px;
     height: 28px;
     line-height: 28px;

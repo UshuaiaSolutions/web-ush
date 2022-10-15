@@ -19,6 +19,14 @@ export const StyledContainer = styled.div`
       justify-content: space-between;
 
       .second-col {
+        width: 65%;
+      }
+    }
+  }
+
+  ${breakpoints.min_desktop} {
+    & .container-content {
+      .second-col {
         width: 50%;
       }
     }

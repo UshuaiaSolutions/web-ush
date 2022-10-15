@@ -46,11 +46,16 @@ export const Card = styled.div`
   position: relative;
 
   ${breakpoints.min_tablet} {
-    width: calc(421px - 6px);
-    height: calc(370px - 6px);
+    width: calc(331px - 6px);
+    height: calc(280px - 6px);
     padding: 0;
     justify-content: inherit;
     border: 3px solid ${(props) => props.theme.textonegro};
+  }
+
+  ${breakpoints.min_desktop} {
+    width: calc(421px - 6px);
+    height: calc(370px - 6px);
   }
 `;
 
@@ -69,6 +74,13 @@ export const Circle = styled.div`
 
   ${breakpoints.min_tablet} {
     border: 3px solid ${(props) => props.theme.textonegro};
+    width: calc(56px - 6px);
+    height: calc(56px - 6px);
+    top: -30px;
+    left: calc(50% - 56px / 2);
+  }
+
+  ${breakpoints.min_desktop} {
     width: calc(120px - 6px);
     top: -60px;
     left: calc(50% - 120px / 2);
@@ -92,7 +104,7 @@ export const Icon = styled.img`
     height: auto;
   }
 
-  ${breakpoints.min_tablet} {
+  ${breakpoints.min_desktop} {
     &.first {
       width: 60px;
       height: 60px;
@@ -130,6 +142,10 @@ export const ContainerDesktop = styled.div`
   ${breakpoints.min_tablet} {
     display: flex;
     width: 50%;
+    height: 405px;
+  }
+
+  ${breakpoints.min_desktop} {
     height: 485px;
   }
 `;

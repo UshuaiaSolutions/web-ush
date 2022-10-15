@@ -21,9 +21,14 @@ export const Image = styled.img`
 
   ${breakpoints.min_tablet} {
     margin-top: 35px;
+    height: auto;
+    width: 265px;
+    margin-bottom: 0;
+  }
+
+  ${breakpoints.min_desktop} {
     height: 336px;
     width: 387px;
-    margin-bottom: 0;
   }
 `;
 
