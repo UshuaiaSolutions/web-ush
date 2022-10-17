@@ -5,7 +5,7 @@ import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper";
 import "../../styles/slider.css";
-import { StyledContainer } from "./WorkWithUsComp";
+import { StyledContainer, StyledLink } from "./WorkWithUsComp";
 import BotonSecundario from "../base/BotonSecundario";
 
 function WorkWithUs() {
@@ -124,14 +124,14 @@ function WorkWithUs() {
               />
             </SwiperSlide>
           </Swiper>
-          <a
+          <StyledLink
             href="https://cloud.protemos.com/vendor-app/create?token=2883715efa8d9747213570c8257c0ec3"
             className="mt-70 mt-40-mobile mb-40-mobile"
             target="_blank"
             rel="noreferrer"
           >
             <BotonSecundario>Work with us</BotonSecundario>
-          </a>
+          </StyledLink>
         </div>
       </Container>
     </StyledContainer>

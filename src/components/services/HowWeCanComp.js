@@ -18,12 +18,17 @@ export const Image = styled.img`
   width: 227px;
   object-fit: cover;
   margin-bottom: 35px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 
   ${breakpoints.min_tablet} {
     margin-top: 35px;
     height: auto;
     width: 265px;
     margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   ${breakpoints.min_desktop} {

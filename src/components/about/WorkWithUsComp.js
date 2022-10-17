@@ -45,3 +45,11 @@ export const Row = styled.div`
     margin-bottom: 70px;
   }
 `;
+
+export const StyledLink = styled.a`
+  width: 100%;
+
+  ${breakpoints.min_tablet} {
+    width: auto;
+  }
+`;

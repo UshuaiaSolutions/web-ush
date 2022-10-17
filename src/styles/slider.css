@@ -123,17 +123,17 @@
 @media (max-width: 768px) {
   .why .swiper-slide {
     width: 195px;
-    height: 300px;
+    height: 310px;
   }
 
   .why .swiper-slide:nth-child(2n) {
     width: 195px;
-    height: 300px;
+    height: 310px;
   }
 
   .why .swiper-slide:nth-child(3n) {
     width: 195px;
-    height: 300px;
+    height: 310px;
   }
 
   .member .swiper-slide {

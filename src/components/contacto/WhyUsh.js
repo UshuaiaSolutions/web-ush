@@ -18,7 +18,7 @@ function WhyUsh() {
   return (
     <StyledContainer>
       <Container>
-        <h2 className="hero-section-alto-mobile h2-web text-left-mobile text-center">
+        <h2 className="h2-mobile h2-web underline-mobile text-left-mobile text-center">
           <u>Why USH?</u>
         </h2>
       </Container>

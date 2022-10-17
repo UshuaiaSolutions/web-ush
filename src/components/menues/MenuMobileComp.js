@@ -52,8 +52,8 @@ export const StyledBoton = styled.button`
   justify-content: center;
   border: none;
   outline: none;
-  color: ${(props) => props.theme.fondo};
-  background: ${(props) => props.theme.lilaush};
+  color: ${(props) => props.theme.textonegro};
+  background: ${(props) => props.theme.amarillo};
   font-style: normal;
   font-weight: 700;
   font-size: 12px;

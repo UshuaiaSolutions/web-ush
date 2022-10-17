@@ -113,7 +113,7 @@ export const Logo = styled.div`
   ${breakpoints.min_tablet} {
     background: url(https://ushmultimedia.blob.core.windows.net/ushwebsite/LogoNav.png);
     height: 28px;
-    width: 123px;
+    width: 124px;
   }
 `;
 
