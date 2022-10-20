@@ -7,16 +7,21 @@ const NoMatch = () => {
     <Background>
       <Content>
         <div>
-          <h1 className="hero-section-titles-mobile hero-section-alto-mobile h1-web mb-30">
-            We are building
-            <br /> something for you
+          <h1 className="hero-section-titles-mobile h1-web mb-30">
+            Houston,
+            <br />{" "}
+            <u className="hero-section-alto-mobile  h1-web">
+              we have a problem
+            </u>
+            .
           </h1>
           <p className="destacado-medium h1-mobile">
-            Our website is currently under
-            <CorteDesktop /> construction.
-            <CorteMobile /> We should be back
-            <CorteDesktop /> shortly.
-            <CorteMobile /> Drop by again soon!
+            Oops! Something's wrong. <CorteDesktop />
+            <CorteMobile /> The page you're looking for can't be
+            <CorteDesktop />
+            <CorteMobile /> found. Please go back to
+            <CorteDesktop />
+            <CorteMobile /> homepage.
           </p>
         </div>
         <img
