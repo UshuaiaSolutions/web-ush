@@ -17,10 +17,10 @@ function WorkWithUs() {
         }}
         loop={true}
         slidesPerView={1.8}
-        // autoplay={{
-        //   delay: 2500,
-        //   disableOnInteraction: false,
-        // }}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
         spaceBetween={0}
         navigation={true}
         hashNavigation={{
@@ -75,10 +75,10 @@ function WorkWithUs() {
             }}
             loop={true}
             slidesPerView={4.2}
-            // autoplay={{
-            //   delay: 2500,
-            //   disableOnInteraction: false,
-            // }}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
             spaceBetween={0}
             navigation={true}
             hashNavigation={{
