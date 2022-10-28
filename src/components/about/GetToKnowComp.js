@@ -33,7 +33,7 @@ export const ColumnDesktop = styled.div`
     flex-wrap: wrap;
 
     &:last-child {
-      width: calc(((100% - 223px - 223px - 223px) / 3) + 223px + 223px);
+      width: calc(100% - 223px);
       justify-content: space-around;
       margin: auto;
     }
@@ -44,6 +44,7 @@ export const Card = styled.div`
   width: 130px;
   height: 130px;
   position: relative;
+  margin-bottom: 15px;
 
   & .info {
     position: absolute;
@@ -73,6 +74,7 @@ export const Card = styled.div`
   ${breakpoints.min_desktop} {
     width: 223px;
     height: 223px;
+    margin-bottom: 0px;
 
     & .info {
       padding: 30px 0;

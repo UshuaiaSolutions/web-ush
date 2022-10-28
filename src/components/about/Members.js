@@ -19,12 +19,11 @@ export const members = [
   },
   {
     image:
-      "https://ushmultimedia.blob.core.windows.net/fotosushteam/Agustina%20DiPratula.jpg",
+      "https://ushmultimedia.blob.core.windows.net/fotosushteam/Agustina%20Dipratula_v1.jpg",
     name: "Agustina",
     lastname: " Di Pratula",
     country: "LATAM",
-    job: "Business Development",
-    job_last: " Manager",
+    job: "CEO",
   },
   {
     image:
@@ -50,7 +49,7 @@ export const members = [
     name: "Ester",
     lastname: " Griera",
     country: "EUR",
-    job: "Operations",
+    job: "Business Development",
     job_last: " Manager",
   },
   {
@@ -86,7 +85,7 @@ export const members = [
     lastname: " Muñóz",
     country: "LATAM",
     job: "Team Leader",
-    job_last: " Associate",
+    job_last: " Junior",
   },
   {
     image:
@@ -95,7 +94,7 @@ export const members = [
     lastname: " Hadjidimitris",
     country: "LATAM",
     job: "Team Leader",
-    job_last: " Associate",
+    job_last: " Junior",
   },
   {
     image:
@@ -104,7 +103,16 @@ export const members = [
     lastname: " Elmo",
     country: "LATAM",
     job: "Team Leader",
-    job_last: " Associate",
+    job_last: " Junior",
+  },
+  {
+    image:
+      "https://ushmultimedia.blob.core.windows.net/fotosushteam/Martin%20Saavedra.jpg",
+    name: "Martín",
+    lastname: " Saavedra",
+    country: "LATAM",
+    job: "Team Leader",
+    job_last: " Junior",
   },
   {
     image:
@@ -139,8 +147,8 @@ export const members = [
     name: "Julieta",
     lastname: " Cortopassi",
     country: "LATAM",
-    job: "Vendor Manager",
-    job_last: " and HR",
+    job: "Human",
+    job_last: " Resources",
   },
   {
     image:
@@ -157,8 +165,8 @@ export const members = [
     name: "Malen",
     lastname: " D'Urso",
     country: "LATAM",
-    job: "Community",
-    job_last: " Manager",
+    job: "Content",
+    job_last: " Creator - CM",
   },
 ];
 
