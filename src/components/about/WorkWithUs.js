@@ -17,10 +17,10 @@ function WorkWithUs() {
         }}
         loop={true}
         slidesPerView={1.8}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
+        // autoplay={{
+        //   delay: 2500,
+        //   disableOnInteraction: false,
+        // }}
         spaceBetween={0}
         navigation={true}
         hashNavigation={{
@@ -31,13 +31,13 @@ function WorkWithUs() {
       >
         <SwiperSlide>
           <img
-            src="https://ushmultimedia.blob.core.windows.net/fotosushteam/IMG_9132.jpg"
+            src="https://ushmultimedia.blob.core.windows.net/fotosushteam/SAP20222.jpg"
             alt="USH members"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="https://ushmultimedia.blob.core.windows.net/fotosushteam/IMG_9129.jpeg"
+            src="https://ushmultimedia.blob.core.windows.net/fotosushteam/SAP20221.jpg"
             alt="USH members"
           />
         </SwiperSlide>
@@ -75,10 +75,10 @@ function WorkWithUs() {
             }}
             loop={true}
             slidesPerView={4.2}
-            autoplay={{
-              delay: 2500,
-              disableOnInteraction: false,
-            }}
+            // autoplay={{
+            //   delay: 2500,
+            //   disableOnInteraction: false,
+            // }}
             spaceBetween={0}
             navigation={true}
             hashNavigation={{
@@ -89,13 +89,13 @@ function WorkWithUs() {
           >
             <SwiperSlide>
               <img
-                src="https://ushmultimedia.blob.core.windows.net/fotosushteam/IMG_9132.jpg"
+                src="https://ushmultimedia.blob.core.windows.net/fotosushteam/SAP20222.jpg"
                 alt="USH members"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src="https://ushmultimedia.blob.core.windows.net/fotosushteam/IMG_9129.jpeg"
+                src="https://ushmultimedia.blob.core.windows.net/fotosushteam/SAP20221.jpg"
                 alt="USH members"
               />
             </SwiperSlide>
