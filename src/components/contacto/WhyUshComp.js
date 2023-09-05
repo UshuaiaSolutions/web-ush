@@ -3,7 +3,7 @@ import { breakpoints } from "../base/breakpoints";
 
 export const StyledContainer = styled.div`
   background-color: ${(props) => props.theme.textonegro};
-  color: ${(props) => props.theme.fondo};
+  color: ${(props) => props.theme.fondoblanco};
   width: 100%;
   padding: 50px 0px;
 
@@ -17,7 +17,7 @@ export const StyledContainer = styled.div`
 `;
 
 export const Card = styled.div`
-  background: ${(props) => props.theme.fondo};
+  background: ${(props) => props.theme.fondoblanco};
   border: 2px solid ${(props) => props.theme.textonegro};
   border-radius: 32px;
   color: ${(props) => props.theme.textonegro};
@@ -55,7 +55,7 @@ export const Circle = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background: ${(props) => props.theme.fondo};
+  background: ${(props) => props.theme.fondoblanco};
 
   // TABLET
   ${breakpoints.only_tablet} {
@@ -72,7 +72,7 @@ export const Circle = styled.div`
     width: calc(120px - 6px);
     height: calc(120px - 6px);
     border: 3px solid ${(props) => props.theme.textonegro};
-    background: ${(props) => props.theme.fondo};
+    background: ${(props) => props.theme.fondoblanco};
   }
 `;
 

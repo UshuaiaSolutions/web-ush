@@ -8,7 +8,7 @@ import TeamingWithClients from "../../components/home/TeamingWithClients";
 import WhyUSH from "../../components/home/WhyUSH";
 
 const Background = styled.div`
-  background-color: ${(props) => props.theme.fondo};
+  background-color: ${(props) => props.theme.fondoblanco};
   color: ${(props) => props.theme.textonegro};
 `;
 

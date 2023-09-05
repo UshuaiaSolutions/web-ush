@@ -3,7 +3,7 @@ import { breakpoints } from "../base/breakpoints";
 
 export const StyledContainer = styled.div`
   color: ${(props) => props.theme.textonegro};
-  background-color: ${(props) => props.theme.fondo};
+  background-color: ${(props) => props.theme.fondoblanco};
   width: 100%;
   padding: 45px 0;
   background-image: url(https://ushmultimedia.blob.core.windows.net/ushwebsite/TramaFormGrandeNew.png);
@@ -99,7 +99,7 @@ export const Boton = styled.button`
   line-height: 16px;
   letter-spacing: 0em;
   padding: 8px 0px;
-  background-color: ${(props) => props.theme.fondo};
+  background-color: ${(props) => props.theme.fondoblanco};
   color: ${(props) => props.theme.textonegro};
   transition: all 0.3s ease-in-out;
   width: 100%;

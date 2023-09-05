@@ -4,7 +4,7 @@ import BookMeeting from "../../components/compartidos/BookMeeting";
 import WhyUsh from "../../components/contacto/WhyUsh";
 
 const Background = styled.div`
-  background-color: ${(props) => props.theme.fondo};
+  background-color: ${(props) => props.theme.fondoblanco};
   color: ${(props) => props.theme.textonegro};
 `;
 

@@ -4,7 +4,7 @@ import { breakpoints } from "../base/breakpoints";
 export const StyledContainer = styled.div`
   padding: 40px 0;
   color: ${(props) => props.theme.textonegro};
-  background: ${(props) => props.theme.fondo};
+  background: ${(props) => props.theme.fondoblanco};
   display: flex;
   flex-direction: column;
 
@@ -33,7 +33,7 @@ export const Image = styled.img`
 `;
 
 export const Card = styled.div`
-  background: ${(props) => props.theme.fondo};
+  background: ${(props) => props.theme.fondoblanco};
   border: 2px solid ${(props) => props.theme.textonegro};
   border-radius: 32px;
   color: ${(props) => props.theme.textonegro};
@@ -66,7 +66,7 @@ export const Circle = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background: ${(props) => props.theme.fondo};
+  background: ${(props) => props.theme.fondoblanco};
   width: calc(56px - 4px);
   height: calc(56px - 4px);
   top: -30px;

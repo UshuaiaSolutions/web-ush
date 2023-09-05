@@ -4,7 +4,7 @@ import { breakpoints } from "../base/breakpoints";
 export const StyledContainer = styled.div`
   padding: 0 0 70px;
   color: ${(props) => props.theme.textonegro};
-  background: ${(props) => props.theme.fondo};
+  background: ${(props) => props.theme.fondoblanco};
   display: flex;
   flex-direction: column;
 
@@ -27,7 +27,7 @@ export const ContainerSwiper = styled.div`
 `;
 
 export const Card = styled.div`
-  background: ${(props) => props.theme.fondo};
+  background: ${(props) => props.theme.fondoblanco};
   border: 2px solid ${(props) => props.theme.textonegro};
   border-radius: 21px;
   padding: 32px 24px;

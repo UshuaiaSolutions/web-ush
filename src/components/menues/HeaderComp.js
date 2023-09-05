@@ -8,7 +8,7 @@ export const Container = styled.div`
   width: calc(100% - 38px);
   display: flex;
   justify-content: space-between;
-  background: ${(props) => props.theme.fondo};
+  background: ${(props) => props.theme.fondoblanco};
   color: ${(props) => props.theme.textonegro};
   filter: drop-shadow(0px 4px 4px rgba(57, 57, 57, 0.3));
   align-items: center;
@@ -63,7 +63,7 @@ export const StyledLink = styled(Link)`
   border: ${(props) =>
     props.selected
       ? `2px solid ${props.theme.textonegro}`
-      : `2px solid ${props.theme.fondo}`};
+      : `2px solid ${props.theme.fondoblanco}`};
   border-radius: 60px;
   margin-right: 10px;
   transition: all 0.3s linear;
@@ -90,7 +90,7 @@ export const StyledBoton = styled(BotonSecundario)`
   transition: all 0.3s linear;
 
   &:hover {
-    background-color: ${(props) => props.theme.fondo};
+    background-color: ${(props) => props.theme.fondoblanco};
     border: 3px solid ${(props) => props.theme.textonegro};
   }
 `;

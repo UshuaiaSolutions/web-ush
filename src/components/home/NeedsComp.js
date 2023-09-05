@@ -9,7 +9,7 @@ export const StyledContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: ${(props) => props.theme.fondo};
+  color: ${(props) => props.theme.fondoblanco};
 
   & .swiper-wrapper {
     align-items: baseline;

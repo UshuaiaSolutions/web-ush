@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { breakpoints } from "../base/breakpoints";
 
 export const Background = styled.div`
-  background-color: ${(props) => props.theme.fondo};
+  background-color: ${(props) => props.theme.fondoblanco};
   color: ${(props) => props.theme.textonegro};
   position: relative;
   padding: 50px 0 0;

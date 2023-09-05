@@ -7,7 +7,7 @@ export const StyledContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   background: ${(props) => props.theme.textonegro};
-  color: ${(props) => props.theme.fondo};
+  color: ${(props) => props.theme.fondoblanco};
 
   ${breakpoints.min_xl} {
     padding: 100px 0;

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { breakpoints } from "../base/breakpoints";
 
 export const StyledLink = styled(Link)`
-  color: ${(props) => props.theme.fondo};
+  color: ${(props) => props.theme.fondoblanco};
   text-decoration: none;
   margin-bottom: 30px;
 
@@ -26,7 +26,7 @@ export const ContainerTop = styled.div`
   display: flex;
   justify-content: center;
   color: ${(props) => props.theme.textonegro};
-  background: ${(props) => props.theme.fondo};
+  background: ${(props) => props.theme.fondoblanco};
   align-items: center;
 `;
 
@@ -34,7 +34,7 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-between;
   background: ${(props) => props.theme.textonegro};
-  color: ${(props) => props.theme.fondo};
+  color: ${(props) => props.theme.fondoblanco};
   align-items: center;
   flex-direction: column;
   width: 100%;
@@ -96,7 +96,7 @@ export const ContainerRedesFooter = styled.div`
 `;
 
 export const Red = styled.p`
-  color: ${(props) => props.theme.fondo};
+  color: ${(props) => props.theme.fondoblanco};
   text-decoration: underline;
   font-size: 10px;
   font-weight: 400;
@@ -180,7 +180,7 @@ export const ContainerRed = styled.a`
     flex-direction: row;
     display: flex;
     align-items: center;
-    color: ${(props) => props.theme.fondo};
+    color: ${(props) => props.theme.fondoblanco};
     text-decoration: none;
     margin-right: 10px;
   }

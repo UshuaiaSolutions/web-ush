@@ -7,9 +7,9 @@ import {
   StyledLink,
   StyledBoton,
   ContainerMenu,
-  Logo,
   Toggle,
 } from "./HeaderComp";
+import Logo from "../../assets/USH-logo";
 
 function Header() {
   const [openMobile, setOpenMobile] = useState(false);
@@ -37,6 +37,12 @@ function Header() {
             selected={location.pathname === "/expertise"}
           >
             Expertise
+          </StyledLink>
+          <StyledLink
+            to="/ush-blog"
+            selected={location.pathname === "/ush-blog"}
+          >
+            USH Blog
           </StyledLink>
           <Link to="/contact">
             <StyledBoton>Get in touch</StyledBoton>

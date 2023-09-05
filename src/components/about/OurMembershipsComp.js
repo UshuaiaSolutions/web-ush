@@ -6,7 +6,7 @@ export const StyledContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: ${(props) => props.theme.fondo};
+  color: ${(props) => props.theme.fondoblanco};
   background-color: ${(props) => props.theme.textonegro};
 
   ${breakpoints.min_xl} {

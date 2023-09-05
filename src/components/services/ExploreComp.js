@@ -4,7 +4,7 @@ import { breakpoints } from "../base/breakpoints";
 export const StyledContainer = styled.div`
   padding: 60px 0;
   background-color: ${(props) => props.theme.textonegro};
-  color: ${(props) => props.theme.fondo};
+  color: ${(props) => props.theme.fondoblanco};
   background-image: url(https://ushmultimedia.blob.core.windows.net/ushwebsite/TramaExploreHowWe.png);
   background-repeat: inherit;
   display: flex;
@@ -16,7 +16,7 @@ export const StyledContainer = styled.div`
 `;
 
 export const Dropdown = styled.div`
-  background: ${(props) => props.theme.fondo};
+  background: ${(props) => props.theme.fondoblanco};
   color: ${(props) => props.theme.textonegro};
   border-radius: 32px;
   padding: 15px 0;

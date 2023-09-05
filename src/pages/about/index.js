@@ -8,7 +8,7 @@ import WorkWithUs from "../../components/about/WorkWithUs";
 import BookMeeting from "../../components/compartidos/BookMeeting";
 
 const Background = styled.div`
-  background-color: ${(props) => props.theme.fondo};
+  background-color: ${(props) => props.theme.fondoblanco};
   color: ${(props) => props.theme.textonegro};
 `;
 

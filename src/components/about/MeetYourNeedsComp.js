@@ -4,7 +4,7 @@ import { breakpoints } from "../base/breakpoints";
 
 export const StyledContainer = styled.div`
   padding: 60px 0 0;
-  color: ${(props) => props.theme.fondo};
+  color: ${(props) => props.theme.fondoblanco};
   background: ${(props) => props.theme.textonegro};
   display: flex;
   flex-direction: column;
