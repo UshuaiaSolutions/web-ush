@@ -2,10 +2,10 @@ import React from "react";
 import styled from "styled-components";
 import BookMeeting from "../../components/compartidos/BookMeeting";
 import Hero from "../../components/home/Hero";
-import Memberships from "../../components/compartidos/Memberships";
 import Needs from "../../components/home/Needs";
-import TeamingWithClients from "../../components/home/TeamingWithClients";
+import BringingTogether from "../../components/home/BringingTogether";
 import WhyUSH from "../../components/home/WhyUSH";
+import MeetClients from "../../components/home/MeetClients";
 
 const Background = styled.div`
   background-color: ${(props) => props.theme.fondoblanco};
@@ -17,8 +17,8 @@ const Home = () => {
     <Background>
       <Hero />
       <Needs />
-      <TeamingWithClients />
-      <Memberships />
+      <BringingTogether />
+      <MeetClients />
       <WhyUSH />
       <BookMeeting />
     </Background>

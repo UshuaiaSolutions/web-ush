@@ -5,7 +5,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "../../styles/slider.css";
 import Container from "../base/Container";
 import { CorteDesktop, CorteMobile } from "../base/Cortes";
-import { clients, group } from "./Clients";
 import { StyledContainer } from "./MeetClientsComp";
 
 function MeetClients() {
@@ -23,7 +22,7 @@ function MeetClients() {
           <CorteMobile /> teams. We can help you too!
         </p>
 
-        <Swiper
+        {/* <Swiper
           spaceBetween={50}
           slidesPerView={3}
           centeredSlides={true}
@@ -44,10 +43,10 @@ function MeetClients() {
               </SwiperSlide>
             );
           })}
-        </Swiper>
+        </Swiper> */}
 
         {/* MOBILE */}
-        <Swiper
+        {/* <Swiper
           spaceBetween={50}
           slidesPerView={3}
           centeredSlides={true}
@@ -66,7 +65,7 @@ function MeetClients() {
               </SwiperSlide>
             );
           })}
-        </Swiper>
+        </Swiper> */}
       </Container>
     </StyledContainer>
   );

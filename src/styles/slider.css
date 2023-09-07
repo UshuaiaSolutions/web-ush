@@ -102,22 +102,13 @@
 }
 
 /* TEAMING WITH CLIENTS - HOME */
-.teaming-with-clients {
-  display: none;
+.teaming-with-clients .swiper-slide-next svg,
+.teaming-with-clients .swiper-slide-prev svg {
+  width: 49px;
+  height: 22.882px;
+  opacity: 0.5;
 }
 
-.teaming-with-clients-mobile .swiper-slide .clients {
-  display: block;
-  height: auto;
-  width: 140px;
-}
-
-.teaming-with-clients-mobile .swiper-slide-next .clients,
-.teaming-with-clients-mobile .swiper-slide-prev .clients {
-  height: auto;
-  width: 80px;
-  opacity: 0.6;
-}
 /* FIN TEAMING WITH CLIENTS - HOME Y EXPERTISE */
 
 @media (max-width: 768px) {
@@ -149,31 +140,13 @@
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1100px) {
   /* TEAMING WITH CLIENTS - HOME Y EXPERTISE */
-  .teaming-with-clients {
-    display: block;
-  }
-
-  .teaming-with-clients-mobile {
-    display: none;
-  }
-
-  .teaming-with-clients .swiper-slide .clients {
-    display: block;
-    height: 100px;
-    width: 213px;
-    padding: 0;
-    margin: 30px 0;
-  }
-
-  .teaming-with-clients .swiper-slide-next .clients,
-  .teaming-with-clients .swiper-slide-prev .clients {
-    height: auto;
-    width: 170px;
+  .teaming-with-clients .swiper-slide-next svg,
+  .teaming-with-clients .swiper-slide-prev svg {
+    width: 129px;
+    height: 60.241px;
     opacity: 0.5;
-    padding: 0;
-    margin: 20px 0;
   }
   /* FIN TEAMING WITH CLIENTS - HOME */
 

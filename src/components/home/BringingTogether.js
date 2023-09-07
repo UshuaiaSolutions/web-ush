@@ -7,10 +7,10 @@ import Container from "../base/Container";
 import BotonSecundario from "../base/BotonSecundario";
 import { CorteDesktop, CorteMobile } from "../base/Cortes";
 import { Link } from "react-router-dom";
-import { StyledContainer, Content } from "./TeamingWithClientsComp";
+import { StyledContainer, Content } from "./BringingTogetherComp";
 import Mundo from "../../assets/Mundo";
 
-function TeamingWithClients() {
+function BringingTogether() {
   return (
     <StyledContainer>
       <Container>
@@ -43,7 +43,7 @@ function TeamingWithClients() {
               })}
             </Swiper> */}
 
-            <p className="txt-regular-mobile destacado-medium mb-16-mobile mb-32 text-center-mobile">
+            <p className="txt-regular-mobile destacado-regular mb-16-mobile mb-32 text-center-mobile">
               We're where you need us, when you need us.
               <CorteMobile />
               <CorteDesktop />
@@ -91,4 +91,4 @@ function TeamingWithClients() {
   );
 }
 
-export default TeamingWithClients;
+export default BringingTogether;
