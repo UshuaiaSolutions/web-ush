@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "../base/Container";
 import { CorteDesktop, CorteMobile } from "../base/Cortes";
-import { StyledContainer, Image, Column, ContentDesktop } from "./HowWeCanComp";
+import { StyledContainer, Column, ContentDesktop } from "./HowWeCanComp";
 
 function HowWeCan() {
   return (
@@ -14,10 +14,10 @@ function HowWeCan() {
               <CorteMobile />
               <CorteDesktop /> <u>make it happen</u>
             </h1>
-            <Image
+            {/* <Image
               src="https://ushmultimedia.blob.core.windows.net/ushwebsite/ServicesHeroSection.png"
               alt="Illustration"
-            />
+            /> */}
           </div>
           <div className="desktop-chico-exacto">
             <Column>

@@ -2,64 +2,52 @@ import styled from "styled-components";
 import { breakpoints } from "../base/breakpoints";
 
 export const StyledContainer = styled.div`
-  padding: 0 0 40px;
+  padding: 51px 0 0;
   color: ${(props) => props.theme.textonegro};
   background: ${(props) => props.theme.fondoblanco};
   display: flex;
   flex-direction: column;
 
-  ${breakpoints.min_tablet} {
-    padding: 0 0 100px;
-  }
-`;
-
-export const Image = styled.img`
-  height: 197px;
-  width: 227px;
-  object-fit: cover;
-  margin-bottom: 35px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
-  ${breakpoints.min_tablet} {
-    margin-top: 35px;
-    height: auto;
-    width: 265px;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
   ${breakpoints.min_desktop} {
-    height: 336px;
-    width: 387px;
+    padding: 144px 0 0;
   }
 `;
 
 export const Column = styled.div`
   display: flex;
   flex-direction: column;
+  border-bottom: 1px solid #b6b6b6;
+  margin: 16px 0 0;
+  padding-bottom: 16px;
 
-  ${breakpoints.min_tablet} {
-    margin-bottom: 30px;
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &:first-child {
+    margin: 0;
+  }
+
+  ${breakpoints.min_desktop} {
+    margin: 32px 0 0;
+    padding-bottom: 32px;
   }
 `;
 
 export const ContentDesktop = styled.div`
-  ${breakpoints.min_tablet} {
+  ${breakpoints.min_desktop} {
     display: flex;
     justify-content: space-between;
-
-    & .desktop-chico-exacto {
-      min-width: 400px;
-      width: 50%;
-    }
   }
+`;
+
+export const Row = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
 
   ${breakpoints.min_desktop} {
-    & .desktop-chico-exacto {
-      width: 531px;
-    }
+    flex-direction: column;
   }
 `;
