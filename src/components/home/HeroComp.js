@@ -5,20 +5,15 @@ export const Content = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: column;
-  padding: 50px 0;
+  flex-direction: column-reverse;
+  padding: 24px 0;
+  text-align: center;
 
-  & .corte-exacto-desktop-chico {
-    width: 100%;
-  }
-
-  ${breakpoints.min_tablet} {
+  ${breakpoints.min_desktop} {
+    text-align: start;
     flex-direction: row;
-    padding: 100px 0;
-
-    & .corte-exacto-desktop-chico {
-      min-width: fit-content;
-    }
+    align-items: start;
+    padding: 144px 0 16px;
   }
 `;
 

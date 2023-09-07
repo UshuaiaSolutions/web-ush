@@ -3,9 +3,10 @@ import styled from "styled-components";
 import { breakpoints } from "./breakpoints";
 
 const Container = styled.div`
-  margin-top: 51px;
+  margin-top: 73px;
+  background: ${(props) => props.theme.fondoblanco};
 
-  ${breakpoints.min_tablet} {
+  ${breakpoints.min_desktop} {
     margin-top: 100px;
   }
 `;

@@ -1,8 +1,8 @@
 .hero-section-titles-mobile {
   font-size: 24px;
+  font-style: normal;
   font-weight: 800;
-  line-height: 24px;
-  letter-spacing: 0em;
+  line-height: 110%;
 }
 
 .hero-section-alto-mobile {
@@ -58,9 +58,9 @@
 
 .txt-regular-mobile {
   font-size: 12px;
+  font-style: normal;
   font-weight: 400;
   line-height: 16px;
-  letter-spacing: 0em;
 }
 
 .txt-destacados-alta-mobile {
@@ -171,7 +171,7 @@
   text-decoration: underline;
 }
 
-@media (min-width: 1125px) {
+@media (min-width: 1100px) {
   .texto-regular {
     font-size: 16px;
     font-weight: 400;
@@ -206,10 +206,10 @@
   }
 
   .h1-web {
-    font-size: 56px;
+    font-size: 62px;
+    font-style: normal;
     font-weight: 800;
-    line-height: 64px;
-    letter-spacing: 0em;
+    line-height: 110%;
   }
 
   .h1-web-sub {
@@ -229,9 +229,9 @@
 
   .destacado-regular {
     font-size: 24px;
+    font-style: normal;
     font-weight: 400;
     line-height: 32px;
-    letter-spacing: 0em;
   }
 
   .destacado-italic {

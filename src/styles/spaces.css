@@ -359,6 +359,10 @@
   margin-bottom: 30px;
 }
 
+.mb-32 {
+  margin-bottom: 32px;
+}
+
 .mb-35 {
   margin-bottom: 35px;
 }
@@ -383,7 +387,7 @@
   margin-bottom: 100px;
 }
 
-@media (max-width: 1124px) {
+@media (max-width: 1100px) {
   .mt-0-mobile {
     margin-top: 0px;
   }
@@ -405,6 +409,10 @@
 
   .mb-15-mobile {
     margin-bottom: 15px;
+  }
+
+  .mb-16-mobile {
+    margin-bottom: 16px;
   }
 
   .mb-20-mobile {
