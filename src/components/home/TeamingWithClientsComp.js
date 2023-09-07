@@ -2,33 +2,19 @@ import styled from "styled-components";
 import { breakpoints } from "../base/breakpoints";
 
 export const StyledContainer = styled.div`
-  padding: 30px 0px 60px;
+  padding: 56px 0px 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  color: ${(props) => props.theme.fondoblanco};
+  color: ${(props) => props.theme.textonegro};
 
-  ${breakpoints.min_xl} {
-    padding: 0 0 100px;
-  }
+  ${breakpoints.min_desktop} {
+    padding: 144px 0px 0px;
 
-  ${breakpoints.min_tablet} {
     & .container-content {
       display: flex;
       justify-content: space-between;
-
-      .second-col {
-        width: 65%;
-      }
-    }
-  }
-
-  ${breakpoints.min_desktop} {
-    & .container-content {
-      .second-col {
-        width: 50%;
-      }
     }
   }
 `;
@@ -36,10 +22,10 @@ export const StyledContainer = styled.div`
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
+  width: fit-content;
+  align-items: center;
 
-  ${breakpoints.min_tablet} {
-    & .mySwiper {
-      width: 50%;
-    }
+  ${breakpoints.min_desktop} {
+    align-items: start;
   }
 `;

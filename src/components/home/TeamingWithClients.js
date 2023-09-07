@@ -1,14 +1,14 @@
 import React from "react";
-import { Autoplay } from "swiper";
-import "swiper/css";
-import { Swiper, SwiperSlide } from "swiper/react";
+// import { Autoplay } from "swiper";
+// import "swiper/css";
+// import { Swiper, SwiperSlide } from "swiper/react";
 import "../../styles/slider.css";
 import Container from "../base/Container";
 import BotonSecundario from "../base/BotonSecundario";
 import { CorteDesktop, CorteMobile } from "../base/Cortes";
 import { Link } from "react-router-dom";
 import { StyledContainer, Content } from "./TeamingWithClientsComp";
-import { clients, group } from "../expertise/Clients";
+import Mundo from "../../assets/Mundo";
 
 function TeamingWithClients() {
   return (
@@ -16,14 +16,13 @@ function TeamingWithClients() {
       <Container>
         <div className="container-content">
           <Content>
-            <h2 className="h2-mobile h2-web mb-40-mobile">
-              Teaming with
-              <CorteDesktop />
-              <CorteMobile /> <u>clients worldwide</u>
+            <h2 className="h3-mobile h2-web mb-16-mobile mb-32 text-center-mobile">
+              Bringing together Latin
+              <CorteDesktop /> America and Europe
             </h2>
 
             {/* MOBILE */}
-            <Swiper
+            {/* <Swiper
               spaceBetween={50}
               slidesPerView={3}
               centeredSlides={true}
@@ -42,25 +41,25 @@ function TeamingWithClients() {
                   </SwiperSlide>
                 );
               })}
-            </Swiper>
+            </Swiper> */}
 
-            <div className="mt-40">
-              <p className="txt-minimo-mobile destacado-medium mb-40-mobile mb-40">
-                Our highly esteemed client list includes
-                <CorteDesktop /> partner
-                <CorteMobile /> LSPs as well as B2B customers who
-                <CorteDesktop /> have come
-                <CorteMobile /> to rely on us as an extension
-                <CorteDesktop /> of their in-house
-                <CorteMobile /> teams. Let us help you too!
-              </p>
-              <Link to="/expertise">
-                <BotonSecundario>View study cases</BotonSecundario>
-              </Link>
-            </div>
+            <p className="txt-regular-mobile destacado-medium mb-16-mobile mb-32 text-center-mobile">
+              We're where you need us, when you need us.
+              <CorteMobile />
+              <CorteDesktop />
+              With a unified localization team across the
+              <CorteMobile /> globe,
+              <CorteDesktop /> we can help you unlock your business
+              <CorteMobile /> potential in
+              <CorteDesktop /> America, Europe
+              <CorteMobile /> and the whole world.
+            </p>
+            <Link to="/expertise">
+              <BotonSecundario>Learn more about us</BotonSecundario>
+            </Link>
           </Content>
-          <div className="second-col">
-            <Swiper
+          <Mundo />
+          {/* <Swiper
               spaceBetween={50}
               slidesPerView={3}
               centeredSlides={true}
@@ -85,8 +84,7 @@ function TeamingWithClients() {
                   </SwiperSlide>
                 );
               })}
-            </Swiper>
-          </div>
+            </Swiper> */}
         </div>
       </Container>
     </StyledContainer>
