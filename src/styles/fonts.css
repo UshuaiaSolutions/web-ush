@@ -300,6 +300,13 @@
     letter-spacing: 0em;
   }
 
+  .title-card {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
   .input-form {
     background: #f6f3e8;
     border: 3px solid #393939;

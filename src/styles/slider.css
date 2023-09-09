@@ -230,3 +230,8 @@
 .mySwiperAbout .swiper-pagination-bullet-active {
   background: #474747;
 }
+
+/* SWIPER HOME */
+.why-swiper .swiper-slide {
+  width: fit-content;
+}
