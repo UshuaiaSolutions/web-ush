@@ -3,34 +3,15 @@ import { Link } from "react-router-dom";
 import BotonSecundario from "../base/BotonSecundario";
 import Container from "../base/Container";
 import { CorteDesktop, CorteMobile } from "../base/Cortes";
-import {
-  StyledContainer,
-  Content,
-  ImageDesktop,
-  ImageMobile,
-  Reverse,
-  Areas,
-} from "./WhyUSHComp";
+import { StyledContainer, Content, Reverse, Areas } from "./WhyUSHComp";
 
 function WhyUSH() {
   return (
     <StyledContainer>
       <Container>
         <Content>
-          <ImageDesktop
-            src="https://ushmultimedia.blob.core.windows.net/ushwebsite/HomeWhyUSH.png"
-            alt="illustration"
-          />
-
           <div className="corte-exacto-desktop-medio">
-            <h2 className="h2-web h2-mobile mb-40 mb-0-mobile underline-mobile">
-              Why USH?
-            </h2>
-
-            <ImageMobile
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/HomeWhyUSHMob.png"
-              alt="illustration"
-            />
+            <h2 className="h2-web h2-mobile mb-40 mb-0-mobile">Why USH?</h2>
 
             <Reverse>
               <Areas>
@@ -61,10 +42,6 @@ function WhyUSH() {
                 <CorteMobile /> professionals to work together as one.
               </p>
             </Reverse>
-
-            <Link to="/about">
-              <BotonSecundario>Meet USH team</BotonSecundario>
-            </Link>
           </div>
         </Content>
       </Container>

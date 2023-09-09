@@ -14,24 +14,6 @@ export const StyledContainer = styled.div`
   }
 `;
 
-export const ImageDesktop = styled.img`
-  display: none;
-
-  ${breakpoints.min_tablet} {
-    width: 509px;
-    display: block;
-  }
-`;
-
-export const ImageMobile = styled.img`
-  width: 100%;
-  height: auto;
-
-  ${breakpoints.min_tablet} {
-    display: none;
-  }
-`;
-
 export const Content = styled.div`
   ${breakpoints.min_tablet} {
     display: flex;

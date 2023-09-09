@@ -916,7 +916,7 @@ const Cliente11 = () => {
             <g id="Clip path group">
               <mask
                 id="mask0_294_6581"
-                style="mask-type:luminance"
+                style={{ maskType: "luminance" }}
                 maskUnits="userSpaceOnUse"
                 x="18"
                 y="37"

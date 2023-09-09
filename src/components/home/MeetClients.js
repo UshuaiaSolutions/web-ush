@@ -59,7 +59,7 @@ function MeetClients() {
             <Cliente8 />,
             <Cliente9 />,
             <Cliente10 />,
-            // <Cliente11 />,
+            <Cliente11 />,
             <Cliente12 />,
           ].map((e) => {
             return <SwiperSlide>{e}</SwiperSlide>;

@@ -6,6 +6,7 @@ import Needs from "../../components/home/Needs";
 import BringingTogether from "../../components/home/BringingTogether";
 import WhyUSH from "../../components/home/WhyUSH";
 import MeetClients from "../../components/home/MeetClients";
+import Valores from "../../components/home/Valores";
 
 const Background = styled.div`
   background-color: ${(props) => props.theme.fondoblanco};
@@ -19,6 +20,7 @@ const Home = () => {
       <Needs />
       <BringingTogether />
       <MeetClients />
+      <Valores />
       <WhyUSH />
       <BookMeeting />
     </Background>
