@@ -28,8 +28,8 @@ export const Card = styled.div`
   align-items: center;
 
   ${breakpoints.min_desktop} {
-    width: 348px;
-    height: 376px;
+    width: calc(348px - (32px * 2));
+    height: calc(376px - (32px * 2));
     padding: 32px;
   }
 `;

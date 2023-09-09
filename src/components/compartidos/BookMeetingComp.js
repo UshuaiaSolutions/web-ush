@@ -9,15 +9,15 @@ export const StyledContainer = styled.div`
   background-image: url(https://ushmultimedia.blob.core.windows.net/ushwebsite/TramaFormGrandeNew.png);
   background-repeat: inherit;
 
-  ${breakpoints.min_tablet} {
-    padding: 140px 0;
+  ${breakpoints.min_desktop} {
+    padding: 144px 0 0;
   }
 `;
 
 export const MediaContainer = styled.div`
   flex-direction: column;
 
-  ${breakpoints.min_tablet} {
+  ${breakpoints.min_desktop} {
     flex-direction: row;
   }
 `;
@@ -25,7 +25,7 @@ export const MediaContainer = styled.div`
 export const FirstContainer = styled.div`
   width: 100%;
 
-  ${breakpoints.min_tablet} {
+  ${breakpoints.min_desktop} {
     width: auto;
   }
 `;
@@ -33,7 +33,7 @@ export const FirstContainer = styled.div`
 export const SecondContainer = styled.div`
   width: 100%;
 
-  ${breakpoints.min_tablet} {
+  ${breakpoints.min_desktop} {
     width: 50%;
   }
 `;
@@ -42,7 +42,7 @@ export const ContainerInput = styled.div`
   width: 100%;
   margin-bottom: 10px;
 
-  ${breakpoints.min_tablet} {
+  ${breakpoints.min_desktop} {
     width: 48%;
     margin-bottom: 0px;
   }
@@ -87,8 +87,8 @@ export const ColumnInput = styled.div`
   flex-direction: column;
   margin-bottom: 0;
 
-  ${breakpoints.min_tablet} {
-    margin-bottom: 30px;
+  ${breakpoints.min_desktop} {
+    margin-bottom: 24px;
     flex-direction: row;
   }
 `;
@@ -110,12 +110,7 @@ export const Boton = styled.button`
 
   &:hover {
     background-color: ${(props) => props.theme.textonegro};
-    color: ${(props) => props.theme.amarillo};
-  }
-
-  ${breakpoints.min_tablet} {
-    width: fit-content;
-    padding: 8px 40px;
+    color: ${(props) => props.theme.verdeush};
   }
 
   ${breakpoints.min_desktop} {

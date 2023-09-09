@@ -17,6 +17,7 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.min.css";
 import { isWeekday, handleChange, handleSend } from "./BookMeetingFunc";
 import SelectCountries from "./SelectCountries";
+import BotonSecundario from "../base/BotonSecundario";
 
 const BookMeeting = () => {
   const [contactForm, setContactForm] = useState({});
@@ -29,25 +30,22 @@ const BookMeeting = () => {
       <Container>
         <MediaContainer className="d-flex justify-between">
           <FirstContainer className="d-flex flex-column">
-            <h1 className="hero-section-alto-mobile h1-web-sub mb-20-mobile mb-40">
-              Book a<CorteDesktop /> meeting!
-            </h1>
-            <p className="txt-regular-mobile destacado-medium mb-60 mb-20-mobile">
-              Tell us what you need and we'll
-              <CorteDesktop /> help you
+            <h1 className="h2-web mb-20-mobile mb-40">Book a meeting!</h1>
+            <p className="txt-regular-mobile destacado-regular mb-80 mb-20-mobile">
+              Tell us what you need and we'll help you
+              <CorteDesktop />
               <CorteMobile /> succeed in new markets.
-              <CorteDesktop />
-              <CorteMobile /> Here are some questions to guide
-              <CorteDesktop />
+              <CorteMobile /> Here are some
+              <CorteDesktop /> questions to guide
               <CorteMobile /> your request.
             </p>
 
-            <p className="destacados-italic-mobile destacado-italic mb-20">
-              What type of content would you
-              <CorteDesktop /> like to
+            <p className="destacados-italic-mobile destacado-italic mb-30">
+              What type of content would you like
+              <CorteDesktop /> to
               <CorteMobile /> create or localize?
             </p>
-            <p className="destacados-italic-mobile destacado-italic mb-20">
+            <p className="destacados-italic-mobile destacado-italic mb-30">
               What is your target audience?
             </p>
             <p className="destacados-italic-mobile destacado-italic mb-40">
@@ -58,7 +56,7 @@ const BookMeeting = () => {
             <form>
               <ColumnInput className="d-flex justify-between">
                 <ContainerInput className="d-flex flex-column">
-                  <label className="label-form">Name *</label>
+                  <label className="label-form mb-8">Name *</label>
                   <input
                     value={contactForm.name ? contactForm.name : ""}
                     onChange={(e) =>
@@ -76,7 +74,7 @@ const BookMeeting = () => {
                   )}
                 </ContainerInput>
                 <ContainerInput className="d-flex flex-column">
-                  <label className="label-form">Company Name *</label>
+                  <label className="label-form mb-8">Company Name *</label>
                   <input
                     value={contactForm.company ? contactForm.company : ""}
                     onChange={(e) =>
@@ -96,7 +94,7 @@ const BookMeeting = () => {
               </ColumnInput>
               <ColumnInput className="d-flex justify-between">
                 <ContainerInput className="d-flex flex-column">
-                  <label className="label-form">E-Mail *</label>
+                  <label className="label-form mb-8">E-Mail *</label>
                   <input
                     value={contactForm.mail ? contactForm.mail : ""}
                     onChange={(e) =>
@@ -115,7 +113,7 @@ const BookMeeting = () => {
                   )}
                 </ContainerInput>
                 <ContainerInput className="d-flex flex-column">
-                  <label className="label-form">Country *</label>
+                  <label className="label-form mb-8">Country *</label>
                   <SelectCountries data={contactForm} func={setContactForm} />
                   {missingFields?.includes("country") && (
                     <ErrorMessage>Wrong input</ErrorMessage>
@@ -123,7 +121,7 @@ const BookMeeting = () => {
                 </ContainerInput>
               </ColumnInput>
               <DateContainer className="d-flex flex-column mb-30">
-                <label className="label-form">Select a date *</label>
+                <label className="label-form mb-8">Select a date *</label>
                 <DatePicker
                   selected={
                     contactForm.date_reunion
@@ -141,7 +139,7 @@ const BookMeeting = () => {
                 )}
               </DateContainer>
               <div className="d-flex flex-column mb-30">
-                <label className="label-form">How can we help?</label>
+                <label className="label-form mb-8">How can we help?</label>
                 <textarea
                   value={contactForm.comment ? contactForm.comment : ""}
                   onChange={(e) =>
@@ -158,7 +156,7 @@ const BookMeeting = () => {
               </div>
             </form>
 
-            <Boton
+            <BotonSecundario
               onClick={() =>
                 handleSend(
                   contactForm,
@@ -169,7 +167,7 @@ const BookMeeting = () => {
               }
             >
               Get in touch
-            </Boton>
+            </BotonSecundario>
           </SecondContainer>
         </MediaContainer>
       </Container>

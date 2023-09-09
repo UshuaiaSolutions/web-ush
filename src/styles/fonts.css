@@ -351,9 +351,9 @@
 
   .label-form {
     font-size: 16px;
+    font-style: normal;
     font-weight: 600;
-    line-height: 20px;
-    letter-spacing: 0em;
+    line-height: 32px;
   }
 
   .scroll-to-top {
