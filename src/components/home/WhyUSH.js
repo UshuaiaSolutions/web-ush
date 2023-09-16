@@ -169,7 +169,8 @@ function WhyUSH() {
                 <h3 className="body-bold-mobile mb-16-mobile">Quality</h3>
                 <p className="txt-regular-mobile  text-center">
                   Our workflow complies with the requirements of the ISO 17100
-                  International Standards. We provide confidential information
+                  International Standards.
+                  <CorteMobile /> We provide confidential information
                   management.
                 </p>
               </Card>
@@ -192,9 +193,9 @@ function WhyUSH() {
                 </SVGContainer>
                 <h3 className="body-bold-mobile mb-16-mobile">Experience</h3>
                 <p className="txt-regular-mobile  text-center">
-                  With more than 20 years in the language services industry, we
-                  have carefully selected and trained our team of linguists,
-                  designers and IT professionals.
+                  With more than 20 years in the language services industry,
+                  <CorteMobile /> we have carefully selected and trained our
+                  team of linguists, designers and IT professionals.
                 </p>
               </Card>
             </SwiperSlide>

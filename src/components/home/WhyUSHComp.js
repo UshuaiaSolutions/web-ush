@@ -21,7 +21,7 @@ export const Content = styled.div`
 
 export const Card = styled.div`
   display: flex;
-  height: 200px;
+  height: calc(200px - (16px * 2));
   width: calc(226px - (16px * 2));
   padding: 16px;
   flex-direction: column;
@@ -44,8 +44,8 @@ export const CardContainer = styled.div`
 `;
 
 export const SVGContainer = styled.div`
-  width: 40px;
-  height: 40px;
+  width: calc(40px - 4px);
+  height: calc(40px - 4px);
   border: 2px solid ${(props) => props.theme.textonegro};
   border-radius: 50%;
   display: flex;
@@ -54,8 +54,8 @@ export const SVGContainer = styled.div`
 
   ${breakpoints.min_desktop} {
     border: 3px solid ${(props) => props.theme.textonegro};
-    width: 80px;
-    height: 80px;
+    width: calc(80px - 6px);
+    height: calc(80px - 6px);
   }
 `;
 

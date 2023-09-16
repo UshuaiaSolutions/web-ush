@@ -27,6 +27,7 @@ export const Content = styled.div`
   color: ${(props) => props.theme.textonegro};
 
   ${breakpoints.min_desktop} {
+    padding: 110px 0 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;

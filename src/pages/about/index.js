@@ -17,9 +17,9 @@ const About = () => {
     <Background>
       <MeetYourLanguage />
       <GetToKnow />
-      <WorkWithUs />
+      {/* <WorkWithUs /> */}
       <MeetYourNeeds />
-      <OurMemberships />
+      {/* <OurMemberships /> */}
       <BookMeeting />
     </Background>
   );

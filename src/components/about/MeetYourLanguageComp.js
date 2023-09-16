@@ -2,60 +2,30 @@ import styled from "styled-components";
 import { breakpoints } from "../base/breakpoints";
 
 export const StyledContainer = styled.div`
-  padding: 40px 0;
+  padding: 40px 0 0;
   color: ${(props) => props.theme.textonegro};
   background: ${(props) => props.theme.fondoblanco};
   display: flex;
   flex-direction: column;
+  align-items: center;
 
-  ${breakpoints.min_tablet} {
-    padding: 100px 0;
-    position: relative;
-  }
-`;
-
-export const Image = styled.img`
-  margin-top: 40px;
-  height: auto;
-  width: 320px;
-  max-width: 100%;
-  border-radius: 0px;
-
-  ${breakpoints.min_tablet} {
-    position: absolute;
-    width: 50%;
-    max-width: 679px;
-    height: auto;
-    right: 0;
-    top: 0;
-    margin-top: 0;
+  ${breakpoints.min_desktop} {
+    padding: 144px 0 0;
   }
 `;
 
 export const Card = styled.div`
-  background: ${(props) => props.theme.fondoblanco};
-  border: 2px solid ${(props) => props.theme.textonegro};
-  border-radius: 32px;
-  color: ${(props) => props.theme.textonegro};
-  text-align: center;
   display: flex;
+  height: calc(232px - (8px * 2));
+  width: calc(226px - (16px * 2));
+  padding: 8px 16px;
   flex-direction: column;
   align-items: center;
-  width: calc(178px - 4px);
-  padding: 40px 0;
-  position: relative;
-
-  ${breakpoints.min_tablet} {
-    width: calc(331px - 6px);
-    height: calc(280px - 6px);
-    padding: 0;
-    justify-content: inherit;
-    border: 3px solid ${(props) => props.theme.textonegro};
-  }
 
   ${breakpoints.min_desktop} {
-    width: calc(421px - 6px);
-    height: calc(370px - 6px);
+    width: calc(348px - (21px * 2));
+    height: calc(376px - (32px + 8px));
+    padding: 32px 21px 8;
   }
 `;
 
@@ -72,19 +42,12 @@ export const Circle = styled.div`
   top: -30px;
   right: 56px;
 
-  ${breakpoints.min_tablet} {
+  ${breakpoints.min_desktop} {
     border: 3px solid ${(props) => props.theme.textonegro};
     width: calc(56px - 6px);
     height: calc(56px - 6px);
     top: -30px;
     left: calc(50% - 56px / 2);
-  }
-
-  ${breakpoints.min_desktop} {
-    width: calc(120px - 6px);
-    top: -60px;
-    left: calc(50% - 120px / 2);
-    height: calc(120px - 6px);
   }
 `;
 
@@ -122,42 +85,32 @@ export const Icon = styled.img`
   }
 `;
 
-export const Column = styled.div`
-  ${breakpoints.min_tablet} {
-    display: flex;
-    margin-bottom: 70px;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-
-    & .text {
-      width: 100%;
-    }
-  }
-`;
-
-export const ContainerDesktop = styled.div`
-  display: none;
-
-  ${breakpoints.min_tablet} {
-    display: flex;
-    width: 50%;
-    height: 405px;
-  }
+export const Partnership = styled.svg`
+  width: 28.946px;
+  height: 18.316px;
 
   ${breakpoints.min_desktop} {
-    height: 485px;
+    width: 57.892px;
+    height: 36.63px;
   }
 `;
 
-export const ContainerMobile = styled.div`
-  margin-left: calc((100% - 276px) / 2);
-  width: calc(100% - ((100% - 276px) / 2));
+export const Technology = styled.svg`
+  width: 20.977px;
+  height: 24.141px;
 
-  & .swiper-wrapper {
-    align-items: baseline;
+  ${breakpoints.min_desktop} {
+    width: 41.954px;
+    height: 48.281px;
   }
-  ${breakpoints.min_tablet} {
-    display: none;
+`;
+
+export const Experience = styled.svg`
+  width: 18.69px;
+  height: 17.078px;
+
+  ${breakpoints.min_desktop} {
+    width: 38.69px;
+    height: 37.078px;
   }
 `;
