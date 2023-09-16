@@ -15,7 +15,7 @@ const NoMatch = () => {
             </u>
             .
           </h1>
-          <p className="destacado-medium h1-mobile">
+          <p className="destacado-medium h2-mobile">
             Oops! Something's wrong. <CorteDesktop />
             <CorteMobile /> The page you're looking for can't be
             <CorteDesktop />

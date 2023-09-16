@@ -20,11 +20,11 @@
   letter-spacing: 0em;
 }
 
-.h1-mobile {
+.semibold-mobile {
   font-size: 12px;
+  font-style: normal;
   font-weight: 600;
-  line-height: 14px;
-  letter-spacing: 0em;
+  line-height: 16px;
 }
 
 .h2-mobile {
