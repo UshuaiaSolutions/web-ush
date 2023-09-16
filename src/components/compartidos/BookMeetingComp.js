@@ -5,7 +5,7 @@ export const StyledContainer = styled.div`
   color: ${(props) => props.theme.textonegro};
   background-color: ${(props) => props.theme.fondoblanco};
   width: 100%;
-  padding: 45px 0;
+  padding: 56px 0 0;
   background-image: url(https://ushmultimedia.blob.core.windows.net/ushwebsite/TramaFormGrandeNew.png);
   background-repeat: inherit;
 
@@ -40,7 +40,7 @@ export const SecondContainer = styled.div`
 
 export const ContainerInput = styled.div`
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 
   ${breakpoints.min_desktop} {
     width: 48%;
@@ -90,36 +90,6 @@ export const ColumnInput = styled.div`
   ${breakpoints.min_desktop} {
     margin-bottom: 24px;
     flex-direction: row;
-  }
-`;
-
-export const Boton = styled.button`
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 16px;
-  letter-spacing: 0em;
-  padding: 8px 0px;
-  background-color: ${(props) => props.theme.fondoblanco};
-  color: ${(props) => props.theme.textonegro};
-  transition: all 0.3s ease-in-out;
-  width: 100%;
-  border: 2px solid ${(props) => props.theme.textonegro};
-  border-radius: 60px;
-  text-decoration: none;
-  cursor: pointer;
-
-  &:hover {
-    background-color: ${(props) => props.theme.textonegro};
-    color: ${(props) => props.theme.verdeush};
-  }
-
-  ${breakpoints.min_desktop} {
-    padding: 18px 48px;
-    width: fit-content;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 36px;
-    border: 4px solid ${(props) => props.theme.textonegro};
   }
 `;
 

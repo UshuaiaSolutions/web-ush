@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Container from "../base/Container";
 import { CorteDesktop, CorteMobile } from "../base/Cortes";
 import { StyledContainer, Column } from "./BookMeetingSmallComp";
-import { Boton } from "./BookMeetingComp";
+import BotonSecundario from "../base/BotonSecundario";
 
 function BookMeetingSmall() {
   return (
@@ -21,7 +21,7 @@ function BookMeetingSmall() {
             </p>
 
             <Link to="/contact">
-              <Boton>Get in touch</Boton>
+              <BotonSecundario>Get in touch</BotonSecundario>
             </Link>
           </div>
         </Column>

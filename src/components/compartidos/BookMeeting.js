@@ -8,7 +8,6 @@ import {
   SecondContainer,
   ColumnInput,
   ContainerInput,
-  Boton,
   DateContainer,
   ErrorMessage,
 } from "./BookMeetingComp";
@@ -30,8 +29,10 @@ const BookMeeting = () => {
       <Container>
         <MediaContainer className="d-flex justify-between">
           <FirstContainer className="d-flex flex-column">
-            <h1 className="h2-web mb-20-mobile mb-40">Book a meeting!</h1>
-            <p className="txt-regular-mobile destacado-regular mb-80 mb-20-mobile">
+            <h1 className="h3-mobile h2-web mb-16-mobile mb-40 text-center-mobile">
+              Book a meeting!
+            </h1>
+            <p className="txt-regular-mobile destacado-regular mb-80 mb-20-mobile text-center-mobile">
               Tell us what you need and we'll help you
               <CorteDesktop />
               <CorteMobile /> succeed in new markets.
@@ -40,15 +41,15 @@ const BookMeeting = () => {
               <CorteMobile /> your request.
             </p>
 
-            <p className="destacados-italic-mobile destacado-italic mb-30">
+            <p className="destacados-italic-mobile destacado-italic mb-30 mb-16-mobile text-center-mobile">
               What type of content would you like
               <CorteDesktop /> to
               <CorteMobile /> create or localize?
             </p>
-            <p className="destacados-italic-mobile destacado-italic mb-30">
+            <p className="destacados-italic-mobile destacado-italic mb-30 mb-16-mobile text-center-mobile">
               What is your target audience?
             </p>
-            <p className="destacados-italic-mobile destacado-italic mb-40">
+            <p className="destacados-italic-mobile destacado-italic mb-40 mb-25-mobile text-center-mobile">
               Is your request urgent?
             </p>
           </FirstContainer>
@@ -120,7 +121,7 @@ const BookMeeting = () => {
                   )}
                 </ContainerInput>
               </ColumnInput>
-              <DateContainer className="d-flex flex-column mb-30">
+              <DateContainer className="d-flex flex-column mb-30 mb-16-mobile">
                 <label className="label-form mb-8">Select a date *</label>
                 <DatePicker
                   selected={
@@ -138,7 +139,7 @@ const BookMeeting = () => {
                   <ErrorMessage>Wrong input</ErrorMessage>
                 )}
               </DateContainer>
-              <div className="d-flex flex-column mb-30">
+              <div className="d-flex flex-column mb-30 mb-25-mobile">
                 <label className="label-form mb-8">How can we help?</label>
                 <textarea
                   value={contactForm.comment ? contactForm.comment : ""}

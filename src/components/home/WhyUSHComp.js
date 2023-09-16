@@ -78,3 +78,13 @@ export const Quality = styled.svg`
     height: 43.335px;
   }
 `;
+
+export const Experience = styled.svg`
+  width: 21.656px;
+  height: 21.667px;
+
+  ${breakpoints.min_desktop} {
+    width: 38.69px;
+    height: 37.078px;
+  }
+`;
