@@ -51,40 +51,6 @@ export const Circle = styled.div`
   }
 `;
 
-export const Icon = styled.img`
-  &.first {
-    width: 30px;
-    height: 30px;
-  }
-
-  &.second {
-    width: 29px;
-    height: 30px;
-  }
-
-  &.third {
-    width: 35px;
-    height: auto;
-  }
-
-  ${breakpoints.min_desktop} {
-    &.first {
-      width: 60px;
-      height: 60px;
-    }
-
-    &.second {
-      height: 60px;
-      width: 58px;
-    }
-
-    &.third {
-      height: 51px;
-      width: 81px;
-    }
-  }
-`;
-
 export const Partnership = styled.svg`
   width: 28.946px;
   height: 18.316px;

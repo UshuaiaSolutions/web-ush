@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import GetToKnow from "../../components/about/GetToKnow";
+import WeCanHelp from "../../components/about/WeCanHelp";
 import MeetYourLanguage from "../../components/about/MeetYourLanguage";
 import MeetYourNeeds from "../../components/about/MeetYourNeeds";
 import OurMemberships from "../../components/about/OurMemerships";
@@ -16,7 +16,7 @@ const About = () => {
   return (
     <Background>
       <MeetYourLanguage />
-      <GetToKnow />
+      <WeCanHelp />
       {/* <WorkWithUs /> */}
       <MeetYourNeeds />
       {/* <OurMemberships /> */}

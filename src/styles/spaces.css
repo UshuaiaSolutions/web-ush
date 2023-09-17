@@ -415,6 +415,11 @@
   .mb-0-mobile {
     margin-bottom: 0px;
   }
+
+  .mb-8-mobile {
+    margin-bottom: 8px;
+  }
+
   .mb-10-mobile {
     margin-bottom: 10px;
   }
@@ -433,6 +438,10 @@
 
   .mb-25-mobile {
     margin-bottom: 25px;
+  }
+
+  .mb-32-mobile {
+    margin-bottom: 32px;
   }
 
   .mb-40-mobile {
