@@ -1,35 +1,26 @@
 import React from "react";
 import Container from "../base/Container";
 import { CorteDesktop, CorteMobile } from "../base/Cortes";
-import { StyledContainer, ContainerIcon, Image } from "./MeetYourNeedsComp";
+import { StyledContainer } from "./MeetYourNeedsComp";
+import Ondas from "../../assets/Ondas";
 
 function MeetYourNeeds() {
   return (
-    <StyledContainer>
-      <Container>
-        <h1 className="hero-section-titles-mobile h1-web mb-20-mobile mb-40 text-center text-left-mobile">
-          We can meet
-          <CorteMobile /> <u>your needs</u>
-        </h1>
-        <p className="txt-regular-mobile destacado-regular mb-40-mobile mb-40 text-center text-center-mobile">
+    <Container>
+      <StyledContainer>
+        <h2 className="h1-web h1-mobile mb-16-mobile mb-50 text-center-mobile">
+          Let's reach
+          <CorteDesktop /> global markets
+        </h2>
+        <p className="txt-regular-mobile destacado-regular mb-32-mobile mb-40 text-center-mobile">
           USH is a synonym of flexibility, scalability
-          <CorteMobile /> and efficiency.
-          <CorteDesktop />{" "}
-          <span className="destacados-semibold-mobile destacado-bold">
-            We're your language service
-            <CorteMobile /> partner for Latin America,
-            <CorteMobile /> Europe and the world.
-          </span>
+          <br /> and efficiency. We're your language service
+          <br /> partner for Latin America, Europe
+          <br /> and the world.
         </p>
-        <ContainerIcon>
-          <Image
-            className=""
-            src="https://ushmultimedia.blob.core.windows.net/ushwebsite/ManitoIcon.png"
-            alt="See more"
-          />
-        </ContainerIcon>
-      </Container>
-    </StyledContainer>
+      </StyledContainer>
+      <Ondas />
+    </Container>
   );
 }
 
