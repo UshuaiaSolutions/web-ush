@@ -2,10 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import WeCanHelp from "../../components/about/WeCanHelp";
 import MeetYourLanguage from "../../components/about/MeetYourLanguage";
-import MeetYourNeeds from "../../components/about/MeetYourNeeds";
-import OurMemberships from "../../components/about/OurMemerships";
-import WorkWithUs from "../../components/about/WorkWithUs";
 import BookMeeting from "../../components/compartidos/BookMeeting";
+import Valores from "../../components/about/Valores";
 
 const Background = styled.div`
   background-color: ${(props) => props.theme.fondoblanco};
@@ -17,9 +15,7 @@ const About = () => {
     <Background>
       <MeetYourLanguage />
       <WeCanHelp />
-      {/* <WorkWithUs /> */}
-      <MeetYourNeeds />
-      {/* <OurMemberships /> */}
+      <Valores />
       <BookMeeting />
     </Background>
   );
