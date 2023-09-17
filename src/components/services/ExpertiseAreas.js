@@ -1,164 +1,127 @@
 import React from "react";
 import Container from "../base/Container";
 import { CorteDesktop, CorteMobile } from "../base/Cortes";
-import {
-  StyledContainer,
-  DesktopRow,
-  Column,
-  Row,
-  Image,
-} from "./ExpertiseAreasComp";
+import { StyledContainer, Row, Card, Icon } from "./ExpertiseAreasComp";
+import Technology from "../../assets/Areas/Technology";
+import Industry from "../../assets/Areas/Industry";
+import Arts from "../../assets/Areas/Arts";
+import Sciences from "../../assets/Areas/Sciences";
 
 function ExpertiseAreas() {
   return (
-    <StyledContainer>
-      <Container>
-        <DesktopRow>
-          <h2 className="h2-mobile h2-web mb-20-mobile">
-            <u>Expertise areas</u>
-          </h2>
-          <p className="txt-regular-mobile destacado-medium mb-40-mobile exacto-desktop">
-            We've managed to select and train
-            <CorteMobile />
-            <CorteDesktop /> highly skilled professionals specialized
-            <CorteMobile />
-            <CorteDesktop /> in different fields.
-          </p>
-        </DesktopRow>
-        <Column>
-          <Row>
-            <Image
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
-              alt="Checked"
-            />
-            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
-              Cloud Computing
+    <Container>
+      <StyledContainer>
+        <h2 className="h3-mobile h2-web mb-40 mb-16-mobile">Expertise Areas</h2>
+        <p className="txt-regular-mobile destacado-regular mb-16-mobile mb-60">
+          We've managed to select and train highly
+          <CorteMobile /> skilled professionals specialized
+          <CorteDesktop />
+          <CorteMobile /> in different fields.
+        </p>
+        <Row>
+          <Card>
+            <Icon className="mb-32 mb-8-mobile">
+              <Industry />
+            </Icon>
+            <h3 className="h3-web body-bold-mobile mb-32 mb-8-mobile">
+              Technology
             </h3>
-          </Row>
-          <Row>
-            <Image
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
-              alt="Checked"
-            />
-            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
-              Finance, Business
-              <CorteDesktop /> and Banking
+            <ul>
+              <li className="destacado-regular txt-mobile text-center-mobile">
+                Cloud Computing
+              </li>
+              <li className="destacado-regular txt-mobile text-center-mobile">
+                Artificial Intelligence
+              </li>
+              <li className="destacado-regular txt-mobile text-center-mobile">
+                Telecommunications
+              </li>
+              <li className="destacado-regular txt-mobile text-center-mobile">
+                Enterprise Software
+              </li>
+            </ul>
+          </Card>
+          <Card>
+            <Icon className="mb-32 mb-8-mobile">
+              <Industry />
+            </Icon>
+            <h3 className="h3-web body-bold-mobile mb-32 mb-8-mobile">
+              Business
             </h3>
-          </Row>
-          <Row>
-            <Image
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
-              alt="Checked"
-            />
-            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
-              Artificial Intelligence
+            <ul>
+              <li className="destacado-regular txt-mobile text-center-mobile">
+                Retail and
+                <CorteMobile /> e-Commerce
+              </li>
+              <li className="destacado-regular txt-mobile text-center-mobile">
+                Insurance and Legal
+              </li>
+              <li className="destacado-regular txt-mobile text-center-mobile">
+                Marketing and HR
+              </li>
+              <li className="destacado-regular txt-mobile text-center-mobile">
+                Finance and banking
+              </li>
+            </ul>
+          </Card>
+          <Card>
+            <Icon className="mb-32 mb-8-mobile">
+              <Industry />
+            </Icon>
+            <h3 className="h3-web body-bold-mobile mb-32 mb-8-mobile">
+              Industry
             </h3>
-          </Row>
-          <Row>
-            <Image
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
-              alt="Checked"
-            />
-            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
-              Insurance and Legal
+            <ul>
+              <li className="destacado-regular txt-mobile text-center-mobile">
+                Automotive and
+                <CorteDesktop />
+                <CorteMobile />
+                Heavy Machinery
+              </li>
+              <li className="destacado-regular txt-mobile text-center-mobile">
+                Industrial manufacturing
+              </li>
+            </ul>
+          </Card>
+          <Card>
+            <Icon className="mb-32 mb-8-mobile">
+              <Arts />
+            </Icon>
+            <h3 className="h3-web body-bold-mobile mb-32 mb-8-mobile">
+              Arts &<CorteDesktop /> Leisure
             </h3>
-          </Row>
-          <Row>
-            <Image
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
-              alt="Checked"
-            />
-            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
-              Retail and e-Commerce
+            <ul>
+              <li className="destacado-regular txt-mobile text-center-mobile">
+                Travel and Hospitality
+              </li>
+              <li className="destacado-regular txt-mobile text-center-mobile">
+                Arts and Design
+              </li>
+            </ul>
+          </Card>
+          <Card>
+            <Icon className="mb-32 mb-8-mobile">
+              <Sciences />
+            </Icon>
+            <h3 className="h3-web body-bold-mobile mb-32 mb-8-mobile">
+              Life Sciences
+              <CorteDesktop /> & Healthcare
             </h3>
-          </Row>
-          <Row>
-            <Image
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
-              alt="Checked"
-            />
-            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
-              Marketing and <CorteDesktop /> Human Resources
-            </h3>
-          </Row>
-          <Row>
-            <Image
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
-              alt="Checked"
-            />
-            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
-              Enterprise software
-              <CorteDesktop /> (ERP, CMS, HCM)
-            </h3>
-          </Row>
-          <Row>
-            <Image
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
-              alt="Checked"
-            />
-            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
-              Tourism, Hotels and Leisure
-            </h3>
-          </Row>
-          <Row>
-            <Image
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
-              alt="Checked"
-            />
-            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
-              Industrial Automation
-            </h3>
-          </Row>
-          <Row>
-            <Image
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
-              alt="Checked"
-            />
-            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
-              Mechanical, Automotive
-              <CorteDesktop /> and Heavy Machinery
-            </h3>
-          </Row>
-          <Row>
-            <Image
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
-              alt="Checked"
-            />
-            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
-              Healthcare and Life Sciences
-            </h3>
-          </Row>
-          <Row>
-            <Image
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
-              alt="Checked"
-            />
-            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
-              Fitness, Cosmetics and
-              <CorteDesktop /> Beauty Products
-            </h3>
-          </Row>
-          <Row>
-            <Image
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
-              alt="Checked"
-            />
-            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
-              Industry and Logistics
-            </h3>
-          </Row>
-          <Row>
-            <Image
-              src="https://ushmultimedia.blob.core.windows.net/ushwebsite/checkmark.png"
-              alt="Checked"
-            />
-            <h3 className="destacado-alta destacados-alta-mobile mb-15-mobile">
-              Arts and Design
-            </h3>
-          </Row>
-        </Column>
-      </Container>
-    </StyledContainer>
+            <ul>
+              <li className="destacado-regular txt-mobile text-center-mobile">
+                Regulatory
+              </li>
+              <li className="destacado-regular txt-mobile text-center-mobile">
+                Medical Devices
+              </li>
+              <li className="destacado-regular txt-mobile text-center-mobile">
+                Clinical Trials
+              </li>
+            </ul>
+          </Card>
+        </Row>
+      </StyledContainer>
+    </Container>
   );
 }
 

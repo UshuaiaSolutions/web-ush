@@ -2,67 +2,89 @@ import styled from "styled-components";
 import { breakpoints } from "../base/breakpoints";
 
 export const StyledContainer = styled.div`
-  padding: 40px 0;
+  padding: 56px 0 0;
   color: ${(props) => props.theme.textonegro};
   background: ${(props) => props.theme.fondoblanco};
   display: flex;
   flex-direction: column;
+  text-align: center;
 
-  ${breakpoints.min_tablet} {
-    padding: 100px 0;
-  }
-`;
-
-export const Column = styled.div`
-  display: flex;
-  flex-direction: column;
-
-  ${breakpoints.min_tablet} {
-    flex-wrap: wrap;
-    flex-direction: row;
-
-    & div {
-      width: 50%;
-    }
+  ${breakpoints.min_desktop} {
+    padding: 144px 0 0;
   }
 `;
 
 export const Row = styled.div`
   display: flex;
-  align-items: self-start;
-
-  ${breakpoints.min_tablet} {
-    margin-bottom: 40px;
-  }
-
-  & h3 {
-    align-items: flex-start;
-  }
+  flex-wrap: wrap;
+  justify-content: center;
 `;
 
-export const Image = styled.img`
-  height: 13px;
-  width: 13px;
-  margin-right: 19px;
-  align-items: flex-start;
-  line-height: 16px;
+export const Card = styled.div`
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  height: 142px;
+  width: 136.5px;
+  margin-bottom: 16px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  & ul {
+    list-style: none;
+
+    & li::after {
+      content: " /";
+    }
+
+    & li:last-child::after {
+      content: "";
+    }
+  }
 
   ${breakpoints.min_desktop} {
-    width: 28px;
-    height: 28px;
-    line-height: 28px;
+    width: 337px;
+    margin: 0 32px 32px 0;
+    height: 320px;
+
+    & ul {
+      text-align: start;
+      list-style: disc;
+
+      & li::after {
+        content: "";
+      }
+    }
+
+    &:last-child {
+      margin: 0;
+    }
+
+    &:nth-child(4) {
+      margin: 0 32px 0 0;
+    }
+
+    &:nth-child(3) {
+      margin: 0 0 32px 0;
+    }
   }
 `;
 
-export const DesktopRow = styled.div`
-  ${breakpoints.min_tablet} {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 70px;
+export const Icon = styled.div`
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(40px - 4px);
+  height: calc(40px - 4px);
+  border: 2px solid ${(props) => props.theme.textonegro};
 
-    .exacto-desktop {
-      min-width: fit-content;
-      width: 50%;
-    }
+  ${breakpoints.min_desktop} {
+    width: calc(80px - 6px);
+    height: calc(80px - 6px);
+    border: 3px solid ${(props) => props.theme.textonegro};
   }
 `;
