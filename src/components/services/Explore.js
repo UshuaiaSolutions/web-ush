@@ -9,6 +9,7 @@ import {
   IconToggle,
   RowDesktop,
 } from "./ExploreComp";
+import BotonFlecha from "../../assets/BotonFlecha";
 
 function Explore() {
   const [open, setOpen] = useState("none");
@@ -24,30 +25,27 @@ function Explore() {
   return (
     <StyledContainer>
       <Container>
-        <RowDesktop>
-          <h2 className="h2-mobile h2-web mb-20-mobile mb-40-mobile">
+        <RowDesktop className="mb-40 mb-10-mobile">
+          <h2 className="h2-mobile h2-web text-center-mobile mb-16-mobile">
             Explore how
             <CorteDesktop />
-            <CorteMobile /> <u>we can help you</u>
+            <CorteMobile /> we can help you
           </h2>
-          <p className="destacado-medium txt-regular-mobile d-none-mobile ancho-exacto">
+          <p className="destacado-regular txt-regular-mobile text-center-mobile">
             We can blend linguistic, technical,
-            <CorteDesktop /> marketing and cultural requirements
-            <CorteDesktop /> to offer an optimized translation and
-            <CorteDesktop /> localization solution.
+            <CorteDesktop />
+            <CorteMobile /> marketing and cultural requirements
+            <CorteDesktop />
+            <CorteMobile /> to offer an optimized translation
+            <CorteDesktop /> and
+            <CorteMobile /> localization solution.
           </p>
         </RowDesktop>
         <Dropdown>
           <Item>
             <ItemTitle onClick={() => toggleSideNav("language")}>
-              <h3 className="h3-mobile dropdown-title-web">
-                LANGUAGE SOLUTIONS
-              </h3>
-              <IconToggle
-                isOpen={open === "language"}
-                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/Closeicon.png"
-                alt="Show information"
-              />
+              <h3 className="body-bold-mobile h3-web">Language Solutions</h3>
+              <BotonFlecha isServices={true} isOpen={open === "language"} />
             </ItemTitle>
             {open === "language" && (
               <p className="txt-mobile texto-regular mb-20-mobile mb-40">
@@ -64,14 +62,8 @@ function Explore() {
           </Item>
           <Item>
             <ItemTitle onClick={() => toggleSideNav("project")}>
-              <h3 className="h3-mobile dropdown-title-web">
-                PROJECT MANAGEMENT
-              </h3>
-              <IconToggle
-                isOpen={open === "project"}
-                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/Closeicon.png"
-                alt="Show information"
-              />
+              <h3 className="body-bold-mobile h3-web">Project Management</h3>
+              <BotonFlecha isServices={true} isOpen={open === "project"} />
             </ItemTitle>
             {open === "project" && (
               <p className="txt-mobile texto-regular mb-20-mobile mb-40">
@@ -88,14 +80,11 @@ function Explore() {
           </Item>
           <Item>
             <ItemTitle onClick={() => toggleSideNav("desktop")}>
-              <h3 className="h3-mobile dropdown-title-web">
-                DESKTOP PUBLISHING AND CREATIVE VISUALS
+              <h3 className="body-bold-mobile h3-web">
+                Desktop Publishing
+                <CorteMobile /> & Creative Visuals
               </h3>
-              <IconToggle
-                isOpen={open === "desktop"}
-                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/Closeicon.png"
-                alt="Show information"
-              />
+              <BotonFlecha isServices={true} isOpen={open === "desktop"} />
             </ItemTitle>
             {open === "desktop" && (
               <p className="txt-mobile texto-regular mb-20-mobile mb-40">
@@ -109,14 +98,8 @@ function Explore() {
           </Item>
           <Item>
             <ItemTitle onClick={() => toggleSideNav("video")}>
-              <h3 className="h3-mobile dropdown-title-web">
-                E-LEARNING AND VIDEO
-              </h3>
-              <IconToggle
-                isOpen={open === "video"}
-                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/Closeicon.png"
-                alt="Show information"
-              />
+              <h3 className="body-bold-mobile h3-web">E-Learning & Video</h3>
+              <BotonFlecha isServices={true} isOpen={open === "video"} />
             </ItemTitle>
             {open === "video" && (
               <p className="txt-mobile texto-regular mb-20-mobile mb-40">
@@ -129,12 +112,8 @@ function Explore() {
           </Item>
           <Item>
             <ItemTitle onClick={() => toggleSideNav("content")}>
-              <h3 className="h3-mobile dropdown-title-web">CONTENT CREATION</h3>
-              <IconToggle
-                isOpen={open === "content"}
-                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/Closeicon.png"
-                alt="Show information"
-              />
+              <h3 className="body-bold-mobile h3-web">Content Creation</h3>
+              <BotonFlecha isServices={true} isOpen={open === "content"} />
             </ItemTitle>
             {open === "content" && (
               <p className="txt-mobile texto-regular mb-20-mobile mb-40">

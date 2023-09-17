@@ -2,33 +2,25 @@ import styled from "styled-components";
 import { breakpoints } from "../base/breakpoints";
 
 export const StyledContainer = styled.div`
-  padding: 60px 0;
-  background-color: ${(props) => props.theme.textonegro};
-  color: ${(props) => props.theme.fondoblanco};
-  background-image: url(https://ushmultimedia.blob.core.windows.net/ushwebsite/TramaExploreHowWe.png);
-  background-repeat: inherit;
+  padding: 56px 0 0;
+  color: ${(props) => props.theme.textonegro};
+  background-color: ${(props) => props.theme.fondoblanco};
   display: flex;
   flex-direction: column;
 
-  ${breakpoints.min_tablet} {
-    padding: 100px 0;
+  ${breakpoints.min_desktop} {
+    padding: 144px 0 0;
   }
 `;
 
 export const Dropdown = styled.div`
   background: ${(props) => props.theme.fondoblanco};
   color: ${(props) => props.theme.textonegro};
-  border-radius: 32px;
-  padding: 15px 0;
-
-  ${breakpoints.min_tablet} {
-    padding: 30px 0;
-  }
 `;
 
 export const Item = styled.div`
-  padding: 10px 0;
-  width: calc(100% - 36px);
+  padding: 10px 16px 16px;
+  width: calc(100% - 32px);
   margin: 0 auto;
   border-bottom: 2px solid ${(props) => props.theme.textonegro};
   transition: all 0.3s linear;
@@ -36,22 +28,49 @@ export const Item = styled.div`
   flex-direction: column;
   justify-content: center;
 
-  &:last-child {
-    border-bottom: none;
+  &:first-child {
+    border-bottom: 1px solid ${(props) => props.theme.rosaush};
   }
 
-  ${breakpoints.only_tablet} {
-    width: calc(100% - 160px);
-    height: auto;
-    min-height: 136px;
-    padding: 0 20px;
+  &:nth-child(2) {
+    border-bottom: 1px solid ${(props) => props.theme.lilaush};
+  }
+
+  &:nth-child(3) {
+    border-bottom: 1px solid ${(props) => props.theme.amarillo};
+  }
+
+  &:nth-child(4) {
+    border-bottom: 1px solid ${(props) => props.theme.verdeush};
+  }
+
+  &:last-child {
+    border-bottom: 1px solid ${(props) => props.theme.rojoush};
   }
 
   ${breakpoints.min_desktop} {
-    width: calc(1089px - 120px - 120px);
-    height: auto;
-    min-height: 136px;
-    padding: 0 60px;
+    padding: 0 24px;
+    width: calc(100% - 48px);
+
+    &:first-child {
+      border-bottom: 2px solid ${(props) => props.theme.rosaush};
+    }
+
+    &:nth-child(2) {
+      border-bottom: 2px solid ${(props) => props.theme.lilaush};
+    }
+
+    &:nth-child(3) {
+      border-bottom: 2px solid ${(props) => props.theme.amarillo};
+    }
+
+    &:nth-child(4) {
+      border-bottom: 2px solid ${(props) => props.theme.verdeush};
+    }
+
+    &:last-child {
+      border-bottom: 2px solid ${(props) => props.theme.rojoush};
+    }
   }
 `;
 
@@ -65,7 +84,7 @@ export const ItemTitle = styled.div`
     width: 80%;
   }
 
-  ${breakpoints.min_tablet} {
+  ${breakpoints.min_desktop} {
     height: 136px;
   }
 `;
@@ -77,7 +96,7 @@ export const IconToggle = styled.img`
   transform: ${(props) => (props.isOpen ? "" : "rotate(45deg)")};
   cursor: pointer;
 
-  ${breakpoints.min_tablet} {
+  ${breakpoints.min_desktop} {
     height: 20px;
     width: 20px;
     object-fit: scale-down;
@@ -85,21 +104,13 @@ export const IconToggle = styled.img`
 `;
 
 export const RowDesktop = styled.div`
-  ${breakpoints.min_tablet} {
+  ${breakpoints.min_desktop} {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 100px;
 
-    & .ancho-exacto {
-      max-width: 400px;
+    & h2,
+    & p {
       width: 50%;
-    }
-  }
-
-  ${breakpoints.min_desktop} {
-    & .ancho-exacto {
-      width: 529px;
-      max-width: 529px;
     }
   }
 `;
