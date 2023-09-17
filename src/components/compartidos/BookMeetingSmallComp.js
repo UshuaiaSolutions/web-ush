@@ -2,23 +2,30 @@ import styled from "styled-components";
 import { breakpoints } from "../base/breakpoints";
 
 export const StyledContainer = styled.div`
-  padding: 45px 0;
+  color: ${(props) => props.theme.textonegro};
+  background: ${(props) => props.theme.fondoblanco};
+  padding: 56px 0 0;
   display: flex;
   flex-direction: column;
-  background-color: ${(props) => props.theme.textonegro};
-  color: ${(props) => props.theme.fondoblanco};
-  background-image: url(https://ushmultimedia.blob.core.windows.net/ushwebsite/TramaFormChicaNew.png);
-  background-repeat: inherit;
   width: 100%;
+  border-bottom: 2px solid rgba(57, 57, 57, 0.3);
 
-  ${breakpoints.min_tablet} {
-    padding: 100px 0;
+  ${breakpoints.min_desktop} {
+    padding: 144px 0 0;
+    border-bottom: 2px solid rgba(57, 57, 57, 0.3);
   }
 `;
 
 export const Column = styled.div`
-  ${breakpoints.min_tablet} {
+  ${breakpoints.min_desktop} {
     display: flex;
     justify-content: space-between;
   }
+`;
+
+export const Content = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  text-align: end;
 `;
