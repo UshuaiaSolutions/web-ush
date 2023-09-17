@@ -89,20 +89,6 @@ export const ItemTitle = styled.div`
   }
 `;
 
-export const IconToggle = styled.img`
-  height: 8px;
-  width: 8px;
-  transition: all 0.3s linear;
-  transform: ${(props) => (props.isOpen ? "" : "rotate(45deg)")};
-  cursor: pointer;
-
-  ${breakpoints.min_desktop} {
-    height: 20px;
-    width: 20px;
-    object-fit: scale-down;
-  }
-`;
-
 export const RowDesktop = styled.div`
   ${breakpoints.min_desktop} {
     display: flex;

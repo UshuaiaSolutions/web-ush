@@ -6,7 +6,6 @@ import {
   Dropdown,
   Item,
   ItemTitle,
-  IconToggle,
   RowDesktop,
 } from "./ExploreComp";
 import BotonFlecha from "../../assets/BotonFlecha";
