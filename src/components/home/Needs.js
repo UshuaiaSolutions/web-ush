@@ -1,12 +1,8 @@
 import React from "react";
 import Container from "../base/Container";
 import { CorteDesktop, CorteMobile } from "../base/Cortes";
-import {
-  StyledContainer,
-  Column,
-  ContentDesktop,
-  Row,
-} from "../services/HowWeCanComp";
+import { StyledContainer } from "../services/HowWeCanComp";
+import { Column, ContentDesktop, Row } from "./NeedsComp";
 import IlustracionNeeds from "../../assets/Ilustracion-Needs";
 import BotonFlecha from "../../assets/BotonFlecha";
 
@@ -56,7 +52,7 @@ function Needs() {
               </Row>
             </Column>
             <Column>
-              <h3 className="body-bold-mobile  h3-web mb-16-mobile mb-32">
+              <h3 className="body-bold-mobile h3-web mb-16-mobile mb-32">
                 02/&ensp;&ensp;Content Creation
               </h3>
               <Row>

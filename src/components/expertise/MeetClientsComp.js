@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { breakpoints } from "../base/breakpoints";
 
 export const StyledContainer = styled.div`
-  padding: 0 0 70px;
+  padding: 56px 0 0;
   color: ${(props) => props.theme.textonegro};
   background: ${(props) => props.theme.fondoblanco};
   display: flex;
@@ -12,8 +12,8 @@ export const StyledContainer = styled.div`
     width: 100%;
   }
 
-  ${breakpoints.min_tablet} {
-    padding: 0 0 100px;
+  ${breakpoints.min_desktop} {
+    padding: 144px 0 0;
   }
 `;
 
@@ -21,7 +21,7 @@ export const ContainerSwiper = styled.div`
   display: block;
   width: 100%;
 
-  ${breakpoints.min_tablet} {
+  ${breakpoints.min_desktop} {
     display: none;
   }
 `;
@@ -38,7 +38,7 @@ export const Card = styled.div`
   flex-direction: column;
   align-items: center;
 
-  ${breakpoints.min_tablet} {
+  ${breakpoints.min_desktop} {
     border: 3px solid ${(props) => props.theme.textonegro};
     border-radius: 32px;
     padding: 0 30px;
@@ -47,22 +47,12 @@ export const Card = styled.div`
     display: flex;
     justify-content: center;
   }
-
-  ${breakpoints.only_tablet} {
-    border: 3px solid ${(props) => props.theme.textonegro};
-    border-radius: 32px;
-    padding: 0 20px;
-    height: 300px;
-    width: calc(398px - 40px - 6px);
-    display: flex;
-    justify-content: center;
-  }
 `;
 
 export const ContainerDesktop = styled.div`
   display: none;
 
-  ${breakpoints.min_tablet} {
+  ${breakpoints.min_desktop} {
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -71,13 +61,13 @@ export const ContainerDesktop = styled.div`
 
 export const Column = styled.div`
   display: none;
-  ${breakpoints.min_tablet} {
+  ${breakpoints.min_desktop} {
     display: block;
   }
 `;
 
 export const Logo = styled.img`
-  ${breakpoints.min_tablet} {
+  ${breakpoints.min_desktop} {
     height: auto;
     width: 232px;
   }

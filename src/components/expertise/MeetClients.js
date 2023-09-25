@@ -6,23 +6,36 @@ import "../../styles/slider.css";
 import Container from "../base/Container";
 import { CorteDesktop, CorteMobile } from "../base/Cortes";
 import { StyledContainer } from "./MeetClientsComp";
+import {
+  Cliente1,
+  Cliente10,
+  Cliente11,
+  Cliente12,
+  Cliente2,
+  Cliente3,
+  Cliente4,
+  Cliente5,
+  Cliente6,
+  Cliente7,
+  Cliente8,
+  Cliente9,
+} from "../../assets/Clientes";
 
 function MeetClients() {
   return (
     <StyledContainer>
       <Container>
-        <h1 className="h2-mobile h2-web mb-20-mobile mb-40 text-left-mobile text-center">
-          Meet some of
-          <CorteMobile /> <u>our clients</u>
+        <h1 className="h3-mobile h2-web mb-16-mobile mb-40 text-center">
+          Meet some of our clients
         </h1>
-        <p className="destacados-semibold-mobile destacado-medium mb-40-mobile mb-70 text-left-mobile text-center">
+        <p className="txt-regular-mobile destacado-regular mb-16-mobile mb-80 text-center">
           Many companies and LSPs have come to
-          <CorteMobile /> rely on us as an extension of their
-          <CorteDesktop /> in-house
+          <CorteMobile /> rely on us as an extension
+          <CorteDesktop /> of their in-house
           <CorteMobile /> teams. We can help you too!
         </p>
 
-        {/* <Swiper
+        <Swiper
           spaceBetween={50}
           slidesPerView={3}
           centeredSlides={true}
@@ -34,38 +47,23 @@ function MeetClients() {
           modules={[Autoplay]}
           className="mySwiper teaming-with-clients"
         >
-          {group(clients, 2).map((children) => {
-            return (
-              <SwiperSlide>
-                {children.map((x, i) => (
-                  <img className="clients" src={x.image_grey} alt={x.name} />
-                ))}
-              </SwiperSlide>
-            );
+          {[
+            <Cliente1 />,
+            <Cliente2 />,
+            <Cliente3 />,
+            <Cliente4 />,
+            <Cliente5 />,
+            <Cliente6 />,
+            <Cliente7 />,
+            <Cliente8 />,
+            <Cliente9 />,
+            <Cliente10 />,
+            <Cliente11 />,
+            <Cliente12 />,
+          ].map((e) => {
+            return <SwiperSlide>{e}</SwiperSlide>;
           })}
-        </Swiper> */}
-
-        {/* MOBILE */}
-        {/* <Swiper
-          spaceBetween={50}
-          slidesPerView={3}
-          centeredSlides={true}
-          loop={true}
-          autoplay={{
-            delay: 2500,
-            disableOnInteraction: false,
-          }}
-          modules={[Autoplay]}
-          className="mySwiper teaming-with-clients-mobile"
-        >
-          {clients?.map((e) => {
-            return (
-              <SwiperSlide>
-                <img className="clients" src={e.image_grey} alt={e.name} />
-              </SwiperSlide>
-            );
-          })}
-        </Swiper> */}
+        </Swiper>
       </Container>
     </StyledContainer>
   );

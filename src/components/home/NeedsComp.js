@@ -1,67 +1,44 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
 import { breakpoints } from "../base/breakpoints";
 
-export const StyledContainer = styled.div`
-  padding: 30px 0px;
-  width: 100%;
+export const Column = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: ${(props) => props.theme.fondoblanco};
+  margin-bottom: 16px;
 
-  & .swiper-wrapper {
-    align-items: baseline;
+  &:last-child {
+    margin-bottom: 0;
   }
 
-  ${breakpoints.min_tablet} {
-    padding: 100px 0;
-    width: 100%;
-  }
-`;
-
-export const StyledLink = styled(Link)`
-  margin-top: 60px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
-`;
-
-export const Icon = styled.img`
-  width: 40px;
-  height: 40px;
-
-  &.first {
-    height: auto;
-    width: 31px;
-  }
-
-  &.second {
-    height: auto;
-    width: 24px;
-  }
-
-  &.third {
-    height: auto;
-    width: 23px;
+  & svg {
+    align-self: flex-end;
   }
 
   ${breakpoints.min_desktop} {
-    &.first {
-      height: 52px;
-      width: 69px;
-    }
+    padding-bottom: 32px;
+    margin-bottom: 0;
 
-    &.second {
-      height: 48px;
-      width: 57px;
+    & span {
+      padding-left: 72px;
     }
+  }
+`;
 
-    &.third {
-      height: 60.02px;
-      width: 49.34px;
-    }
+export const ContentDesktop = styled.div`
+  ${breakpoints.min_desktop} {
+    display: flex;
+    justify-content: space-between;
+  }
+`;
+
+export const Row = styled.div`
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #b6b6b6;
+  padding-bottom: 16px;
+
+  ${breakpoints.min_desktop} {
+    flex-direction: column;
+    padding-bottom: 32px;
   }
 `;
