@@ -17,6 +17,7 @@ import Services from "./pages/services";
 import About from "./pages/about";
 import NoMatch from "./pages/nomatch";
 import ScrollToTop from "./components/base/ScrollToTop";
+import USHBlog from "./pages/ush-blog";
 
 const theme = {
   lilaush: "#7839C4",
@@ -43,6 +44,7 @@ function App() {
             <Route path="/expertise" element={<Expertise />} />
             <Route path="/services" element={<Services />} />
             <Route path="/about" element={<About />} />
+            <Route path="/ush-blog" element={<USHBlog />} />
             <Route path="*" element={<NoMatch />} />
           </Routes>
         </Layout>

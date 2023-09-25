@@ -8,7 +8,7 @@ export const StyledContainer = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
-  border-bottom: 2px solid rgba(57, 57, 57, 0.3);
+  border-bottom: none;
 
   ${breakpoints.min_desktop} {
     padding: 144px 0 0;
@@ -26,6 +26,10 @@ export const Column = styled.div`
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: end;
-  text-align: end;
+  align-items: center;
+
+  ${breakpoints.min_desktop} {
+    align-items: end;
+    text-align: end;
+  }
 `;
