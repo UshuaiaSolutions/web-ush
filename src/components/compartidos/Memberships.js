@@ -3,52 +3,54 @@ import Container from "../base/Container";
 import { CorteDesktop, CorteMobile } from "../base/Cortes";
 import {
   StyledContainer,
-  StyledImgAASL,
-  StyledImgGALA,
-  StyledImgELIA,
-  StyledImgLast,
+  Table,
   Content,
+  EstrellaVerde,
+  TableMobile,
 } from "./MembershipsComp";
+import Tala from "../../assets/Portfolio/Tala";
+import Gala from "../../assets/Portfolio/Gala";
+import Elia from "../../assets/Portfolio/Elia";
 
 function Memberships() {
   return (
     <StyledContainer>
       <Container>
         <Content>
-          <div className="d-flex flex-column justify-center corte-exacto-medio">
-            <h2 className="h2-web h2-mobile mb-40 mb-20-mobile">
+          <div className="d-flex flex-column justify-center text-center">
+            <h2 className="h2-web h3-mobile mb-40 mb-16-mobile">
               Our Memberships
             </h2>
-            <p className="txt-regular-mobile destacado-regular mb-20-mobile">
+            <p className="txt-regular-mobile destacado-regular mb-32-mobile mb-80 text-center">
               Networking and sharing experiences is the
               <CorteDesktop />
-              <CorteMobile /> best way to improve both our services and
+              <CorteMobile /> best way to improve both our services
               <CorteDesktop />
-              <CorteMobile /> the language industry as a whole.
+              <CorteMobile /> and the language industry as a whole.
             </p>
           </div>
-          <div className="d-flex flex-column content-images">
-            <div className="d-flex justify-evenly align-center mb-20-mobile mb-40">
-              <StyledImgAASL
-                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/AASLBlack.png"
-                alt="Asociación Argentina de Servicios Lingüísticos"
-              />
-              <StyledImgGALA
-                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/GALABlack.png"
-                alt="Globalization and localization association"
-              />
-            </div>
-            <div className="d-flex justify-between align-center justify-evenly-mobile">
-              <StyledImgELIA
-                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/EliaBlack.png"
-                alt="European Language Industry Association"
-              />
-              <StyledImgLast
-                src="https://ushmultimedia.blob.core.windows.net/ushwebsite/TinABlack.png"
-                alt="Translated in Argentina"
-              />
-            </div>
-          </div>
+          <Table>
+            <Gala />
+            <Tala />
+            <Elia />
+          </Table>
+          <TableMobile>
+            <Gala />
+            <Elia />
+            <Tala />
+          </TableMobile>
+          <EstrellaVerde
+            xmlns="http://www.w3.org/2000/svg"
+            width="64"
+            height="65"
+            viewBox="0 0 64 65"
+            fill="none"
+          >
+            <path
+              d="M0 32.6103C17.05 28.292 27.6751 17.6561 32.0257 0.594971C36.3393 17.6693 46.9922 28.2389 64 32.6126C46.9749 36.9516 36.3688 47.5379 32.0205 64.595C27.6705 47.5593 17.0788 36.9245 0 32.6103Z"
+              fill="#72F285"
+            />
+          </EstrellaVerde>
         </Content>
       </Container>
     </StyledContainer>
