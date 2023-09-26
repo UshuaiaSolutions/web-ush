@@ -1,10 +1,7 @@
 import React from "react";
 
 import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper";
 import "../../styles/slider.css";
 
 import Container from "../base/Container";
@@ -108,9 +105,10 @@ function WhyUSH() {
             </Card>
           </CardContainer>
           <Swiper
-            slidesPerView={"auto"}
-            spaceBetween={10}
-            modules={[Pagination]}
+            slidesPerView={1.35}
+            spaceBetween={8}
+            centeredSlides={true}
+            initialSlide={1}
             className="mySwiper d-none-desktop why-swiper"
           >
             <SwiperSlide>

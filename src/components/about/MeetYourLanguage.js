@@ -2,10 +2,7 @@ import React from "react";
 import { HashLink } from "react-router-hash-link";
 
 import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper";
 import "../../styles/slider.css";
 
 import BotonSecundario from "../base/BotonSecundario";
@@ -199,9 +196,10 @@ function MeetYourLanguage() {
           </Card>
         </CardContainer>
         <Swiper
-          slidesPerView={"auto"}
+          slidesPerView={1.35}
           spaceBetween={10}
-          modules={[Pagination]}
+          initialSlide={1}
+          centeredSlides={true}
           className="mySwiper d-none-desktop why-swiper mt-40-mobile"
         >
           <SwiperSlide>

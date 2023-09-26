@@ -28,9 +28,12 @@ function Circulos() {
 }
 
 const SVG = styled.svg`
+  display: none;
+
   ${breakpoints.min_desktop} {
     width: 333px;
     height: 333px;
+    display: block;
   }
 `;
 

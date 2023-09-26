@@ -21,36 +21,14 @@ function BringingTogether() {
               <CorteDesktop /> America and Europe
             </h2>
 
-            {/* MOBILE */}
-            {/* <Swiper
-              spaceBetween={50}
-              slidesPerView={3}
-              centeredSlides={true}
-              loop={true}
-              autoplay={{
-                delay: 2500,
-                disableOnInteraction: false,
-              }}
-              modules={[Autoplay]}
-              className="mySwiper teaming-with-clients-mobile"
-            >
-              {clients?.map((e) => {
-                return (
-                  <SwiperSlide>
-                    <img className="clients" src={e.image_white} alt={e.name} />
-                  </SwiperSlide>
-                );
-              })}
-            </Swiper> */}
-
             <p className="txt-regular-mobile destacado-regular mb-16-mobile mb-32 text-center-mobile">
               We're where you need us, when you need us.
               <CorteMobile />
               <CorteDesktop />
-              With a unified localization team across the
-              <CorteMobile /> globe,
-              <CorteDesktop /> we can help you unlock your business
-              <CorteMobile /> potential in
+              With a unified localization team across
+              <CorteMobile /> the globe,
+              <CorteDesktop /> we can help you unlock your
+              <CorteMobile /> business potential in
               <CorteDesktop /> America, Europe
               <CorteMobile /> and the whole world.
             </p>
@@ -59,32 +37,6 @@ function BringingTogether() {
             </Link>
           </Content>
           <Mundo />
-          {/* <Swiper
-              spaceBetween={50}
-              slidesPerView={3}
-              centeredSlides={true}
-              loop={true}
-              autoplay={{
-                delay: 2500,
-                disableOnInteraction: false,
-              }}
-              modules={[Autoplay]}
-              className="mySwiper teaming-with-clients"
-            >
-              {group(clients, 2).map((children) => {
-                return (
-                  <SwiperSlide>
-                    {children.map((x, i) => (
-                      <img
-                        className="clients"
-                        src={x.image_white}
-                        alt={x.name}
-                      />
-                    ))}
-                  </SwiperSlide>
-                );
-              })}
-            </Swiper> */}
         </div>
       </Container>
     </StyledContainer>
