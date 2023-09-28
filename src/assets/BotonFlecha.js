@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { breakpoints } from "../components/base/breakpoints";
 
-function BotonFlecha({ isServices }) {
+function BotonFlecha({ isOpen, isServices }) {
   return (
     <SVG
       xmlns="http://www.w3.org/2000/svg"
@@ -10,6 +10,7 @@ function BotonFlecha({ isServices }) {
       height="81"
       viewBox="0 0 80 81"
       fill="none"
+      isOpen={isOpen}
       isServices={isServices}
     >
       <g clip-path="url(#clip0_6_9043)">
@@ -20,6 +21,7 @@ function BotonFlecha({ isServices }) {
           transform="rotate(-45 40.0002 40.6184)"
           stroke="#393939"
           stroke-width="3"
+          fill={isOpen ? "#72F285" : "none"}
         />
         <path
           fill-rule="evenodd"
@@ -45,7 +47,8 @@ function BotonFlecha({ isServices }) {
 const SVG = styled.svg`
   width: ${(props) => (props.isServices ? "26px" : "40px")};
   height: ${(props) => (props.isServices ? "26px" : "40px")};
-  transition: all 0.3s;
+  transform: ${(props) => (props.isOpen ? "rotate(180deg)" : "rotate(0)")};
+  transition: all 0.1s;
 
   ${breakpoints.min_desktop} {
     width: 80px;
