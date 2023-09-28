@@ -64,14 +64,27 @@ function WeCanHelp() {
                   />
                 </Language>
               </IconContainer>
-              <span className="texto-regular txt-mobile">
+              <span className="texto-regular txt-mobile text-center">
                 Language
                 <br /> Solutions
               </span>
             </Card>
             <Card className="mb-16-mobile">
-              <IconContainer className="mb-15 mb-8-mobile"></IconContainer>
-              <span className="texto-regular txt-mobile">
+              <IconContainer className="mb-15 mb-8-mobile">
+                <Project
+                  width="55"
+                  height="54"
+                  viewBox="0 0 55 54"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M52.5025 8.35749L46.6864 8.14847L46.8999 2.55736C46.9532 1.66905 46.2596 0.989753 45.3525 0.9375C44.4987 0.9375 43.7517 1.56454 43.6983 2.45285L43.4316 9.19354L37.1886 15.3072C33.24 11.8585 28.0642 9.71607 22.3548 9.71607C10.1357 9.71607 0.210938 19.4352 0.210938 31.4012C0.210938 43.3673 10.1357 53.0864 22.3548 53.0864C34.574 53.0864 44.4987 43.3673 44.4987 31.4012C44.4987 26.1759 42.5778 21.3163 39.3763 17.5541L45.8861 11.1792L52.3958 11.4404H52.4492C53.3029 11.4404 53.9966 10.7611 54.05 9.92509C54.1033 9.08904 53.4096 8.40974 52.5025 8.35749ZM41.2972 31.4012C41.2972 41.6429 32.8132 49.9512 22.3548 49.9512C11.8965 49.9512 3.41246 41.6429 3.41246 31.4012C3.41246 21.1596 11.8965 12.8513 22.3548 12.8513C27.1571 12.8513 31.5859 14.6279 34.8941 17.5018L32.8665 19.4875C30.0385 17.0838 26.3567 15.6207 22.3548 15.6207C13.4973 15.6207 6.29384 22.6749 6.29384 31.349C6.29384 40.0231 13.4973 47.0773 22.3548 47.0773C31.2124 47.0773 38.4158 40.0231 38.4158 31.349C38.4158 27.7435 37.1886 24.3993 35.0542 21.7344L37.0819 19.7487C39.6964 22.9884 41.2972 27.012 41.2972 31.4012ZM29.3448 31.4012C29.3448 35.1635 26.1967 38.2464 22.3548 38.2464C18.513 38.2464 15.3648 35.1635 15.3648 31.4012C15.3648 27.639 18.513 24.556 22.3548 24.556C23.8489 24.556 25.2896 25.0263 26.4101 25.8624L23.2086 28.9976L22.1414 27.9003L21.1809 30.9832L20.2205 34.0662L23.422 33.3346L26.6235 32.6031L25.3963 31.2967L28.5445 28.2138C29.0247 29.2066 29.3448 30.2517 29.3448 31.4012ZM28.7045 23.6155C26.9437 22.2569 24.756 21.4208 22.3548 21.4208C16.7522 21.4208 12.1633 25.9146 12.1633 31.4012C12.1633 36.8879 16.7522 41.3817 22.3548 41.3817C27.9575 41.3817 32.5464 36.8879 32.5464 31.4012C32.5464 29.3634 31.9061 27.4822 30.8389 25.9146L32.7598 24.0335C34.3072 26.1236 35.2143 28.6318 35.2143 31.4012C35.2143 38.351 29.4516 43.9943 22.3548 43.9943C15.2581 43.9943 9.49537 38.351 9.49537 31.4012C9.49537 24.4515 15.2581 18.8082 22.3548 18.8082C25.503 18.8082 28.3844 19.9055 30.6254 21.7344L28.7045 23.6155Z"
+                    fill="#393939"
+                  />
+                </Project>
+              </IconContainer>
+              <span className="texto-regular txt-mobile text-center">
                 Project
                 <br /> Management
               </span>
@@ -99,7 +112,7 @@ function WeCanHelp() {
                   />
                 </Desktop>
               </IconContainer>
-              <span className="texto-regular txt-mobile">
+              <span className="texto-regular txt-mobile text-center">
                 Desktop
                 <br /> Publishing
               </span>
@@ -123,7 +136,7 @@ function WeCanHelp() {
                   />
                 </Creative>
               </IconContainer>
-              <span className="texto-regular txt-mobile">
+              <span className="texto-regular txt-mobile text-center">
                 Creative
                 <br /> Visuals
               </span>
@@ -147,14 +160,14 @@ function WeCanHelp() {
                   />
                 </Creation>
               </IconContainer>
-              <span className="texto-regular txt-mobile">
+              <span className="texto-regular txt-mobile text-center">
                 Content
                 <br /> Creation
               </span>
             </Card>
             <Card className="mb-16-mobile">
               <IconContainer className="mb-15 mb-8-mobile"></IconContainer>
-              <span className="texto-regular txt-mobile">
+              <span className="texto-regular txt-mobile text-center">
                 E-Learning
                 <br /> and video
               </span>
