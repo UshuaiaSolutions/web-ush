@@ -6,6 +6,7 @@ import Technology from "../../assets/Areas/Technology";
 import Industry from "../../assets/Areas/Industry";
 import Arts from "../../assets/Areas/Arts";
 import Sciences from "../../assets/Areas/Sciences";
+import Business from "../../assets/Areas/Business";
 
 function ExpertiseAreas() {
   return (
@@ -21,7 +22,7 @@ function ExpertiseAreas() {
         <Row>
           <Card>
             <Icon className="mb-32 mb-8-mobile">
-              <Industry />
+              <Technology />
             </Icon>
             <h3 className="h3-web body-bold-mobile mb-32 mb-8-mobile">
               Technology
@@ -43,7 +44,7 @@ function ExpertiseAreas() {
           </Card>
           <Card>
             <Icon className="mb-32 mb-8-mobile">
-              <Industry />
+              <Business />
             </Icon>
             <h3 className="h3-web body-bold-mobile mb-32 mb-8-mobile">
               Business

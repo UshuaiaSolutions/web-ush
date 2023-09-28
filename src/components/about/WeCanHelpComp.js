@@ -89,7 +89,12 @@ export const Language = styled.svg`
 `;
 
 export const Project = styled.svg`
+  width: 25px;
+  height: 30px;
+
   ${breakpoints.min_desktop} {
+    width: 47px;
+    height: 54px;
   }
 `;
 
