@@ -16,7 +16,8 @@ function BookMeetingSmall() {
           <Content>
             <p className="text-center-mobile destacados-italic-mobile destacado-italic mb-20-mobile mb-50">
               Tell us what you need
-              <CorteDesktop /> and we'll help you succeed in new markets.
+              <CorteDesktop /> and we'll help you
+              <CorteMobile /> succeed in new markets.
             </p>
             <Link to="/contact">
               <BotonSecundario className="mb-32 mb-16-mobile">

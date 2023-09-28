@@ -16,16 +16,16 @@ export const StyledContainer = styled.div`
 
 export const Card = styled.div`
   display: flex;
-  height: calc(232px - (8px * 2));
-  width: calc(226px - (16px * 2));
-  padding: 8px 16px;
+  height: calc(248px - (16px * 2));
+  width: calc(226px - (8px * 2));
+  padding: 16px 8px;
   flex-direction: column;
   align-items: center;
 
   ${breakpoints.min_desktop} {
     width: calc(348px - (21px * 2));
-    height: calc(376px - (32px + 8px));
-    padding: 32px 21px 8;
+    height: calc(396px - (32px + 8px));
+    padding: 32px 21px 8px;
   }
 `;
 

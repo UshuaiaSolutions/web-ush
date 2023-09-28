@@ -62,12 +62,13 @@ function MeetYourLanguage() {
             </SVGContainer>
             <h3 className="title-card mb-35">Experience</h3>
             <p className="texto-regular text-center">
-              We know what we do. With more than
-              <CorteDesktop /> 20 years in the language services
-              <CorteDesktop /> industry, we have the capacity
-              <CorteDesktop /> to build and maintain on-site
-              <CorteDesktop /> dedicated teams of highly skilled
-              <CorteDesktop /> professionals for your account.
+              We know what we do. With more
+              <CorteDesktop /> than 20 years in the language
+              <CorteDesktop /> services industry, we have the
+              <CorteDesktop /> capacity to build and maintain
+              <CorteDesktop /> on-site dedicated teams
+              <CorteDesktop /> of highly skilled professionals
+              <CorteDesktop /> for your account.
             </p>
           </Card>
           <Card>
@@ -124,12 +125,12 @@ function MeetYourLanguage() {
             <h3 className="title-card mb-35">Technology</h3>
             <p className="texto-regular text-center">
               We're geeks! We strategically use
-              <CorteDesktop />
-              the latest tech trends to help you <CorteDesktop /> expand your
-              possibilities. <CorteDesktop />
-              Plus, our flexibility enables us <CorteDesktop />
-              to adapt to any technology, <CorteDesktop />
-              platform or process you use.
+              <CorteDesktop /> the latest tech trends
+              <CorteDesktop /> to help you expand your
+              <CorteDesktop /> possibilities. Plus, our flexibility
+              <CorteDesktop /> enables us to adapt to any
+              <CorteDesktop /> technology, platform
+              <CorteDesktop /> or process you use.
             </p>
           </Card>
           <Card>
@@ -184,19 +185,17 @@ function MeetYourLanguage() {
             <h3 className="title-card mb-35">Partnership</h3>
             <p className="texto-regular text-center">
               Positive leadership, empathy
-              <CorteDesktop />
-              and honesty are our core work values.
-              <CorteDesktop /> We strongly believe the collaborative
-              <CorteDesktop /> effort of a team to achieve a common
-              <CorteDesktop /> goal leads to much more effective
-              <CorteDesktop /> and efficient solutions.
-              <CorteDesktop />
-              Better together!
+              <CorteDesktop /> and honesty are our core work
+              <CorteDesktop /> values. We strongly believe the
+              <CorteDesktop /> collaborative effort of a team
+              <CorteDesktop /> to achieve a common goal leads
+              <CorteDesktop /> to much more effective and efficient solutions.
+              <CorteDesktop /> Better together!
             </p>
           </Card>
         </CardContainer>
         <Swiper
-          slidesPerView={1.35}
+          slidesPerView={1.3}
           spaceBetween={10}
           initialSlide={1}
           centeredSlides={true}
@@ -220,11 +219,13 @@ function MeetYourLanguage() {
               </SVGContainer>
               <h3 className="body-bold-mobile mb-16-mobile">Experience</h3>
               <p className="txt-regular-mobile  text-center">
-                With more than 20 years in the
-                <CorteMobile /> language services industry,
-                <CorteMobile /> we have carefully selected and
-                <CorteMobile /> trained our team of linguists, designers and IT
-                professionals.
+                We know what we do. With more
+                <CorteMobile /> than 20 years in the language
+                <CorteMobile /> services industry, we have the
+                <CorteMobile /> capacity to build and maintain
+                <CorteMobile /> on-site dedicated teams
+                <CorteMobile /> of highly skilled professionals
+                <CorteMobile /> for your account.
               </p>
             </Card>
           </SwiperSlide>
