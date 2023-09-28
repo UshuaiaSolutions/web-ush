@@ -16,6 +16,7 @@ import {
   ContainerMobile,
   ContainerDesktop,
   RowDesktop,
+  ButtonHover,
 } from "./FooterComp";
 import LogoISO from "../../assets/Logo-ISO";
 import LogoUSH from "../../assets/Logo-USH";
@@ -181,24 +182,32 @@ function Footer() {
             </p>
             <Column>
               <StyledLink to="/">
-                <span className="texto-regular-bold">Home</span>
+                <ButtonHover className="texto-regular-bold">Home</ButtonHover>
               </StyledLink>
               <StyledLink to="/about">
-                <span className="texto-regular-bold">About</span>
+                <ButtonHover className="texto-regular-bold">About</ButtonHover>
               </StyledLink>
               <StyledLink to="/services">
-                <span className="texto-regular-bold">Services</span>
+                <ButtonHover className="texto-regular-bold">
+                  Services
+                </ButtonHover>
               </StyledLink>
             </Column>
             <Column>
               <StyledLink to="/expertise">
-                <span className="texto-regular-bold">Expertise</span>
+                <ButtonHover className="texto-regular-bold">
+                  Expertise
+                </ButtonHover>
               </StyledLink>
               <StyledLink to="/contact">
-                <span className="texto-regular-bold">Get in touch</span>
+                <ButtonHover className="texto-regular-bold">
+                  Get in touch
+                </ButtonHover>
               </StyledLink>
               <StyledLink to="/ush-blog">
-                <span className="texto-regular-bold">USH Blog</span>
+                <ButtonHover className="texto-regular-bold">
+                  USH Blog
+                </ButtonHover>
               </StyledLink>
             </Column>
           </RowDesktop>

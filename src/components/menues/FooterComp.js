@@ -136,3 +136,13 @@ export const RowDesktop = styled.div`
   display: flex;
   justify-content: space-between;
 `;
+
+export const ButtonHover = styled.span`
+  padding: 8px;
+  border-radius: 8px;
+  transition: all 0.3s linear;
+
+  &:hover {
+    background-color: ${(props) => props.theme.verdeush};
+  }
+`;
