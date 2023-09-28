@@ -137,9 +137,9 @@ function WhyUSH() {
                 </SVGContainer>
                 <h3 className="body-bold-mobile mb-16-mobile">Scalability</h3>
                 <p className="txt-regular-mobile  text-center">
-                  We have the capacity to build
-                  <CorteMobile /> and maintain on-site dedicated
-                  <CorteMobile /> teams which can adapt to any
+                  We have the capacity to build and
+                  <CorteMobile /> maintain on-site dedicated teams
+                  <CorteMobile /> which can adapt to any
                   <CorteMobile /> technology or platform you use.
                 </p>
               </Card>
@@ -166,10 +166,11 @@ function WhyUSH() {
                 </SVGContainer>
                 <h3 className="body-bold-mobile mb-16-mobile">Quality</h3>
                 <p className="txt-regular-mobile  text-center">
-                  Our workflow complies with the requirements of the ISO 17100
-                  International Standards.
-                  <CorteMobile /> We provide confidential information
-                  management.
+                  Our workflow complies with the
+                  <CorteMobile /> requirements of the ISO 17100
+                  <CorteMobile /> International Standards.
+                  <CorteMobile /> We provide confidential
+                  <CorteMobile /> information management.
                 </p>
               </Card>
             </SwiperSlide>
@@ -191,9 +192,11 @@ function WhyUSH() {
                 </SVGContainer>
                 <h3 className="body-bold-mobile mb-16-mobile">Experience</h3>
                 <p className="txt-regular-mobile  text-center">
-                  With more than 20 years in the language services industry,
-                  <CorteMobile /> we have carefully selected and trained our
-                  team of linguists, designers and IT professionals.
+                  With more than 20 years in the
+                  <CorteMobile /> language services industry,
+                  <CorteMobile /> we have carefully selected and
+                  <CorteMobile /> trained our team of linguists,
+                  <CorteMobile /> designers and IT professionals.
                 </p>
               </Card>
             </SwiperSlide>
