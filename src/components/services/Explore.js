@@ -44,7 +44,7 @@ function Explore() {
           <Item>
             <ItemTitle onClick={() => toggleSideNav("language")}>
               <h3 className="body-bold-mobile h3-web">Language Solutions</h3>
-              <BotonFlecha isServices={true} isOpen={open === "language"} />
+              <BotonFlecha isServices={true} />
             </ItemTitle>
             {open === "language" && (
               <p className="txt-mobile texto-regular mb-20-mobile mb-40">
@@ -62,7 +62,7 @@ function Explore() {
           <Item>
             <ItemTitle onClick={() => toggleSideNav("project")}>
               <h3 className="body-bold-mobile h3-web">Project Management</h3>
-              <BotonFlecha isServices={true} isOpen={open === "project"} />
+              <BotonFlecha isServices={true} />
             </ItemTitle>
             {open === "project" && (
               <p className="txt-mobile texto-regular mb-20-mobile mb-40">
@@ -83,7 +83,7 @@ function Explore() {
                 Desktop Publishing
                 <CorteMobile /> & Creative Visuals
               </h3>
-              <BotonFlecha isServices={true} isOpen={open === "desktop"} />
+              <BotonFlecha isServices={true} />
             </ItemTitle>
             {open === "desktop" && (
               <p className="txt-mobile texto-regular mb-20-mobile mb-40">
@@ -98,7 +98,7 @@ function Explore() {
           <Item>
             <ItemTitle onClick={() => toggleSideNav("video")}>
               <h3 className="body-bold-mobile h3-web">E-Learning & Video</h3>
-              <BotonFlecha isServices={true} isOpen={open === "video"} />
+              <BotonFlecha isServices={true} />
             </ItemTitle>
             {open === "video" && (
               <p className="txt-mobile texto-regular mb-20-mobile mb-40">
@@ -112,7 +112,7 @@ function Explore() {
           <Item>
             <ItemTitle onClick={() => toggleSideNav("content")}>
               <h3 className="body-bold-mobile h3-web">Content Creation</h3>
-              <BotonFlecha isServices={true} isOpen={open === "content"} />
+              <BotonFlecha isServices={true} />
             </ItemTitle>
             {open === "content" && (
               <p className="txt-mobile texto-regular mb-20-mobile mb-40">

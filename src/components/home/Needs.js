@@ -48,7 +48,7 @@ function Needs() {
                   <CorteDesktop />
                   global audiences.
                 </p>
-                <BotonFlecha isServices={false} isOpen={false} />
+                <BotonFlecha isServices={false} />
               </Row>
             </Column>
             <Column>
@@ -69,7 +69,7 @@ function Needs() {
                   <CorteMobile /> copywriting
                   <CorteDesktop /> and video editing.
                 </p>
-                <BotonFlecha isServices={false} isOpen={false} />
+                <BotonFlecha isServices={false} />
               </Row>
             </Column>
             <Column>
@@ -94,7 +94,7 @@ function Needs() {
                   <CorteMobile /> industry
                   <CorteDesktop /> standards.
                 </p>
-                <BotonFlecha isServices={false} isOpen={false} />
+                <BotonFlecha isServices={false} />
               </Row>
             </Column>
           </div>
