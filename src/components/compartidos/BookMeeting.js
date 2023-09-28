@@ -10,6 +10,7 @@ import {
   ContainerInput,
   DateContainer,
   ErrorMessage,
+  Column,
 } from "./BookMeetingComp";
 import Success from "./Success";
 import DatePicker from "react-datepicker";
@@ -17,11 +18,14 @@ import "react-datepicker/dist/react-datepicker.min.css";
 import { handleChange, handleSend } from "./BookMeetingFunc";
 import SelectCountries from "./SelectCountries";
 import BotonSecundario from "../base/BotonSecundario";
+import CheckYes from "../../assets/CheckYes";
+import CheckNo from "../../assets/CheckNo";
 
 const BookMeeting = () => {
   const [contactForm, setContactForm] = useState({});
   const [showSuccess, setShowSuccess] = useState(false);
   const [missingFields, setMissingFields] = useState([]);
+  const [quiereReu, setQuiereReu] = useState(true);
 
   const today = new Date();
 
@@ -145,23 +149,48 @@ const BookMeeting = () => {
                   )}
                 </ContainerInput>
               </ColumnInput>
-              <DateContainer className="d-flex flex-column mb-30 mb-16-mobile">
-                <label className="label-form mb-8">Select a date *</label>
-                <DatePicker
-                  selected={
-                    contactForm.date_reunion ? contactForm.date_reunion : null
-                  }
-                  onChange={(date) => {
-                    setContactForm({ ...contactForm, date_reunion: date });
-                  }}
-                  minDate={minDate}
-                  filterDate={isWorkingDay}
-                  dateFormat="dd/MM/yyyy"
-                />
-                {missingFields?.includes("date_reunion") && (
-                  <ErrorMessage>Wrong input</ErrorMessage>
-                )}
-              </DateContainer>
+              <Column className="d-flex flex-column">
+                <label className="label-form mb-8">
+                  Would you like to book a meeting?
+                </label>
+                <div className="d-flex">
+                  <div>
+                    <label className="label-form">Yes</label>
+                    {quiereReu ? (
+                      <CheckYes handleClick={() => setQuiereReu(true)} />
+                    ) : (
+                      <CheckNo handleClick={() => setQuiereReu(true)} />
+                    )}
+                  </div>
+                  <div>
+                    <label className="label-form">No</label>
+                    {!quiereReu ? (
+                      <CheckYes handleClick={() => setQuiereReu(false)} />
+                    ) : (
+                      <CheckNo handleClick={() => setQuiereReu(false)} />
+                    )}
+                  </div>
+                </div>
+              </Column>
+              {quiereReu && (
+                <DateContainer className="d-flex flex-column mb-16-mobile">
+                  <label className="label-form mb-8">Select a date *</label>
+                  <DatePicker
+                    selected={
+                      contactForm.date_reunion ? contactForm.date_reunion : null
+                    }
+                    onChange={(date) => {
+                      setContactForm({ ...contactForm, date_reunion: date });
+                    }}
+                    minDate={minDate}
+                    filterDate={isWorkingDay}
+                    dateFormat="dd/MM/yyyy"
+                  />
+                  {missingFields?.includes("date_reunion") && (
+                    <ErrorMessage>Wrong input</ErrorMessage>
+                  )}
+                </DateContainer>
+              )}
               <div className="d-flex flex-column mb-30 mb-25-mobile">
                 <label className="label-form mb-8">How can we help?</label>
                 <textarea

@@ -65,6 +65,8 @@ export const DateContainer = styled.div`
   }
 
   ${breakpoints.min_desktop} {
+    margin-bottom: 24px;
+
     & .react-datepicker__input-container input {
       background: #f6f3e8;
       border: 3px solid #393939;
@@ -97,4 +99,24 @@ export const ErrorMessage = styled.span`
   color: ${(props) => props.theme.rojoush};
   font-size: 12px;
   padding-left: 5px;
+`;
+
+export const Column = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+
+  & label {
+    margin-right: 8px;
+  }
+
+  & svg {
+    margin-right: 16px;
+    cursor: pointer;
+  }
+
+  & div {
+    display: flex;
+    align-items: center;
+  }
 `;
