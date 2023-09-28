@@ -1,4 +1,3 @@
-import getDay from "date-fns/getDay";
 import { rawTimeZones } from "@vvo/tzdb";
 
 export function getTimeZones() {
@@ -80,9 +79,4 @@ export const handleSend = (
     }
     return missing;
   });
-};
-
-export const isWeekday = (date) => {
-  const day = getDay(date);
-  return day !== 0 && day !== 6;
 };

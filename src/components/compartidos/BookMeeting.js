@@ -14,7 +14,7 @@ import {
 import Success from "./Success";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.min.css";
-import { isWeekday, handleChange, handleSend } from "./BookMeetingFunc";
+import { handleChange, handleSend } from "./BookMeetingFunc";
 import SelectCountries from "./SelectCountries";
 import BotonSecundario from "../base/BotonSecundario";
 
@@ -22,6 +22,30 @@ const BookMeeting = () => {
   const [contactForm, setContactForm] = useState({});
   const [showSuccess, setShowSuccess] = useState(false);
   const [missingFields, setMissingFields] = useState([]);
+
+  const today = new Date();
+
+  const isWeekend = (date) => {
+    const day = date.getDay();
+    return day === 0 || day === 6; // 0 es Domingo, 6 es Sábado
+  };
+
+  const isWorkingDay = (date) => {
+    return !isWeekend(date);
+  };
+
+  const addWorkdays = (date, days) => {
+    const result = new Date(date);
+    while (days > 0) {
+      result.setDate(result.getDate() + 1);
+      if (isWorkingDay(result)) {
+        days--;
+      }
+    }
+    return result;
+  };
+
+  const minDate = addWorkdays(today, 2);
 
   return (
     <StyledContainer id="contact">
@@ -125,15 +149,14 @@ const BookMeeting = () => {
                 <label className="label-form mb-8">Select a date *</label>
                 <DatePicker
                   selected={
-                    contactForm.date_reunion
-                      ? contactForm.date_reunion
-                      : new Date()
+                    contactForm.date_reunion ? contactForm.date_reunion : null
                   }
                   onChange={(date) => {
                     setContactForm({ ...contactForm, date_reunion: date });
                   }}
-                  filterDate={isWeekday}
-                  minDate={new Date().setDate(new Date().getDate() + 2)}
+                  minDate={minDate}
+                  filterDate={isWorkingDay}
+                  dateFormat="dd/MM/yyyy"
                 />
                 {missingFields?.includes("date_reunion") && (
                   <ErrorMessage>Wrong input</ErrorMessage>
