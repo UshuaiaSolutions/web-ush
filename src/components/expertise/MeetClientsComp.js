@@ -13,7 +13,7 @@ export const StyledContainer = styled.div`
   }
 
   ${breakpoints.min_desktop} {
-    padding: 144px 0 0;
+    padding: 112px 0 0;
   }
 `;
 

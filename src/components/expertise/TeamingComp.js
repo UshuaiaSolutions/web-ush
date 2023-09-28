@@ -9,6 +9,8 @@ export const StyledContainer = styled.div`
   flex-direction: column;
 
   ${breakpoints.min_desktop} {
-    padding: 144px 0 0px;
+    padding: 189px 0 483px;
+    position: relative;
+    z-index: 2;
   }
 `;
