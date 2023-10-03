@@ -3,8 +3,8 @@ import { breakpoints } from "../base/breakpoints";
 
 export const StyledContainer = styled.div`
   padding: 56px 0 0;
-  background-color: ${(props) => props.theme.fondoblanco};
-  color: ${(props) => props.theme.textonegro};
+  background-color: ${(props) => props.theme.fondo};
+  color: ${(props) => props.theme.texto};
 
   ${breakpoints.min_desktop} {
     padding: 144px 0 0;

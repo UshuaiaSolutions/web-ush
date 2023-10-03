@@ -2,8 +2,8 @@ import styled from "styled-components";
 import { breakpoints } from "../base/breakpoints";
 
 export const StyledContainer = styled.div`
-  color: ${(props) => props.theme.textonegro};
-  background-color: ${(props) => props.theme.fondoblanco};
+  color: ${(props) => props.theme.texto};
+  background-color: ${(props) => props.theme.fondo};
   width: 100%;
   padding: 56px 0 0;
   background-image: url(https://ushmultimedia.blob.core.windows.net/ushwebsite/TramaFormGrandeNew.png);

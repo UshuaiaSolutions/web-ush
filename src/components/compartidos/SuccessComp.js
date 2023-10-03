@@ -18,7 +18,7 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   z-index: 22;
-  background-color: ${(props) => props.theme.fondoblanco};
+  background-color: ${(props) => props.theme.fondo};
   align-items: center;
   height: 364px;
   width: 269px;

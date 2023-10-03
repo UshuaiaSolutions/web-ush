@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 import "./styles/fonts.css";
 import "./styles/spaces.css";
@@ -20,23 +20,38 @@ import ScrollToTop from "./components/base/ScrollToTop";
 import USHBlog from "./pages/ush-blog";
 
 const theme = {
-  lilaush: "#7839C4",
-  azulush: "#4951F2",
-  fondoblanco: "#F6F3E8",
-  verdeush: "#72F285",
-  textonegro: "#393939",
-  rosaush: "#F29BCB",
-  amarillo: "#F2CB05",
-  rojoush: "#F24607",
-  grisclaro: "#3939394D",
+  // lilaush: "#7839C4",
+  // azulush: "#4951F2",
+  // fondoblanco: "#F6F3E8",
+  // verdeush: "#72F285",
+  // textonegro: "#393939",
+  // rosaush: "#F29BCB",
+  // amarillo: "#F2CB05",
+  // rojoush: "#F24607",
+  // grisclaro: "#3939394D",
+
+  dark: {
+    fondo: "#393939",
+    texto: "#F6F3E8",
+  },
+  light: {
+    fondo: "#F6F3E8",
+    texto: "#393939",
+  },
 };
 
 function App() {
+  const [mode, setMode] = useState("light");
+
+  const themeToggler = () => {
+    mode === "light" ? setMode("dark") : setMode("light");
+  };
+
   return (
     <Router>
-      <ThemeProvider theme={theme}>
+      <ThemeProvider theme={mode === "light" ? theme.light : theme.dark}>
         <ScrollToTop />
-        <Header />
+        <Header toggler={themeToggler} />
         <Layout>
           <Routes>
             <Route exact path="/" element={<Home />} />

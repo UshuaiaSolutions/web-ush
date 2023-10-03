@@ -3,8 +3,8 @@ import { breakpoints } from "../base/breakpoints";
 
 export const StyledContainer = styled.div`
   padding: 56px 0 0;
-  color: ${(props) => props.theme.textonegro};
-  background: ${(props) => props.theme.fondoblanco};
+  color: ${(props) => props.theme.texto};
+  background: ${(props) => props.theme.fondo};
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -80,11 +80,11 @@ export const Icon = styled.div`
   align-items: center;
   width: calc(40px - 4px);
   height: calc(40px - 4px);
-  border: 2px solid ${(props) => props.theme.textonegro};
+  border: 2px solid ${(props) => props.theme.texto};
 
   ${breakpoints.min_desktop} {
     width: calc(80px - 6px);
     height: calc(80px - 6px);
-    border: 3px solid ${(props) => props.theme.textonegro};
+    border: 3px solid ${(props) => props.theme.texto};
   }
 `;

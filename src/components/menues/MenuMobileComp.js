@@ -28,7 +28,7 @@ export const StyledLink = styled(Link)`
   font-weight: 600;
   line-height: 16px;
   letter-spacing: 0em;
-  color: ${(props) => props.theme.textonegro};
+  color: ${(props) => props.theme.texto};
   margin-bottom: 30px;
   text-decoration: none;
 `;
@@ -38,7 +38,7 @@ export const Follow = styled.span`
   font-weight: 700;
   line-height: 19px;
   letter-spacing: 0em;
-  color: ${(props) => props.theme.textonegro};
+  color: ${(props) => props.theme.texto};
 `;
 
 export const StyledBoton = styled.button`
@@ -52,7 +52,7 @@ export const StyledBoton = styled.button`
   justify-content: center;
   border: none;
   outline: none;
-  color: ${(props) => props.theme.textonegro};
+  color: ${(props) => props.theme.texto};
   background: ${(props) => props.theme.verdeush};
   font-style: normal;
   font-weight: 700;

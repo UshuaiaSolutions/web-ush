@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { breakpoints } from "../base/breakpoints";
 
 export const StyledLink = styled(Link)`
-  color: ${(props) => props.theme.textonegro};
+  color: ${(props) => props.theme.texto};
   text-decoration: none;
   margin-bottom: 30px;
 
@@ -16,15 +16,15 @@ export const ContainerTop = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
-  color: ${(props) => props.theme.textonegro};
-  background: ${(props) => props.theme.fondoblanco};
+  color: ${(props) => props.theme.texto};
+  background: ${(props) => props.theme.fondo};
   align-items: center;
 `;
 
 export const Content = styled.div`
   padding: 55px 0;
-  background: ${(props) => props.theme.fondoblanco};
-  color: ${(props) => props.theme.textonegro};
+  background: ${(props) => props.theme.fondo};
+  color: ${(props) => props.theme.texto};
 
   ${breakpoints.min_desktop} {
     padding: 110px 0 50px;
@@ -97,7 +97,7 @@ export const ContainerRed = styled.a`
     flex-direction: row;
     display: flex;
     align-items: center;
-    color: ${(props) => props.theme.textonegro};
+    color: ${(props) => props.theme.texto};
     text-decoration: none;
     margin-right: 40px;
   }

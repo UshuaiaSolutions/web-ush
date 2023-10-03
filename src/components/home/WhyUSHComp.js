@@ -6,8 +6,8 @@ export const StyledContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: ${(props) => props.theme.fondoblanco};
-  color: ${(props) => props.theme.textonegro};
+  background: ${(props) => props.theme.fondo};
+  color: ${(props) => props.theme.texto};
 
   ${breakpoints.min_desktop} {
     padding: 144px 0 0;
@@ -46,14 +46,14 @@ export const CardContainer = styled.div`
 export const SVGContainer = styled.div`
   width: calc(40px - 4px);
   height: calc(40px - 4px);
-  border: 2px solid ${(props) => props.theme.textonegro};
+  border: 2px solid ${(props) => props.theme.texto};
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
 
   ${breakpoints.min_desktop} {
-    border: 3px solid ${(props) => props.theme.textonegro};
+    border: 3px solid ${(props) => props.theme.texto};
     width: calc(80px - 6px);
     height: calc(80px - 6px);
   }

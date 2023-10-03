@@ -6,8 +6,8 @@ export const StyledContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: ${(props) => props.theme.fondoblanco};
-  color: ${(props) => props.theme.textonegro};
+  background: ${(props) => props.theme.fondo};
+  color: ${(props) => props.theme.texto};
 
   ${breakpoints.min_desktop} {
     padding: 144px 0 0;

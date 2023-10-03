@@ -3,8 +3,8 @@ import { breakpoints } from "../base/breakpoints";
 
 export const StyledContainer = styled.div`
   padding: 56px 0 0;
-  color: ${(props) => props.theme.textonegro};
-  background: ${(props) => props.theme.fondoblanco};
+  color: ${(props) => props.theme.texto};
+  background: ${(props) => props.theme.fondo};
   display: flex;
   flex-direction: column;
 

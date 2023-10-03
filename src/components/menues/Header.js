@@ -13,7 +13,7 @@ import {
 import Container from "../base/Container";
 import Logo from "../../assets/USH-logo";
 
-function Header() {
+function Header({ toggler }) {
   const [openMobile, setOpenMobile] = useState(false);
 
   let location = useLocation();
@@ -50,6 +50,7 @@ function Header() {
             <Link to="/contact">
               <StyledBoton>Get in touch</StyledBoton>
             </Link>
+            <button onClick={toggler}>Cambia modo</button>
           </ContainerMenu>
           <Toggle
             isOpen={openMobile}

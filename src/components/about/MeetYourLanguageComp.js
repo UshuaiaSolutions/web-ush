@@ -3,8 +3,8 @@ import { breakpoints } from "../base/breakpoints";
 
 export const StyledContainer = styled.div`
   padding: 40px 0 0;
-  color: ${(props) => props.theme.textonegro};
-  background: ${(props) => props.theme.fondoblanco};
+  color: ${(props) => props.theme.texto};
+  background: ${(props) => props.theme.fondo};
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,19 +31,19 @@ export const Card = styled.div`
 
 export const Circle = styled.div`
   position: absolute;
-  border: 2px solid ${(props) => props.theme.textonegro};
+  border: 2px solid ${(props) => props.theme.texto};
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: ${(props) => props.theme.fondoblanco};
+  background: ${(props) => props.theme.fondo};
   width: calc(56px - 4px);
   height: calc(56px - 4px);
   top: -30px;
   right: 56px;
 
   ${breakpoints.min_desktop} {
-    border: 3px solid ${(props) => props.theme.textonegro};
+    border: 3px solid ${(props) => props.theme.texto};
     width: calc(56px - 6px);
     height: calc(56px - 6px);
     top: -30px;

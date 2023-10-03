@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import { breakpoints } from "../base/breakpoints";
 
 export const Content = styled.div`
-  background: ${(props) => props.theme.fondoblanco};
-  color: ${(props) => props.theme.textonegro};
+  background: ${(props) => props.theme.fondo};
+  color: ${(props) => props.theme.texto};
   position: fixed;
   top: 0;
   right: 0;
@@ -36,17 +36,17 @@ export const StyledLink = styled(Link)`
   font-weight: 600;
   line-height: normal;
   text-decoration: none;
-  color: ${(props) => props.theme.textonegro};
+  color: ${(props) => props.theme.texto};
   border: ${(props) =>
     props.selected
-      ? `2px solid ${props.theme.textonegro}`
-      : `2px solid ${props.theme.fondoblanco}`};
+      ? `2px solid ${props.theme.texto}`
+      : `2px solid ${props.theme.fondo}`};
   border-radius: 60px;
   margin-right: 10px;
   transition: all 0.3s linear;
 
   &:hover {
-    border: ${(props) => `2px solid ${props.theme.textonegro}`};
+    border: ${(props) => `2px solid ${props.theme.texto}`};
   }
 `;
 
@@ -57,13 +57,13 @@ export const StyledBoton = styled(BotonSecundario)`
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  color: ${(props) => props.theme.textonegro};
+  color: ${(props) => props.theme.texto};
   background-color: ${(props) => props.theme.verdeush};
   border: 2px solid ${(props) => props.theme.verdeush};
   transition: all 0.3s linear;
 
   &:hover {
-    border: 2px solid ${(props) => props.theme.textonegro};
+    border: 2px solid ${(props) => props.theme.texto};
   }
 `;
 
@@ -115,7 +115,7 @@ export const Toggle = styled.button`
     transform-origin: 1px;
 
     span {
-      background: ${(props) => props.theme.textonegro};
+      background: ${(props) => props.theme.texto};
       height: 2px;
       display: block;
       border-radius: 5px;

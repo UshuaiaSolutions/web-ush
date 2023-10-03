@@ -4,11 +4,11 @@ import { breakpoints } from "./breakpoints";
 
 const StyledBoton = styled.button`
   padding: 8px 24px;
-  background-color: ${(props) => props.theme.fondoblanco};
-  color: ${(props) => props.theme.textonegro};
+  background-color: ${(props) => props.theme.fondo};
+  color: ${(props) => props.theme.texto};
   transition: all 0.3s ease-in-out;
   width: fit-content;
-  border: 2px solid ${(props) => props.theme.textonegro};
+  border: 2px solid ${(props) => props.theme.texto};
   border-radius: 60px;
   text-decoration: none;
   cursor: pointer;
@@ -27,7 +27,7 @@ const StyledBoton = styled.button`
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    border: 3px solid ${(props) => props.theme.textonegro};
+    border: 3px solid ${(props) => props.theme.texto};
   }
 `;
 

@@ -8,17 +8,17 @@ const StyledBoton = styled.button`
   line-height: 16px;
   letter-spacing: 0em;
   padding: 8px 0px;
-  background-color: ${(props) => props.theme.fondoblanco};
-  color: ${(props) => props.theme.textonegro};
+  background-color: ${(props) => props.theme.fondo};
+  color: ${(props) => props.theme.texto};
   transition: all 0.3s ease-in-out;
   width: 100%;
-  border: 2px solid ${(props) => props.theme.textonegro};
+  border: 2px solid ${(props) => props.theme.texto};
   border-radius: 60px;
   text-decoration: none;
   cursor: pointer;
 
   &:hover {
-    background-color: ${(props) => props.theme.textonegro};
+    background-color: ${(props) => props.theme.texto};
     color: ${(props) => props.theme.amarillo};
   }
 
@@ -33,7 +33,7 @@ const StyledBoton = styled.button`
     font-weight: 700;
     font-size: 24px;
     line-height: 36px;
-    border: 4px solid ${(props) => props.theme.textonegro};
+    border: 4px solid ${(props) => props.theme.texto};
   }
 `;
 const BotonPrincipal = ({ onClick, children }) => {

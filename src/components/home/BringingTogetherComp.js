@@ -7,7 +7,7 @@ export const StyledContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  color: ${(props) => props.theme.textonegro};
+  color: ${(props) => props.theme.texto};
 
   ${breakpoints.min_desktop} {
     padding: 144px 0px 0px;
