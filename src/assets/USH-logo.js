@@ -1,8 +1,10 @@
 import React from "react";
+import styled from "styled-components";
+import { breakpoints } from "../components/base/breakpoints";
 
 function Logo() {
   return (
-    <svg
+    <SVG
       width="123"
       height="28"
       viewBox="0 0 123 28"
@@ -46,8 +48,18 @@ function Logo() {
           fill="#393939"
         />
       </g>
-    </svg>
+    </SVG>
   );
 }
+
+const SVG = styled.svg`
+  width: 74.699px;
+  height: 17px;
+
+  ${breakpoints.min_desktop} {
+    width: 123px;
+    height: 27.992px;
+  }
+`;
 
 export default Logo;

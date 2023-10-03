@@ -22,7 +22,7 @@ function WhyUSH() {
     <StyledContainer>
       <Container>
         <Content>
-          <h2 className="h2-web h2-mobile mb-40 mb-25-mobile text-center">
+          <h2 className="h2-web h3-mobile mb-40 mb-25-mobile text-center ">
             Why USH?
           </h2>
           <CardContainer>
@@ -105,7 +105,7 @@ function WhyUSH() {
             </Card>
           </CardContainer>
           <Swiper
-            slidesPerView={1.35}
+            slidesPerView={1.3}
             spaceBetween={8}
             centeredSlides={true}
             initialSlide={1}

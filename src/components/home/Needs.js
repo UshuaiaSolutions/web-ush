@@ -5,6 +5,7 @@ import { StyledContainer } from "../services/HowWeCanComp";
 import { Column, ContentDesktop, Row } from "./NeedsComp";
 import IlustracionNeeds from "../../assets/Ilustracion-Needs";
 import BotonFlecha from "../../assets/BotonFlecha";
+import { Link } from "react-router-dom";
 
 function Needs() {
   return (
@@ -48,7 +49,9 @@ function Needs() {
                   <CorteDesktop />
                   global audiences.
                 </p>
-                <BotonFlecha isServices={false} />
+                <Link to="/about">
+                  <BotonFlecha isServices={false} />
+                </Link>
               </Row>
             </Column>
             <Column>
@@ -69,7 +72,9 @@ function Needs() {
                   <CorteMobile /> copywriting
                   <CorteDesktop /> and video editing.
                 </p>
-                <BotonFlecha isServices={false} />
+                <Link to="/about">
+                  <BotonFlecha isServices={false} />
+                </Link>
               </Row>
             </Column>
             <Column>
@@ -94,7 +99,9 @@ function Needs() {
                   <CorteMobile /> industry
                   <CorteDesktop /> standards.
                 </p>
-                <BotonFlecha isServices={false} />
+                <Link to="/about">
+                  <BotonFlecha isServices={false} />
+                </Link>
               </Row>
             </Column>
           </div>

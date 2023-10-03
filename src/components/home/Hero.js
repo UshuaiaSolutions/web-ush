@@ -11,7 +11,7 @@ const Hero = () => {
     <Container>
       <Content>
         <div className="mb-20-mobile">
-          <h1 className="h1-web hero-section-titles-mobile mb-32 mb-16-mobile">
+          <h1 className="h1-web h1-mobile mb-32 mb-16-mobile">
             Expand your
             <br /> global potential
           </h1>

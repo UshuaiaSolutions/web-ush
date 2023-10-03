@@ -7,7 +7,7 @@ const NoMatch = () => {
     <Background>
       <Content>
         <div>
-          <h1 className="hero-section-titles-mobile h1-web mb-30">
+          <h1 className="h1-mobile h1-web mb-30">
             Houston,
             <br />{" "}
             <u className="hero-section-alto-mobile  h1-web">

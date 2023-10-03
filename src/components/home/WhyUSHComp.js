@@ -22,8 +22,8 @@ export const Content = styled.div`
 export const Card = styled.div`
   display: flex;
   height: calc(200px - (16px * 2));
-  width: calc(226px - (16px * 2));
-  padding: 16px;
+  width: calc(226px - (8px * 2));
+  padding: 16px 8px;
   flex-direction: column;
   align-items: center;
 

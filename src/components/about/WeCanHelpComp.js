@@ -129,6 +129,11 @@ export const Creation = styled.svg`
 `;
 
 export const Learning = styled.svg`
+  width: 30px;
+  height: 52px;
+
   ${breakpoints.min_desktop} {
+    width: 62px;
+    height: 52px;
   }
 `;

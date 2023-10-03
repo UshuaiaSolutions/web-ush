@@ -26,10 +26,18 @@ export const Column = styled.div`
     align-self: flex-end;
   }
 
+  & span {
+    padding: 0 0 0 24px;
+  }
+
   &:nth-child(2),
   &:last-child {
     align-items: end;
     text-align: end;
+
+    & span {
+      padding: 0 24px 0 0;
+    }
 
     & h3 {
       margin: 0 10px 0 0;
@@ -41,15 +49,19 @@ export const Column = styled.div`
       margin: 0 0 0 32px;
     }
 
+    & span {
+      padding: 0 0 0 72px;
+    }
+
     &:nth-child(2),
     &:last-child {
       & h3 {
         margin: 0 32px 0 0;
       }
-    }
 
-    & span {
-      padding-left: 72px;
+      & span {
+        padding: 0 72px 0 0;
+      }
     }
   }
 `;

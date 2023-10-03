@@ -53,7 +53,7 @@ export const StyledBoton = styled.button`
   border: none;
   outline: none;
   color: ${(props) => props.theme.textonegro};
-  background: ${(props) => props.theme.amarillo};
+  background: ${(props) => props.theme.verdeush};
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -66,26 +66,4 @@ export const ContainerRedesFooter = styled.div`
   justify-content: space-evenly;
   width: 100%;
   margin-top: 34px;
-`;
-
-export const Red = styled.p`
-  text-decoration: underline;
-  font-size: 10px;
-  font-weight: 400;
-  line-height: 13px;
-  letter-spacing: 0em;
-`;
-
-export const ContainerRed = styled.a`
-  display: flex;
-  align-items: center;
-  color: ${(props) => props.theme.textonegro};
-  flex-direction: column;
-  margin-right: 0px;
-`;
-
-export const RedImage = styled.img`
-  width: 20px;
-  height: 20px;
-  margin-bottom: 8px;
 `;

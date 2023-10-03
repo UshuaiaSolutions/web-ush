@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import BookMeeting from "../../components/compartidos/BookMeeting";
-import WhyUsh from "../../components/contacto/WhyUsh";
 
 const Background = styled.div`
   background-color: ${(props) => props.theme.fondoblanco};
@@ -12,7 +11,6 @@ const Contacto = () => {
   return (
     <Background>
       <BookMeeting />
-      <WhyUsh />
     </Background>
   );
 };

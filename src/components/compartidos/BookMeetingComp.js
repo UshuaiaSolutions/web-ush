@@ -57,6 +57,7 @@ export const DateContainer = styled.div`
     height: calc(31px - 8px);
     border-radius: 8px;
     width: calc(100% - 8px - 4px);
+    background: #f6f3e8;
   }
 
   & .react-datepicker__input-container input:focus,

@@ -10,6 +10,7 @@ export const Column = styled.div`
     margin-bottom: 0;
   }
 
+  & a,
   & svg {
     align-self: flex-end;
   }

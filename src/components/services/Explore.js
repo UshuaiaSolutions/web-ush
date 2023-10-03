@@ -25,7 +25,7 @@ function Explore() {
     <StyledContainer>
       <Container>
         <RowDesktop className="mb-40 mb-10-mobile">
-          <h2 className="h2-mobile h2-web text-center-mobile mb-16-mobile">
+          <h2 className="h3-mobile h2-web text-center-mobile mb-16-mobile">
             Explore how
             <CorteDesktop />
             <CorteMobile /> we can help you

@@ -106,6 +106,7 @@
   border: 2px solid #393939;
   height: calc(31px - 8px);
   border-radius: 8px;
+  background: #f6f3e8;
 }
 
 .select-form {
@@ -113,6 +114,7 @@
   border: 2px solid #393939;
   height: 31px;
   border-radius: 8px;
+  background: #f6f3e8;
 }
 
 .input-form:focus,
@@ -127,6 +129,7 @@
   border: 2px solid #393939;
   height: calc(160px - 8px);
   border-radius: 8px;
+  background: #f6f3e8;
 }
 
 .textarea-form:focus,
