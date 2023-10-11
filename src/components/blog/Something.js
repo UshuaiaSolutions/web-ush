@@ -1,16 +1,16 @@
 import React from "react";
-import "swiper/css";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "../../styles/slider.css";
 
-import { StyledContainer, Desktop, ContainerSwiper } from "./SomethingComp";
+import { StyledContainer, ImgDesktop, ImgMobile } from "./SomethingComp";
 import { CorteMobile } from "../base/Cortes";
-
-import Tercero from "../../assets/Blog/Tercero";
-import Segundo from "../../assets/Blog/Segundo";
-import Primero from "../../assets/Blog/Primero";
+import { useTheme } from "styled-components";
+import imgDKClaro from "../../assets/Blog/desktop-claro.png";
+import imgDKOscuro from "../../assets/Blog/desktop-oscuro.png";
+import imgMBClaro from "../../assets/Blog/mobile-claro.png";
+import imgMBOscuro from "../../assets/Blog/mobile-oscuro.png";
 
 function Something() {
+  const theme = useTheme();
+
   return (
     <StyledContainer>
       <h3 className="text-center h3-mobile h3-web mb-32 mb-16-mobile">
@@ -22,28 +22,14 @@ function Something() {
         target="_blank"
         rel="noreferrer"
       >
-        <ContainerSwiper>
-          <Swiper
-            spaceBetween={16}
-            slidesPerView={1.3}
-            className="mySwiper teaming-with-clients"
-          >
-            <SwiperSlide>
-              <Primero />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Segundo />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Tercero />
-            </SwiperSlide>
-          </Swiper>
-        </ContainerSwiper>
-        <Desktop>
-          <Primero />
-          <Segundo />
-          <Tercero />
-        </Desktop>
+        <ImgDesktop
+          src={theme.nombre === "light" ? imgDKClaro : imgDKOscuro}
+          alt=""
+        />
+        <ImgMobile
+          src={theme.nombre === "light" ? imgMBClaro : imgMBOscuro}
+          alt=""
+        />
       </a>
     </StyledContainer>
   );

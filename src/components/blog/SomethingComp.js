@@ -11,17 +11,20 @@ export const StyledContainer = styled.div`
   }
 `;
 
-export const Desktop = styled.div`
+export const ImgDesktop = styled.img`
   display: none;
 
   ${breakpoints.min_desktop} {
     display: block;
+    width: 100%;
+    height: auto;
   }
 `;
 
-export const ContainerSwiper = styled.div`
-  display: flex;
-  width: 273px;
+export const ImgMobile = styled.img`
+  display: block;
+  width: 100%;
+  height: auto;
 
   ${breakpoints.min_desktop} {
     display: none;
