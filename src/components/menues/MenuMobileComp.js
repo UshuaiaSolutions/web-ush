@@ -2,7 +2,10 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const Fondo = styled.div`
-  background: rgba(246, 243, 232, 0.9);
+  background: ${(props) =>
+    props.theme.nombre === "light"
+      ? "rgba(246, 243, 232, 0.95)"
+      : "rgba(57, 57, 57, 0.95)"};
   width: 100vw;
   height: calc(100vh - 100px);
   position: absolute;
@@ -52,8 +55,8 @@ export const StyledBoton = styled.button`
   justify-content: center;
   border: none;
   outline: none;
-  color: ${(props) => props.theme.texto};
-  background: ${(props) => props.theme.verdeush};
+  color: ${(props) => props.theme.fondo};
+  background-color: ${(props) => props.theme.contacto};
   font-style: normal;
   font-weight: 700;
   font-size: 12px;

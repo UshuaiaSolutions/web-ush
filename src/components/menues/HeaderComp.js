@@ -112,7 +112,7 @@ export const Toggle = styled.button`
   cursor: pointer;
   margin: 28px 0;
   z-index: 21;
-  overflow: hidden;
+  /* overflow: hidden; */
 
   &:focus {
     outline: none;
@@ -143,7 +143,7 @@ export const Toggle = styled.button`
 
     :nth-child(3) {
       transform: ${(props) => (props.isOpen ? "rotate(-45deg)" : "rotate(0)")};
-      width: ${(props) => (props.isOpen ? "18px" : "20px")};
+      width: ${(props) => (props.isOpen ? "18px" : "17px")};
     }
   }
 
