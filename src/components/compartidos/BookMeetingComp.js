@@ -87,7 +87,6 @@ export const DateContainer = styled.div`
 
     & .react-datepicker__input-container input {
       background: ${(props) => props.theme.fondo};
-      border: 3px solid ${(props) => props.theme.texto};
       border-radius: 8px;
       height: 27px;
       padding: 8px;
