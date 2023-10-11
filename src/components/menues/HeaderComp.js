@@ -24,6 +24,17 @@ export const Row = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  & .mob {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-right: 16px;
+
+    ${breakpoints.min_desktop} {
+      margin-right: 0;
+    }
+  }
 `;
 
 export const StyledLink = styled(Link)`
@@ -40,7 +51,7 @@ export const StyledLink = styled(Link)`
   border: ${(props) =>
     props.selected
       ? `2px solid ${props.theme.texto}`
-      : `2px solid ${props.theme.fondo}`};
+      : `2px solid transparent`};
   border-radius: 60px;
   margin-right: 10px;
   transition: all 0.3s linear;
@@ -57,9 +68,9 @@ export const StyledBoton = styled(BotonSecundario)`
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  color: ${(props) => props.theme.texto};
-  background-color: ${(props) => props.theme.verdeush};
-  border: 2px solid ${(props) => props.theme.verdeush};
+  color: ${(props) => props.theme.fondo};
+  background-color: ${(props) => props.theme.contacto};
+  border: 2px solid ${(props) => props.theme.contacto};
   transition: all 0.3s linear;
 
   &:hover {
@@ -138,5 +149,17 @@ export const Toggle = styled.button`
 
   ${breakpoints.min_desktop} {
     display: none;
+  }
+`;
+
+export const SVGModo = styled.svg`
+  cursor: pointer;
+  width: 40px;
+  height: 20px;
+
+  ${breakpoints.min_desktop} {
+    width: 80px;
+    height: 40px;
+    margin-left: 16px;
   }
 `;

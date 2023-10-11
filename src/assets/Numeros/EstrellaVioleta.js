@@ -1,8 +1,10 @@
 import React from "react";
-import styled from "styled-components";
+import styled, { useTheme } from "styled-components";
 import { breakpoints } from "../../components/base/breakpoints";
 
 function EstrellaVioleta() {
+  const theme = useTheme();
+
   return (
     <SVG
       xmlns="http://www.w3.org/2000/svg"
@@ -13,7 +15,7 @@ function EstrellaVioleta() {
     >
       <path
         d="M0 51.0244C27.1623 44.145 44.0893 27.2008 51.0202 0.020752C57.8922 27.222 74.8634 44.0604 101.959 51.0281C74.8358 57.9406 57.9392 74.8057 51.0119 101.979C44.082 74.8397 27.2083 57.8974 0 51.0244Z"
-        fill="#7839C4"
+        fill={theme.nombre === "light" ? "#F24607" : "#F2CB05"}
       />
     </SVG>
   );

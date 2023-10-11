@@ -11,8 +11,11 @@ import {
 import Tala from "../../assets/Portfolio/Tala";
 import Gala from "../../assets/Portfolio/Gala";
 import Elia from "../../assets/Portfolio/Elia";
+import { useTheme } from "styled-components";
 
 function Memberships() {
+  const theme = useTheme();
+
   return (
     <StyledContainer>
       <Container>
@@ -48,7 +51,7 @@ function Memberships() {
           >
             <path
               d="M0 32.6103C17.05 28.292 27.6751 17.6561 32.0257 0.594971C36.3393 17.6693 46.9922 28.2389 64 32.6126C46.9749 36.9516 36.3688 47.5379 32.0205 64.595C27.6705 47.5593 17.0788 36.9245 0 32.6103Z"
-              fill="#72F285"
+              fill={theme.nombre === "light" ? "#7839C4" : "#F2CB05"}
             />
           </EstrellaVerde>
         </Content>

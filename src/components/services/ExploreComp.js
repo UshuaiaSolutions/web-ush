@@ -27,50 +27,12 @@ export const Item = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  &:first-child {
-    border-bottom: 1px solid ${(props) => props.theme.rosaush};
-  }
-
-  &:nth-child(2) {
-    border-bottom: 1px solid ${(props) => props.theme.lilaush};
-  }
-
-  &:nth-child(3) {
-    border-bottom: 1px solid ${(props) => props.theme.amarillo};
-  }
-
-  &:nth-child(4) {
-    border-bottom: 1px solid ${(props) => props.theme.verdeush};
-  }
-
-  &:last-child {
-    border-bottom: 1px solid ${(props) => props.theme.rojoush};
-  }
+  border-bottom: 1px solid ${(props) => props.theme.borde};
 
   ${breakpoints.min_desktop} {
     padding: 0 24px;
     width: calc(100% - 48px);
-
-    &:first-child {
-      border-bottom: 2px solid ${(props) => props.theme.rosaush};
-    }
-
-    &:nth-child(2) {
-      border-bottom: 2px solid ${(props) => props.theme.lilaush};
-    }
-
-    &:nth-child(3) {
-      border-bottom: 2px solid ${(props) => props.theme.amarillo};
-    }
-
-    &:nth-child(4) {
-      border-bottom: 2px solid ${(props) => props.theme.verdeush};
-    }
-
-    &:last-child {
-      border-bottom: 2px solid ${(props) => props.theme.rojoush};
-    }
+    border-bottom: 2px solid ${(props) => props.theme.borde};
   }
 `;
 

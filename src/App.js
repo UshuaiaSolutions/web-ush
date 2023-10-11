@@ -19,24 +19,32 @@ import NoMatch from "./pages/nomatch";
 import ScrollToTop from "./components/base/ScrollToTop";
 import USHBlog from "./pages/ush-blog";
 
-const theme = {
-  // lilaush: "#7839C4",
-  // azulush: "#4951F2",
-  // fondoblanco: "#F6F3E8",
-  // verdeush: "#72F285",
-  // textonegro: "#393939",
-  // rosaush: "#F29BCB",
-  // amarillo: "#F2CB05",
-  // rojoush: "#F24607",
-  // grisclaro: "#3939394D",
+const colors = {
+  lilaush: "#7839C4",
+  azulush: "#4951F2",
+  fondoblanco: "#F6F3E8",
+  verdeush: "#72F285",
+  textonegro: "#393939",
+  rosaush: "#F29BCB",
+  amarillo: "#F2CB05",
+  rojoush: "#F24607",
+  grisclaro: "#3939394D",
+};
 
+const theme = {
   dark: {
-    fondo: "#393939",
-    texto: "#F6F3E8",
+    nombre: "dark",
+    fondo: colors.textonegro,
+    texto: colors.fondoblanco,
+    contacto: colors.verdeush,
+    borde: colors.verdeush,
   },
   light: {
-    fondo: "#F6F3E8",
-    texto: "#393939",
+    nombre: "light",
+    fondo: colors.fondoblanco,
+    texto: colors.textonegro,
+    contacto: colors.azulush,
+    borde: colors.lilaush,
   },
 };
 

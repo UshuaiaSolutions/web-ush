@@ -1,8 +1,10 @@
 import React from "react";
-import styled from "styled-components";
-import { breakpoints } from "../components/base/breakpoints";
+import styled, { useTheme } from "styled-components";
+import { breakpoints, colors } from "../components/base/breakpoints";
 
 function BotonFlecha({ isOpen, isServices }) {
+  const theme = useTheme();
+
   return (
     <SVG
       xmlns="http://www.w3.org/2000/svg"
@@ -19,15 +21,15 @@ function BotonFlecha({ isOpen, isServices }) {
           cy="40.6184"
           r="38.5"
           transform="rotate(-45 40.0002 40.6184)"
-          stroke="#393939"
+          stroke={theme.texto}
           stroke-width="3"
-          fill={isOpen ? "#72F285" : "none"}
+          fill={isOpen ? "#72F285" : theme.fondo}
         />
         <path
           fill-rule="evenodd"
           clip-rule="evenodd"
           d="M25.9292 24.5791L23.9292 24.5791L23.9292 26.5791L23.9292 54.8633L27.9292 54.8633L27.9292 31.4074L54.7278 58.206L57.5562 55.3775L30.7578 28.5791L54.2135 28.5791L54.2135 24.5791L25.9292 24.5791Z"
-          fill="#393939"
+          fill={isOpen ? "#393939" : theme.texto}
         />
       </g>
       <defs>
@@ -59,7 +61,11 @@ const SVG = styled.svg`
     transform: rotate(180deg);
 
     & circle {
-      fill: ${(props) => props.theme.verdeush};
+      fill: ${colors.verdeush};
+    }
+
+    & path {
+      fill: ${colors.textonegro};
     }
   }
 `;
