@@ -76,6 +76,14 @@ export const ContentDesktop = styled.div`
 export const Row = styled.div`
   display: flex;
   align-items: center;
+
+  & .width-tres {
+    max-width: 205px;
+
+    ${breakpoints.min_desktop} {
+      max-width: 600px;
+    }
+  }
 `;
 
 export const RowContainer = styled.div`

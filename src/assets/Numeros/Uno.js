@@ -1,6 +1,6 @@
 import React from "react";
 import styled, { useTheme } from "styled-components";
-import { breakpoints } from "../../components/base/breakpoints";
+import { breakpoints, colors } from "../../components/base/breakpoints";
 
 function Uno() {
   const theme = useTheme();
@@ -17,7 +17,7 @@ function Uno() {
         cx="76"
         cy="76"
         r="76"
-        fill={theme.nombre === "light" ? "#F24607" : "#F2CB05"}
+        fill={theme.nombre === "light" ? "#F29BCB" : "#F2CB05"}
       />
       <circle
         cx="81"
@@ -29,7 +29,7 @@ function Uno() {
       />
       <path
         d="M60.9641 62.3V43.9H91.7641V117H71.2641V62.3H60.9641Z"
-        fill={theme.fondo}
+        fill={colors.textonegro}
       />
     </SVG>
   );

@@ -65,7 +65,7 @@ function HowWeCan() {
           <Column>
             <Row>
               <Tres />
-              <h3 className="h2-web h3-mobile">
+              <h3 className="h2-web h3-mobile width-tres">
                 You leverage our
                 <CorteDesktop /> multidisciplinary team
               </h3>

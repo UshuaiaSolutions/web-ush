@@ -17,7 +17,7 @@ function Cuatro() {
         cx="76"
         cy="76"
         r="76"
-        fill={theme.nombre === "light" ? "#F24607" : "#F2CB05"}
+        fill={theme.nombre === "light" ? "#7839C4" : "#F2CB05"}
       />
       <circle
         cx="81"
