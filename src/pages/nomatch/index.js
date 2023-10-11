@@ -1,41 +1,23 @@
 import React from "react";
-import { Background, Content } from "../../components/nomatch/StyledComponents";
+
+import Container from "../../components/base/Container";
+import { Content } from "../../components/nomatch/StyledComponents";
 import { CorteDesktop, CorteMobile } from "../../components/base/Cortes";
 
 const NoMatch = () => {
   return (
-    <Background>
+    <Container>
       <Content>
-        <div>
-          <h1 className="h1-mobile h1-web mb-30">
-            Houston,
-            <br />{" "}
-            <u className="hero-section-alto-mobile  h1-web">
-              we have a problem
-            </u>
-            .
-          </h1>
-          <p className="destacado-medium h2-mobile">
-            Oops! Something's wrong. <CorteDesktop />
-            <CorteMobile /> The page you're looking for can't be
-            <CorteDesktop />
-            <CorteMobile /> found. Please go back to
-            <CorteDesktop />
-            <CorteMobile /> homepage.
-          </p>
-        </div>
-        <img
-          src="https://ushmultimedia.blob.core.windows.net/ushwebsite/404notfoundMob.png"
-          className="mobile-404"
-          alt="Not found"
-        />
+        <h1 className="h3-mobile h1-web mb-32 mb-16-mobile text-center">
+          Oops, something went wrong!
+        </h1>
+        <p className="destacado-regular txt-regular-mobile text-center">
+          The page you're looking for can't be found.
+          <CorteDesktop />
+          <CorteMobile /> Please go back to homepage.
+        </p>
       </Content>
-      <img
-        src="https://ushmultimedia.blob.core.windows.net/ushwebsite/404notfound.png"
-        alt="Not found"
-        className="desktop-404"
-      />
-    </Background>
+    </Container>
   );
 };
 
