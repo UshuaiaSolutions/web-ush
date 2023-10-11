@@ -17,7 +17,7 @@ function Uno() {
         cx="76"
         cy="76"
         r="76"
-        fill={theme.nombre === "light" ? "#F29BCB" : "#F2CB05"}
+        fill={theme.nombre === "light" ? colors.rosaush : colors.amarillo}
       />
       <circle
         cx="81"

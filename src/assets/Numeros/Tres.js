@@ -17,7 +17,7 @@ function Tres() {
         cx="76"
         cy="76"
         r="76"
-        fill={theme.nombre === "light" ? "#F2CB05" : "#F29BCB"}
+        fill={theme.nombre === "light" ? colors.amarillo : colors.rosaush}
       />
       <circle
         cx="81"

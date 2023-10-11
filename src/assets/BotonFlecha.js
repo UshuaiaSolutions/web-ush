@@ -23,7 +23,7 @@ function BotonFlecha({ isOpen, isServices }) {
           transform="rotate(-45 40.0002 40.6184)"
           stroke={theme.texto}
           stroke-width="3"
-          fill={isOpen ? "#72F285" : theme.fondo}
+          fill={isOpen ? colors.verdeush : theme.fondo}
         />
         <path
           fill-rule="evenodd"

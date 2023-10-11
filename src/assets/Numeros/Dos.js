@@ -13,7 +13,7 @@ function Dos() {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <circle cx="76" cy="76" r="76" fill="#72F285" />
+      <circle cx="76" cy="76" r="76" fill={colors.verdeush} />
       <circle
         cx="81"
         cy="80"

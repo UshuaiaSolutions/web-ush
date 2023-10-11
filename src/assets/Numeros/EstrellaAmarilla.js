@@ -15,7 +15,7 @@ function EstrellaAmarilla() {
     >
       <path
         d="M0 32.5153C17.05 28.1971 27.6751 17.5611 32.0257 0.5C36.3393 17.5744 46.9922 28.1439 64 32.5176C46.9749 36.8566 36.3688 47.443 32.0205 64.5C27.6705 47.4643 17.0788 36.8295 0 32.5153Z"
-        fill={theme.nombre === "light" ? "#F2CB05" : "#F29BCB"}
+        fill={theme.nombre === "light" ? colors.amarillo : colors.rosaush}
       />
     </SVG>
   );
