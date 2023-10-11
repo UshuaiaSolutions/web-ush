@@ -19,8 +19,8 @@ export const Dropdown = styled.div`
 `;
 
 export const Item = styled.div`
-  padding: 10px 16px 16px;
-  width: calc(100% - 32px);
+  padding: 10px 8px 16px;
+  width: calc(100% - 16px);
   margin: 0 auto;
   border-bottom: 2px solid ${(props) => props.theme.texto};
   transition: all 0.3s linear;

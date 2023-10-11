@@ -47,15 +47,17 @@ function Explore() {
               <BotonFlecha isServices={true} isOpen={open === "language"} />
             </ItemTitle>
             {open === "language" && (
-              <p className="txt-mobile texto-regular mb-20-mobile mb-40">
-                Translation, Localization or Transcreation.
-                <CorteMobile /> We specialize in software localization and
-                <CorteMobile /> translation of
-                <CorteDesktop /> corporate content. Specific
-                <CorteMobile /> services include machine translation
-                <CorteMobile /> post-editing, translation, review,
-                <CorteDesktop /> proofreading
-                <CorteMobile /> and language testing.
+              <p className="txt-mobile texto-regular mb-0-mobile mb-40">
+                We provide translation, localization, and
+                <CorteMobile /> transcreation services to help you reach a
+                global
+                <CorteMobile /> audience. Our team
+                <CorteDesktop /> of carefully selected and
+                <CorteMobile /> trained native linguists leverages the latest AI
+                <CorteMobile /> and NMT technologies to offer the highest
+                quality
+                <CorteMobile />
+                <CorteDesktop /> translation services.
               </p>
             )}
           </Item>
@@ -65,15 +67,14 @@ function Explore() {
               <BotonFlecha isServices={true} isOpen={open === "project"} />
             </ItemTitle>
             {open === "project" && (
-              <p className="txt-mobile texto-regular mb-20-mobile mb-40">
-                You can trust our team to steer your project
-                <CorteMobile /> from start to finish: from source evaluation,
-                <CorteMobile /> quoting and
-                <CorteDesktop /> planning to quality assurance,
-                <CorteMobile /> our Team Leaders are ready to take good
-                <CorteMobile /> care of projects of any size, from
-                <CorteDesktop /> large turn-key
-                <CorteMobile /> projects to agile language services.
+              <p className="txt-mobile texto-regular mb-0-mobile mb-40">
+                We can steer your project from start to finish: from
+                <CorteMobile /> source evaluation, quoting, and planning to
+                quality
+                <CorteMobile /> assurance.
+                <CorteDesktop /> Our team relies on proven processes
+                <CorteMobile /> and best practices based on 20+ years
+                <CorteMobile /> of experience.
               </p>
             )}
           </Item>
@@ -86,12 +87,14 @@ function Explore() {
               <BotonFlecha isServices={true} isOpen={open === "desktop"} />
             </ItemTitle>
             {open === "desktop" && (
-              <p className="txt-mobile texto-regular mb-20-mobile mb-40">
-                We offer multilingual desktop publishing in
-                <CorteMobile /> a wide range of suites, but also original
-                <CorteMobile /> design for your
-                <CorteDesktop /> campaigns, including
-                <CorteMobile /> illustration, photography and infographics!
+              <p className="txt-mobile texto-regular mb-0-mobile mb-40">
+                We can help you create and localize engaging
+                <CorteMobile /> and visually appealing content to reach your
+                <CorteMobile /> target audience. We offer
+                <CorteDesktop /> a wide range of services,
+                <CorteMobile /> including multilingual desktop publishing
+                <CorteMobile /> and original design for your marketing
+                campaigns.
               </p>
             )}
           </Item>
@@ -101,11 +104,15 @@ function Explore() {
               <BotonFlecha isServices={true} isOpen={open === "video"} />
             </ItemTitle>
             {open === "video" && (
-              <p className="txt-mobile texto-regular mb-20-mobile mb-40">
-                We can help prepare and format your
-                <CorteMobile /> e-learning content and localize on-screen
-                <CorteMobile /> text for your video
-                <CorteDesktop /> content
+              <p className="txt-mobile texto-regular mb-0-mobile mb-40">
+                We can prepare, format, and QA your e-learning
+                <CorteMobile /> content, including copy, images, video, and
+                audio.
+                <CorteMobile /> Our team can help
+                <CorteDesktop /> with the pre and post-
+                <CorteMobile />
+                processing stages: from transcription to translation
+                <CorteMobile /> to timing, to subtitling or dubbing.
               </p>
             )}
           </Item>
@@ -115,13 +122,16 @@ function Explore() {
               <BotonFlecha isServices={true} isOpen={open === "content"} />
             </ItemTitle>
             {open === "content" && (
-              <p className="txt-mobile texto-regular mb-20-mobile mb-40">
-                We work with our customers' marketing
-                <CorteMobile /> team to create social media content in
-                <CorteMobile /> Spanish and Portuguese
-                <CorteDesktop /> and deliver a<CorteMobile /> unified brand
-                message in Latin America, Europe
-                <CorteMobile /> and the US!
+              <p className="txt-mobile texto-regular mb-0-mobile mb-40">
+                We work closely with your marketing team
+                <CorteMobile /> to create appealing content and deliver
+                <CorteMobile /> a unified brand message.
+                <CorteDesktop /> From campaign
+                <CorteMobile /> conceptualization to design, we can steer
+                <CorteMobile /> your content and visuals for corporate e-mail
+                <CorteDesktop />
+                <CorteMobile /> communications, newsletters, social media,
+                <CorteMobile /> and merchandising.
               </p>
             )}
           </Item>
