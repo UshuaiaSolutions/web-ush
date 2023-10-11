@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import { breakpoints } from "./breakpoints";
+import { breakpoints, colors } from "./breakpoints";
 
 const StyledBoton = styled.button`
   padding: 8px 24px;
-  background-color: ${(props) => props.theme.fondo};
-  color: ${(props) => props.theme.texto};
+  background-color: ${colors.fondoblanco};
+  color: ${colors.textonegro};
   transition: all 0.3s ease-in-out;
   width: fit-content;
   border: 2px solid ${(props) => props.theme.texto};
@@ -18,7 +18,9 @@ const StyledBoton = styled.button`
   line-height: 16px;
 
   &:hover {
-    background-color: ${(props) => props.theme.verdeush};
+    border: 2px solid ${(props) => props.theme.contacto};
+    background-color: ${(props) => props.theme.contacto};
+    color: ${(props) => props.theme.fondo};
   }
 
   ${breakpoints.min_desktop} {
@@ -28,6 +30,10 @@ const StyledBoton = styled.button`
     font-weight: 600;
     line-height: normal;
     border: 3px solid ${(props) => props.theme.texto};
+
+    &:hover {
+      border: 3px solid ${(props) => props.theme.contacto};
+    }
   }
 `;
 

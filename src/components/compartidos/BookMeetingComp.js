@@ -33,6 +33,18 @@ export const FirstContainer = styled.div`
 export const SecondContainer = styled.div`
   width: 100%;
 
+  & .textarea-form,
+  & .select-form {
+    border: 2px solid ${(props) => props.theme.texto};
+    background: ${(props) => props.theme.fondo};
+    color: ${(props) => props.theme.texto};
+    resize: none;
+  }
+
+  & .textarea-form::placeholder {
+    color: ${(props) => props.theme.texto};
+  }
+
   ${breakpoints.min_desktop} {
     width: 50%;
   }
@@ -41,6 +53,11 @@ export const SecondContainer = styled.div`
 export const ContainerInput = styled.div`
   width: 100%;
   margin-bottom: 16px;
+
+  & input {
+    border: 2px solid ${(props) => props.theme.texto};
+    background: ${(props) => props.theme.fondo};
+  }
 
   ${breakpoints.min_desktop} {
     width: 48%;
@@ -53,11 +70,11 @@ export const DateContainer = styled.div`
 
   & .react-datepicker__input-container input {
     padding: 4px;
-    border: 2px solid #393939;
+    border: 2px solid ${(props) => props.theme.texto};
     height: calc(31px - 8px);
     border-radius: 8px;
     width: calc(100% - 8px - 4px);
-    background: #f6f3e8;
+    background: ${(props) => props.theme.fondo};
   }
 
   & .react-datepicker__input-container input:focus,
@@ -69,8 +86,8 @@ export const DateContainer = styled.div`
     margin-bottom: 24px;
 
     & .react-datepicker__input-container input {
-      background: #f6f3e8;
-      border: 3px solid #393939;
+      background: ${(props) => props.theme.fondo};
+      border: 3px solid ${(props) => props.theme.texto};
       border-radius: 8px;
       height: 27px;
       padding: 8px;

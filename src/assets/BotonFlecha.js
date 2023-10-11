@@ -29,7 +29,7 @@ function BotonFlecha({ isOpen, isServices }) {
           fill-rule="evenodd"
           clip-rule="evenodd"
           d="M25.9292 24.5791L23.9292 24.5791L23.9292 26.5791L23.9292 54.8633L27.9292 54.8633L27.9292 31.4074L54.7278 58.206L57.5562 55.3775L30.7578 28.5791L54.2135 28.5791L54.2135 24.5791L25.9292 24.5791Z"
-          fill={isOpen ? "#393939" : theme.texto}
+          fill={isOpen ? colors.textonegro : theme.texto}
         />
       </g>
       <defs>

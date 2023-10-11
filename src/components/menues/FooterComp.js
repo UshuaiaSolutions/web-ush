@@ -19,6 +19,11 @@ export const ContainerTop = styled.div`
   color: ${(props) => props.theme.texto};
   background: ${(props) => props.theme.fondo};
   align-items: center;
+
+  & .scroll-to-top {
+    background: ${(props) => props.theme.fondo};
+    color: ${(props) => props.theme.texto};
+  }
 `;
 
 export const Content = styled.div`

@@ -1,8 +1,10 @@
 import React from "react";
-import styled from "styled-components";
+import styled, { useTheme } from "styled-components";
 import { breakpoints } from "../components/base/breakpoints";
 
 function CheckNo({ handleClick }) {
+  const theme = useTheme();
+
   return (
     <SVG
       xmlns="http://www.w3.org/2000/svg"
@@ -12,7 +14,7 @@ function CheckNo({ handleClick }) {
       fill="none"
       onClick={handleClick}
     >
-      <circle cx="20" cy="20" r="18.5" stroke="#393939" stroke-width="3" />
+      <circle cx="20" cy="20" r="18.5" stroke={theme.texto} stroke-width="3" />
     </SVG>
   );
 }

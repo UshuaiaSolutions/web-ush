@@ -185,6 +185,7 @@ const BookMeeting = () => {
                     minDate={minDate}
                     filterDate={isWorkingDay}
                     dateFormat="dd/MM/yyyy"
+                    className="input-date"
                   />
                   {missingFields?.includes("date_reunion") && (
                     <ErrorMessage>Wrong input</ErrorMessage>
