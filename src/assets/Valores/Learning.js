@@ -32,6 +32,10 @@ const SVG = styled.svg`
   width: 60px;
   height: 60px;
 
+  & path {
+    transition: 0.2s;
+  }
+
   ${breakpoints.min_desktop} {
     width: 95.643px;
     height: 123px;

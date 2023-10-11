@@ -86,6 +86,11 @@ function IlustracionNeeds() {
 const SVG = styled.svg`
   display: none;
 
+  & path,
+  & rect {
+    transition: 0.2s;
+  }
+
   ${breakpoints.min_desktop} {
     display: block;
     width: 494.344px;

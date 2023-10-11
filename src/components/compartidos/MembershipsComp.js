@@ -8,6 +8,7 @@ export const StyledContainer = styled.div`
   align-items: center;
   background: ${(props) => props.theme.fondo};
   color: ${(props) => props.theme.texto};
+  transition: 0.2s;
 
   ${breakpoints.min_desktop} {
     padding: 144px 0 0;
@@ -49,6 +50,10 @@ export const EstrellaVerde = styled.svg`
   width: 20px;
   height: 20px;
   margin: 24px auto 0;
+
+  & path {
+    transition: 0.2s;
+  }
 
   ${breakpoints.min_desktop} {
     width: 64px;

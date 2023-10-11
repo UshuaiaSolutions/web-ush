@@ -8,6 +8,7 @@ export const StyledContainer = styled.div`
   display: flex;
   flex-direction: column;
   text-align: center;
+  transition: 0.2s;
 
   ${breakpoints.min_desktop} {
     padding: 144px 0 0;
@@ -81,6 +82,7 @@ export const Icon = styled.div`
   width: calc(40px - 4px);
   height: calc(40px - 4px);
   border: 2px solid ${(props) => props.theme.texto};
+  transition: 0.2s;
 
   ${breakpoints.min_desktop} {
     width: calc(80px - 6px);

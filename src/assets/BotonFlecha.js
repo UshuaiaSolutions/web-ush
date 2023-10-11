@@ -52,6 +52,11 @@ const SVG = styled.svg`
   transform: ${(props) => (props.isOpen ? "rotate(180deg)" : "rotate(0)")};
   transition: all 0.1s;
 
+  & path,
+  & circle {
+    transition: 0.2s;
+  }
+
   ${breakpoints.min_desktop} {
     width: 80px;
     height: 80px;

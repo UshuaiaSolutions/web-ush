@@ -11,6 +11,7 @@ export const Content = styled.div`
   right: 0;
   z-index: 10;
   width: 100%;
+  transition: 0.2s;
 
   ${breakpoints.min_desktop} {
     display: flex;
@@ -54,7 +55,7 @@ export const StyledLink = styled(Link)`
       : `2px solid transparent`};
   border-radius: 60px;
   margin-right: 10px;
-  transition: all 0.3s linear;
+  transition: 0.2s;
 
   &:hover {
     border: ${(props) => `2px solid ${props.theme.texto}`};
@@ -71,7 +72,7 @@ export const StyledBoton = styled(BotonSecundario)`
   color: ${(props) => props.theme.fondo};
   background-color: ${(props) => props.theme.contacto};
   border: 2px solid ${(props) => props.theme.contacto};
-  transition: all 0.3s linear;
+  transition: 0.2s;
 
   &:hover {
     border: 2px solid ${(props) => props.theme.texto};
@@ -130,6 +131,7 @@ export const Toggle = styled.button`
       height: 2px;
       display: block;
       border-radius: 5px;
+      transition: 0.2s;
     }
 
     :first-child {
@@ -156,6 +158,7 @@ export const SVGModo = styled.svg`
   cursor: pointer;
   width: 40px;
   height: 20px;
+  transition: 0.2s;
 
   ${breakpoints.min_desktop} {
     width: 80px;

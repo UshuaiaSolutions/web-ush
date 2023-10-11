@@ -8,6 +8,7 @@ export const Content = styled.div`
   justify-content: space-between;
   flex-direction: column;
   color: ${(props) => props.theme.texto};
+  transition: 0.2s;
 
   ${breakpoints.min_desktop} {
     padding: 144px 0 65px;

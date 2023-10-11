@@ -8,6 +8,7 @@ export const StyledContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: 0.2s;
 
   ${breakpoints.min_desktop} {
     padding: 144px 0 0;
@@ -41,6 +42,7 @@ export const Circle = styled.div`
   height: calc(56px - 4px);
   top: -30px;
   right: 56px;
+  transition: 0.2s;
 
   ${breakpoints.min_desktop} {
     border: 3px solid ${(props) => props.theme.texto};

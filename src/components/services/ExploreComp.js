@@ -7,6 +7,7 @@ export const StyledContainer = styled.div`
   background-color: ${(props) => props.theme.fondo};
   display: flex;
   flex-direction: column;
+  transition: 0.2s;
 
   ${breakpoints.min_desktop} {
     padding: 144px 0 0;
@@ -16,6 +17,7 @@ export const StyledContainer = styled.div`
 export const Dropdown = styled.div`
   background: ${(props) => props.theme.fondo};
   color: ${(props) => props.theme.texto};
+  transition: 0.2s;
 `;
 
 export const Item = styled.div`
@@ -28,6 +30,7 @@ export const Item = styled.div`
   flex-direction: column;
   justify-content: center;
   border-bottom: 1px solid ${(props) => props.theme.borde};
+  transition: 0.2s;
 
   ${breakpoints.min_desktop} {
     padding: 0 24px;

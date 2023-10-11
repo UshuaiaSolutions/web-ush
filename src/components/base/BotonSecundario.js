@@ -16,6 +16,7 @@ const StyledBoton = styled.button`
   font-style: normal;
   font-weight: 700;
   line-height: 16px;
+  transition: 0.2s;
 
   &:hover {
     border: 2px solid ${(props) => props.theme.contacto};

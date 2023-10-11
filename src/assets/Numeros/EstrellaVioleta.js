@@ -1,6 +1,6 @@
 import React from "react";
 import styled, { useTheme } from "styled-components";
-import { breakpoints } from "../../components/base/breakpoints";
+import { breakpoints, colors } from "../../components/base/breakpoints";
 
 function EstrellaVioleta() {
   const theme = useTheme();
@@ -25,6 +25,10 @@ const SVG = styled.svg`
   width: 13px;
   height: 13px;
   margin: 16px auto 0;
+
+  & path {
+    transition: 0.2s;
+  }
 
   ${breakpoints.min_desktop} {
     width: 101.959px;

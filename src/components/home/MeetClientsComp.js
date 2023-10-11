@@ -7,6 +7,7 @@ export const StyledContainer = styled.div`
   background: ${(props) => props.theme.fondo};
   display: flex;
   flex-direction: column;
+  transition: 0.2s;
 
   & .mySwiper {
     width: 100%;
@@ -37,6 +38,7 @@ export const Card = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: 0.2s;
 
   ${breakpoints.min_desktop} {
     border: 3px solid ${(props) => props.theme.texto};

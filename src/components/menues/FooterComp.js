@@ -6,6 +6,7 @@ export const StyledLink = styled(Link)`
   color: ${(props) => props.theme.texto};
   text-decoration: none;
   margin-bottom: 30px;
+  transition: 0.2s;
 
   &:last-child {
     margin-bottom: 0;
@@ -19,10 +20,16 @@ export const ContainerTop = styled.div`
   color: ${(props) => props.theme.texto};
   background: ${(props) => props.theme.fondo};
   align-items: center;
+  transition: 0.2s;
 
   & .scroll-to-top {
     background: ${(props) => props.theme.fondo};
     color: ${(props) => props.theme.texto};
+    transition: 0.2s;
+
+    & path {
+      transition: 0.2s;
+    }
   }
 `;
 
@@ -30,6 +37,7 @@ export const Content = styled.div`
   padding: 55px 0;
   background: ${(props) => props.theme.fondo};
   color: ${(props) => props.theme.texto};
+  transition: 0.2s;
 
   ${breakpoints.min_desktop} {
     padding: 110px 0 50px;
@@ -97,6 +105,7 @@ export const Arrow = styled.svg`
 export const ContainerRed = styled.a`
   flex-direction: column;
   margin-right: 0px;
+  transition: 0.2s;
 
   ${breakpoints.min_desktop} {
     flex-direction: row;
@@ -118,6 +127,10 @@ export const RedImage = styled.svg`
     margin-right: 7px;
     width: 28px;
     height: 28px;
+  }
+
+  & path {
+    transition: 0.2s;
   }
 `;
 
@@ -145,7 +158,7 @@ export const RowDesktop = styled.div`
 export const ButtonHover = styled.span`
   padding: 8px;
   border-radius: 8px;
-  transition: all 0.3s linear;
+  transition: 0.2s;
 
   &:hover {
     background-color: ${(props) => props.theme.contacto};

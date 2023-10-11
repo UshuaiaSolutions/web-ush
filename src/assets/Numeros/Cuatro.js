@@ -1,6 +1,6 @@
 import React from "react";
 import styled, { useTheme } from "styled-components";
-import { breakpoints } from "../../components/base/breakpoints";
+import { breakpoints, colors } from "../../components/base/breakpoints";
 
 function Cuatro() {
   const theme = useTheme();
@@ -38,6 +38,11 @@ function Cuatro() {
 const SVG = styled.svg`
   width: 48px;
   height: 48px;
+
+  & path,
+  & circle {
+    transition: 0.2s;
+  }
 
   ${breakpoints.min_desktop} {
     width: 152px;

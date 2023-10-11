@@ -25,6 +25,7 @@ export const Container = styled.div`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  transition: 0.2s;
 
   ${breakpoints.min_tablet} {
     height: 566px;

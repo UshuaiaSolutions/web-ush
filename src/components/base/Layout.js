@@ -5,6 +5,7 @@ import { breakpoints } from "./breakpoints";
 const Container = styled.div`
   margin-top: 73px;
   background: ${(props) => props.theme.fondo};
+  transition: 0.2s;
 
   ${breakpoints.min_desktop} {
     margin-top: 100px;

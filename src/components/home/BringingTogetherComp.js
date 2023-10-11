@@ -8,6 +8,7 @@ export const StyledContainer = styled.div`
   align-items: center;
   width: 100%;
   color: ${(props) => props.theme.texto};
+  transition: 0.2s;
 
   ${breakpoints.min_desktop} {
     padding: 144px 0px 0px;

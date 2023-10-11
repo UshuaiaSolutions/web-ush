@@ -16,6 +16,7 @@ const StyledBoton = styled.button`
   border-radius: 60px;
   text-decoration: none;
   cursor: pointer;
+  transition: 0.2s;
 
   &:hover {
     background-color: ${(props) => props.theme.texto};

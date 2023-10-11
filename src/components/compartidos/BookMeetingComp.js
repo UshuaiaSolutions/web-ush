@@ -8,6 +8,7 @@ export const StyledContainer = styled.div`
   padding: 56px 0 0;
   background-image: url(https://ushmultimedia.blob.core.windows.net/ushwebsite/TramaFormGrandeNew.png);
   background-repeat: inherit;
+  transition: 0.2s;
 
   ${breakpoints.min_desktop} {
     padding: 144px 0 0;
@@ -39,10 +40,12 @@ export const SecondContainer = styled.div`
     background: ${(props) => props.theme.fondo};
     color: ${(props) => props.theme.texto};
     resize: none;
+    transition: 0.2s;
   }
 
   & .textarea-form::placeholder {
     color: ${(props) => props.theme.texto};
+    transition: 0.2s;
   }
 
   ${breakpoints.min_desktop} {
@@ -57,6 +60,7 @@ export const ContainerInput = styled.div`
   & input {
     border: 2px solid ${(props) => props.theme.texto};
     background: ${(props) => props.theme.fondo};
+    transition: 0.2s;
   }
 
   ${breakpoints.min_desktop} {
@@ -75,6 +79,7 @@ export const DateContainer = styled.div`
     border-radius: 8px;
     width: calc(100% - 8px - 4px);
     background: ${(props) => props.theme.fondo};
+    transition: 0.2s;
   }
 
   & .react-datepicker__input-container input:focus,
@@ -87,6 +92,7 @@ export const DateContainer = styled.div`
 
     & .react-datepicker__input-container input {
       background: ${(props) => props.theme.fondo};
+      transition: 0.2s;
       border-radius: 8px;
       height: 27px;
       padding: 8px;
@@ -114,6 +120,7 @@ export const ColumnInput = styled.div`
 
 export const ErrorMessage = styled.span`
   color: ${(props) => props.theme.rojoush};
+  transition: 0.2s;
   font-size: 12px;
   padding-left: 5px;
 `;

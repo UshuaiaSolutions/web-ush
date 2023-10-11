@@ -7,6 +7,7 @@ export const StyledContainer = styled.div`
   background: ${(props) => props.theme.fondo};
   display: flex;
   flex-direction: column;
+  transition: 0.2s;
 
   ${breakpoints.min_desktop} {
     padding: 144px 0 0;
@@ -33,6 +34,11 @@ export const IconContainer = styled.div`
   width: calc(40px - 4px);
   height: calc(40px - 4px);
   border: 2px solid ${(props) => props.theme.texto};
+  transition: 0.2s;
+
+  & path {
+    transition: 0.2s;
+  }
 
   ${breakpoints.min_desktop} {
     width: calc(80px - 6px);

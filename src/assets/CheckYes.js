@@ -24,6 +24,10 @@ const SVG = styled.svg`
   width: 32px;
   height: 32px;
 
+  & circle {
+    transition: 0.2s;
+  }
+
   ${breakpoints.min_desktop} {
     width: 40px;
     height: 40px;

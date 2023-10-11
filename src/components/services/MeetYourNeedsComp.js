@@ -7,6 +7,7 @@ export const StyledContainer = styled.div`
   background: ${(props) => props.theme.fondo};
   display: flex;
   flex-direction: column;
+  transition: 0.2s;
 
   ${breakpoints.min_desktop} {
     padding: 144px 0 0;

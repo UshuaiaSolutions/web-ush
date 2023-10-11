@@ -16,6 +16,7 @@ export const Fondo = styled.div`
   flex-direction: column;
   align-items: center;
   z-index: 20;
+  transition: 0.2s;
 `;
 
 export const Logo = styled.div`
@@ -34,6 +35,7 @@ export const StyledLink = styled(Link)`
   color: ${(props) => props.theme.texto};
   margin-bottom: 30px;
   text-decoration: none;
+  transition: 0.2s;
 `;
 
 export const Follow = styled.span`
@@ -42,6 +44,7 @@ export const Follow = styled.span`
   line-height: 19px;
   letter-spacing: 0em;
   color: ${(props) => props.theme.texto};
+  transition: 0.2s;
 `;
 
 export const StyledBoton = styled.button`
@@ -57,6 +60,7 @@ export const StyledBoton = styled.button`
   outline: none;
   color: ${(props) => props.theme.fondo};
   background-color: ${(props) => props.theme.contacto};
+  transition: 0.2s;
   font-style: normal;
   font-weight: 700;
   font-size: 12px;

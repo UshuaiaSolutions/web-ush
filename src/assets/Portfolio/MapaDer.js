@@ -36,6 +36,10 @@ function MapaDer() {
 const SVG = styled.svg`
   display: none;
 
+  & path {
+    transition: 0.2s;
+  }
+
   ${breakpoints.min_desktop} {
     display: block;
     position: absolute;

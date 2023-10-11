@@ -73,6 +73,11 @@ const SVG = styled.svg`
   margin: 16px auto 0;
   display: block;
 
+  & path,
+  & circle {
+    transition: 0.2s;
+  }
+
   ${breakpoints.min_desktop} {
     margin: 60px 0 32px;
     max-height: 380px;

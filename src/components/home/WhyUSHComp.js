@@ -8,6 +8,7 @@ export const StyledContainer = styled.div`
   align-items: center;
   background: ${(props) => props.theme.fondo};
   color: ${(props) => props.theme.texto};
+  transition: 0.2s;
 
   ${breakpoints.min_desktop} {
     padding: 144px 0 0;
@@ -51,11 +52,16 @@ export const SVGContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 0.2s;
 
   ${breakpoints.min_desktop} {
     border: 3px solid ${(props) => props.theme.texto};
     width: calc(80px - 6px);
     height: calc(80px - 6px);
+  }
+
+  & path {
+    transition: 0.2s;
   }
 `;
 
