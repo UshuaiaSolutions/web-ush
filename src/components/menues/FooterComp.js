@@ -148,6 +148,7 @@ export const ButtonHover = styled.span`
   transition: all 0.3s linear;
 
   &:hover {
-    background-color: ${(props) => props.theme.verdeush};
+    background-color: ${(props) => props.theme.contacto};
+    color: ${(props) => props.theme.fondo};
   }
 `;
