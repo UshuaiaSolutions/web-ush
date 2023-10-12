@@ -67,6 +67,8 @@ const SVG = styled.svg`
 
     & circle {
       fill: ${colors.verdeush};
+      stroke: ${(props) =>
+        props.theme.nombre === "light" ? props.theme.texto : colors.verdeush};
     }
 
     & path {
