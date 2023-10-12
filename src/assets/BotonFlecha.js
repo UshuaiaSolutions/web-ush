@@ -20,19 +20,19 @@ function BotonFlecha({ isOpen, isServices }) {
         "Clickable icon of an arrow. Click on it to unfold the description of the service."
       }
     >
-      <g clip-path="url(#clip0_6_9043)">
+      <g clipPath="url(#clip0_6_9043)">
         <circle
           cx="40.0002"
           cy="40.6184"
           r="38.5"
           transform="rotate(-45 40.0002 40.6184)"
           stroke={isOpen ? theme.contacto : theme.texto}
-          stroke-width="3"
+          strokeWidth="3"
           fill={isOpen ? theme.contacto : theme.fondo}
         />
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M25.9292 24.5791L23.9292 24.5791L23.9292 26.5791L23.9292 54.8633L27.9292 54.8633L27.9292 31.4074L54.7278 58.206L57.5562 55.3775L30.7578 28.5791L54.2135 28.5791L54.2135 24.5791L25.9292 24.5791Z"
           fill={isOpen ? theme.fondo : theme.texto}
         />

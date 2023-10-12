@@ -61,8 +61,8 @@ function MeetClients() {
             <Cliente10 />,
             <Cliente11 />,
             <Cliente12 />,
-          ].map((e) => {
-            return <SwiperSlide>{e}</SwiperSlide>;
+          ].map((e, i) => {
+            return <SwiperSlide key={i}>{e}</SwiperSlide>;
           })}
         </Swiper>
       </Container>

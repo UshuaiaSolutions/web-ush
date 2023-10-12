@@ -24,8 +24,8 @@ function Cuatro() {
         cy="80"
         r="75"
         stroke={theme.texto}
-        stroke-width="2"
-        stroke-dasharray="6 6"
+        strokeWidth="2"
+        strokeDasharray="6 6"
       />
       <path
         d="M44.5297 99V82.8L75.2297 39H96.7297V82H104.43V99H96.7297V111H76.9297V99H44.5297ZM78.4297 61.1L64.6297 82H78.4297V61.1Z"

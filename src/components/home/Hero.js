@@ -5,6 +5,7 @@ import Container from "../base/Container";
 import { Content } from "./HeroComp";
 import IlustracionHS from "../../assets/Ilustracion-HS";
 import Ondas from "../../assets/Ondas";
+import { CorteDesktop, CorteMobile } from "../base/Cortes";
 
 const Hero = () => {
   return (
@@ -13,18 +14,21 @@ const Hero = () => {
         <div className="mb-20-mobile">
           <h1 className="h1-web h1-mobile mb-32 mb-16-mobile">
             Expand your
-            <br /> global potential
+            <CorteMobile />
+            <CorteDesktop /> global potential
           </h1>
           <p className="destacado-regular txt-regular-mobile mb-32 mb-16-mobile">
             Specialized professionals empowered
-            <br />
-            by the latest technology can{" "}
+            <CorteDesktop />
+            <CorteMobile /> by the latest technology can{" "}
             <span className="destacado-bold destacados-semibold-mobile">
               translate,
-              <br /> localize and create content
+              <CorteMobile />
+              <CorteDesktop /> localize and create content
             </span>{" "}
             to help you
-            <br /> succeed in international markets.
+            <CorteMobile />
+            <CorteDesktop /> succeed in international markets.
           </p>
           <HashLink smooth to="/#contact">
             <BotonSecundario>Get in touch</BotonSecundario>

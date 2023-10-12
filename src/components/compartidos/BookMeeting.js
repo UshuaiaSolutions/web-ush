@@ -85,8 +85,12 @@ const BookMeeting = () => {
             <form>
               <ColumnInput className="d-flex justify-between">
                 <ContainerInput className="d-flex flex-column">
-                  <label className="label-form mb-8">Name *</label>
+                  <label htmlFor="name" className="label-form mb-8">
+                    Name *
+                  </label>
                   <input
+                    name="name"
+                    id="name"
                     value={contactForm.name ? contactForm.name : ""}
                     onChange={(e) =>
                       handleChange(
@@ -103,8 +107,12 @@ const BookMeeting = () => {
                   )}
                 </ContainerInput>
                 <ContainerInput className="d-flex flex-column">
-                  <label className="label-form mb-8">Company Name *</label>
+                  <label htmlFor="company" className="label-form mb-8">
+                    Company Name *
+                  </label>
                   <input
+                    name="company"
+                    id="company"
                     value={contactForm.company ? contactForm.company : ""}
                     onChange={(e) =>
                       handleChange(
@@ -123,8 +131,12 @@ const BookMeeting = () => {
               </ColumnInput>
               <ColumnInput className="d-flex justify-between">
                 <ContainerInput className="d-flex flex-column">
-                  <label className="label-form mb-8">E-Mail *</label>
+                  <label htmlFor="email" className="label-form mb-8">
+                    E-Mail *
+                  </label>
                   <input
+                    name="email"
+                    id="email"
                     value={contactForm.mail ? contactForm.mail : ""}
                     onChange={(e) =>
                       handleChange(
@@ -142,7 +154,6 @@ const BookMeeting = () => {
                   )}
                 </ContainerInput>
                 <ContainerInput className="d-flex flex-column">
-                  <label className="label-form mb-8">Country *</label>
                   <SelectCountries data={contactForm} func={setContactForm} />
                   {missingFields?.includes("country") && (
                     <ErrorMessage>Wrong input</ErrorMessage>
@@ -174,8 +185,12 @@ const BookMeeting = () => {
               </Column>
               {quiereReu && (
                 <DateContainer className="d-flex flex-column mb-16-mobile">
-                  <label className="label-form mb-8">Select a date *</label>
+                  <label htmlFor="date" className="label-form mb-8">
+                    Select a date *
+                  </label>
                   <DatePicker
+                    name="date"
+                    id="date"
                     selected={
                       contactForm.date_reunion ? contactForm.date_reunion : null
                     }
@@ -193,8 +208,12 @@ const BookMeeting = () => {
                 </DateContainer>
               )}
               <div className="d-flex flex-column mb-30 mb-25-mobile">
-                <label className="label-form mb-8">How can we help?</label>
+                <label htmlFor="comment" className="label-form mb-8">
+                  How can we help?
+                </label>
                 <textarea
+                  name="comment"
+                  id="comment"
                   value={contactForm.comment ? contactForm.comment : ""}
                   onChange={(e) =>
                     handleChange(

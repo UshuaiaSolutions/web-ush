@@ -6,8 +6,6 @@ export const StyledContainer = styled.div`
   background-color: ${(props) => props.theme.fondo};
   width: 100%;
   padding: 56px 0 0;
-  background-image: url(https://ushmultimedia.blob.core.windows.net/ushwebsite/TramaFormGrandeNew.png);
-  background-repeat: inherit;
   transition: 0.2s;
 
   ${breakpoints.min_desktop} {
@@ -61,6 +59,7 @@ export const ContainerInput = styled.div`
     border: 2px solid ${(props) => props.theme.texto};
     background: ${(props) => props.theme.fondo};
     transition: 0.2s;
+    color: ${(props) => props.theme.texto};
   }
 
   ${breakpoints.min_desktop} {
@@ -75,6 +74,7 @@ export const DateContainer = styled.div`
   & .react-datepicker__input-container input {
     padding: 4px;
     border: 2px solid ${(props) => props.theme.texto};
+    color: ${(props) => props.theme.texto};
     height: calc(31px - 8px);
     border-radius: 8px;
     width: calc(100% - 8px - 4px);

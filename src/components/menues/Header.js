@@ -27,7 +27,7 @@ function Header({ toggler }) {
     <Content>
       <Container>
         <Row>
-          <Link to="/">
+          <Link to="/" aria-label="Homepage">
             <Logo />
           </Link>
           <div className="mob">
@@ -84,7 +84,7 @@ function Header({ toggler }) {
                     rx="19"
                     fill={colors.fondoblanco}
                     stroke="#393939"
-                    stroke-width="2"
+                    strokeWidth="2"
                   />
                   <circle cx="20" cy="20" r="12" fill={colors.textonegro} />
                   <path
@@ -108,7 +108,7 @@ function Header({ toggler }) {
                     rx="19"
                     fill="#393939"
                     stroke={colors.fondoblanco}
-                    stroke-width="2"
+                    strokeWidth="2"
                   />
                   <ellipse
                     cx="60"
@@ -129,6 +129,7 @@ function Header({ toggler }) {
           <Toggle
             isOpen={openMobile}
             onClick={() => setOpenMobile((prevOpenMobile) => !prevOpenMobile)}
+            aria-label="Toggle mobile menu"
           >
             <div>
               <span></span>

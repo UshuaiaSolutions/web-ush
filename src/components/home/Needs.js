@@ -55,9 +55,9 @@ function Needs() {
               </Row>
             </Column>
             <Column>
-              <h3 className="body-bold-mobile h3-web mb-16-mobile mb-32">
+              <h4 className="body-bold-mobile h3-web mb-16-mobile mb-32">
                 02/&ensp;&ensp;Content Creation
-              </h3>
+              </h4>
               <Row>
                 <p className="w-100 txt-regular-mobile destacado-regular mb-0-mobile mb-32">
                   Our creative team can help you
@@ -78,9 +78,9 @@ function Needs() {
               </Row>
             </Column>
             <Column>
-              <h3 className="body-bold-mobile  h3-web mb-16-mobile mb-32">
+              <h5 className="body-bold-mobile  h3-web mb-16-mobile mb-32">
                 03/&ensp;&ensp;Project Management
-              </h3>
+              </h5>
               <Row>
                 <p className="w-100 txt-regular-mobile destacado-regular mb-0-mobile mb-32">
                   You can trust our team to steer

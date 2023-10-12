@@ -14,7 +14,7 @@ function IlustracionAbout() {
       xmlns="http://www.w3.org/2000/svg"
       aria-label="An illustration that simulates a rainbow with three colored semicircles divided by three dotted lines."
     >
-      <g clip-path="url(#clip0_47_2054)">
+      <g clipPath="url(#clip0_47_2054)">
         <path
           d="M720.079 48.9989C622.895 48.9989 528.565 68.0743 439.784 105.748C354.015 142.15 277.124 194.13 210.855 260.417C144.745 326.703 92.7447 403.958 56.598 489.956C19.0245 578.974 -4.25937e-06 673.556 0 770.999L66.5859 770.999C66.5859 682.458 83.8666 596.778 117.952 516.026C150.928 437.976 198.014 367.874 258.1 307.787C318.186 247.541 388.101 200.33 465.784 167.266C546.322 133.089 631.774 115.762 720.079 115.762C808.385 115.762 893.837 133.089 974.374 167.266C1052.22 200.33 1122.13 247.541 1182.06 307.787C1242.14 368.033 1289.23 438.135 1322.21 516.026C1356.13 596.778 1373.41 682.458 1373.41 770.999L1440 770.999C1440 673.556 1420.98 578.974 1383.4 489.956C1347.1 403.958 1295.25 326.862 1229.14 260.417C1163.03 194.13 1085.98 141.991 1000.22 105.748C911.593 68.0742 817.263 48.9989 720.079 48.9989Z"
           fill={theme.nombre === "dark" ? colors.amarillo : "#4951F2"}
@@ -32,24 +32,24 @@ function IlustracionAbout() {
           cy="769"
           r="741"
           stroke={theme.texto}
-          stroke-width="2"
-          stroke-dasharray="6 6"
+          strokeWidth="2"
+          strokeDasharray="6 6"
         />
         <circle
           cx="720"
           cy="769"
           r="613"
           stroke={theme.texto}
-          stroke-width="2"
-          stroke-dasharray="6 6"
+          strokeWidth="2"
+          strokeDasharray="6 6"
         />
         <circle
           cx="720"
           cy="769"
           r="479"
           stroke={theme.texto}
-          stroke-width="2"
-          stroke-dasharray="6 6"
+          strokeWidth="2"
+          strokeDasharray="6 6"
         />
       </g>
       <defs>

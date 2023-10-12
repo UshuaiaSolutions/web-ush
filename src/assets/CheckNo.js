@@ -14,7 +14,7 @@ function CheckNo({ handleClick }) {
       fill="none"
       onClick={handleClick}
     >
-      <circle cx="20" cy="20" r="18.5" stroke={theme.texto} stroke-width="3" />
+      <circle cx="20" cy="20" r="18.5" stroke={theme.texto} strokeWidth="3" />
     </SVG>
   );
 }

@@ -45,7 +45,7 @@ function Mapa() {
         x2="160.5"
         y2="257"
         stroke="#393939"
-        stroke-dasharray="3 3"
+        strokeDasharray="3 3"
       />
     </SVG>
   );

@@ -13,7 +13,7 @@ function LogoISO() {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_375_3204)">
+      <g clipPath="url(#clip0_375_3204)">
         <path
           d="M24.9711 5.62615V4.52649H26.9457V9.54367H25.6763V5.62615H24.9711Z"
           fill={theme.texto}

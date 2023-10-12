@@ -24,8 +24,8 @@ function Uno() {
         cy="80"
         r="75"
         stroke={theme.texto}
-        stroke-width="2"
-        stroke-dasharray="6 6"
+        strokeWidth="2"
+        strokeDasharray="6 6"
       />
       <path
         d="M60.9641 62.3V43.9H91.7641V117H71.2641V62.3H60.9641Z"
