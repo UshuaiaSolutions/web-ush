@@ -67,6 +67,7 @@ function Header({ toggler }) {
                   toggler();
                 }
               }}
+              style={{ display: "flex", alignItems: "center" }}
             >
               {theme.nombre === "light" ? (
                 <SVGModo

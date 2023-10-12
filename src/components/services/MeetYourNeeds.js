@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "../base/Container";
-import { CorteDesktop, CorteMobile } from "../base/Cortes";
+import { CorteDesktop } from "../base/Cortes";
 import { StyledContainer } from "./MeetYourNeedsComp";
 import Ondas from "../../assets/Ondas";
 
