@@ -9,6 +9,7 @@ import { CorteDesktop, CorteMobile } from "../base/Cortes";
 import { Link } from "react-router-dom";
 import { StyledContainer, Content } from "./BringingTogetherComp";
 import Mundo from "../../assets/Mundo";
+import MundoMB from "../../assets/MundoMB";
 
 function BringingTogether() {
   return (
@@ -20,7 +21,7 @@ function BringingTogether() {
               Bringing together Latin
               <CorteDesktop /> America and Europe
             </h2>
-
+            <MundoMB />
             <p className="txt-regular-mobile destacado-regular mb-16-mobile mb-32 text-center-mobile">
               We're where you need us, when you need us.
               <CorteMobile />

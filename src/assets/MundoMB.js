@@ -2,7 +2,7 @@ import React from "react";
 import styled, { useTheme } from "styled-components";
 import { breakpoints, colors } from "../components/base/breakpoints";
 
-function Mundo() {
+function MundoMB() {
   const theme = useTheme();
 
   return (
@@ -94,18 +94,16 @@ function Mundo() {
 }
 
 const SVG = styled.svg`
-  display: none;
+  width: 273px;
+  height: 300px;
 
   & path {
     transition: 0.2s;
   }
 
   ${breakpoints.min_desktop} {
-    display: block;
-    width: 437.382px;
-    height: 437.382px;
-    margin-top: 0;
+    display: none;
   }
 `;
 
-export default Mundo;
+export default MundoMB;
