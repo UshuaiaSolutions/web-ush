@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./App.css";
 import "./styles/fonts.css";
 import "./styles/spaces.css";
@@ -49,10 +49,23 @@ const theme = {
 };
 
 function App() {
-  const [mode, setMode] = useState("light");
+  const initialState = () => {
+    const savedMode = localStorage.getItem("mode");
+
+    if (savedMode) {
+      return savedMode;
+    } else {
+      return "light";
+    }
+  };
+
+  const [mode, setMode] = useState(initialState());
 
   const themeToggler = () => {
-    mode === "light" ? setMode("dark") : setMode("light");
+    let local = mode === "light" ? "dark" : "light";
+
+    setMode(local);
+    localStorage.setItem("mode", local);
   };
 
   return (
