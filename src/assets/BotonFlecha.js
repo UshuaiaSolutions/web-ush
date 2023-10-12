@@ -21,15 +21,15 @@ function BotonFlecha({ isOpen, isServices }) {
           cy="40.6184"
           r="38.5"
           transform="rotate(-45 40.0002 40.6184)"
-          stroke={theme.texto}
+          stroke={isOpen ? theme.contacto : theme.texto}
           stroke-width="3"
-          fill={isOpen ? colors.verdeush : theme.fondo}
+          fill={isOpen ? theme.contacto : theme.fondo}
         />
         <path
           fill-rule="evenodd"
           clip-rule="evenodd"
           d="M25.9292 24.5791L23.9292 24.5791L23.9292 26.5791L23.9292 54.8633L27.9292 54.8633L27.9292 31.4074L54.7278 58.206L57.5562 55.3775L30.7578 28.5791L54.2135 28.5791L54.2135 24.5791L25.9292 24.5791Z"
-          fill={isOpen ? colors.textonegro : theme.texto}
+          fill={isOpen ? theme.fondo : theme.texto}
         />
       </g>
       <defs>
@@ -66,13 +66,13 @@ const SVG = styled.svg`
     transform: rotate(180deg);
 
     & circle {
-      fill: ${colors.verdeush};
+      fill: ${(props) => props.theme.contacto};
       stroke: ${(props) =>
-        props.theme.nombre === "light" ? props.theme.texto : colors.verdeush};
+        props.theme.nombre === "light" ? colors.azulush : colors.verdeush};
     }
 
     & path {
-      fill: ${colors.textonegro};
+      fill: ${(props) => props.theme.fondo};
     }
   }
 `;
