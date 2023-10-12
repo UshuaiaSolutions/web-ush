@@ -42,7 +42,18 @@ function Explore() {
         </RowDesktop>
         <Dropdown>
           <Item>
-            <ItemTitle onClick={() => toggleSideNav("language")}>
+            <ItemTitle
+              onClick={() => toggleSideNav("language")}
+              type="button"
+              tabIndex={0}
+              aria-label="Clickable icon of an arrow. Click on it to unfold the description of the service."
+              onKeyDown={(event) => {
+                if (event.key === "Enter" || event.key === "") {
+                  event.preventDefault();
+                  toggleSideNav("language");
+                }
+              }}
+            >
               <h3 className="body-bold-mobile h3-web">Language Solutions</h3>
               <BotonFlecha isServices={true} isOpen={open === "language"} />
             </ItemTitle>
@@ -62,7 +73,18 @@ function Explore() {
             )}
           </Item>
           <Item>
-            <ItemTitle onClick={() => toggleSideNav("project")}>
+            <ItemTitle
+              onClick={() => toggleSideNav("project")}
+              type="button"
+              tabIndex={0}
+              aria-label="Clickable icon of an arrow. Click on it to unfold the description of the service."
+              onKeyDown={(event) => {
+                if (event.key === "Enter" || event.key === "") {
+                  event.preventDefault();
+                  toggleSideNav("project");
+                }
+              }}
+            >
               <h3 className="body-bold-mobile h3-web">Project Management</h3>
               <BotonFlecha isServices={true} isOpen={open === "project"} />
             </ItemTitle>
@@ -79,7 +101,18 @@ function Explore() {
             )}
           </Item>
           <Item>
-            <ItemTitle onClick={() => toggleSideNav("desktop")}>
+            <ItemTitle
+              onClick={() => toggleSideNav("desktop")}
+              type="button"
+              tabIndex={0}
+              aria-label="Clickable icon of an arrow. Click on it to unfold the description of the service."
+              onKeyDown={(event) => {
+                if (event.key === "Enter" || event.key === "") {
+                  event.preventDefault();
+                  toggleSideNav("desktop");
+                }
+              }}
+            >
               <h3 className="body-bold-mobile h3-web">
                 Desktop Publishing
                 <CorteMobile /> & Creative Visuals
@@ -99,7 +132,18 @@ function Explore() {
             )}
           </Item>
           <Item>
-            <ItemTitle onClick={() => toggleSideNav("video")}>
+            <ItemTitle
+              onClick={() => toggleSideNav("video")}
+              type="button"
+              tabIndex={0}
+              aria-label="Clickable icon of an arrow. Click on it to unfold the description of the service."
+              onKeyDown={(event) => {
+                if (event.key === "Enter" || event.key === "") {
+                  event.preventDefault();
+                  toggleSideNav("video");
+                }
+              }}
+            >
               <h3 className="body-bold-mobile h3-web">E-Learning & Video</h3>
               <BotonFlecha isServices={true} isOpen={open === "video"} />
             </ItemTitle>
@@ -117,7 +161,18 @@ function Explore() {
             )}
           </Item>
           <Item>
-            <ItemTitle onClick={() => toggleSideNav("content")}>
+            <ItemTitle
+              onClick={() => toggleSideNav("content")}
+              type="button"
+              tabIndex={0}
+              aria-label="Clickable icon of an arrow. Click on it to unfold the description of the service."
+              onKeyDown={(event) => {
+                if (event.key === "Enter" || event.key === "") {
+                  event.preventDefault();
+                  toggleSideNav("content");
+                }
+              }}
+            >
               <h3 className="body-bold-mobile h3-web">Content Creation</h3>
               <BotonFlecha isServices={true} isOpen={open === "content"} />
             </ItemTitle>

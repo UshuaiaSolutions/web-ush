@@ -14,6 +14,11 @@ function BotonFlecha({ isOpen, isServices }) {
       fill="none"
       isOpen={isOpen}
       isServices={isServices}
+      type="button"
+      aria-label={
+        isServices &&
+        "Clickable icon of an arrow. Click on it to unfold the description of the service."
+      }
     >
       <g clip-path="url(#clip0_6_9043)">
         <circle

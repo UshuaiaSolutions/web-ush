@@ -13,6 +13,13 @@ function Mundo() {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
+      <title>
+        An illustration of the globe that shows Europe, Africa, America, and a
+        small part of Asia. There are two places marked on two continents to
+        show the approximate location of the company's headquarters (Argentina
+        and Spain). A dotted line goes from one marker to the other to show that
+        the two offices of the company are in constant communication.
+      </title>
       <path
         d="M219.309 438C340.089 438 438 340.089 438 219.309C438 98.5296 340.089 0.618408 219.309 0.618408C98.5294 0.618408 0.618164 98.5296 0.618164 219.309C0.618164 340.089 98.5294 438 219.309 438Z"
         fill={theme.nombre === "light" ? colors.amarillo : colors.amarillo}

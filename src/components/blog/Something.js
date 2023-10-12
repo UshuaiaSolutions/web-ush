@@ -24,11 +24,11 @@ function Something() {
       >
         <ImgDesktop
           src={theme.nombre === "light" ? imgDKClaro : imgDKOscuro}
-          alt=""
+          alt="Instagram feed of Ushuaia Solutions. By clicking on the image, you will be redirected to the Instagram account."
         />
         <ImgMobile
           src={theme.nombre === "light" ? imgMBClaro : imgMBOscuro}
-          alt=""
+          alt="Instagram feed of Ushuaia Solutions. By clicking on the image, you will be redirected to the Instagram account."
         />
       </a>
     </StyledContainer>

@@ -12,6 +12,7 @@ function IlustracionAbout() {
       viewBox="0 0 1440 415"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      aria-label="An illustration that simulates a rainbow with three colored semicircles divided by three dotted lines."
     >
       <g clip-path="url(#clip0_47_2054)">
         <path

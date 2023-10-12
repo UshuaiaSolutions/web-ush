@@ -12,6 +12,7 @@ function IlustracionNeeds() {
       viewBox="0 0 495 832"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      aria-label="An abstract illustration that shows a cedilla and a machine nut united by a long pencil. There are also some stars next to the pencil."
     >
       <g clip-path="url(#clip0_6_8997)">
         <path
