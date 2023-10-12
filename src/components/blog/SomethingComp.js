@@ -14,6 +14,8 @@ export const StyledContainer = styled.div`
 
 export const ImgDesktop = styled.img`
   display: none;
+  object-fit: none;
+  transition: 0.2s;
 
   & path {
     transition: 0.2s;
@@ -30,6 +32,8 @@ export const ImgMobile = styled.img`
   display: block;
   width: 100%;
   height: auto;
+  object-fit: none;
+  transition: 0.2s;
 
   & path {
     transition: 0.2s;

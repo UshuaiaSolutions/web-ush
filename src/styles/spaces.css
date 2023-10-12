@@ -315,6 +315,10 @@
   margin-right: 70px;
 }
 
+.mt-0 {
+  margin-top: 0px;
+}
+
 .mt-10 {
   margin-top: 10px;
 }
@@ -406,6 +410,10 @@
 
   .mt-5-mobile {
     margin-top: 5px;
+  }
+
+  .mt-10-mobile {
+    margin-top: 10px;
   }
 
   .mt-16-mobile {

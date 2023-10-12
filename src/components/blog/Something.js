@@ -3,10 +3,10 @@ import React from "react";
 import { StyledContainer, ImgDesktop, ImgMobile } from "./SomethingComp";
 import { CorteMobile } from "../base/Cortes";
 import { useTheme } from "styled-components";
-import imgDKClaro from "../../assets/Blog/desktop-claro.png";
-import imgDKOscuro from "../../assets/Blog/desktop-oscuro.png";
-import imgMBClaro from "../../assets/Blog/mobile-claro.png";
-import imgMBOscuro from "../../assets/Blog/mobile-oscuro.png";
+import imgDKClaro from "../../assets/Blog/desktop-claro.jpg";
+import imgDKOscuro from "../../assets/Blog/desktop-oscuro.jpg";
+import imgMBClaro from "../../assets/Blog/mobile-claro.jpg";
+import imgMBOscuro from "../../assets/Blog/mobile-oscuro.jpg";
 
 function Something() {
   const theme = useTheme();

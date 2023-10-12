@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { breakpoints, colors } from "../base/breakpoints";
+import { breakpoints } from "../base/breakpoints";
 
 export const StyledContainer = styled.div`
   padding: 56px 0px 0px;
@@ -31,7 +31,7 @@ export const Content = styled.div`
   & p {
     position: absolute;
     top: 175px;
-    background-color: ${colors.fondoblanco};
+    background-color: ${(props) => props.theme.fondo};
     width: 273px;
     transition: 0.2s;
   }

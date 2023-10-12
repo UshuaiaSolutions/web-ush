@@ -87,7 +87,7 @@ function Explore() {
               <BotonFlecha isServices={true} isOpen={open === "desktop"} />
             </ItemTitle>
             {open === "desktop" && (
-              <p className="txt-mobile texto-regular mb-0-mobile mb-40">
+              <p className="txt-mobile texto-regular mt-10-mobile mt-0-mobile mb-0-mobile mb-40">
                 We can help you create and localize engaging
                 <CorteMobile /> and visually appealing content to reach your
                 <CorteMobile /> target audience. We offer
