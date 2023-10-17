@@ -90,12 +90,10 @@ function Explore() {
             </ItemTitle>
             {open === "project" && (
               <p className="txt-mobile texto-regular mb-0-mobile mb-40">
-                We can steer your project from start to finish: from
-                <CorteMobile /> source evaluation, quoting, and planning to
-                quality
-                <CorteMobile /> assurance.
-                <CorteDesktop /> Our team relies on proven processes
-                <CorteMobile /> and best practices based on 20+ years
+                We can steer your project from start to finish: from source
+                evaluation, quoting, and planning to quality assurance.
+                <CorteDesktop /> Our team relies on proven processes and best
+                practices based on 20+ years
                 <CorteMobile /> of experience.
               </p>
             )}
