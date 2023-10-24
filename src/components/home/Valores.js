@@ -8,7 +8,7 @@ function Valores() {
 
   return (
     <StyledContainer>
-      <Container>
+      <Container className="valores">
         <Content>
           <SVG
             xmlns="http://www.w3.org/2000/svg"

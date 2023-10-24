@@ -50,10 +50,15 @@ const theme = {
 
 function App() {
   const initialState = () => {
+    const prefersDarkMode = window.matchMedia(
+      "(prefers-color-scheme: dark)"
+    ).matches;
     const savedMode = localStorage.getItem("mode");
 
     if (savedMode) {
       return savedMode;
+    } else if (prefersDarkMode) {
+      return "dark";
     } else {
       return "light";
     }

@@ -350,6 +350,9 @@
 .mt-70 {
   margin-top: 70px;
 }
+.mt-80 {
+  margin-top: 80px;
+}
 
 .mb-8 {
   margin-bottom: 8px;
@@ -418,6 +421,10 @@
 
   .mt-16-mobile {
     margin-top: 16px;
+  }
+
+  .mt-25-mobile {
+    margin-top: 25px;
   }
 
   .me-0-mobile {

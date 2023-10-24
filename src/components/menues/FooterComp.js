@@ -21,6 +21,13 @@ export const ContainerTop = styled.div`
   background: ${(props) => props.theme.fondo};
   align-items: center;
   transition: 0.2s;
+  flex-direction: column;
+
+  & .work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
   & .scroll-to-top {
     background: ${(props) => props.theme.fondo};
@@ -34,13 +41,13 @@ export const ContainerTop = styled.div`
 `;
 
 export const Content = styled.div`
-  padding: 55px 0;
+  padding: 0 0 55px;
   background: ${(props) => props.theme.fondo};
   color: ${(props) => props.theme.texto};
   transition: 0.2s;
 
   ${breakpoints.min_desktop} {
-    padding: 110px 0 50px;
+    padding: 0 0 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;

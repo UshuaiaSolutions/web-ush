@@ -12,7 +12,9 @@ function ExpertiseAreas() {
   return (
     <Container>
       <StyledContainer>
-        <h2 className="h3-mobile h2-web mb-40 mb-16-mobile">Expertise Areas</h2>
+        <h2 className="h3-mobile h2-web mb-40 mb-16-mobile">
+          Areas of Expertise
+        </h2>
         <p className="txt-regular-mobile destacado-regular mb-16-mobile mb-60">
           We've managed to select and train highly
           <CorteMobile /> skilled professionals specialized

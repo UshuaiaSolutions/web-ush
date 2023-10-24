@@ -19,15 +19,12 @@ const Hero = () => {
           </h1>
           <p className="destacado-regular txt-regular-mobile mb-32 mb-16-mobile">
             Specialized professionals empowered
-            <CorteDesktop />
-            <CorteMobile /> by the latest technology can{" "}
+            <CorteDesktop /> by the latest technology can{" "}
             <span className="destacado-bold destacados-semibold-mobile">
               translate,
-              <CorteMobile />
               <CorteDesktop /> localize and create content
             </span>{" "}
             to help you
-            <CorteMobile />
             <CorteDesktop /> succeed in international markets.
           </p>
           <HashLink smooth to="/#contact">

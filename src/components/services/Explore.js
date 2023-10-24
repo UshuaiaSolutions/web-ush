@@ -147,14 +147,11 @@ function Explore() {
             </ItemTitle>
             {open === "video" && (
               <p className="txt-mobile texto-regular mb-0-mobile mb-40">
-                We can prepare, format, and QA your e-learning
-                <CorteMobile /> content, including copy, images, video, and
-                audio.
-                <CorteMobile /> Our team can help
-                <CorteDesktop /> with the pre and post-
-                <CorteMobile />
-                processing stages: from transcription to translation
-                <CorteMobile /> to timing, to subtitling or dubbing.
+                We can prepare, format, and QA your e-learning content,
+                including copy, images, video, and audio. Our team can help
+                <CorteDesktop /> with the pre and post-processing stages: from
+                transcription to translation to timing, to subtitling or
+                dubbing.
               </p>
             )}
           </Item>

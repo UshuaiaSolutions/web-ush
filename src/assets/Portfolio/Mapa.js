@@ -1,8 +1,9 @@
 import React from "react";
-import styled from "styled-components";
+import styled, { useTheme } from "styled-components";
 import { breakpoints, colors } from "../../components/base/breakpoints";
 
 function Mapa() {
+  const theme = useTheme();
   return (
     <SVG
       width="319"
@@ -44,7 +45,7 @@ function Mapa() {
         y1="189"
         x2="160.5"
         y2="257"
-        stroke="#393939"
+        stroke={theme.texto}
         strokeDasharray="3 3"
       />
     </SVG>

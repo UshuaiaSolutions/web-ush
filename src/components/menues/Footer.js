@@ -21,6 +21,8 @@ import {
 import LogoISO from "../../assets/Logo-ISO";
 import LogoUSH from "../../assets/Logo-USH";
 import { useTheme } from "styled-components";
+import BotonSecundario from "../base/BotonSecundario";
+import Valores from "../home/Valores";
 
 function Footer() {
   const theme = useTheme();
@@ -29,6 +31,22 @@ function Footer() {
     <Content>
       <Container>
         <ContainerTop>
+          <div className="work">
+            <Valores />
+            <p className="dropdown-title-web mb-80 mt-80 body-bold-mobile mb-25-mobile mt-25-mobile">
+              If you are a linguist, translator, graphic
+              <CorteMobile /> designer or IT specialist, join our team!
+            </p>
+            <a
+              href="https://cloud.protemos.com/vendor-app/create?token=2883715efa8d9747213570c8257c0ec3"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BotonSecundario className="mb-80 mb-25-mobile">
+                Work with us
+              </BotonSecundario>
+            </a>
+          </div>
           <ScrollToTop
             smooth
             component={

@@ -5,9 +5,12 @@ export const Column = styled.div`
   display: flex;
   flex-direction: column;
   margin-bottom: 16px;
+  border-bottom: 1px solid #b6b6b6;
+  padding-bottom: 16px;
 
   &:last-child {
     margin-bottom: 0;
+    border-bottom: none;
   }
 
   & a,
@@ -17,7 +20,7 @@ export const Column = styled.div`
 
   ${breakpoints.min_desktop} {
     padding-bottom: 32px;
-    margin-bottom: 0;
+    margin-bottom: 32px;
 
     & span {
       padding-left: 72px;
@@ -35,11 +38,10 @@ export const ContentDesktop = styled.div`
 export const Row = styled.div`
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #b6b6b6;
   padding-bottom: 16px;
 
   ${breakpoints.min_desktop} {
     flex-direction: column;
-    padding-bottom: 32px;
+    padding-bottom: 0;
   }
 `;

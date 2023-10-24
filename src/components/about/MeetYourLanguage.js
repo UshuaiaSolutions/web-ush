@@ -1,10 +1,6 @@
 import React from "react";
 import { HashLink } from "react-router-hash-link";
 
-import "swiper/css";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "../../styles/slider.css";
-
 import BotonSecundario from "../base/BotonSecundario";
 import Container from "../base/Container";
 import { CorteDesktop, CorteMobile } from "../base/Cortes";
@@ -50,7 +46,7 @@ function MeetYourLanguage() {
       <Container>
         <CardContainer className="mb-30">
           <Card>
-            <SVGContainer className="mb-35">
+            <SVGContainer className="mb-35 mb-16-mobile">
               <Experience
                 xmlns="http://www.w3.org/2000/svg"
                 width="39"
@@ -66,19 +62,27 @@ function MeetYourLanguage() {
                 />
               </Experience>
             </SVGContainer>
-            <h3 className="title-card mb-35">Experience</h3>
-            <p className="texto-regular text-center">
-              We know what we do. With more
-              <CorteDesktop /> than 20 years in the language
-              <CorteDesktop /> services industry, we have the
-              <CorteDesktop /> capacity to build and maintain
-              <CorteDesktop /> on-site dedicated teams
-              <CorteDesktop /> of highly skilled professionals
-              <CorteDesktop /> for your account.
+            <h3 className="title-card mb-35 body-bold-mobile mb-16-mobile">
+              Experience
+            </h3>
+            <p className="texto-regular text-center txt-regular-mobile">
+              We really know our stuff. With more
+              <CorteDesktop />
+              <CorteMobile /> than 20 years in the language
+              <CorteDesktop />
+              <CorteMobile /> services industry, we have the
+              <CorteDesktop />
+              <CorteMobile /> capacity to build and maintain
+              <CorteDesktop />
+              <CorteMobile /> on-site dedicated teams
+              <CorteDesktop />
+              <CorteMobile /> of highly skilled professionals
+              <CorteDesktop />
+              <CorteMobile /> for your account.
             </p>
           </Card>
           <Card>
-            <SVGContainer className="mb-35">
+            <SVGContainer className="mb-35 mb-16-mobile">
               <Technology
                 xmlns="http://www.w3.org/2000/svg"
                 width="44"
@@ -148,19 +152,27 @@ function MeetYourLanguage() {
                 />
               </Technology>
             </SVGContainer>
-            <h3 className="title-card mb-35">Technology</h3>
-            <p className="texto-regular text-center">
+            <h3 className="title-card mb-35 body-bold-mobile mb-16-mobile">
+              Technology
+            </h3>
+            <p className="texto-regular text-center txt-regular-mobile">
               We're geeks! We strategically use
-              <CorteDesktop /> the latest tech trends
-              <CorteDesktop /> to help you expand your
-              <CorteDesktop /> possibilities. Plus, our flexibility
-              <CorteDesktop /> enables us to adapt to any
-              <CorteDesktop /> technology, platform
-              <CorteDesktop /> or process you use.
+              <CorteDesktop />
+              <CorteMobile /> the latest tech trends
+              <CorteDesktop />
+              <CorteMobile /> to help you expand your
+              <CorteDesktop />
+              <CorteMobile /> possibilities. Plus, our flexibility
+              <CorteDesktop />
+              <CorteMobile /> enables us to adapt to any
+              <CorteDesktop />
+              <CorteMobile /> technology, platform
+              <CorteDesktop />
+              <CorteMobile /> or process you use.
             </p>
           </Card>
           <Card>
-            <SVGContainer className="mb-35">
+            <SVGContainer className="mb-35 mb-16-mobile">
               <Partnership
                 xmlns="http://www.w3.org/2000/svg"
                 width="58"
@@ -222,228 +234,27 @@ function MeetYourLanguage() {
                 />
               </Partnership>
             </SVGContainer>
-            <h3 className="title-card mb-35">Partnership</h3>
-            <p className="texto-regular text-center">
+            <h3 className="title-card mb-35 body-bold-mobile mb-16-mobile">
+              Partnership
+            </h3>
+            <p className="texto-regular text-center txt-regular-mobile">
               Positive leadership, empathy
-              <CorteDesktop /> and honesty are our core work
-              <CorteDesktop /> values. We strongly believe the
-              <CorteDesktop /> collaborative effort of a team
-              <CorteDesktop /> to achieve a common goal leads
-              <CorteDesktop /> to much more effective and efficient solutions.
-              <CorteDesktop /> Better together!
+              <CorteDesktop />
+              <CorteMobile /> and honesty are our core work
+              <CorteDesktop />
+              <CorteMobile /> values. We strongly believe the
+              <CorteDesktop />
+              <CorteMobile /> collaborative effort of a team
+              <CorteDesktop />
+              <CorteMobile /> to achieve a common goal leads
+              <CorteDesktop />
+              <CorteMobile /> to much more effective and efficient solutions.
+              <CorteDesktop />
+              <CorteMobile /> Better together!
             </p>
           </Card>
         </CardContainer>
-        <Swiper
-          slidesPerView={1.3}
-          spaceBetween={10}
-          initialSlide={1}
-          centeredSlides={true}
-          className="mySwiper d-none-desktop why-swiper mt-40-mobile"
-        >
-          <SwiperSlide>
-            <Card>
-              <SVGContainer className="mb-16-mobile">
-                <Experience
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="39"
-                  height="38"
-                  viewBox="0 0 39 38"
-                  fill="none"
-                >
-                  <path
-                    d="M26.8357 11.4178L37.2864 13.0376C38.645 13.2467 39.1675 14.9188 38.1747 15.9116L30.4935 23.2271C30.0755 23.5928 29.9187 24.1676 30.0232 24.6902L31.6953 35.1408C31.9043 36.4994 30.4935 37.5445 29.2394 36.8652L19.9383 31.8489C19.468 31.5876 18.8932 31.5876 18.3707 31.8489L8.96507 36.7084C7.71098 37.3355 6.30014 36.2904 6.56141 34.9318L8.44253 24.5334C8.54704 24.0109 8.39028 23.4361 7.97225 23.0703L0.500009 15.5458C-0.492806 14.553 0.0819815 12.8809 1.44057 12.7241L11.9435 11.3133C12.466 11.261 12.9363 10.8952 13.1976 10.425L18.0049 0.914843C18.632 -0.33924 20.4086 -0.286985 20.9834 0.967097L25.5817 10.5295C25.7907 10.9998 26.261 11.3655 26.8357 11.4178Z"
-                    fill={
-                      theme.nombre === "light"
-                        ? colors.azulush
-                        : colors.amarillo
-                    }
-                  />
-                </Experience>
-              </SVGContainer>
-              <h3 className="body-bold-mobile mb-16-mobile">Experience</h3>
-              <p className="txt-regular-mobile  text-center">
-                We know what we do. With more
-                <CorteMobile /> than 20 years in the language
-                <CorteMobile /> services industry, we have the
-                <CorteMobile /> capacity to build and maintain
-                <CorteMobile /> on-site dedicated teams
-                <CorteMobile /> of highly skilled professionals
-                <CorteMobile /> for your account.
-              </p>
-            </Card>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Card>
-              <SVGContainer className="mb-16-mobile">
-                <Technology
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="44"
-                  height="45"
-                  viewBox="0 0 44 45"
-                  fill="none"
-                >
-                  <path
-                    d="M6.65686 30.4545L3.28698 32.5443C3.05075 32.6891 2.8816 32.9219 2.81694 33.1913C2.75227 33.4608 2.7973 33.7448 2.94207 33.9811C3.0328 34.1383 3.16298 34.2691 3.31963 34.3607C3.47629 34.4523 3.654 34.5016 3.83546 34.5036C4.02043 34.4985 4.20072 34.4444 4.35793 34.3468L7.72271 32.257C7.95894 32.1122 8.12795 31.8794 8.19262 31.61C8.25728 31.3405 8.21226 31.0565 8.06749 30.8202C7.92629 30.5875 7.69992 30.4191 7.43647 30.3508C7.17303 30.2825 6.89331 30.3197 6.65686 30.4545Z"
-                    fill={
-                      theme.nombre === "light" ? colors.rojoush : colors.rosaush
-                    }
-                  />
-                  <path
-                    d="M6.29156 23.4951C6.29156 23.218 6.18139 22.9522 5.98543 22.7563C5.78947 22.5603 5.52376 22.4502 5.24663 22.4502H1.0669C0.789771 22.4502 0.52394 22.5603 0.327977 22.7563C0.132015 22.9522 0.0219727 23.218 0.0219727 23.4951C0.0219727 23.7723 0.132015 24.038 0.327977 24.234C0.52394 24.43 0.789771 24.5401 1.0669 24.5401H5.24663C5.52376 24.5401 5.78947 24.43 5.98543 24.234C6.18139 24.038 6.29156 23.7723 6.29156 23.4951Z"
-                    fill={
-                      theme.nombre === "light" ? colors.rojoush : colors.rosaush
-                    }
-                  />
-                  <path
-                    d="M3.26701 14.2371L6.63166 16.4314C6.80077 16.5429 6.99866 16.6028 7.20119 16.6039C7.37555 16.6041 7.54713 16.5608 7.70044 16.4777C7.85375 16.3947 7.98387 16.2746 8.0789 16.1284C8.15411 16.0135 8.20598 15.8849 8.23145 15.75C8.25693 15.615 8.25551 15.4764 8.22737 15.342C8.19923 15.2076 8.14489 15.08 8.06742 14.9667C7.98995 14.8533 7.89081 14.7563 7.77583 14.6812L4.40595 12.4868C4.29074 12.4119 4.16187 12.3604 4.02673 12.3353C3.89158 12.3102 3.75286 12.312 3.61842 12.3407C3.48399 12.3693 3.35648 12.4242 3.24328 12.5022C3.13009 12.5801 3.03337 12.6797 2.95871 12.7951C2.80896 13.0274 2.75731 13.3095 2.81508 13.5797C2.87285 13.85 3.03538 14.0864 3.26701 14.2371Z"
-                    fill={
-                      theme.nombre === "light" ? colors.rojoush : colors.rosaush
-                    }
-                  />
-                  <path
-                    d="M11.6633 9.38882C11.7591 9.53233 11.8889 9.64991 12.0412 9.73105C12.1934 9.81219 12.3634 9.85436 12.536 9.85382C12.7426 9.85325 12.9443 9.79142 13.1158 9.67617C13.2303 9.59985 13.3286 9.50167 13.405 9.38729C13.4814 9.2729 13.5345 9.14458 13.5612 9.00963C13.5879 8.87468 13.5877 8.73578 13.5606 8.60091C13.5335 8.46605 13.48 8.33788 13.4032 8.22373L11.0887 4.77544C10.9338 4.54661 10.6946 4.38847 10.4234 4.3356C10.1522 4.28272 9.87099 4.33943 9.64147 4.49332C9.4118 4.64741 9.25259 4.88628 9.19873 5.15756C9.14487 5.42884 9.20071 5.71041 9.35409 5.94056L11.6633 9.38882Z"
-                    fill={
-                      theme.nombre === "light" ? colors.rojoush : colors.rosaush
-                    }
-                  />
-                  <path
-                    d="M20.9987 8.28625C11.6779 8.28625 7.35186 16.2591 7.25782 21.9226C7.169 27.4242 10.1209 30.4963 11.704 32.1473C12.8292 33.3944 13.7608 34.8033 14.4679 36.327V45.2664C14.4678 45.4042 14.4949 45.5408 14.5478 45.6681C14.6008 45.7955 14.6784 45.9111 14.7762 46.0083L17.5922 48.8296C17.6898 48.9264 17.8056 49.0031 17.9329 49.0551C18.0602 49.1071 18.1965 49.1334 18.3341 49.1326H23.6581C23.7956 49.1334 23.9319 49.1071 24.0592 49.0551C24.1866 49.0031 24.3023 48.9264 24.3999 48.8296L27.2212 46.0083C27.3181 45.9106 27.3947 45.7948 27.4467 45.6675C27.4987 45.5402 27.5251 45.4039 27.5243 45.2664V36.3479C28.2304 34.8237 29.1621 33.4146 30.2881 32.1681C31.8555 30.5171 34.8232 27.466 34.7343 21.9435C34.6351 16.2591 30.3143 8.28625 20.9987 8.28625ZM20.9987 37.6384H25.4344V38.4116H16.5525V37.6384H20.9987ZM18.1251 28.0511H17.5504C16.5577 28.0511 16.5577 27.7481 16.5577 27.398C16.5577 26.4262 17.1585 26.3061 17.681 26.3061C17.8847 26.3061 17.9422 26.3583 17.9579 26.3792C18.0822 26.5753 18.1408 26.8059 18.1251 27.0376V28.0511ZM20.215 30.141H21.7824V35.5485H20.215V30.141ZM23.8723 27.048C23.8579 26.8132 23.9163 26.5797 24.0395 26.3792C24.0395 26.3792 24.1126 26.3061 24.3164 26.3061C24.8389 26.3061 25.4397 26.4262 25.4397 27.398C25.4397 27.7481 25.4397 28.0511 24.447 28.0511H23.8775V27.1107C23.8775 27.1107 23.8618 27.0689 23.8618 27.048H23.8723ZM21.0039 44.1378H16.563V43.3489H25.4449V44.1222L21.0039 44.1378ZM21.0039 40.4806H25.4397V41.2591H16.5577V40.4858L21.0039 40.4806ZM23.2349 47.0428H18.773L17.937 46.2068H24.0656L23.2349 47.0428ZM28.7886 30.6791C27.4807 32.1209 26.4039 33.7564 25.5964 35.5276H23.8775V30.141H24.447C26.3801 30.141 27.5295 29.096 27.5295 27.398C27.5517 26.9717 27.4834 26.5454 27.3294 26.1473C27.1753 25.7491 26.9389 25.3879 26.6355 25.0875C26.3321 24.7871 25.9687 24.5542 25.569 24.4041C25.1693 24.2539 24.7425 24.1899 24.3164 24.2162C23.9811 24.2055 23.6471 24.2655 23.3365 24.3925C23.0259 24.5194 22.7456 24.7103 22.5138 24.9529C22.0023 25.5638 21.7427 26.3465 21.7876 27.142V28.0511H20.2202V27.1525C20.2599 26.3577 20.0009 25.5768 19.4941 24.9634C19.2612 24.7207 18.98 24.5297 18.6685 24.4027C18.3571 24.2758 18.0223 24.2159 17.6862 24.2267C17.2601 24.2003 16.8333 24.2643 16.4336 24.4145C16.034 24.5646 15.6705 24.7976 15.3671 25.098C15.0638 25.3984 14.8273 25.7595 14.6732 26.1577C14.5192 26.5559 14.4509 26.9821 14.4731 27.4085C14.4731 29.1274 15.6225 30.1514 17.5556 30.1514H18.1304V35.559H16.4062C15.6008 33.7866 14.5238 32.1508 13.214 30.7105C11.3122 28.7251 9.28499 26.2486 9.35291 21.9696C9.41561 18.1922 12.3467 10.3865 21.0039 10.3865C29.6612 10.3865 32.587 18.1922 32.6497 21.9696C32.7072 26.2382 30.6799 28.7199 28.7782 30.7L28.7886 30.6791Z"
-                    fill={
-                      theme.nombre === "light" ? colors.rojoush : colors.rosaush
-                    }
-                  />
-                  <path
-                    d="M38.696 32.5286L35.3312 30.4387C35.2144 30.366 35.0843 30.3171 34.9485 30.2948C34.8126 30.2725 34.6736 30.2773 34.5396 30.3088C34.4056 30.3404 34.2793 30.3981 34.1677 30.4787C34.0561 30.5592 33.9614 30.6611 33.8892 30.7783C33.7445 31.0146 33.6996 31.2987 33.7642 31.5681C33.8289 31.8376 33.9979 32.0703 34.2341 32.2151L37.604 34.305C37.7612 34.4026 37.9415 34.4566 38.1265 34.4617C38.308 34.4597 38.4858 34.4105 38.6424 34.3188C38.7991 34.2272 38.9292 34.0964 39.0199 33.9392C39.1584 33.7078 39.2021 33.4317 39.1417 33.1687C39.0813 32.9058 38.9217 32.6764 38.696 32.5286Z"
-                    fill={
-                      theme.nombre === "light" ? colors.rojoush : colors.rosaush
-                    }
-                  />
-                  <path
-                    d="M40.9312 22.4502H36.7515C36.4743 22.4502 36.2086 22.5603 36.0127 22.7563C35.8167 22.9522 35.7065 23.218 35.7065 23.4951C35.7065 23.7723 35.8167 24.038 36.0127 24.234C36.2086 24.43 36.4743 24.5401 36.7515 24.5401H40.9312C41.2083 24.5401 41.4742 24.43 41.6701 24.234C41.8661 24.038 41.9761 23.7723 41.9761 23.4951C41.9761 23.218 41.8661 22.9522 41.6701 22.7563C41.4742 22.5603 41.2083 22.4502 40.9312 22.4502Z"
-                    fill={
-                      theme.nombre === "light" ? colors.rojoush : colors.rosaush
-                    }
-                  />
-                  <path
-                    d="M34.7821 16.6039C34.9847 16.6028 35.1826 16.5429 35.3517 16.4314L38.7216 14.2371C38.9523 14.0855 39.1138 13.8488 39.1706 13.5786C39.2273 13.3084 39.1749 13.0267 39.0246 12.7951C38.95 12.6797 38.8533 12.5801 38.7401 12.5022C38.6269 12.4242 38.4994 12.3693 38.3649 12.3407C38.2305 12.312 38.0918 12.3102 37.9566 12.3353C37.8215 12.3604 37.6926 12.4119 37.5774 12.4868L34.2127 14.6812C34.0973 14.7558 33.9977 14.8525 33.9197 14.9657C33.8418 15.0789 33.7869 15.2064 33.7583 15.3408C33.7296 15.4753 33.7278 15.614 33.7529 15.7492C33.778 15.8843 33.8295 16.0132 33.9044 16.1284C33.9995 16.2746 34.1296 16.3947 34.2829 16.4777C34.4362 16.5608 34.6078 16.6041 34.7821 16.6039Z"
-                    fill={
-                      theme.nombre === "light" ? colors.rojoush : colors.rosaush
-                    }
-                  />
-                  <path
-                    d="M28.8669 9.69695C29.0399 9.81319 29.2436 9.87504 29.452 9.87457C29.6236 9.87426 29.7926 9.83166 29.9438 9.75056C30.0951 9.66946 30.2241 9.55234 30.3194 9.40957L32.6286 5.96131C32.782 5.73116 32.8379 5.44959 32.784 5.17831C32.7301 4.90703 32.5709 4.66816 32.3412 4.51407C32.1117 4.36018 31.8307 4.30347 31.5595 4.35635C31.2882 4.40922 31.0489 4.56739 30.894 4.79622L28.5847 8.24448C28.5077 8.35832 28.454 8.48624 28.4264 8.6209C28.3989 8.75556 28.3982 8.89431 28.4244 9.02923C28.4506 9.16415 28.5032 9.29261 28.5791 9.40718C28.655 9.52175 28.7529 9.62022 28.8669 9.69695Z"
-                    fill={
-                      theme.nombre === "light" ? colors.rojoush : colors.rosaush
-                    }
-                  />
-                  <path
-                    d="M20.9995 7.12127C21.2767 7.12127 21.5425 7.0112 21.7384 6.81524C21.9344 6.61927 22.0445 6.35347 22.0445 6.07634V1.89662C22.0445 1.61948 21.9344 1.35372 21.7384 1.15775C21.5425 0.96179 21.2767 0.851685 20.9995 0.851685C20.7224 0.851685 20.4566 0.96179 20.2606 1.15775C20.0646 1.35372 19.9546 1.61948 19.9546 1.89662V6.07634C19.9546 6.35347 20.0646 6.61927 20.2606 6.81524C20.4566 7.0112 20.7224 7.12127 20.9995 7.12127Z"
-                    fill={
-                      theme.nombre === "light" ? colors.rojoush : colors.rosaush
-                    }
-                  />
-                </Technology>
-              </SVGContainer>
-              <h3 className="body-bold-mobile mb-16-mobile">Technology</h3>
-              <p className="txt-regular-mobile  text-center">
-                We're geeks! We strategically use the latest tech trends to help
-                you expand your possibilities. Plus, our flexibility enables us
-                to adapt to any technology, platform or process you use.
-              </p>
-            </Card>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Card>
-              <SVGContainer className="mb-16-mobile">
-                <Partnership
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="30"
-                  height="19"
-                  viewBox="0 0 30 19"
-                  fill="none"
-                >
-                  <path
-                    d="M8.39176 8.98908C9.53161 8.98908 10.4556 8.06505 10.4556 6.92521C10.4556 5.78536 9.53161 4.86133 8.39176 4.86133C7.25191 4.86133 6.32788 5.78536 6.32788 6.92521C6.32788 8.06505 7.25191 8.98908 8.39176 8.98908Z"
-                    fill={
-                      theme.nombre === "light"
-                        ? colors.lilaush
-                        : colors.verdeush
-                    }
-                  />
-                  <path
-                    d="M21.6112 8.98908C22.7511 8.98908 23.6751 8.06505 23.6751 6.92521C23.6751 5.78536 22.7511 4.86133 21.6112 4.86133C20.4714 4.86133 19.5474 5.78536 19.5474 6.92521C19.5474 8.06505 20.4714 8.98908 21.6112 8.98908Z"
-                    fill={
-                      theme.nombre === "light"
-                        ? colors.lilaush
-                        : colors.verdeush
-                    }
-                  />
-                  <path
-                    d="M14.7217 3.97057C14.9904 3.92453 15.2666 3.98537 15.4911 4.1401C15.7157 4.29483 15.8708 4.53117 15.9234 4.79871C15.9652 5.02339 16.9893 10.2274 21.7101 10.2274H21.8277C26.9796 10.2274 29.0644 14.8751 29.4563 17.3831C29.5046 17.6531 29.4447 17.9311 29.2898 18.1574C29.1349 18.3837 28.8973 18.5401 28.6281 18.5927C28.5662 18.6052 28.5031 18.6114 28.44 18.611C28.1944 18.6082 27.9576 18.5188 27.7713 18.3587C27.585 18.1987 27.461 17.9782 27.4211 17.7358C27.395 17.5712 26.9116 14.6661 24.7563 13.1692C24.6989 13.1292 24.6315 13.1056 24.5617 13.1011C24.4918 13.0965 24.422 13.1113 24.3599 13.1435C24.2977 13.1758 24.2456 13.2245 24.2091 13.2842C24.1726 13.344 24.1531 13.4126 24.1528 13.4826V17.8089H18.5125V12.017C18.5119 11.8924 18.4779 11.7702 18.414 11.6632C18.3501 11.5561 18.2587 11.4681 18.1493 11.4083C15.4845 9.93746 14.2175 6.96707 13.891 5.16967C13.8457 4.90093 13.9072 4.62511 14.0624 4.4011C14.2176 4.17709 14.4542 4.02266 14.7217 3.97057Z"
-                    fill={
-                      theme.nombre === "light"
-                        ? colors.lilaush
-                        : colors.verdeush
-                    }
-                  />
-                  <path
-                    fillRule="evenodd"
-                    clipRule="evenodd"
-                    d="M13.9322 5.37901C13.5229 6.78523 12.1287 10.2274 8.28932 10.2274H8.17171C3.01724 10.2274 0.935152 14.8751 0.543276 17.3831C0.49492 17.6527 0.55433 17.9304 0.708726 18.1567C0.863122 18.3829 1.10007 18.5395 1.36874 18.5927C1.43154 18.6051 1.49543 18.6113 1.55945 18.611C1.80505 18.6082 2.04182 18.5188 2.22814 18.3587C2.41446 18.1987 2.5384 17.9782 2.5783 17.7358C2.60442 17.5712 3.08779 14.6661 5.2431 13.1692C5.30057 13.1292 5.36788 13.1056 5.43777 13.1011C5.50765 13.0965 5.57743 13.1113 5.63957 13.1435C5.70172 13.1758 5.75387 13.2245 5.79035 13.2842C5.82684 13.344 5.8463 13.4126 5.84661 13.4826V17.8089H11.487V12.017C11.487 11.8923 11.5209 11.7698 11.5848 11.6627C11.6487 11.5555 11.7404 11.4676 11.8501 11.4083C13.2796 10.6193 14.3031 9.39872 14.9969 8.1592C14.445 7.17571 14.1018 6.18028 13.9322 5.37901ZM16.0652 5.37182C16.08 5.30295 16.0936 5.23552 16.1059 5.16967C16.1512 4.90131 16.09 4.62581 15.9354 4.40186C15.7807 4.17792 15.5448 4.02325 15.2778 3.97057C15.1852 3.95471 15.0917 3.95153 14.9997 3.96052C15.1746 3.97761 15.344 4.03869 15.4911 4.1401C15.7157 4.29483 15.8708 4.53117 15.9234 4.79871C15.9312 4.84035 15.9727 5.05299 16.0652 5.37182Z"
-                    fill={
-                      theme.nombre === "light"
-                        ? colors.lilaush
-                        : colors.verdeush
-                    }
-                  />
-                  <g style={{ mixBlendMode: "multiply" }}>
-                    <path
-                      fillRule="evenodd"
-                      clipRule="evenodd"
-                      d="M16.0651 5.37175C15.9726 5.05292 15.9311 4.84028 15.9234 4.79864C15.8707 4.5311 15.7156 4.29476 15.4911 4.14003C15.3439 4.03862 15.1746 3.97754 14.9997 3.96045C14.8248 3.97754 14.6554 4.03862 14.5082 4.14003C14.2837 4.29476 14.1286 4.5311 14.0759 4.79864C14.0681 4.84059 14.0261 5.05612 13.9321 5.37894C14.1018 6.18021 14.4449 7.17564 14.9969 8.15913C15.549 7.1727 15.8922 6.17425 16.0651 5.37175Z"
-                      fill="#060045"
-                    />
-                  </g>
-                  <path
-                    d="M14.458 0.765221V1.98524C14.458 2.24495 14.6685 2.45557 14.9282 2.45557H15.0615C15.3212 2.45557 15.5317 2.24495 15.5317 1.98524V0.765221C15.5317 0.505508 15.3212 0.295021 15.0615 0.295021H14.9282C14.6685 0.295021 14.458 0.505508 14.458 0.765221Z"
-                    fill={
-                      theme.nombre === "light"
-                        ? colors.lilaush
-                        : colors.verdeush
-                    }
-                  />
-                  <path
-                    d="M17.8198 1.86822L16.9571 2.73091C16.7734 2.91455 16.7734 3.2124 16.9571 3.39605L17.0513 3.49022C17.2349 3.67386 17.5327 3.67377 17.7163 3.49013L18.579 2.62744C18.7626 2.4438 18.7626 2.14613 18.579 1.96248L18.4848 1.86831C18.3012 1.68467 18.0034 1.68458 17.8198 1.86822Z"
-                    fill={
-                      theme.nombre === "light"
-                        ? colors.lilaush
-                        : colors.verdeush
-                    }
-                  />
-                  <path
-                    d="M11.411 2.62661L12.2737 3.4893C12.4574 3.67294 12.7551 3.67285 12.9388 3.48921L13.0329 3.39504C13.2166 3.21139 13.2166 2.91372 13.0329 2.73007L12.1703 1.86739C11.9866 1.68375 11.6889 1.68366 11.5052 1.8673L11.411 1.96147C11.2274 2.14511 11.2274 2.44297 11.411 2.62661Z"
-                    fill={
-                      theme.nombre === "light"
-                        ? colors.lilaush
-                        : colors.verdeush
-                    }
-                  />
-                </Partnership>
-              </SVGContainer>
-              <h3 className="body-bold-mobile mb-16-mobile">Partnership</h3>
-              <p className="txt-regular-mobile  text-center">
-                Positive leadership, empathy and honesty are our core work
-                values. We strongly believe the collaborative effort of a team
-                <CorteMobile />
-                to achieve a common goal leads to much more effective and
-                efficient solutions.
-                <CorteMobile />
-                Better together!
-              </p>
-            </Card>
-          </SwiperSlide>
-        </Swiper>
+
         <OndasLargas />
       </Container>
     </>

@@ -4,8 +4,8 @@ import { CorteDesktop, CorteMobile } from "../base/Cortes";
 import { StyledContainer } from "../services/HowWeCanComp";
 import { Column, ContentDesktop, Row } from "./NeedsComp";
 import IlustracionNeeds from "../../assets/Ilustracion-Needs";
-import BotonFlecha from "../../assets/BotonFlecha";
 import { Link } from "react-router-dom";
+import BotonSecundario from "../base/BotonSecundario";
 
 function Needs() {
   return (
@@ -49,10 +49,10 @@ function Needs() {
                   <CorteDesktop />
                   global audiences.
                 </p>
-                <Link to="/about">
-                  <BotonFlecha isServices={false} />
-                </Link>
               </Row>
+              <Link to="/about">
+                <BotonSecundario>See more</BotonSecundario>
+              </Link>
             </Column>
             <Column>
               <h4 className="body-bold-mobile h3-web mb-16-mobile mb-32">
@@ -72,10 +72,10 @@ function Needs() {
                   <CorteMobile /> copywriting
                   <CorteDesktop /> and video editing.
                 </p>
-                <Link to="/about">
-                  <BotonFlecha isServices={false} />
-                </Link>
               </Row>
+              <Link to="/about">
+                <BotonSecundario>See more</BotonSecundario>
+              </Link>
             </Column>
             <Column>
               <h5 className="body-bold-mobile  h3-web mb-16-mobile mb-32">
@@ -99,10 +99,10 @@ function Needs() {
                   <CorteMobile /> industry
                   <CorteDesktop /> standards.
                 </p>
-                <Link to="/about">
-                  <BotonFlecha isServices={false} />
-                </Link>
               </Row>
+              <Link to="/about">
+                <BotonSecundario>See more</BotonSecundario>
+              </Link>
             </Column>
           </div>
         </ContentDesktop>

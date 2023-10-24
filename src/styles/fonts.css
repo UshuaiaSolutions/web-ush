@@ -262,7 +262,7 @@
   .dropdown-title-web {
     font-size: 24px;
     font-weight: 600;
-    line-height: 28px;
+    line-height: normal;
     letter-spacing: 0em;
   }
 
