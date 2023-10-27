@@ -21,12 +21,9 @@ const Success = ({ func }) => {
           <CorteMobile /> has been successfully sent.
         </h3>
         <p className="text-center text-center-mobile texto-regular txt-minimo-mobile">
-          You'll be quickly contacted by a member
-          <CorteMobile /> of the USHteam.
-          <CorteDesktop /> If you don't see our
-          <CorteMobile /> response, please check your Spam
-          <CorteDesktop />
-          <CorteMobile /> or Junk email folders.
+          You'll be quickly contacted by a member of the USHteam.
+          <CorteDesktop /> If you don't see our response, please check your Spam
+          <CorteDesktop /> or Junk email folders.
         </p>
       </Container>
     </>

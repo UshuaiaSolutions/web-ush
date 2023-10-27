@@ -4,7 +4,7 @@ import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "../../styles/slider.css";
 import Container from "../base/Container";
-import { CorteDesktop, CorteMobile } from "../base/Cortes";
+import { CorteDesktop } from "../base/Cortes";
 import { StyledContainer } from "./MeetClientsComp";
 import {
   Cliente1,
@@ -29,11 +29,10 @@ function MeetClients() {
           Teaming with clients worldwide
         </h1>
         <p className="txt-regular-mobile destacado-regular mb-25-mobile mb-70 text-center-mobile text-center">
-          Our highly esteemed client list includes
-          <CorteMobile /> partner LSPs as well as B2B customers who
-          <CorteMobile /> have
-          <CorteDesktop /> come to rely on us as an extension of
-          <CorteMobile /> their in-house teams. Let us help you too!
+          Our highly esteemed client list includes partner LSPs as well as B2B
+          customers who have
+          <CorteDesktop /> come to rely on us as an extension of their in-house
+          teams. Let us help you too!
         </p>
 
         <Swiper

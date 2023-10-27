@@ -35,16 +35,11 @@ function WeCanHelp() {
             </h2>
             <p className="txt-regular-mobile destacado-regular mb-32-mobile text-center-mobile">
               From translation to desktop publishing
-              <CorteDesktop /> and
-              <CorteMobile /> copywriting, our team can help you
-              <CorteDesktop /> remove
-              <CorteMobile /> language barriers.
-              <CorteDesktop /> Plus, we encourage
-              <CorteMobile /> positive leadership
-              <CorteDesktop /> to motivate our talented
-              <CorteMobile /> professionals
-              <CorteDesktop />
-              to work together as one.
+              <CorteDesktop /> and copywriting, our team can help you
+              <CorteDesktop /> remove language barriers.
+              <CorteDesktop /> Plus, we encourage positive leadership
+              <CorteDesktop /> to motivate our talented professionals
+              <CorteDesktop /> to work together as one.
             </p>
           </Row>
           <RowIcons className="mb-32-mobile">
@@ -69,7 +64,8 @@ function WeCanHelp() {
               </IconContainer>
               <span className="texto-regular txt-mobile text-center">
                 Language
-                <br /> Solutions
+                <CorteDesktop />
+                <CorteMobile /> Solutions
               </span>
             </Card>
             <Card className="mb-16-mobile">
@@ -89,7 +85,8 @@ function WeCanHelp() {
               </IconContainer>
               <span className="texto-regular txt-mobile text-center">
                 Project
-                <br /> Management
+                <CorteDesktop />
+                <CorteMobile /> Management
               </span>
             </Card>
             <Card className="mb-16-mobile">
@@ -117,7 +114,8 @@ function WeCanHelp() {
               </IconContainer>
               <span className="texto-regular txt-mobile text-center">
                 Desktop
-                <br /> Publishing
+                <CorteDesktop />
+                <CorteMobile /> Publishing
               </span>
             </Card>
             <Card className="mb-16-mobile">
@@ -141,7 +139,8 @@ function WeCanHelp() {
               </IconContainer>
               <span className="texto-regular txt-mobile text-center">
                 Creative
-                <br /> Visuals
+                <CorteDesktop />
+                <CorteMobile /> Visuals
               </span>
             </Card>
             <Card className="mb-16-mobile">
@@ -165,7 +164,8 @@ function WeCanHelp() {
               </IconContainer>
               <span className="texto-regular txt-mobile text-center">
                 Content
-                <br /> Creation
+                <CorteDesktop />
+                <CorteMobile /> Creation
               </span>
             </Card>
             <Card className="mb-16-mobile">
@@ -185,7 +185,8 @@ function WeCanHelp() {
               </IconContainer>
               <span className="texto-regular txt-mobile text-center">
                 E-Learning
-                <br /> and video
+                <CorteDesktop />
+                <CorteMobile /> and video
               </span>
             </Card>
           </RowIcons>

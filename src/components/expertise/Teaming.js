@@ -17,19 +17,15 @@ function Teaming() {
           <div style={{ zIndex: "2", position: "relative" }}>
             <h1 className="h1-mobile h1-web mb-16-mobile mb-32 text-center">
               Teaming with
-              <br /> clients worldwide
+              <CorteDesktop />
+              <CorteMobile /> clients worldwide
             </h1>
             <p className="txt-regular-mobile destacado-regular text-center">
               Our expertise enables us to offer different
-              <CorteDesktop />
-              <CorteMobile /> localization solutions. We provide several
-              <CorteDesktop />
-              <CorteMobile /> services from file processing and content
-              <CorteMobile /> parsing
-              <CorteDesktop /> to dubbing, MTPE, audio and video
-              <CorteMobile /> editing, DTP,
-              <CorteDesktop /> voice-recording,
-              <CorteMobile /> copywriting and testing.
+              <CorteDesktop /> localization solutions. We provide several
+              <CorteDesktop /> services from file processing and content parsing
+              <CorteDesktop /> to dubbing, MTPE, audio and video editing, DTP,
+              <CorteDesktop /> voice-recording, copywriting and testing.
             </p>
           </div>
         </Container>

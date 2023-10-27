@@ -68,17 +68,17 @@ function MeetYourLanguage() {
             <p className="texto-regular text-center txt-regular-mobile">
               We really know our stuff. With more
               <CorteDesktop />
-              <CorteMobile /> than 20 years in the language
+              than 20 years in the language
               <CorteDesktop />
-              <CorteMobile /> services industry, we have the
+              services industry, we have the
               <CorteDesktop />
-              <CorteMobile /> capacity to build and maintain
+              capacity to build and maintain
               <CorteDesktop />
-              <CorteMobile /> on-site dedicated teams
+              on-site dedicated teams
               <CorteDesktop />
-              <CorteMobile /> of highly skilled professionals
+              of highly skilled professionals
               <CorteDesktop />
-              <CorteMobile /> for your account.
+              for your account.
             </p>
           </Card>
           <Card>
@@ -158,17 +158,17 @@ function MeetYourLanguage() {
             <p className="texto-regular text-center txt-regular-mobile">
               We're geeks! We strategically use
               <CorteDesktop />
-              <CorteMobile /> the latest tech trends
+              the latest tech trends
               <CorteDesktop />
-              <CorteMobile /> to help you expand your
+              to help you expand your
               <CorteDesktop />
-              <CorteMobile /> possibilities. Plus, our flexibility
+              possibilities. Plus, our flexibility
               <CorteDesktop />
-              <CorteMobile /> enables us to adapt to any
+              enables us to adapt to any
               <CorteDesktop />
-              <CorteMobile /> technology, platform
+              technology, platform
               <CorteDesktop />
-              <CorteMobile /> or process you use.
+              or process you use.
             </p>
           </Card>
           <Card>
@@ -239,18 +239,12 @@ function MeetYourLanguage() {
             </h3>
             <p className="texto-regular text-center txt-regular-mobile">
               Positive leadership, empathy
-              <CorteDesktop />
-              <CorteMobile /> and honesty are our core work
-              <CorteDesktop />
-              <CorteMobile /> values. We strongly believe the
-              <CorteDesktop />
-              <CorteMobile /> collaborative effort of a team
-              <CorteDesktop />
-              <CorteMobile /> to achieve a common goal leads
-              <CorteDesktop />
-              <CorteMobile /> to much more effective and efficient solutions.
-              <CorteDesktop />
-              <CorteMobile /> Better together!
+              <CorteDesktop /> and honesty are our core work
+              <CorteDesktop /> values. We strongly believe the
+              <CorteDesktop /> collaborative effort of a team
+              <CorteDesktop /> to achieve a common goal leads
+              <CorteDesktop /> to much more effective and efficient solutions.
+              <CorteDesktop /> Better together!
             </p>
           </Card>
         </CardContainer>

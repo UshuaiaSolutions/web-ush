@@ -8,6 +8,7 @@ export const StyledContainer = styled.div`
   display: flex;
   flex-direction: column;
   transition: 0.2s;
+  width: 100%;
 
   ${breakpoints.min_desktop} {
     padding: 100px 0 0;

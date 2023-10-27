@@ -14,9 +14,9 @@ function MeetYourNeeds() {
         </h2>
         <p className="txt-regular-mobile destacado-regular mb-32-mobile mb-40 text-center-mobile">
           USH is a synonym of flexibility, scalability
-          <br /> and efficiency. We're your language service
-          <br /> partner for Latin America, Europe
-          <br /> and the world.
+          <CorteDesktop /> and efficiency. We're your language service
+          <CorteDesktop /> partner for Latin America, Europe
+          <CorteDesktop /> and the world.
         </p>
       </StyledContainer>
       <Ondas />

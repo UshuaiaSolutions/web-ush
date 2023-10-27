@@ -1,5 +1,5 @@
 import React from "react";
-import { CorteDesktop, CorteMobile } from "../base/Cortes";
+import { CorteDesktop } from "../base/Cortes";
 import Circulos from "../../assets/Blog/Circulos";
 import { Container } from "./FollowUSComp";
 import CirculoMobile from "../../assets/Blog/CirculoMobile";
@@ -14,16 +14,13 @@ function FollowUS() {
           <CorteDesktop /> coming soon!
         </h2>
         <p className="destacado-regular text-center-mobile txt-regular-mobile">
-          We're currently working on a blog section
-          <CorteMobile /> where you'll be
-          <CorteDesktop /> able to see the latest news
-          <CorteMobile /> of the localization industry.
-          <CorteDesktop /> If you're a linguist,
-          <CorteMobile /> graphic designer, IT specialist, writer
-          <CorteDesktop /> or video
-          <CorteMobile /> editor, stay tuned to discover webinars,
-          <CorteDesktop />
-          <CorteMobile /> job opportunities and more.
+          We're currently working on a blog section where you'll be
+          <CorteDesktop /> able to see the latest news of the localization
+          industry.
+          <CorteDesktop /> If you're a linguist, graphic designer, IT
+          specialist, writer
+          <CorteDesktop /> or video editor, stay tuned to discover webinars,
+          <CorteDesktop /> job opportunities and more.
         </p>
       </div>
       <Circulos />

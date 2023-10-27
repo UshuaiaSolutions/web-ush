@@ -6,6 +6,7 @@ import Reliability from "../../assets/Valores/Reliability";
 import Learning from "../../assets/Valores/Learning";
 import Teamwork from "../../assets/Valores/Teamwork";
 import Empathy from "../../assets/Valores/Empathy";
+import { CorteDesktop, CorteMobile } from "../base/Cortes";
 
 function Valores() {
   return (
@@ -31,7 +32,8 @@ function Valores() {
             <Learning />
             <span className="texto-regular mt-10 txt-mobile mt-5-mobile text-center">
               Continuous
-              <br /> Learning
+              <CorteDesktop />
+              <CorteMobile /> Learning
             </span>
           </Card>
           <Card>

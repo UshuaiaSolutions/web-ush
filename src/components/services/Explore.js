@@ -32,12 +32,9 @@ function Explore() {
           </h2>
           <p className="destacado-regular txt-regular-mobile text-center-mobile">
             We can blend linguistic, technical,
-            <CorteDesktop />
-            <CorteMobile /> marketing and cultural requirements
-            <CorteDesktop />
-            <CorteMobile /> to offer an optimized translation
-            <CorteDesktop /> and
-            <CorteMobile /> localization solution.
+            <CorteDesktop /> marketing and cultural requirements
+            <CorteDesktop /> to offer an optimized translation
+            <CorteDesktop /> and localization solution.
           </p>
         </RowDesktop>
         <Dropdown>
@@ -59,15 +56,11 @@ function Explore() {
             </ItemTitle>
             {open === "language" && (
               <p className="txt-mobile texto-regular mb-0-mobile mb-40">
-                We provide translation, localization, and
-                <CorteMobile /> transcreation services to help you reach a
-                global
-                <CorteMobile /> audience. Our team
-                <CorteDesktop /> of carefully selected and
-                <CorteMobile /> trained native linguists leverages the latest AI
-                <CorteMobile /> and NMT technologies to offer the highest
-                quality
-                <CorteMobile />
+                We provide translation, localization, and transcreation services
+                to help you reach a global audience. Our team
+                <CorteDesktop /> of carefully selected and trained native
+                linguists leverages the latest AI and NMT technologies to offer
+                the highest quality
                 <CorteDesktop /> translation services.
               </p>
             )}
@@ -93,8 +86,7 @@ function Explore() {
                 We can steer your project from start to finish: from source
                 evaluation, quoting, and planning to quality assurance.
                 <CorteDesktop /> Our team relies on proven processes and best
-                practices based on 20+ years
-                <CorteMobile /> of experience.
+                practices based on 20+ years of experience.
               </p>
             )}
           </Item>
@@ -119,13 +111,11 @@ function Explore() {
             </ItemTitle>
             {open === "desktop" && (
               <p className="txt-mobile texto-regular mt-10-mobile mt-0-mobile mb-0-mobile mb-40">
-                We can help you create and localize engaging
-                <CorteMobile /> and visually appealing content to reach your
-                <CorteMobile /> target audience. We offer
-                <CorteDesktop /> a wide range of services,
-                <CorteMobile /> including multilingual desktop publishing
-                <CorteMobile /> and original design for your marketing
-                campaigns.
+                We can help you create and localize engaging and visually
+                appealing content to reach your target audience. We offer
+                <CorteDesktop /> a wide range of services, including
+                multilingual desktop publishing and original design for your
+                marketing campaigns.
               </p>
             )}
           </Item>
@@ -173,15 +163,12 @@ function Explore() {
             </ItemTitle>
             {open === "content" && (
               <p className="txt-mobile texto-regular mb-0-mobile mb-40">
-                We work closely with your marketing team
-                <CorteMobile /> to create appealing content and deliver
-                <CorteMobile /> a unified brand message.
-                <CorteDesktop /> From campaign
-                <CorteMobile /> conceptualization to design, we can steer
-                <CorteMobile /> your content and visuals for corporate e-mail
-                <CorteDesktop />
-                <CorteMobile /> communications, newsletters, social media,
-                <CorteMobile /> and merchandising.
+                We work closely with your marketing team to create appealing
+                content and deliver a unified brand message.
+                <CorteDesktop /> From campaign conceptualization to design, we
+                can steer your content and visuals for corporate e-mail
+                <CorteDesktop /> communications, newsletters, social media, and
+                merchandising.
               </p>
             )}
           </Item>

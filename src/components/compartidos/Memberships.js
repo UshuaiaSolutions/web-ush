@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "../base/Container";
-import { CorteDesktop, CorteMobile } from "../base/Cortes";
+import { CorteDesktop } from "../base/Cortes";
 import {
   StyledContainer,
   Table,
@@ -27,10 +27,8 @@ function Memberships() {
             </h2>
             <p className="txt-regular-mobile destacado-regular mb-32-mobile mb-80 text-center">
               Networking and sharing experiences is the
-              <CorteDesktop />
-              <CorteMobile /> best way to improve both our services
-              <CorteDesktop />
-              <CorteMobile /> and the language industry as a whole.
+              <CorteDesktop /> best way to improve both our services
+              <CorteDesktop /> and the language industry as a whole.
             </p>
           </div>
           <Table>

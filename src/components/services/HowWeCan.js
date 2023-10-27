@@ -26,16 +26,13 @@ function HowWeCan() {
               </h3>
             </Row>
             <span className="destacado-regular txt-regular-mobile mt-16-mobile mt-25">
-              Easier said than done? We can help you
-              <CorteMobile /> reach your community
-              <CorteDesktop /> with services
-              <CorteMobile /> ranging from multilingual copywriting,
-              <CorteMobile /> translation
-              <CorteDesktop /> and transcreation to
-              <CorteMobile /> engaging video content and e-learning
-              <CorteMobile /> initiatives
-              <CorteDesktop /> to cover the language needs
-              <CorteMobile /> of your international team.
+              Easier said than done? We can help you reach your community
+              <CorteDesktop /> with services ranging from multilingual
+              copywriting, translation
+              <CorteDesktop /> and transcreation to engaging video content and
+              e-learning initiatives
+              <CorteDesktop /> to cover the language needs of your international
+              team.
             </span>
           </Column>
           <EstrellaRosa />
@@ -51,13 +48,10 @@ function HowWeCan() {
               <Dos />
             </Row>
             <span className="destacado-regular txt-regular-mobile mt-16-mobile mt-25">
-              Project-based, or on-going service,
-              <CorteMobile /> customized and automated
-              <CorteDesktop /> as needed,
-              <CorteMobile /> using the latest language and content
-              <CorteMobile /> technologies,
-              <CorteDesktop /> we agree on what needs
-              <CorteMobile /> to be done.
+              Project-based, or on-going service, customized and automated
+              <CorteDesktop /> as needed, using the latest language and content
+              technologies,
+              <CorteDesktop /> we agree on what needs to be done.
             </span>
           </Column>
         </RowContainer>
@@ -71,14 +65,11 @@ function HowWeCan() {
               </h3>
             </Row>
             <span className="destacado-regular txt-regular-mobile mt-16-mobile mt-25">
-              You'll get access to a managed team
-              <CorteMobile /> of translators, writers,
-              <CorteDesktop /> designers and
-              <CorteMobile /> creative minds that will work closely
-              <CorteMobile /> with your own
-              <CorteDesktop /> teams to provide
-              <CorteMobile /> language and content services
-              <CorteMobile /> as you need them.
+              You'll get access to a managed team of translators, writers,
+              <CorteDesktop /> designers and creative minds that will work
+              closely with your own
+              <CorteDesktop /> teams to provide language and content services as
+              you need them.
             </span>
           </Column>
           <EstrellaAmarilla />
@@ -95,15 +86,12 @@ function HowWeCan() {
               <Cuatro />
             </Row>
             <span className="destacado-regular txt-regular-mobile mt-16-mobile mt-25">
-              We ensure that our services meet high
-              <CorteMobile /> quality standards and are
-              <CorteDesktop /> delivered
-              <CorteMobile /> on time at competitive rates. After initial
-              <CorteMobile /> delivery,
-              <CorteDesktop /> we work closely with your team
-              <CorteMobile /> to make sure the content helps you
-              <CorteDesktop />
-              <CorteMobile /> expand your global potential!
+              We ensure that our services meet high quality standards and are
+              <CorteDesktop /> delivered on time at competitive rates. After
+              initial delivery,
+              <CorteDesktop /> we work closely with your team to make sure the
+              content helps you
+              <CorteDesktop /> expand your global potential!
             </span>
           </Column>
         </RowContainer>

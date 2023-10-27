@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Container from "../base/Container";
-import { CorteDesktop, CorteMobile } from "../base/Cortes";
+import { CorteDesktop } from "../base/Cortes";
 import {
   StyledContainer,
   MediaContainer,
@@ -62,17 +62,13 @@ const BookMeeting = () => {
             </h1>
             <p className="txt-regular-mobile destacado-regular mb-80 mb-20-mobile text-center-mobile">
               Tell us what you need and we'll help you
-              <CorteDesktop />
-              <CorteMobile /> succeed in new markets.
-              <CorteMobile /> Here are some
-              <CorteDesktop /> questions to guide
-              <CorteMobile /> your request.
+              <CorteDesktop /> succeed in new markets. Here are some
+              <CorteDesktop /> questions to guide your request.
             </p>
 
             <p className="destacados-italic-mobile destacado-italic mb-30 mb-16-mobile text-center-mobile">
               What type of content would you like
-              <CorteDesktop /> to
-              <CorteMobile /> create or localize?
+              <CorteDesktop /> to create or localize?
             </p>
             <p className="destacados-italic-mobile destacado-italic mb-30 mb-16-mobile text-center-mobile">
               What is your target audience?

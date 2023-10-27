@@ -2,7 +2,7 @@ import React from "react";
 
 import Container from "../../components/base/Container";
 import { Content } from "../../components/nomatch/StyledComponents";
-import { CorteDesktop, CorteMobile } from "../../components/base/Cortes";
+import { CorteDesktop } from "../../components/base/Cortes";
 
 const NoMatch = () => {
   return (
@@ -13,8 +13,7 @@ const NoMatch = () => {
         </h1>
         <p className="destacado-regular txt-regular-mobile text-center">
           The page you're looking for can't be found.
-          <CorteDesktop />
-          <CorteMobile /> Please go back to homepage.
+          <CorteDesktop /> Please go back to homepage.
         </p>
       </Content>
     </Container>

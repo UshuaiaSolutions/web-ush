@@ -16,10 +16,9 @@ function ExpertiseAreas() {
           Areas of Expertise
         </h2>
         <p className="txt-regular-mobile destacado-regular mb-16-mobile mb-60">
-          We've managed to select and train highly
-          <CorteMobile /> skilled professionals specialized
-          <CorteDesktop />
-          <CorteMobile /> in different fields.
+          We've managed to select and train highly skilled professionals
+          specialized
+          <CorteDesktop /> in different fields.
         </p>
         <Row>
           <Card>
