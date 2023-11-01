@@ -1,62 +1,37 @@
 import styled from "styled-components";
 import { breakpoints } from "../base/breakpoints";
 
-export const Fondo = styled.div`
-  background: rgba(57, 57, 57, 0.7);
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 21;
-`;
-
 export const Container = styled.div`
-  border-radius: 66px;
   position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  z-index: 22;
+  z-index: -1;
   background-color: ${(props) => props.theme.fondo};
+  color: ${(props) => props.theme.texto};
   align-items: center;
-  height: 364px;
-  width: 269px;
+  width: 100vw;
+  height: 100vh;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  transition: 0.2s;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
 
-  ${breakpoints.min_tablet} {
-    height: 566px;
-    width: 642px;
+  &.show {
+    opacity: 1;
+    z-index: 22;
   }
 `;
 
-export const Close = styled.img`
-  position: absolute;
-  right: 35px;
-  top: 25px;
-  height: 26px;
-  width: 26px;
-  object-fit: scale-down;
-
-  ${breakpoints.min_tablet} {
-    right: 70px;
-    top: 35px;
-    height: 38px;
-    width: 38px;
-  }
-`;
-
-export const Img = styled.img`
+export const SVG = styled.svg`
   height: 48px;
   width: 48px;
   margin-bottom: 25px;
 
-  ${breakpoints.min_tablet} {
-    height: 90px;
-    width: 90px;
-    margin-bottom: 30px;
+  ${breakpoints.min_desktop} {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 32px;
   }
 `;

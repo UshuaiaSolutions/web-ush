@@ -1,4 +1,5 @@
 import { rawTimeZones } from "@vvo/tzdb";
+import { enviarCorreo } from "../../email";
 
 export function getTimeZones() {
   // Sort timezones according to time offset.
@@ -47,15 +48,19 @@ export const handleChange = (id, value, setContactForm, contactForm) => {
   setContactForm({ ...contactForm, [id]: value });
 };
 
-const mandatory = ["name", "mail", "country", "company", "date_reunion"];
-
 export const handleSend = (
   contactForm,
   setShowSuccess,
+  setShowError,
   setContactForm,
-  setMissingFields
+  setMissingFields,
+  quiereReu
 ) => {
   let missing = [];
+
+  const mandatory = quiereReu
+    ? ["name", "mail", "country", "company", "date_reunion"]
+    : ["name", "mail", "country", "company"];
 
   mandatory?.map((e, i) => {
     if (e !== "date_reunion") {
@@ -67,16 +72,18 @@ export const handleSend = (
         missing.push(e);
       }
     }
-
-    if (i === mandatory?.length - 1) {
-      if (missing.length === 0) {
-        setShowSuccess(true);
-        setContactForm({});
-        setMissingFields([]);
-      } else {
-        setMissingFields(missing);
-      }
-    }
     return missing;
   });
+
+  if (missing.length === 0) {
+    enviarCorreo(
+      contactForm,
+      setContactForm,
+      setShowSuccess,
+      setShowError,
+      setMissingFields
+    );
+  } else {
+    setMissingFields(missing);
+  }
 };

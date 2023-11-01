@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Container from "../base/Container";
 import { CorteDesktop } from "../base/Cortes";
 import {
@@ -17,43 +17,41 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.min.css";
 import { handleChange, handleSend } from "./BookMeetingFunc";
 import SelectCountries from "./SelectCountries";
-import BotonSecundario from "../base/BotonSecundario";
+import { StyledBoton } from "../base/BotonSecundario";
 import CheckYes from "../../assets/CheckYes";
 import CheckNo from "../../assets/CheckNo";
+import { isWorkingDay, minDate } from "./hooks";
 
 const BookMeeting = () => {
   const [contactForm, setContactForm] = useState({});
   const [showSuccess, setShowSuccess] = useState(false);
+  const [showError, setShowError] = useState(false);
   const [missingFields, setMissingFields] = useState([]);
   const [quiereReu, setQuiereReu] = useState(true);
 
-  const today = new Date();
+  useEffect(() => {
+    if (showSuccess) {
+      const timer = setTimeout(() => {
+        setShowSuccess(false);
+      }, 2000);
 
-  const isWeekend = (date) => {
-    const day = date.getDay();
-    return day === 0 || day === 6; // 0 es Domingo, 6 es Sábado
-  };
-
-  const isWorkingDay = (date) => {
-    return !isWeekend(date);
-  };
-
-  const addWorkdays = (date, days) => {
-    const result = new Date(date);
-    while (days > 0) {
-      result.setDate(result.getDate() + 1);
-      if (isWorkingDay(result)) {
-        days--;
-      }
+      return () => clearTimeout(timer);
     }
-    return result;
-  };
+  }, [showSuccess]);
 
-  const minDate = addWorkdays(today, 2);
+  useEffect(() => {
+    if (showError) {
+      const timer = setTimeout(() => {
+        setShowError(false);
+      }, 2000);
+
+      return () => clearTimeout(timer);
+    }
+  }, [showError]);
 
   return (
     <StyledContainer id="contact">
-      {showSuccess && <Success func={setShowSuccess} />}
+      <Success showDiv={showSuccess} />
       <Container>
         <MediaContainer className="d-flex justify-between">
           <FirstContainer className="d-flex flex-column">
@@ -225,18 +223,20 @@ const BookMeeting = () => {
               </div>
             </form>
 
-            <BotonSecundario
-              onClick={() =>
+            <StyledBoton
+              onClick={() => {
                 handleSend(
                   contactForm,
                   setShowSuccess,
+                  setShowError,
                   setContactForm,
-                  setMissingFields
-                )
-              }
+                  setMissingFields,
+                  quiereReu
+                );
+              }}
             >
               Get in touch
-            </BotonSecundario>
+            </StyledBoton>
           </SecondContainer>
         </MediaContainer>
       </Container>

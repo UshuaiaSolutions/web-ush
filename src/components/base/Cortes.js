@@ -9,12 +9,14 @@ export const CorteDesktop = () => {
   return <Desktop />;
 };
 
-export const Desktop = styled.br`
-  content: " ";
+export const Desktop = styled.div`
+  content: "";
+  display: none;
 
   ${breakpoints.min_desktop} {
     content: "\A"; /* Código de escape para salto de línea en CSS */
     white-space: pre;
+    display: block;
   }
 `;
 
@@ -24,6 +26,7 @@ const Mobile = styled.div`
   display: block;
 
   ${breakpoints.min_desktop} {
-    content: " ";
+    content: "";
+    display: none;
   }
 `;

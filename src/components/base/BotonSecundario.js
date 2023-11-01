@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { breakpoints, colors } from "./breakpoints";
 
-const StyledBoton = styled.button`
+export const StyledBoton = styled.button`
   padding: 8px 24px;
   background-color: ${colors.fondoblanco};
   color: ${colors.textonegro};
@@ -38,8 +38,12 @@ const StyledBoton = styled.button`
   }
 `;
 
-function BotonSecundario({ children, className }) {
-  return <StyledBoton className={className}>{children}</StyledBoton>;
+function BotonSecundario({ children, className, props }) {
+  return (
+    <StyledBoton className={className} {...props}>
+      {children}
+    </StyledBoton>
+  );
 }
 
 export default BotonSecundario;

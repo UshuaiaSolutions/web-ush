@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { breakpoints } from "../base/breakpoints";
+import { breakpoints, colors } from "../base/breakpoints";
 
 export const StyledContainer = styled.div`
   color: ${(props) => props.theme.texto};
@@ -119,7 +119,7 @@ export const ColumnInput = styled.div`
 `;
 
 export const ErrorMessage = styled.span`
-  color: ${(props) => props.theme.rojoush};
+  color: ${colors.rojoush};
   transition: 0.2s;
   font-size: 12px;
   padding-left: 5px;

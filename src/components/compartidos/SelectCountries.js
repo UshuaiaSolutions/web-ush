@@ -19,7 +19,9 @@ const SelectCountries = ({ data, func }) => {
         onChange={(e) => {
           func({ ...data, country: e.target.value });
         }}
+        value={data.country ? data.country : ""}
       >
+        <option value="" disabled="disabled"></option>
         {timeZones
           ?.filter((e) => e.countryName !== "Falkland Islands")
           ?.map((e) => {

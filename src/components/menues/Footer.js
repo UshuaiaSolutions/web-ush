@@ -33,7 +33,7 @@ function Footer() {
         <ContainerTop>
           <div className="work">
             <Valores />
-            <p className="dropdown-title-web mb-80 mt-80 body-bold-mobile mb-25-mobile mt-25-mobile">
+            <p className="dropdown-title-web mb-80 mt-80 body-bold-mobile mb-25-mobile mt-25-mobile text-center">
               If you are a linguist, translator, graphic designer or IT
               specialist, join our team!
             </p>
