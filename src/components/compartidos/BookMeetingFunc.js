@@ -77,7 +77,7 @@ export const handleSend = (
 
   if (missing.length === 0) {
     enviarCorreo(
-      contactForm,
+      { ...contactForm, quiereReu: quiereReu },
       setContactForm,
       setShowSuccess,
       setShowError,
