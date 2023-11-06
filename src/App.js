@@ -80,7 +80,7 @@ function App() {
         <Header toggler={themeToggler} />
         <Layout>
           <Routes>
-            <Route exact path="/" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contacto />} />
             <Route path="/expertise" element={<Expertise />} />
             <Route path="/services" element={<Services />} />
