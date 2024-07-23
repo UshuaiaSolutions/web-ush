@@ -184,7 +184,7 @@ function Footer() {
           <ColumnSecond>
             <LogoISO />
             <span className="txt-regular-mobile text-center-mobile">
-              © 2023
+              © 2024
               <CorteMobile />
               Ushuaia Solutions
             </span>
@@ -325,7 +325,7 @@ function Footer() {
                 </RedImage>
               </ContainerRed>
             </ContainerRedesFooter>
-            <span className="txt-regular">© 2023 Ushuaia Solutions</span>
+            <span className="txt-regular">© 2024 Ushuaia Solutions</span>
           </RowDesktop>
         </ContainerDesktop>
       </Container>

@@ -126,7 +126,7 @@ function OurApproach() {
               </p>
               <div>
                 <StyledBoton
-                  className="mb-32 mb-16-mobile abs"
+                  className="mb-32 mb-16-mobile"
                   onClick={() =>
                     handleDownload(
                       "/pdf/Websites_Accessibility_Statement.pdf",
@@ -134,7 +134,7 @@ function OurApproach() {
                     )
                   }
                 >
-                  Read our Webiste’s Accessibility Statement
+                  Website’s Accessibility Statement
                 </StyledBoton>
               </div>
             </Content>

@@ -1,0 +1,246 @@
+{
+  "HEADER": {
+    "ABOUT": "About us",
+    "SERVICES": "Services",
+    "EXPERTISE": "Expertise",
+    "BLOG": "USH Blog",
+    "GET_IN_TOUCH": "Get in touch"
+  },
+  "FOOTER": "We're committed to protecting your privacy. The information <CorteDesktop /> you provide will only be used to respond to your inquiry. <CorteDesktop /> <CorteDesktop /> Ushuaia Solutions is an ISO certified language services company <CorteDesktop /> with more than 20 years' experience. We have offices <CorteDesktop /> in Latin America and Europe.",
+  "HOME": {
+    "HERO": {
+      "TITULO": "Expand your <CorteMobile /> <CorteDesktop /> global potential",
+      "BAJADA": "Specialized professionals empowered <CorteDesktop /> by the latest technology can{' '} <b>translate, <CorteDesktop /> localize and create content </b>{' '} to help you <CorteDesktop /> succeed in international markets.",
+      "BUTTON": "Get in touch"
+    },
+    "MEET_YOUR_NEEDS": {
+      "TITLE": "We can meet your <CorteDesktop /> needs",
+      "BAJADA": "We offer a unique combination <CorteDesktop /> of technological innovation and professional <CorteDesktop /> expertise to help you solve multilingual <CorteDesktop /> challenges.",
+      "FIRST": {
+        "TITLE": "Language Services",
+        "BAJADA": "Translation, localization, <CorteDesktop /> transcreation, review and more. <CorteDesktop /> We provide customized multilingual <CorteDesktop /> solutions to help you reach <CorteDesktop /> global audiences.",
+        "BUTTON": "See more"
+      },
+      "SECOND": {
+        "TITLE": "Content Creation",
+        "BAJADA": "Our creative team can help you boost <CorteDesktop /> your marketing strategy. We can work <CorteDesktop /> together with your staff to create <CorteDesktop /> social media content, including <CorteDesktop /> graphic design, copywriting <CorteDesktop /> and video editing.",
+        "BUTTON": "See more"
+      },
+      "THIRD": {
+        "TITLE": "Project Management",
+        "BAJADA": "You can trust our team to steer your <CorteDesktop /> project from start to finish. Our <CorteDesktop /> translators, designers and IT <CorteDesktop /> professionals are trained to adapt <CorteDesktop /> to any technology and respond <CorteDesktop /> with best practices and industry <CorteDesktop /> standards.",
+        "BUTTON": "See more"
+      }
+    },
+    "BRINGING_TOGETHER": {
+      "TITLE": "Bringing together Latin <CorteDesktop /> America and Europe",
+      "BAJADA": "We're where you need us, when you need us. <CorteDesktop /> With a unified localization team across the globe, <CorteDesktop /> we can help you unlock your business potential in <CorteDesktop /> America, Europe and the whole world.",
+      "BUTTON": "Lean more about us"
+    },
+    "TEAMING": {
+      "TITLE": "Teaming with clients worldwide",
+      "BAJADA": "Our highly esteemed client list includes partner LSPs as well as B2B customers who have <CorteDesktop /> come to rely on us as an extension of their in-house teams. Let us help you too!"
+    },
+    "WHY_USH": {
+      "TITLE": "Why USH?",
+      "FIRST": {
+        "TITLE": "Scalability",
+        "TEXT": "We have the capacity to build and maintain on-site dedicated teams which can adapt to any technology or platform you use."
+      },
+      "SECOND": {
+        "TITLE": "Quality",
+        "TEXT": "Our workflow complies with the requirements of the ISO 17100 International Standards. We provide confidential information management."
+      },
+      "THIRD": {
+        "TITLE": "Experience",
+        "TEXT": "Our workflow complies with the requirements of the ISO 17100 International Standards. We provide confidential information management."
+      }
+    },
+    "BOOK_MEETING": {
+      "TITLE": "Book a meeting!",
+      "BAJADA": "Tell us what you need and we'll help you <CorteDesktop /> succeed in new markets. Here are some <CorteDesktop /> questions to guide your request.",
+      "QUESTION_1": "What type of content would you like <CorteDesktop /> to create or localize?",
+      "QUESTION_2": "What is your target audience?",
+      "QUESTION_3": "Is your request urgent?",
+      "BUTTON": "Get in touch",
+      "FORM": {
+        "NAME": "Name",
+        "COMPANY": "Company Name",
+        "MAIL": "E-Mail",
+        "COUNTRY": "Country",
+        "MEETING": "Would you like to book a meeting?",
+        "YES": "Yes",
+        "NO": "No",
+        "DATE": "Select a date",
+        "HELP": "How can we help?",
+        "PLACEHOLDER": "Share with us a brief about your request..."
+      }
+    },
+    "WORK_WITH_US": {
+      "TITLE": "If you are a linguist, translator, graphic designer or IT specialist, join our team!",
+      "BUTTON": "Work with us"
+    },
+    "BACK": "Back to top"
+  },
+  "ABOUT": {
+    "HERO": {
+      "TITULO": "Meet your language <CorteDesktop /> <CorteMobile /> service partner",
+      "BAJADA": "We deliver multilingual solutions to help you face and solve your global challenges. <CorteDesktop /> We can blend linguistic, technical, marketing and cultural requirements to offer <CorteDesktop /> an optimized translation and localization solution.",
+      "BUTTON": "Get in touch",
+      "FIRST": {
+        "TITLE": "Experience",
+        "BAJADA": "We really know our stuff. With more <CorteDesktop /> than 20 years in the language <CorteDesktop /> services industry, we have the <CorteDesktop /> capacity to build and maintain <CorteDesktop /> on-site dedicated teams <CorteDesktop /> of highly skilled professionals <CorteDesktop /> for your account."
+      },
+      "SECOND": {
+        "TITLE": "Technology",
+        "BAJADA": "We're geeks! We strategically use <CorteDesktop /> the latest tech trends <CorteDesktop /> to help you expand your <CorteDesktop /> possibilities. Plus, our flexibility <CorteDesktop /> enables us to adapt to any <CorteDesktop /> technology, platform <CorteDesktop /> or process you use."
+      },
+      "THIRD": {
+        "TITLE": "Partnership",
+        "BAJADA": "Positive leadership, empathy <CorteDesktop /> and honesty are our core work <CorteDesktop /> values. We strongly believe the <CorteDesktop /> collaborative effort of a team <CorteDesktop /> to achieve a common goal leads <CorteDesktop /> to much more effective and efficient solutions. <CorteDesktop /> Better together!"
+      }
+    },
+    "MULTILINGUAL_CHALLENGES": {
+      "TITLE": "We can help you <CorteDesktop /> solve multilingual <CorteDesktop /> challenges",
+      "BAJADA": "From translation to desktop publishing <CorteDesktop /> and copywriting, our team can help you <CorteDesktop /> remove language barriers. <CorteDesktop /> Plus, we encourage positive leadership <CorteDesktop /> to motivate our talented professionals <CorteDesktop /> to work together as one.",
+      "FIRST": "Language <CorteDesktop /> <CorteMobile /> Solutions",
+      "SECOND": "Project <CorteDesktop /> <CorteMobile /> Management",
+      "THIRD": "Desktop <CorteDesktop /> <CorteMobile /> Publishing",
+      "FOURTH": "Creative <CorteDesktop /> <CorteMobile /> Visuals",
+      "FIFTH": "Content <CorteDesktop /> <CorteMobile /> Creation",
+      "SIXTH": "E-Learning <CorteDesktop /> <CorteMobile /> and video",
+      "BUTTON": "Explore USH Services"
+    },
+    "VALUES": {
+      "VALUES": "Our Values",
+      "INNOVATION": "Innovation",
+      "RELIABILITY": "Reliability",
+      "CONTINUOS": "Continuous",
+      "LEARNING": "Learning",
+      "TEAMWORK": "Teamwork",
+      "EMPATHY": "Empathy"
+    }
+  },
+  "SERVICES": {
+    "HERO": {
+      "TITULO": "Let's reach <CorteDesktop /> global markets",
+      "BAJADA": "USH is a synonym of flexibility, scalability <CorteDesktop /> and efficiency. We're your language service <CorteDesktop /> partner for Latin America, Europe <CorteDesktop /> and the world.",
+      "FIRST": {
+        "TITLE": "You tell us <CorteDesktop /> your goals",
+        "BAJADA": "Easier said than done? We can help you reach your community <CorteDesktop /> with services ranging from multilingual copywriting, translation <CorteDesktop /> and transcreation to engaging video content and e-learning initiatives <CorteDesktop /> to cover the language needs of your international team."
+      },
+      "SECOND": {
+        "TITLE": "We agree <CorteDesktop /> on a work plan",
+        "BAJADA": "Project-based, or on-going service, customized and automated <CorteDesktop /> as needed, using the latest language and content technologies, <CorteDesktop /> we agree on what needs to be done."
+      },
+      "THIRD": {
+        "TITLE": "You leverage our <CorteDesktop /> multidisciplinary team",
+        "BAJADA": "You'll get access to a managed team of translators, writers, <CorteDesktop /> designers and creative minds that will work closely with your own <CorteDesktop /> teams to provide language and content services as you need them."
+      },
+      "FOURTH": {
+        "TITLE": "We set new <CorteMobile /> <CorteDesktop /> goals together",
+        "BAJADA": "We ensure that our services meet high quality standards and are <CorteDesktop /> delivered on time at competitive rates. After initial delivery, <CorteDesktop /> we work closely with your team to make sure the content helps you <CorteDesktop /> expand your global potential!"
+      }
+    },
+    "EXPLORE": {
+      "TITLE": "Explore how <CorteDesktop /> <CorteMobile /> we can help you",
+      "BAJADA": "We can blend linguistic, technical, <CorteDesktop /> marketing and cultural requirements <CorteDesktop /> to offer an optimized translation <CorteDesktop /> and localization solution.",
+      "FIRST": {
+        "TITLE": "Language Solutions",
+        "BAJADA": "We provide translation, localization, and transcreation services to help you reach a global audience. Our team <CorteDesktop /> of carefully selected and trained native linguists leverages the latest AI and NMT technologies to offer the highest quality <CorteDesktop /> translation services."
+      },
+      "SECOND": {
+        "TITLE": "Project Management",
+        "BAJADA": "We can steer your project from start to finish: from source evaluation, quoting, and planning to quality assurance. <CorteDesktop /> Our team relies on proven processes and best practices based on 20+ years of experience."
+      },
+      "THIRD": {
+        "TITLE": "Desktop Publishing <CorteMobile /> & Creative Visuals",
+        "BAJADA": "We can help you create and localize engaging and visually appealing content to reach your target audience. We offer <CorteDesktop /> a wide range of services, including multilingual desktop publishing and original design for your marketing campaigns."
+      },
+      "FOURTH": {
+        "TITLE": "E-Learning & Video",
+        "BAJADA": "We can prepare, format, and QA your e-learning content, including copy, images, video, and audio. Our team can help <CorteDesktop /> with the pre and post-processing stages: from transcription to translation to timing, to subtitling or dubbing."
+      },
+      "FIFTH": {
+        "TITLE": "Content Creation",
+        "BAJADA": "We work closely with your marketing team to create appealing content and deliver a unified brand message. <CorteDesktop /> From campaign conceptualization to design, we can steer your content and visuals for corporate e-mail <CorteDesktop /> communications, newsletters, social media, and merchandising."
+      }
+    },
+    "AREAS": {
+      "TITLE": "Areas of Expertise",
+      "BAJADA": "We've managed to select and train highly skilled professionals specialized <CorteDesktop /> in different fields.",
+      "FIRST": {
+        "TITLE": "Technology",
+        "ITEM1": "Cloud Computing",
+        "ITEM2": "Artificial Intelligence",
+        "ITEM3": "Telecommunications",
+        "ITEM4": "Enterprise Software"
+      },
+      "SECOND": {
+        "TITLE": "Business",
+        "ITEM1": "Retail and <CorteMobile /> e-Commerce",
+        "ITEM2": "Insurance and Legal",
+        "ITEM3": "Marketing and HR",
+        "ITEM4": "Finance and banking"
+      },
+      "THIRD": {
+        "TITLE": "Industry",
+        "ITEM1": " Automotive and <CorteDesktop /> <CorteMobile /> Heavy Machinery",
+        "ITEM2": "Industrial manufacturing"
+      },
+      "FOURTH": {
+        "TITLE": "Arts &<CorteDesktop /> Leisure",
+        "ITEM1": "Travel and Hospitality",
+        "ITEM2": "Arts and Design"
+      },
+      "FIFTH": {
+        "TITLE": "Life Sciences <CorteDesktop /> & Healthcare",
+        "ITEM1": "Regulatory",
+        "ITEM2": "Medical Devices",
+        "ITEM3": "Clinical Trials"
+      }
+    },
+    "MEETING_SMALL": {
+      "TITLE": "Book a meeting!",
+      "BAJADA": "Tell us what you need <CorteDesktop /> and we'll help you succeed in new markets.",
+      "BUTTON": "Get in touch"
+    }
+  },
+  "EXPERTISE": {
+    "TEAMING": {
+      "TITLE": "Teaming with clients worldwide",
+      "BAJADA": "Our expertise enables us to offer different <CorteDesktop /> localization solutions. We provide several <CorteDesktop /> services from file processing and content parsing <CorteDesktop /> to dubbing, MTPE, audio and video editing, DTP, <CorteDesktop /> voice-recording, copywriting and testing."
+    },
+    "CLIENTS": {
+      "TITLE": "Meet some of our clients",
+      "BAJADA": "Many companies and LSPs have come to rely on us as an extension <CorteDesktop /> of their in-house teams. We can help you too!"
+    },
+    "EXCELLENCE": {
+      "TITLE": "Our Approach to Excellence",
+      "BAJADA": "Sustainability, accessibility, and high quality are the pillars of our work. Our professional localization services are certified to meet ISO 17100:2015 quality standards, as confirmed by our successful annual external audits.",
+      "FIRST": {
+        "BAJADA": "We express our commitment to excellence <CorteDesktop /> with a <b>quality policy</b> that focuses on <CorteDesktop /> continuous improvement, client satisfaction, <CorteDesktop /> and confidentiality.",
+        "BUTTON": "Read our Quality Policy"
+      },
+      "SECOND": {
+        "BAJADA": "We are committed to conducting our <CorteDesktop /> business in a socially responsible manner. <CorteDesktop /> Our Manifesto outlines our approach to <CorteDesktop /> <b>sustainability</b>, diversity, ethics, and <CorteDesktop /> community engagement.",
+        "BUTTON": "Read our ESG Manifesto"
+      },
+      "THIRD": {
+        "BAJADA": "We believe that localization involves <CorteDesktop /> not only translating content but also <CorteDesktop /> ensuring it is <b>accessible</b> to everyone, <CorteDesktop /> regardless of their abilities.",
+        "BUTTON": "Website's Accessibility Statement"
+      }
+    },
+    "MEMBERSHIPS": {
+      "TITLE": "Our Memberships",
+      "BAJADA": "Networking and sharing experiences is the <CorteDesktop /> best way to improve both our services <CorteDesktop /> and the language industry as a whole."
+    }
+  },
+  "BLOG": {
+    "HERO": {
+      "TITULO": "Something awesome is <CorteDesktop /> coming soon!",
+      "BAJADA": "We're currently working on a blog section where you'll be <CorteDesktop /> able to see the latest news of the localization industry. <CorteDesktop /> If you're a linguist, graphic designer, IT specialist, writer <CorteDesktop /> or video editor, stay tuned to discover webinars, <CorteDesktop /> job opportunities and more."
+    },
+    "SOCIAL": "While you wait, <CorteMobile /> follow us on social media"
+  }
+}
