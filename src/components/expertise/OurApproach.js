@@ -47,7 +47,7 @@ function OurApproach() {
           </div>
           <ContentContainer>
             <Content>
-              <p className="txt-regular-mobile destacado-regular text-left mb-16-mobile">
+              <p className="txt-regular-mobile destacado-regular text-left text-center-mobile mb-16-mobile">
                 We express our commitment to excellence
                 <CorteDesktop /> with a <b>quality policy</b> that focuses on
                 <CorteDesktop /> continuous improvement, client satisfaction,
@@ -82,7 +82,7 @@ function OurApproach() {
               />
             </EstrellaVioleta>
             <Content>
-              <p className="txt-regular-mobile destacado-regular text-left mb-16-mobile">
+              <p className="txt-regular-mobile destacado-regular text-left text-center-mobile mb-16-mobile">
                 We are committed to conducting our
                 <CorteDesktop /> business in a socially responsible manner.
                 <CorteDesktop /> Our Manifesto outlines our approach to
@@ -118,7 +118,7 @@ function OurApproach() {
               />
             </EstrellaVioleta>
             <Content>
-              <p className="txt-regular-mobile destacado-regular text-left mb-16-mobile">
+              <p className="txt-regular-mobile destacado-regular text-left text-center-mobile mb-16-mobile">
                 We believe that localization involves
                 <CorteDesktop /> not only translating content but also
                 <CorteDesktop /> ensuring it is <b>accessible</b> to everyone,
