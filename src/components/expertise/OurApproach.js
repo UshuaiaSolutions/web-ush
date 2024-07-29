@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "../base/Container";
-import { CorteDesktop } from "../base/Cortes";
+import { CorteDesktop, CorteMobile } from "../base/Cortes";
 import {
   StyledContainer,
   Content,
@@ -122,7 +122,8 @@ function OurApproach() {
                 We believe that localization involves
                 <CorteDesktop /> not only translating content but also
                 <CorteDesktop /> ensuring it is <b>accessible</b> to everyone,
-                <CorteDesktop /> regardless of their abilities.
+                <CorteDesktop />
+                <CorteMobile /> regardless of their abilities.
               </p>
               <div>
                 <StyledBoton
