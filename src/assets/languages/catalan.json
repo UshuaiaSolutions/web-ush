@@ -1,0 +1,246 @@
+{
+  "HEADER": {
+    "ABOUT": "Qui som",
+    "SERVICES": "Serveis",
+    "EXPERTISE": "Experiència",
+    "BLOG": "Blog USH",
+    "GET_IN_TOUCH": "Contacteu amb nosaltres"
+  },
+  "FOOTER": "Ens comprometem a protegir la vostra privadesa. Només farem servir <CorteDesktop />  la informació que proporcioneu per a respondre a la vostra sol·licitud. <CorteDesktop /> <CorteDesktop /> Ushuaia Solutions és una empresa de serveis lingüístics acreditada per lISO <CorteDesktop /> amb més de 20 anys d'experiència. Tenim oficines a <CorteDesktop /> Europa i lAmèrica Llatina.",
+  "HOME": {
+    "HERO": {
+      "TITULO": "Multipliqueu el vostre <CorteMobile /> <CorteDesktop /> potencial global",
+      "BAJADA": "Els nostres professionals <CorteDesktop /> fan ús de les últimes tecnologies i poden{' '} <b>traduir, <CorteDesktop /> localitzar i crear contingut </b>{' '} per a ajudar-vos a <CorteDesktop /> conquerir el mercat internacional.",
+      "BUTTON": "Contacteu amb nosaltres"
+    },
+    "MEET_YOUR_NEEDS": {
+      "TITLE": "Ens adaptem a les vostres <CorteDesktop /> necessitats",
+      "BAJADA": "Combinem la <CorteDesktop /> innovació tecnològica i lexperiència <CorteDesktop /> professional per a ajudar-vos a superar els vostres reptes <CorteDesktop /> multilingües.",
+      "FIRST": {
+        "TITLE": "Serveis lingüístics",
+        "BAJADA": "Traducció, localització, <CorteDesktop /> transcreació, revisió i més. <CorteDesktop /> Oferim solucions multilingües <CorteDesktop /> personalitzades per a ajudar-vos a connectar <CorteDesktop /> amb laudiència global.",
+        "BUTTON": "Més informació"
+      },
+      "SECOND": {
+        "TITLE": "Creació de contingut",
+        "BAJADA": "El nostre equip us pot ajudar a donar <CorteDesktop /> una empenta a la vostra estratègia de màrqueting. Podem col·laborar <CorteDesktop /> amb el vostre equip per a crear <CorteDesktop /> contingut per a xarxes socials, incloent-hi el <CorteDesktop /> disseny gràfic, copywriting <CorteDesktop /> i edició de vídeo.",
+        "BUTTON": "Més informació"
+      },
+      "THIRD": {
+        "TITLE": "Gestió de projectes",
+        "BAJADA": "Confieu en el nostre equip perquè guiï <CorteDesktop /> el vostre projecte de principi a fi. Els nostres <CorteDesktop /> traductors, dissenyadors i especialistes <CorteDesktop /> en TI  poden adaptar-se <CorteDesktop /> a qualsevol tecnologia i proporcionar <CorteDesktop /> el millor servei dacord amb els estàndards <CorteDesktop /> de la indústria.",
+        "BUTTON": "Més informació"
+      }
+    },
+    "BRINGING_TOGETHER": {
+      "TITLE": "Fem de pont entre <CorteDesktop /> Europa i lAmèrica Llatina",
+      "BAJADA": "Som al vostre costat on i quan ens necessiteu <CorteDesktop /> Gràcies al nostre equip de localització internacional, <CorteDesktop /> us podem ajudar a maximitzar el vostre potencial a <CorteDesktop /> Europa, Amèrica i la resta del món.",
+      "BUTTON": "Més informació sobre nosaltres"
+    },
+    "TEAMING": {
+      "TITLE": "Col·laborem amb clients darreu del món",
+      "BAJADA": "La nostra llista dapreciats clients inclou proveïdors de serveis lingüístics associats i clients B2B que <CorteDesktop /> ens han triat per a complementar el seu equip intern. Deixeu-nos ajudar-vos també!"
+    },
+    "WHY_USH": {
+      "TITLE": "Per què USH?",
+      "FIRST": {
+        "TITLE": "Flexibilitat",
+        "TEXT": "Tenim la capacitat de crear i conservar equips interns especialitzats que poden adaptar-se a qualsevol tecnologia o plataforma que feu servir."
+      },
+      "SECOND": {
+        "TITLE": "Qualitat",
+        "TEXT": "El nostre procés de treball sadequa als requeriments de la normativa internacional ISO 17100. Gestionem les vostres dades de manera confidencial."
+      },
+      "THIRD": {
+        "TITLE": "Experiència",
+        "TEXT": "El nostre procés de treball sadequa als requisits de la normativa internacional ISO 17100. Gestionem les vostres dades de manera confidencial."
+      }
+    },
+    "BOOK_MEETING": {
+      "TITLE": "Sol·liciteu una reunió!",
+      "BAJADA": "Expliqueu-nos què necessiteu i us ajudarem a <CorteDesktop /> conquerir els nous mercats. Les preguntes següents us <CorteDesktop /> poden ajudar a fer la sol·licitud.",
+      "QUESTION_1": "Quin tipus de contingut us agradaria <CorteDesktop /> crear o localitzar?",
+      "QUESTION_2": "A quin públic va dirigit?",
+      "QUESTION_3": "És urgent?",
+      "BUTTON": "Contacteu amb nosaltres",
+      "FORM": {
+        "NAME": "Nom",
+        "COMPANY": "Nom de l'empresa",
+        "MAIL": "Correu electrònic",
+        "COUNTRY": "País",
+        "MEETING": "Voleu concertar una reunió?",
+        "YES": "Sí",
+        "NO": "No",
+        "DATE": "Seleccioneu una data",
+        "HELP": "Com us podem ajudar?",
+        "PLACEHOLDER": "Expliqueu breument la vostra sol·licitud."
+      }
+    },
+    "WORK_WITH_US": {
+      "TITLE": "Si sou un lingüista, traductor, dissenyador gràfic o especialista en TI, uniu-vos al nostre equip!",
+      "BUTTON": "Treballeu amb nosaltres"
+    },
+    "BACK": "Torneu a linici"
+  },
+  "ABOUT": {
+    "HERO": {
+      "TITULO": "Coneixeu a la vostra <CorteDesktop /> <CorteMobile /> empresa de serveis lingüístics",
+      "BAJADA": "Oferim serveis multilingües per a ajudar-vos a combatre i superar els vostres reptes globals. <CorteDesktop /> Podem combinar els requeriments lingüístics, tècnics, culturals i de màrqueting per a oferir <CorteDesktop /> una traducció i una localització optimitzades.",
+      "BUTTON": "Contacteu amb nosaltres",
+      "FIRST": {
+        "TITLE": "Experiència",
+        "BAJADA": "Hi tenim la mà trencada. Gràcies a més <CorteDesktop /> de 20 anys d'experiència en el <CorteDesktop /> sector de serveis lingüístics, tenim <CorteDesktop /> la capacitat de crear i conservar <CorteDesktop /> equips interns especialitzats <CorteDesktop /> de professionals qualificats <CorteDesktop /> per a la vostra empresa."
+      },
+      "SECOND": {
+        "TITLE": "Tecnologia",
+        "BAJADA": "Som uns friquis! Fem sevir les <CorteDesktop /> noves tecnologies estratègicament <CorteDesktop /> per a ajudar-vos a multiplicar <CorteDesktop /> les vostres possibilitats. A més, la nostra flexibilitat <CorteDesktop /> ens permet adaptar-nos a qualsevol <CorteDesktop /> tecnologia, plataforma <CorteDesktop /> o procés que feu servir."
+      },
+      "THIRD": {
+        "TITLE": "Col·laboració",
+        "BAJADA": "El lideratge positiu, lempatia <CorteDesktop /> i lhonestedat son els nostres valors <CorteDesktop /> més fonamentals. Considerem que <CorteDesktop /> quan un equip sesforça col·lectivament <CorteDesktop /> per a complir un objectiu comú, <CorteDesktop /> les solucions són molt més efectives i eficients. <CorteDesktop /> Treballem tots junts!"
+      }
+    },
+    "MULTILINGUAL_CHALLENGES": {
+      "TITLE": "Us podem ajudar a <CorteDesktop /> superar reptes <CorteDesktop /> multilingües",
+      "BAJADA": "Mitjançant la traducció, la maquetació <CorteDesktop /> i el copywriting, el nostre equip pot ajudar-vos a <CorteDesktop /> superar les barreres lingüístiques. <CorteDesktop /> A més, fomentem el lideratge en positiu <CorteDesktop /> per a motivar els nostres professionals <CorteDesktop /> a treballar en equip.",
+      "FIRST": "Solucions <CorteDesktop /> <CorteMobile /> lingüístiques",
+      "SECOND": "Gestió <CorteDesktop /> <CorteMobile /> de projectes",
+      "THIRD": "Maquetació <CorteDesktop /> <CorteMobile />",
+      "FOURTH": "Contingut <CorteDesktop /> <CorteMobile /> creatiu",
+      "FIFTH": "Creació <CorteDesktop /> <CorteMobile /> de contingut",
+      "SIXTH": "E-learning <CorteDesktop /> <CorteMobile /> i vídeo",
+      "BUTTON": "Exploreu els serveis dUSH"
+    },
+    "VALUES": {
+      "VALUES": "Els nostres valors",
+      "INNOVATION": "Innovació",
+      "RELIABILITY": "Fiabilitat",
+      "CONTINUOS": "Aprenentatge",
+      "LEARNING": "continu",
+      "TEAMWORK": "Treball en equip",
+      "EMPATHY": "Empatia"
+    }
+  },
+  "SERVICES": {
+    "HERO": {
+      "TITULO": "Connectem amb <CorteDesktop /> el mercat global",
+      "BAJADA": "USH és sinònim de flexibilitat, adaptabilitat <CorteDesktop /> i eficiència. Som la vostra agència de serveis lingüístics <CorteDesktop /> de confiança per a Europa, lAmèrica Llatina <CorteDesktop /> i la resta del món.",
+      "FIRST": {
+        "TITLE": "Expliqueu-nos <CorteDesktop /> els vostres objectius",
+        "BAJADA": "Sabem que no és bufar i fer ampolles Podem ajudar-vos a connectar amb la vostra comunitat <CorteDesktop /> amb serveis com el copywriting multilingüe, la traducció <CorteDesktop /> i la transcreació o la creació de vídeos i iniciatives de-learning originals <CorteDesktop /> per a suplir les necessitats del vostre equip internacional."
+      },
+      "SECOND": {
+        "TITLE": "Acordem <CorteDesktop /> un pla de treball",
+        "BAJADA": "Sia un projecte o servei continu, personalitzat i automatitzat <CorteDesktop /> segons les vostres necessitats, utilitzant lúltima tecnologia lingüística i de contingut, <CorteDesktop /> consensuem què cal fer."
+      },
+      "THIRD": {
+        "TITLE": "Aprofiteu el nostre <CorteDesktop /> equip multidisciplinari",
+        "BAJADA": "Tindreu accés a un equip supervisat de traductors, escriptors, <CorteDesktop /> dissenyadors i ments creatives que treballaran amb els vostres <CorteDesktop /> equips per a proporcionar els serveis lingüístics i de contingut que necessiteu."
+      },
+      "FOURTH": {
+        "TITLE": "Establim nous <CorteMobile /> <CorteDesktop /> objectius junts",
+        "BAJADA": "Ens assegurem que els nostres serveis compleixen la normativa de qualitat i <CorteDesktop /> les dates estipulades a un preu competitiu. Un cop acabada lentrega inicial, <CorteDesktop /> treballem amb el vostre equip per a garantir que el contingut us ajuda <CorteDesktop /> a multiplicar el vostre potencial global!"
+      }
+    },
+    "EXPLORE": {
+      "TITLE": "Descobriu com <CorteDesktop /> <CorteMobile /> us podem ajudar",
+      "BAJADA": "Podem combinar els requeriments lingüístics, tècnics, <CorteDesktop /> culturals i de màrqueting <CorteDesktop /> per a oferir una traducció <CorteDesktop /> i una localització optimitzades.",
+      "FIRST": {
+        "TITLE": "Solucions lingüístiques",
+        "BAJADA": "Oferim serveis de traducció, localització i transcreació per a ajudar-vos a connectar amb una audiència global El nostre equip <CorteDesktop /> de lingüistes natius, que hem triat i format a consciència, fan ús de lúltima tecnologia dIA i traducció automàtica neuronal per a proporcionar serveis <CorteDesktop /> de traducció de la millor qualitat."
+      },
+      "SECOND": {
+        "TITLE": "Gestió de projectes",
+        "BAJADA": "Podem guiar el vostre projecte de principi a fi: des de lavaluació dels arxius originals, lelaboració del pressupost i la planificació, fins al control de qualitat. <CorteDesktop /> El nostre equip es basa en pràctiques i processos contrastats, fruit de més de 20 anys dexperiència."
+      },
+      "THIRD": {
+        "TITLE": "Maquetació <CorteMobile /> i contingut creatiu",
+        "BAJADA": "Us podem ajudar a crear i localitzar contingut que destaqui i resulti atractiu per al vostre públic. Oferim <CorteDesktop /> diversos serveis, inclosa la maquetació multilingüe i la creació dun disseny original per a les vostres campanyes de màrqueting."
+      },
+      "FOURTH": {
+        "TITLE": "E-learning i vídeo",
+        "BAJADA": "Podem preparar, donar format i fer el control de qualitat del vostre contingut de-learning, inclòs el copywriting, les imatges, els vídeos o làudio. El nostre equip pot ajudar <CorteDesktop /> en les etapes de pre i postproducció: sia transcripció, traducció, pautatge, subtitulació o doblatge."
+      },
+      "FIFTH": {
+        "TITLE": "Creació de contingut",
+        "BAJADA": "Treballem colze a colze amb el vostre equip de màrqueting per a crear contingut que destaqui i transmetre una imatge consistent de la vostra marca. <CorteDesktop /> Podem conceptualitzar i dissenyar les vostres campanyes i gestionar el contingut i recursos visuals <CorteDesktop /> per a les comunicacions dempresa per correu electrònic, newsletters, xarxes socials i marxandatge."
+      }
+    },
+    "AREAS": {
+      "TITLE": "Especialitats",
+      "BAJADA": "Hem seleccionat i format a professionals qualificats que s'especialitzen <CorteDesktop /> en diferents sectors.",
+      "FIRST": {
+        "TITLE": "Tecnologia",
+        "ITEM1": "Informàtica al núvol",
+        "ITEM2": "Intel·ligència artificial",
+        "ITEM3": "Telecomunicacions",
+        "ITEM4": "Programari dempresa"
+      },
+      "SECOND": {
+        "TITLE": "Empresarial",
+        "ITEM1": "Comerç al detall i <CorteMobile /> e-commerce",
+        "ITEM2": "Jurídica i assegurances",
+        "ITEM3": "Màrqueting i recursos humans",
+        "ITEM4": "Financera i bancària"
+      },
+      "THIRD": {
+        "TITLE": "Industrial",
+        "ITEM1": " Automobilística i <CorteDesktop /> <CorteMobile /> maquinària pesant",
+        "ITEM2": "Fabricació industrial"
+      },
+      "FOURTH": {
+        "TITLE": "Art i<CorteDesktop /> oci",
+        "ITEM1": "Turisme i hoteleria",
+        "ITEM2": "Art i disseny"
+      },
+      "FIFTH": {
+        "TITLE": "Ciència <CorteDesktop /> i medicina",
+        "ITEM1": "Normativa",
+        "ITEM2": "Dispositius mèdics",
+        "ITEM3": "Assajos clínics"
+      }
+    },
+    "MEETING_SMALL": {
+      "TITLE": "Sol·liciteu una reunió!",
+      "BAJADA": "Expliqueu-nos què necessiteu <CorteDesktop /> i us ajudarem a conquerir els nous mercats.",
+      "BUTTON": "Contacteu amb nosaltres"
+    }
+  },
+  "EXPERTISE": {
+    "TEAMING": {
+      "TITLE": "Col·laborem amb clients darreu del món",
+      "BAJADA": "Gràcies a la nostra experiència, podem oferir-vos diverses <CorteDesktop /> solucions de localització. Oferim múltiples <CorteDesktop /> serveis, des del processament darxius, lanàlisi de contingut <CorteDesktop /> fins al doblatge, la postedició, l'edició dàudio i vídeo, la maquetació, <CorteDesktop /> la gravació dàudio, el copywriting o el testing."
+    },
+    "CLIENTS": {
+      "TITLE": "Descobriu alguns dels nostres clients",
+      "BAJADA": "Moltes empreses i proveïdors de serveis lingüístics ens han escollit per a complementar <CorteDesktop /> els seus equips interns. Podem ajudar-vos, també!"
+    },
+    "EXCELLENCE": {
+      "TITLE": "El nostre compromís amb la qualitat",
+      "BAJADA": "La sostenibilitat, laccessibilitat i la qualitat són les bases fonamentals de la nostra feina. Els nostres serveis professionals de localització compleixen la normativa de qualitat ISO 17100:2015, d'acord amb les auditories externes anuals que realitzem.",
+      "FIRST": {
+        "BAJADA": "Fem palès el nostre compromís amb lexcel·lència <CorteDesktop /> a través duna <b>política de privadesa</b> que anteposa <CorteDesktop /> la millora continua, la satisfacció del client <CorteDesktop /> i la confidencialitat",
+        "BUTTON": "Consulteu la nostra política de qualitat"
+      },
+      "SECOND": {
+        "BAJADA": "Gestionem la nostra <CorteDesktop /> empresa duna manera socialment responsable. <CorteDesktop /> El nostre manifest inclou la nostra filosofia de <CorteDesktop /> <b>sostenibilitat</b>, diversitat, ètica i <CorteDesktop /> compromís amb la comunitat.",
+        "BUTTON": "Consulteu el nostre manifest ESG"
+      },
+      "THIRD": {
+        "BAJADA": "Considerem que la localització no <CorteDesktop /> només implica traduir els continguts, sinó també <CorteDesktop /> assegurar-se que és <b>accessible</b> per a tothom, <CorteDesktop /> independentment de les seves habilitats.",
+        "BUTTON": "Consulteu la declaració daccessibilitat de la nostra pàgina web"
+      }
+    },
+    "MEMBERSHIPS": {
+      "TITLE": "Els nostres afiliats",
+      "BAJADA": "Intercanviar experiències i fer networking és la <CorteDesktop /> millor manera de millorar els nostres serveis <CorteDesktop /> i el sector lingüístic en general."
+    }
+  },
+  "BLOG": {
+    "HERO": {
+      "TITULO": "I encara falta el  <CorteDesktop /> plat fort!",
+      "BAJADA": "Estem preparant una secció de blog on podreu <CorteDesktop /> assabentar-vos de les últimes novetats de la indústria de la localització. <CorteDesktop /> Si sou lingüista, dissenyador gràfic, especialista en TI, escriptor <CorteDesktop /> o editor de vídeo, esteu a laguait per a descobrir webinars, <CorteDesktop /> oportunitats de feina i més."
+    },
+    "SOCIAL": "Mentre espereu, <CorteMobile /> seguiu-nos a les xarxes socials!"
+  }
+}
