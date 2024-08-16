@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import Container from "../base/Container";
 import { CorteDesktop } from "../base/Cortes";
 import {
@@ -21,6 +21,8 @@ import { StyledBoton } from "../base/BotonSecundario";
 import CheckYes from "../../assets/CheckYes";
 import CheckNo from "../../assets/CheckNo";
 import { isWorkingDay, minDate } from "./hooks";
+import { TranslationContext } from "../../assets/Translations/TranslationsProvider";
+import Translator from "../../assets/Translations/Translator";
 
 const BookMeeting = () => {
   const [contactForm, setContactForm] = useState({});
@@ -49,6 +51,8 @@ const BookMeeting = () => {
     }
   }, [showError]);
 
+  const { text } = useContext(TranslationContext);
+
   return (
     <StyledContainer id="contact">
       <Success showDiv={showSuccess} />
@@ -56,23 +60,20 @@ const BookMeeting = () => {
         <MediaContainer className="d-flex justify-between">
           <FirstContainer className="d-flex flex-column">
             <h1 className="h3-mobile h2-web mb-16-mobile mb-40 text-center-mobile">
-              Book a meeting!
+              {text.HOME.BOOK_MEETING.TITLE}
             </h1>
             <p className="txt-regular-mobile destacado-regular mb-80 mb-20-mobile text-center-mobile">
-              Tell us what you need and we'll help you
-              <CorteDesktop /> succeed in new markets. Here are some
-              <CorteDesktop /> questions to guide your request.
+              <Translator text={text.HOME.BOOK_MEETING.BAJADA} />
             </p>
 
             <p className="destacados-italic-mobile destacado-italic mb-30 mb-16-mobile text-center-mobile">
-              What type of content would you like
-              <CorteDesktop /> to create or localize?
+              <Translator text={text.HOME.BOOK_MEETING.QUESTION_1} />
             </p>
             <p className="destacados-italic-mobile destacado-italic mb-30 mb-16-mobile text-center-mobile">
-              What is your target audience?
+              {text.HOME.BOOK_MEETING.QUESTION_2}
             </p>
             <p className="destacados-italic-mobile destacado-italic mb-40 mb-25-mobile text-center-mobile">
-              Is your request urgent?
+              {text.HOME.BOOK_MEETING.QUESTION_3}
             </p>
           </FirstContainer>
           <SecondContainer className="d-flex flex-column">
@@ -80,7 +81,7 @@ const BookMeeting = () => {
               <ColumnInput className="d-flex justify-between">
                 <ContainerInput className="d-flex flex-column">
                   <label htmlFor="name" className="label-form mb-8">
-                    Name *
+                    {text.HOME.BOOK_MEETING.FORM.NAME} *
                   </label>
                   <input
                     name="name"
@@ -102,7 +103,7 @@ const BookMeeting = () => {
                 </ContainerInput>
                 <ContainerInput className="d-flex flex-column">
                   <label htmlFor="company" className="label-form mb-8">
-                    Company Name *
+                    {text.HOME.BOOK_MEETING.FORM.COUNTRY} *
                   </label>
                   <input
                     name="company"
@@ -126,7 +127,7 @@ const BookMeeting = () => {
               <ColumnInput className="d-flex justify-between">
                 <ContainerInput className="d-flex flex-column">
                   <label htmlFor="email" className="label-form mb-8">
-                    E-Mail *
+                    {text.HOME.BOOK_MEETING.FORM.MAIL} *
                   </label>
                   <input
                     name="email"
@@ -156,11 +157,13 @@ const BookMeeting = () => {
               </ColumnInput>
               <Column className="d-flex flex-column">
                 <label className="label-form mb-8">
-                  Would you like to book a meeting?
+                  {text.HOME.BOOK_MEETING.FORM.MEETING}
                 </label>
                 <div className="d-flex">
                   <div>
-                    <label className="label-form">Yes</label>
+                    <label className="label-form">
+                      {text.HOME.BOOK_MEETING.FORM.YES}
+                    </label>
                     {quiereReu ? (
                       <CheckYes handleClick={() => setQuiereReu(true)} />
                     ) : (
@@ -168,7 +171,9 @@ const BookMeeting = () => {
                     )}
                   </div>
                   <div>
-                    <label className="label-form">No</label>
+                    <label className="label-form">
+                      {text.HOME.BOOK_MEETING.FORM.NO}
+                    </label>
                     {!quiereReu ? (
                       <CheckYes handleClick={() => setQuiereReu(false)} />
                     ) : (
@@ -180,7 +185,7 @@ const BookMeeting = () => {
               {quiereReu && (
                 <DateContainer className="d-flex flex-column mb-16-mobile">
                   <label htmlFor="date" className="label-form mb-8">
-                    Select a date *
+                    {text.HOME.BOOK_MEETING.FORM.DATE} *
                   </label>
                   <DatePicker
                     name="date"
@@ -203,7 +208,7 @@ const BookMeeting = () => {
               )}
               <div className="d-flex flex-column mb-30 mb-25-mobile">
                 <label htmlFor="comment" className="label-form mb-8">
-                  How can we help?
+                  {text.HOME.BOOK_MEETING.FORM.HELP}
                 </label>
                 <textarea
                   name="comment"
@@ -217,7 +222,7 @@ const BookMeeting = () => {
                       contactForm
                     )
                   }
-                  placeholder="Share with us a brief about your request..."
+                  placeholder={text.HOME.BOOK_MEETING.FORM.PLACEHOLDER}
                   className="textarea-form txt-destacados-alta-mobile texto-regular"
                 />
               </div>
@@ -235,7 +240,7 @@ const BookMeeting = () => {
                 );
               }}
             >
-              Get in touch
+              {text.HOME.BOOK_MEETING.BUTTON}
             </StyledBoton>
           </SecondContainer>
         </MediaContainer>

@@ -1,16 +1,19 @@
-import React, { useMemo } from "react";
+import React, { useContext, useMemo } from "react";
 import {
   getTimeZones,
   convertOffsetInMinutesToString,
 } from "./BookMeetingFunc";
+import { TranslationContext } from "../../assets/Translations/TranslationsProvider";
 
 const SelectCountries = ({ data, func }) => {
   const timeZones = useMemo(getTimeZones, []);
 
+  const { text } = useContext(TranslationContext);
+
   return (
     <>
       <label htmlFor="country" className="label-form mb-8">
-        Country *
+        {text.HOME.BOOK_MEETING.FORM.COUNTRY} *
       </label>
       <select
         name="country"
