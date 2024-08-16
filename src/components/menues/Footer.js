@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import ScrollToTop from "react-scroll-to-top";
 import { CorteDesktop, CorteMobile } from "../base/Cortes";
 import Container from "../base/Container";
@@ -23,9 +23,13 @@ import LogoUSH from "../../assets/Logo-USH";
 import { useTheme } from "styled-components";
 import BotonSecundario from "../base/BotonSecundario";
 import Valores from "../home/Valores";
+import { TranslationContext } from "../../assets/Translations/TranslationsProvider";
+import Translator from "../../assets/Translations/Translator";
 
 function Footer() {
   const theme = useTheme();
+
+  const { text } = useContext(TranslationContext);
 
   return (
     <Content>
@@ -34,8 +38,7 @@ function Footer() {
           <div className="work">
             <Valores />
             <p className="dropdown-title-web mb-80 mt-80 body-bold-mobile mb-25-mobile mt-25-mobile text-center">
-              If you are a linguist, translator, graphic designer or IT
-              specialist, join our team!
+              {text.HOME.WORK_WITH_US.TITLE}
             </p>
             <a
               href="https://cloud.protemos.com/vendor-app/create?token=2883715efa8d9747213570c8257c0ec3"
@@ -43,7 +46,7 @@ function Footer() {
               rel="noreferrer"
             >
               <BotonSecundario className="mb-80 mb-25-mobile">
-                Work with us
+                {text.HOME.WORK_WITH_US.BUTTON}
               </BotonSecundario>
             </a>
           </div>
@@ -66,7 +69,9 @@ function Footer() {
                     strokeLinejoin="round"
                   />
                 </Arrow>
-                <span className="semibold-mobile label-form">Back to top</span>
+                <span className="semibold-mobile label-form">
+                  {text.HOME.BACK}
+                </span>
               </>
             }
           />
@@ -75,15 +80,7 @@ function Footer() {
         <ContainerMobile>
           <ContainerText>
             <p className="texto-regular txt-regular-mobile text-center-mobile text-left mb-25-mobile">
-              We're committed to protecting your privacy. The information
-              <CorteDesktop /> you provide will only be used to respond to your
-              inquiry.
-              <CorteDesktop />
-              <CorteDesktop />
-              Ushuaia Solutions is an ISO certified language services company
-              <CorteDesktop /> with more than 20 years' experience. We have
-              offices
-              <CorteDesktop /> in Latin America and Europe.
+              <Translator text={text.FOOTER} />
             </p>
             <ContainerRedesFooter>
               {/* linkedin */}
@@ -196,43 +193,37 @@ function Footer() {
           <LogoUSH />
           <RowDesktop className="mt-40 mb-10">
             <p className="texto-regular text-left">
-              We're committed to protecting your privacy. The information
-              <CorteDesktop /> you provide will only be used to respond to your
-              inquiry.
-              <CorteDesktop />
-              <CorteDesktop />
-              Ushuaia Solutions is an ISO certified language services company
-              <CorteDesktop /> with more than 20 years' experience. We have
-              offices
-              <CorteDesktop /> in Latin America and Europe.
+              <Translator text={text.FOOTER} />
             </p>
             <Column>
               <StyledLink to="/">
                 <ButtonHover className="texto-regular-bold">Home</ButtonHover>
               </StyledLink>
               <StyledLink to="/about">
-                <ButtonHover className="texto-regular-bold">About</ButtonHover>
+                <ButtonHover className="texto-regular-bold">
+                  {text.HEADER.ABOUT}
+                </ButtonHover>
               </StyledLink>
               <StyledLink to="/services">
                 <ButtonHover className="texto-regular-bold">
-                  Services
+                  {text.HEADER.SERVICES}
                 </ButtonHover>
               </StyledLink>
             </Column>
             <Column>
               <StyledLink to="/expertise">
                 <ButtonHover className="texto-regular-bold">
-                  Expertise
+                  {text.HEADER.EXPERTISE}
                 </ButtonHover>
               </StyledLink>
               <StyledLink to="/contact">
                 <ButtonHover className="texto-regular-bold">
-                  Get in touch
+                  {text.HEADER.GET_IN_TOUCH}
                 </ButtonHover>
               </StyledLink>
               <StyledLink to="/ush-blog">
                 <ButtonHover className="texto-regular-bold">
-                  USH Blog
+                  {text.HEADER.BLOG}
                 </ButtonHover>
               </StyledLink>
             </Column>
