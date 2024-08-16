@@ -1,22 +1,21 @@
-import React from "react";
+import React, { useContext } from "react";
 import Container from "../base/Container";
-import { CorteDesktop } from "../base/Cortes";
 import { StyledContainer } from "./MeetYourNeedsComp";
 import Ondas from "../../assets/Ondas";
+import { TranslationContext } from "../../assets/Translations/TranslationsProvider";
+import Translator from "../../assets/Translations/Translator";
 
 function MeetYourNeeds() {
+  const { text } = useContext(TranslationContext);
+
   return (
     <Container>
       <StyledContainer>
         <h2 className="h1-web h1-mobile mb-16-mobile mb-50 text-center-mobile">
-          Let's reach
-          <CorteDesktop /> global markets
+          <Translator text={text.SERVICES.HERO.TITULO} />
         </h2>
         <p className="txt-regular-mobile destacado-regular mb-32-mobile mb-40 text-center-mobile">
-          USH is a synonym of flexibility, scalability
-          <CorteDesktop /> and efficiency. We're your language service
-          <CorteDesktop /> partner for Latin America, Europe
-          <CorteDesktop /> and the world.
+          <Translator text={text.SERVICES.HERO.BAJADA} />
         </p>
       </StyledContainer>
       <Ondas />

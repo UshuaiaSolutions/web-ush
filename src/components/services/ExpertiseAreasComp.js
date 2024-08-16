@@ -49,7 +49,7 @@ export const Card = styled.div`
   ${breakpoints.min_desktop} {
     width: 337px;
     margin: 0 32px 32px 0;
-    height: 320px;
+    height: 400px;
 
     & ul {
       text-align: start;

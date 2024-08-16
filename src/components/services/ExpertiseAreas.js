@@ -1,24 +1,25 @@
-import React from "react";
+import React, { useContext } from "react";
 import Container from "../base/Container";
-import { CorteDesktop, CorteMobile } from "../base/Cortes";
 import { StyledContainer, Row, Card, Icon } from "./ExpertiseAreasComp";
 import Technology from "../../assets/Areas/Technology";
 import Industry from "../../assets/Areas/Industry";
 import Arts from "../../assets/Areas/Arts";
 import Sciences from "../../assets/Areas/Sciences";
 import Business from "../../assets/Areas/Business";
+import { TranslationContext } from "../../assets/Translations/TranslationsProvider";
+import Translator from "../../assets/Translations/Translator";
 
 function ExpertiseAreas() {
+  const { text } = useContext(TranslationContext);
+
   return (
     <Container>
       <StyledContainer>
         <h2 className="h3-mobile h2-web mb-40 mb-16-mobile">
-          Areas of Expertise
+          {text.SERVICES.AREAS.TITLE}
         </h2>
         <p className="txt-regular-mobile destacado-regular mb-16-mobile mb-60">
-          We've managed to select and train highly skilled professionals
-          specialized
-          <CorteDesktop /> in different fields.
+          <Translator text={text.SERVICES.AREAS.BAJADA} />
         </p>
         <Row>
           <Card>
@@ -26,20 +27,20 @@ function ExpertiseAreas() {
               <Technology />
             </Icon>
             <h3 className="h3-web body-bold-mobile mb-32 mb-8-mobile">
-              Technology
+              {text.SERVICES.AREAS.FIRST.TITLE}
             </h3>
             <ul>
               <li className="destacado-regular txt-mobile text-center-mobile">
-                Cloud Computing
+                {text.SERVICES.AREAS.FIRST.ITEM1}
               </li>
               <li className="destacado-regular txt-mobile text-center-mobile">
-                Artificial Intelligence
+                {text.SERVICES.AREAS.FIRST.ITEM2}
               </li>
               <li className="destacado-regular txt-mobile text-center-mobile">
-                Telecommunications
+                {text.SERVICES.AREAS.FIRST.ITEM3}
               </li>
               <li className="destacado-regular txt-mobile text-center-mobile">
-                Enterprise Software
+                {text.SERVICES.AREAS.FIRST.ITEM4}
               </li>
             </ul>
           </Card>
@@ -48,21 +49,20 @@ function ExpertiseAreas() {
               <Business />
             </Icon>
             <h3 className="h3-web body-bold-mobile mb-32 mb-8-mobile">
-              Business
+              {text.SERVICES.AREAS.SECOND.TITLE}
             </h3>
             <ul>
               <li className="destacado-regular txt-mobile text-center-mobile">
-                Retail and
-                <CorteMobile /> e-Commerce
+                <Translator text={text.SERVICES.AREAS.SECOND.ITEM1} />
               </li>
               <li className="destacado-regular txt-mobile text-center-mobile">
-                Insurance and Legal
+                {text.SERVICES.AREAS.SECOND.ITEM2}
               </li>
               <li className="destacado-regular txt-mobile text-center-mobile">
-                Marketing and HR
+                {text.SERVICES.AREAS.SECOND.ITEM3}
               </li>
               <li className="destacado-regular txt-mobile text-center-mobile">
-                Finance and banking
+                {text.SERVICES.AREAS.SECOND.ITEM4}
               </li>
             </ul>
           </Card>
@@ -71,17 +71,14 @@ function ExpertiseAreas() {
               <Industry />
             </Icon>
             <h3 className="h3-web body-bold-mobile mb-32 mb-8-mobile">
-              Industry
+              {text.SERVICES.AREAS.THIRD.TITLE}
             </h3>
             <ul>
               <li className="destacado-regular txt-mobile text-center-mobile">
-                Automotive and
-                <CorteDesktop />
-                <CorteMobile />
-                Heavy Machinery
+                <Translator text={text.SERVICES.AREAS.THIRD.ITEM1} />
               </li>
               <li className="destacado-regular txt-mobile text-center-mobile">
-                Industrial manufacturing
+                {text.SERVICES.AREAS.THIRD.ITEM2}
               </li>
             </ul>
           </Card>
@@ -90,14 +87,14 @@ function ExpertiseAreas() {
               <Arts />
             </Icon>
             <h3 className="h3-web body-bold-mobile mb-32 mb-8-mobile">
-              Arts &<CorteDesktop /> Leisure
+              <Translator text={text.SERVICES.AREAS.FOURTH.TITLE} />
             </h3>
             <ul>
               <li className="destacado-regular txt-mobile text-center-mobile">
-                Travel and Hospitality
+                {text.SERVICES.AREAS.FOURTH.ITEM1}
               </li>
               <li className="destacado-regular txt-mobile text-center-mobile">
-                Arts and Design
+                {text.SERVICES.AREAS.FOURTH.ITEM2}
               </li>
             </ul>
           </Card>
@@ -106,18 +103,17 @@ function ExpertiseAreas() {
               <Sciences />
             </Icon>
             <h3 className="h3-web body-bold-mobile mb-32 mb-8-mobile">
-              Life Sciences
-              <CorteDesktop /> & Healthcare
+              <Translator text={text.SERVICES.AREAS.FIFTH.TITLE} />
             </h3>
             <ul>
               <li className="destacado-regular txt-mobile text-center-mobile">
-                Regulatory
+                {text.SERVICES.AREAS.FIFTH.ITEM1}
               </li>
               <li className="destacado-regular txt-mobile text-center-mobile">
-                Medical Devices
+                {text.SERVICES.AREAS.FIFTH.ITEM2}
               </li>
               <li className="destacado-regular txt-mobile text-center-mobile">
-                Clinical Trials
+                {text.SERVICES.AREAS.FIFTH.ITEM3}
               </li>
             </ul>
           </Card>
