@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import Container from "../base/Container";
-import { CorteDesktop } from "../base/Cortes";
 import { StyledContainer } from "../services/HowWeCanComp";
 import { Column, ContentDesktop, Row } from "./NeedsComp";
 import IlustracionNeeds from "../../assets/Ilustracion-Needs";

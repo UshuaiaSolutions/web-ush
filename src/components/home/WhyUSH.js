@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 
 import Container from "../base/Container";
 import {
@@ -13,16 +13,19 @@ import {
 } from "./WhyUSHComp";
 import { useTheme } from "styled-components";
 import { colors } from "../base/breakpoints";
+import { TranslationContext } from "../../assets/Translations/TranslationsProvider";
 
 function WhyUSH() {
   const theme = useTheme();
+
+  const { text } = useContext(TranslationContext);
 
   return (
     <StyledContainer>
       <Container>
         <Content>
           <h2 className="h2-web h3-mobile mb-40 mb-0-mobile text-center ">
-            Why USH?
+            {text.HOME.WHY_USH.TITLE}
           </h2>
           <CardContainer>
             <Card>
@@ -61,11 +64,10 @@ function WhyUSH() {
                 </Scalability>
               </SVGContainer>
               <h3 className="title-card mb-35 body-bold-mobile mb-16-mobile">
-                Scalability
+                {text.HOME.WHY_USH.FIRST.TITLE}
               </h3>
               <p className="texto-regular text-center txt-regular-mobile">
-                We have the capacity to build and maintain on-site dedicated
-                teams which can adapt to any technology or platform you use.
+                {text.HOME.WHY_USH.FIRST.TEXT}
               </p>
             </Card>
             <Card>
@@ -92,12 +94,10 @@ function WhyUSH() {
                 </Quality>
               </SVGContainer>
               <h3 className="title-card mb-35 body-bold-mobile mb-16-mobile">
-                Quality
+                {text.HOME.WHY_USH.SECOND.TITLE}
               </h3>
               <p className="texto-regular text-center txt-regular-mobile">
-                Our workflow complies with the requirements of the ISO 17100
-                International Standards. We provide confidential information
-                management.
+                {text.HOME.WHY_USH.SECOND.TEXT}
               </p>
             </Card>
             <Card>
@@ -120,12 +120,10 @@ function WhyUSH() {
                 </Experience>
               </SVGContainer>
               <h3 className="title-card mb-35 body-bold-mobile mb-16-mobile">
-                Experience
+                {text.HOME.WHY_USH.THIRD.TITLE}
               </h3>
               <p className="texto-regular text-center txt-regular-mobile">
-                With more than 20 years in the language services industry, we
-                have carefully selected and trained our team of linguists,
-                designers and IT professionals.
+                {text.HOME.WHY_USH.THIRD.TEXT}
               </p>
             </Card>
           </CardContainer>
