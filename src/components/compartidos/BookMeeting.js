@@ -1,6 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
 import Container from "../base/Container";
-import { CorteDesktop } from "../base/Cortes";
 import {
   StyledContainer,
   MediaContainer,

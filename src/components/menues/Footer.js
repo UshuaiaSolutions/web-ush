@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import ScrollToTop from "react-scroll-to-top";
-import { CorteDesktop, CorteMobile } from "../base/Cortes";
+import { CorteMobile } from "../base/Cortes";
 import Container from "../base/Container";
 import {
   ContainerTop,
