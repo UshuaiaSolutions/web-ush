@@ -1,10 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Autoplay } from "swiper";
 import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "../../styles/slider.css";
 import Container from "../base/Container";
-import { CorteDesktop } from "../base/Cortes";
 import { StyledContainer } from "./MeetClientsComp";
 import {
   Cliente1,
@@ -20,17 +19,20 @@ import {
   Cliente8,
   Cliente9,
 } from "../../assets/Clientes";
+import { TranslationContext } from "../../assets/Translations/TranslationsProvider";
+import Translator from "../../assets/Translations/Translator";
 
 function MeetClients() {
+  const { text } = useContext(TranslationContext);
+
   return (
     <StyledContainer>
       <Container>
         <h1 className="h3-mobile h2-web mb-16-mobile mb-40 text-center">
-          Meet some of our clients
+          {text.EXPERTISE.CLIENTS.TITLE}
         </h1>
         <p className="txt-regular-mobile destacado-regular mb-16-mobile mb-80 text-center">
-          Many companies and LSPs have come to rely on us as an extension
-          <CorteDesktop /> of their in-house teams. We can help you too!
+          <Translator text={text.EXPERTISE.CLIENTS.BAJADA} />
         </p>
 
         <Swiper

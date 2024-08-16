@@ -1,6 +1,5 @@
-import React from "react";
+import React, { useContext } from "react";
 import Container from "../base/Container";
-import { CorteDesktop } from "../base/Cortes";
 import {
   StyledContainer,
   Table,
@@ -13,9 +12,13 @@ import Gala from "../../assets/Portfolio/Gala";
 import Elia from "../../assets/Portfolio/Elia";
 import { useTheme } from "styled-components";
 import { colors } from "../base/breakpoints";
+import { TranslationContext } from "../../assets/Translations/TranslationsProvider";
+import Translator from "../../assets/Translations/Translator";
 
 function Memberships() {
   const theme = useTheme();
+
+  const { text } = useContext(TranslationContext);
 
   return (
     <StyledContainer>
@@ -23,12 +26,10 @@ function Memberships() {
         <Content>
           <div className="d-flex flex-column justify-center text-center">
             <h2 className="h2-web h3-mobile mb-40 mb-16-mobile">
-              Our Memberships
+              {text.EXPERTISE.MEMBERSHIPS.TITLE}
             </h2>
             <p className="txt-regular-mobile destacado-regular mb-32-mobile mb-80 text-center">
-              Networking and sharing experiences is the
-              <CorteDesktop /> best way to improve both our services
-              <CorteDesktop /> and the language industry as a whole.
+              <Translator text={text.EXPERTISE.MEMBERSHIPS.BAJADA} />
             </p>
           </div>
           <Table>

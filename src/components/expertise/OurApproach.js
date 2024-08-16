@@ -1,6 +1,5 @@
-import React from "react";
+import React, { useContext } from "react";
 import Container from "../base/Container";
-import { CorteDesktop, CorteMobile } from "../base/Cortes";
 import {
   StyledContainer,
   Content,
@@ -11,6 +10,8 @@ import {
 
 import { useTheme } from "styled-components";
 import { colors } from "../base/breakpoints";
+import { TranslationContext } from "../../assets/Translations/TranslationsProvider";
+import Translator from "../../assets/Translations/Translator";
 
 function OurApproach() {
   const theme = useTheme();
@@ -26,32 +27,24 @@ function OurApproach() {
     document.body.removeChild(link);
   };
 
+  const { text } = useContext(TranslationContext);
+
   return (
     <>
       <StyledContainer>
         <Container>
           <div style={{ zIndex: "2", position: "relative" }}>
             <h1 className="h3-mobile h2-web mb-16-mobile mb-40 text-center">
-              Our Approach to Excellence
+              {text.EXPERTISE.EXCELLENCE.TITLE}
             </h1>
             <p className="txt-regular-mobile destacado-regular text-center">
-              Sustainability, accessibility, and high quality are the pillars of
-              our work.
-              <CorteDesktop /> Our professional localization services are{" "}
-              <b>
-                certified to meet ISO 17100:2015
-                <CorteDesktop /> quality standards,
-              </b>{" "}
-              as confirmed by our successful annual external audits.
+              <Translator text={text.EXPERTISE.EXCELLENCE.BAJADA} />
             </p>
           </div>
           <ContentContainer>
             <Content>
               <p className="txt-regular-mobile destacado-regular text-left text-center-mobile mb-16-mobile">
-                We express our commitment to excellence
-                <CorteDesktop /> with a <b>quality policy</b> that focuses on
-                <CorteDesktop /> continuous improvement, client satisfaction,
-                <CorteDesktop /> and confidentiality.
+                <Translator text={text.EXPERTISE.EXCELLENCE.FIRST.BAJADA} />
               </p>
               <div>
                 <StyledBoton
@@ -63,7 +56,7 @@ function OurApproach() {
                     )
                   }
                 >
-                  Read our Quality Policy
+                  {text.EXPERTISE.EXCELLENCE.FIRST.BUTTON}
                 </StyledBoton>
               </div>
             </Content>
@@ -83,11 +76,7 @@ function OurApproach() {
             </EstrellaVioleta>
             <Content>
               <p className="txt-regular-mobile destacado-regular text-left text-center-mobile mb-16-mobile">
-                We are committed to conducting our
-                <CorteDesktop /> business in a socially responsible manner.
-                <CorteDesktop /> Our Manifesto outlines our approach to
-                <CorteDesktop /> <b>sustainability</b>, diversity, ethics, and
-                <CorteDesktop /> community engagement.
+                <Translator text={text.EXPERTISE.EXCELLENCE.SECOND.BAJADA} />
               </p>
               <div>
                 <StyledBoton
@@ -99,7 +88,7 @@ function OurApproach() {
                     )
                   }
                 >
-                  Read our ESG Manifesto
+                  {text.EXPERTISE.EXCELLENCE.SECOND.BUTTON}
                 </StyledBoton>
               </div>
             </Content>
@@ -119,11 +108,7 @@ function OurApproach() {
             </EstrellaVioleta>
             <Content>
               <p className="txt-regular-mobile destacado-regular text-left text-center-mobile mb-16-mobile">
-                We believe that localization involves
-                <CorteDesktop /> not only translating content but also
-                <CorteDesktop /> ensuring it is <b>accessible</b> to everyone,
-                <CorteDesktop />
-                <CorteMobile /> regardless of their abilities.
+                <Translator text={text.EXPERTISE.EXCELLENCE.THIRD.BAJADA} />
               </p>
               <div>
                 <StyledBoton
@@ -135,7 +120,7 @@ function OurApproach() {
                     )
                   }
                 >
-                  Website’s Accessibility Statement
+                  {text.EXPERTISE.EXCELLENCE.THIRD.BUTTON}
                 </StyledBoton>
               </div>
             </Content>
