@@ -1,26 +1,22 @@
-import React from "react";
-import { CorteDesktop } from "../base/Cortes";
+import React, { useContext } from "react";
 import Circulos from "../../assets/Blog/Circulos";
 import { Container } from "./FollowUSComp";
 import CirculoMobile from "../../assets/Blog/CirculoMobile";
+import Translator from "../../assets/Translations/Translator";
+import { TranslationContext } from "../../assets/Translations/TranslationsProvider";
 
 function FollowUS() {
+  const { text } = useContext(TranslationContext);
+
   return (
     <Container>
       <CirculoMobile />
       <div>
         <h2 className="h2-web mb-60 text-center-mobile mb-16-mobile h1-mobile">
-          Something awesome is
-          <CorteDesktop /> coming soon!
+          <Translator text={text.BLOG.HERO.TITULO} />
         </h2>
         <p className="destacado-regular text-center-mobile txt-regular-mobile">
-          We're currently working on a blog section where you'll be
-          <CorteDesktop /> able to see the latest news of the localization
-          industry.
-          <CorteDesktop /> If you're a linguist, graphic designer, IT
-          specialist, writer
-          <CorteDesktop /> or video editor, stay tuned to discover webinars,
-          <CorteDesktop /> job opportunities and more.
+          <Translator text={text.BLOG.HERO.BAJADA} />
         </p>
       </div>
       <Circulos />

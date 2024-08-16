@@ -1,21 +1,23 @@
-import React from "react";
+import React, { useContext } from "react";
 
 import { StyledContainer, ImgDesktop, ImgMobile } from "./SomethingComp";
-import { CorteMobile } from "../base/Cortes";
 import { useTheme } from "styled-components";
 import imgDKClaro from "../../assets/Blog/desktop-claro.jpg";
 import imgDKOscuro from "../../assets/Blog/desktop-oscuro.jpg";
 import imgMBClaro from "../../assets/Blog/mobile-claro.jpg";
 import imgMBOscuro from "../../assets/Blog/mobile-oscuro.jpg";
+import { TranslationContext } from "../../assets/Translations/TranslationsProvider";
+import Translator from "../../assets/Translations/Translator";
 
 function Something() {
   const theme = useTheme();
 
+  const { text } = useContext(TranslationContext);
+
   return (
     <StyledContainer>
       <h3 className="text-center h3-mobile h3-web mb-32 mb-16-mobile">
-        While you wait,
-        <CorteMobile /> follow us on social media
+        <Translator text={text.BLOG.SOCIAL} />
       </h3>
       <a
         href="https://www.instagram.com/ushuaiasolutions/"
