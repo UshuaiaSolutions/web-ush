@@ -1,9 +1,8 @@
-import React from "react";
+import React, { useContext } from "react";
 import { HashLink } from "react-router-hash-link";
 
 import BotonSecundario from "../base/BotonSecundario";
 import Container from "../base/Container";
-import { CorteDesktop, CorteMobile } from "../base/Cortes";
 import {
   StyledContainer,
   Card,
@@ -16,29 +15,26 @@ import OndasLargas from "../../assets/OndasLargas";
 import { CardContainer, SVGContainer } from "../home/WhyUSHComp";
 import { useTheme } from "styled-components";
 import { colors } from "../base/breakpoints";
+import { TranslationContext } from "../../assets/Translations/TranslationsProvider";
+import Translator from "../../assets/Translations/Translator";
 
 function MeetYourLanguage() {
   const theme = useTheme();
+
+  const { text } = useContext(TranslationContext);
 
   return (
     <>
       <Container>
         <StyledContainer>
           <h1 className="h1-mobile h1-web mb-20-mobile mb-30 text-center">
-            Meet your language
-            <CorteDesktop />
-            <CorteMobile /> service partner
+            <Translator text={text.ABOUT.HERO.TITULO} />
           </h1>
           <p className="txt-regular-mobile destacado-regular mb-40-mobile mb-30 text-center">
-            We deliver multilingual solutions to help you face and solve your
-            global challenges.
-            <CorteDesktop />
-            We can blend linguistic, technical, marketing and cultural
-            requirements to offer
-            <CorteDesktop /> an optimized translation and localization solution.
+            <Translator text={text.ABOUT.HERO.BAJADA} />
           </p>
           <HashLink smooth to="/about#contact">
-            <BotonSecundario>Get in touch</BotonSecundario>
+            <BotonSecundario>{text.ABOUT.HERO.BUTTON}</BotonSecundario>
           </HashLink>
         </StyledContainer>
       </Container>
@@ -63,22 +59,10 @@ function MeetYourLanguage() {
               </Experience>
             </SVGContainer>
             <h3 className="title-card mb-35 body-bold-mobile mb-16-mobile">
-              Experience
+              {text.ABOUT.HERO.FIRST.TITLE}
             </h3>
             <p className="texto-regular text-center txt-regular-mobile">
-              We really know our stuff. With more
-              <CorteDesktop />
-              than 20 years in the language
-              <CorteDesktop />
-              services industry, we have the
-              <CorteDesktop />
-              capacity to build and maintain
-              <CorteDesktop />
-              on-site dedicated teams
-              <CorteDesktop />
-              of highly skilled professionals
-              <CorteDesktop />
-              for your account.
+              <Translator text={text.ABOUT.HERO.FIRST.BAJADA} />
             </p>
           </Card>
           <Card>
@@ -153,22 +137,10 @@ function MeetYourLanguage() {
               </Technology>
             </SVGContainer>
             <h3 className="title-card mb-35 body-bold-mobile mb-16-mobile">
-              Technology
+              {text.ABOUT.HERO.SECOND.TITLE}
             </h3>
             <p className="texto-regular text-center txt-regular-mobile">
-              We're geeks! We strategically use
-              <CorteDesktop />
-              the latest tech trends
-              <CorteDesktop />
-              to help you expand your
-              <CorteDesktop />
-              possibilities. Plus, our flexibility
-              <CorteDesktop />
-              enables us to adapt to any
-              <CorteDesktop />
-              technology, platform
-              <CorteDesktop />
-              or process you use.
+              <Translator text={text.ABOUT.HERO.SECOND.BAJADA} />
             </p>
           </Card>
           <Card>
@@ -235,16 +207,10 @@ function MeetYourLanguage() {
               </Partnership>
             </SVGContainer>
             <h3 className="title-card mb-35 body-bold-mobile mb-16-mobile">
-              Partnership
+              {text.ABOUT.HERO.THIRD.TITLE}
             </h3>
             <p className="texto-regular text-center txt-regular-mobile">
-              Positive leadership, empathy
-              <CorteDesktop /> and honesty are our core work
-              <CorteDesktop /> values. We strongly believe the
-              <CorteDesktop /> collaborative effort of a team
-              <CorteDesktop /> to achieve a common goal leads
-              <CorteDesktop /> to much more effective and efficient solutions.
-              <CorteDesktop /> Better together!
+              <Translator text={text.ABOUT.HERO.THIRD.BAJADA} />
             </p>
           </Card>
         </CardContainer>

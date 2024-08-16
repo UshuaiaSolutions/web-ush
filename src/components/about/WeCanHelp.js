@@ -1,7 +1,6 @@
-import React from "react";
+import React, { useContext } from "react";
 import Container from "../base/Container";
 
-import { CorteDesktop, CorteMobile } from "../base/Cortes";
 import {
   StyledContainer,
   Row,
@@ -19,9 +18,13 @@ import {
 import BotonSecundario from "../base/BotonSecundario";
 import { Link } from "react-router-dom";
 import { useTheme } from "styled-components";
+import { TranslationContext } from "../../assets/Translations/TranslationsProvider";
+import Translator from "../../assets/Translations/Translator";
 
 function WeCanHelp() {
   const theme = useTheme();
+
+  const { text } = useContext(TranslationContext);
 
   return (
     <StyledContainer>
@@ -29,17 +32,10 @@ function WeCanHelp() {
         <Content>
           <Row>
             <h2 className="h3-mobile h2-web mb-16-mobile text-center-mobile">
-              We can help you
-              <CorteDesktop /> solve multilingual
-              <CorteDesktop /> challenges
+              <Translator text={text.ABOUT.MULTILINGUAL_CHALLENGES.TITLE} />
             </h2>
             <p className="txt-regular-mobile destacado-regular mb-32-mobile text-center-mobile">
-              From translation to desktop publishing
-              <CorteDesktop /> and copywriting, our team can help you
-              <CorteDesktop /> remove language barriers.
-              <CorteDesktop /> Plus, we encourage positive leadership
-              <CorteDesktop /> to motivate our talented professionals
-              <CorteDesktop /> to work together as one.
+              <Translator text={text.ABOUT.MULTILINGUAL_CHALLENGES.BAJADA} />
             </p>
           </Row>
           <RowIcons className="mb-32-mobile">
@@ -63,9 +59,7 @@ function WeCanHelp() {
                 </Language>
               </IconContainer>
               <span className="texto-regular txt-mobile text-center">
-                Language
-                <CorteDesktop />
-                <CorteMobile /> Solutions
+                <Translator text={text.ABOUT.MULTILINGUAL_CHALLENGES.FIRST} />
               </span>
             </Card>
             <Card className="mb-16-mobile">
@@ -84,9 +78,7 @@ function WeCanHelp() {
                 </Project>
               </IconContainer>
               <span className="texto-regular txt-mobile text-center">
-                Project
-                <CorteDesktop />
-                <CorteMobile /> Management
+                <Translator text={text.ABOUT.MULTILINGUAL_CHALLENGES.SECOND} />
               </span>
             </Card>
             <Card className="mb-16-mobile">
@@ -113,9 +105,7 @@ function WeCanHelp() {
                 </Desktop>
               </IconContainer>
               <span className="texto-regular txt-mobile text-center">
-                Desktop
-                <CorteDesktop />
-                <CorteMobile /> Publishing
+                <Translator text={text.ABOUT.MULTILINGUAL_CHALLENGES.THIRD} />
               </span>
             </Card>
             <Card className="mb-16-mobile">
@@ -138,9 +128,7 @@ function WeCanHelp() {
                 </Creative>
               </IconContainer>
               <span className="texto-regular txt-mobile text-center">
-                Creative
-                <CorteDesktop />
-                <CorteMobile /> Visuals
+                <Translator text={text.ABOUT.MULTILINGUAL_CHALLENGES.FOURTH} />
               </span>
             </Card>
             <Card className="mb-16-mobile">
@@ -163,9 +151,7 @@ function WeCanHelp() {
                 </Creation>
               </IconContainer>
               <span className="texto-regular txt-mobile text-center">
-                Content
-                <CorteDesktop />
-                <CorteMobile /> Creation
+                <Translator text={text.ABOUT.MULTILINGUAL_CHALLENGES.FIFTH} />
               </span>
             </Card>
             <Card className="mb-16-mobile">
@@ -184,14 +170,14 @@ function WeCanHelp() {
                 </Learning>
               </IconContainer>
               <span className="texto-regular txt-mobile text-center">
-                E-Learning
-                <CorteDesktop />
-                <CorteMobile /> and video
+                <Translator text={text.ABOUT.MULTILINGUAL_CHALLENGES.SIXTH} />
               </span>
             </Card>
           </RowIcons>
           <Link to="/services">
-            <BotonSecundario>Explore USH Services</BotonSecundario>
+            <BotonSecundario>
+              {text.ABOUT.MULTILINGUAL_CHALLENGES.BUTTON}
+            </BotonSecundario>
           </Link>
         </Content>
       </Container>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import Container from "../base/Container";
 import { Content, Card, StyledContainer } from "./ValoresComp";
 import Innovation from "../../assets/Valores/Innovation";
@@ -6,46 +6,47 @@ import Reliability from "../../assets/Valores/Reliability";
 import Learning from "../../assets/Valores/Learning";
 import Teamwork from "../../assets/Valores/Teamwork";
 import Empathy from "../../assets/Valores/Empathy";
-import { CorteDesktop, CorteMobile } from "../base/Cortes";
+import { TranslationContext } from "../../assets/Translations/TranslationsProvider";
+import Translator from "../../assets/Translations/Translator";
 
 function Valores() {
+  const { text } = useContext(TranslationContext);
+
   return (
     <StyledContainer>
       <Container>
         <h2 className="h2-web h3-mobile text-center mb-80 mb-25-mobile">
-          Our Values
+          {text.ABOUT.VALUES.VALUES}
         </h2>
         <Content>
           <Card>
             <Innovation />
             <span className="texto-regular mt-10 txt-mobile mt-5-mobile text-center">
-              Innovation
+              {text.ABOUT.VALUES.INNOVATION}
             </span>
           </Card>
           <Card>
             <Reliability />
             <span className="texto-regular mt-10 txt-mobile mt-5-mobile text-center">
-              Reliability
+              {text.ABOUT.VALUES.RELIABILITY}
             </span>
           </Card>
           <Card>
             <Learning />
             <span className="texto-regular mt-10 txt-mobile mt-5-mobile text-center">
-              Continuous
-              <CorteDesktop />
-              <CorteMobile /> Learning
+              <Translator text={text.ABOUT.VALUES.CONTINUOS} />
             </span>
           </Card>
           <Card>
             <Teamwork />
             <span className="texto-regular mt-10 txt-mobile mt-5-mobile text-center">
-              Teamwork
+              {text.ABOUT.VALUES.TEAMWORK}
             </span>
           </Card>
           <Card>
             <Empathy />
             <span className="texto-regular mt-10 txt-mobile mt-5-mobile text-center">
-              Empathy
+              {text.ABOUT.VALUES.EMPATHY}
             </span>
           </Card>
         </Content>
