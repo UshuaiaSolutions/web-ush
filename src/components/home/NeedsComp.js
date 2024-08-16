@@ -23,7 +23,7 @@ export const Column = styled.div`
     margin-bottom: 32px;
 
     & span {
-      padding-left: 72px;
+      /* padding-left: 72px; */
     }
   }
 `;

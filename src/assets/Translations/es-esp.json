@@ -10,7 +10,7 @@
   "HOME": {
     "HERO": {
       "TITULO": "Multiplica tu <CorteMobile /> <CorteDesktop /> potencial a nivel global",
-      "BAJADA": "Nuestros profesionales especializados, gracias a <CorteDesktop /> la última tecnología, pueden{' '} <b>traducir, <CorteDesktop /> localizar y crear contenido </b>{' '} para ayudarte a <CorteDesktop /> conquistar el mercado internacional.",
+      "BAJADA": "Nuestros profesionales especializados, gracias a <CorteDesktop /> la última tecnología, pueden{' '} <Negrita>traducir, <CorteDesktop /> localizar y crear contenido </Negrita>{' '} para ayudarte a <CorteDesktop /> conquistar el mercado internacional.",
       "BUTTON": "Contacta con nosotros"
     },
     "MEET_YOUR_NEEDS": {
@@ -219,15 +219,15 @@
       "TITLE": "Nuestro compromiso con la calidad",
       "BAJADA": "La sostenibilidad, la accesibilidad y la calidad son los pilares fundamentales de nuestra labor. Nuestros servicios de localización profesionales están avalados por la normativa de calidad ISO 17100:2015, según lo demuestran nuestras auditorías externas anuales.",
       "FIRST": {
-        "BAJADA": "Manifestamos nuestro compromiso con la excelencia <CorteDesktop /> con una <b>política de calidad</b> que se centra en <CorteDesktop /> la mejora constante, la atención al cliente <CorteDesktop /> y la confidencialidad.",
+        "BAJADA": "Manifestamos nuestro compromiso con la excelencia <CorteDesktop /> con una <Negrita>política de calidad</Negrita> que se centra en <CorteDesktop /> la mejora constante, la atención al cliente <CorteDesktop /> y la confidencialidad.",
         "BUTTON": "Consulta nuestra política de calidad"
       },
       "SECOND": {
-        "BAJADA": "Nos comprometemos a gestionar nuestro <CorteDesktop /> negocio de un modo socialmente responsable. <CorteDesktop /> Nuestro manifiesto describe nuestra filosofía respecto a la <CorteDesktop /> <b>sostenibilidad</b>, la diversidad, la ética y <CorteDesktop /> el compromiso con la comunidad.",
+        "BAJADA": "Nos comprometemos a gestionar nuestro <CorteDesktop /> negocio de un modo socialmente responsable. <CorteDesktop /> Nuestro manifiesto describe nuestra filosofía respecto a la <CorteDesktop /> <Negrita>sostenibilidad</Negrita>, la diversidad, la ética y <CorteDesktop /> el compromiso con la comunidad.",
         "BUTTON": "Consulta nuestro manifiesto ESG"
       },
       "THIRD": {
-        "BAJADA": "Consideramos que la localización no <CorteDesktop /> solo implica traducir el contenido, sino también <CorteDesktop /> asegurarse de que sea <b>accesible</b> para todo el mundo, <CorteDesktop /> independientemente de sus habilidades.",
+        "BAJADA": "Consideramos que la localización no <CorteDesktop /> solo implica traducir el contenido, sino también <CorteDesktop /> asegurarse de que sea <Negrita>accesible</Negrita> para todo el mundo, <CorteDesktop /> independientemente de sus habilidades.",
         "BUTTON": "Consulta la declaración de accesibilidad de nuestra página web"
       }
     },

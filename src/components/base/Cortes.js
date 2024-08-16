@@ -9,6 +9,14 @@ export const CorteDesktop = () => {
   return <Desktop />;
 };
 
+const Bold = styled.span`
+  font-weight: bold;
+`;
+
+export const Negrita = ({ children }) => {
+  return <Bold>{children}</Bold>;
+};
+
 export const Desktop = styled.div`
   content: "";
   display: none;

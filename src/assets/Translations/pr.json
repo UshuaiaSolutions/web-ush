@@ -10,7 +10,7 @@
   "HOME": {
     "HERO": {
       "TITULO": "Amplie seu <CorteMobile /> <CorteDesktop /> potencial global",
-      "BAJADA": "Profissionais especializados e capacitados <CorteDesktop /> com as tecnologias mais recentes podem{' '} <b>traduzir, <CorteDesktop /> localizar e criar conteúdo </b>{' '} para ajudar você a ter <CorteDesktop /> sucesso nos mercados internacionais.",
+      "BAJADA": "Profissionais especializados e capacitados <CorteDesktop /> com as tecnologias mais recentes podem{' '} <Negrita>traduzir, <CorteDesktop /> localizar e criar conteúdo </Negrita>{' '} para ajudar você a ter <CorteDesktop /> sucesso nos mercados internacionais.",
       "BUTTON": "Entre em contato"
     },
     "MEET_YOUR_NEEDS": {
@@ -219,15 +219,15 @@
       "TITLE": "Nosso enfoque de excelência",
       "BAJADA": "Sustentabilidade, acessibilidade e alta qualidade são os pilares do nosso trabalho. Nossos serviços de localização profissional são certificados para atender aos padrões de qualidade ISO 17100:2015, conforme confirmado por nossas auditorias externas anuais bem-sucedidas.",
       "FIRST": {
-        "BAJADA": "Expressamos nosso compromisso com a excelência <CorteDesktop /> por meio de uma <b>política de qualidade</b> que se concentra no <CorteDesktop /> aprimoramento contínuo, na satisfação do cliente <CorteDesktop /> e na confidencialidade.",
+        "BAJADA": "Expressamos nosso compromisso com a excelência <CorteDesktop /> por meio de uma <Negrita>política de qualidade</Negrita> que se concentra no <CorteDesktop /> aprimoramento contínuo, na satisfação do cliente <CorteDesktop /> e na confidencialidade.",
         "BUTTON": "Leia nossa Política de Qualidade"
       },
       "SECOND": {
-        "BAJADA": "Temos o compromisso de conduzir nossos <CorteDesktop /> negócios de maneira socialmente responsável. <CorteDesktop /> Nosso Manifesto descreve nosso enfoque de <CorteDesktop /> <b>sustentabilidade</b>, diversidade, ética e <CorteDesktop /> envolvimento com a comunidade.",
+        "BAJADA": "Temos o compromisso de conduzir nossos <CorteDesktop /> negócios de maneira socialmente responsável. <CorteDesktop /> Nosso Manifesto descreve nosso enfoque de <CorteDesktop /> <Negrita>sustentabilidade</Negrita>, diversidade, ética e <CorteDesktop /> envolvimento com a comunidade.",
         "BUTTON": "Leia nosso Manifesto ESG"
       },
       "THIRD": {
-        "BAJADA": "Acreditamos que a localização envolve <CorteDesktop /> não apenas a tradução do conteúdo, mas também <CorteDesktop /> a garantia de que ele seja <b>acessível</b> a todos, <CorteDesktop /> independentemente das habilidades que tenham.",
+        "BAJADA": "Acreditamos que a localização envolve <CorteDesktop /> não apenas a tradução do conteúdo, mas também <CorteDesktop /> a garantia de que ele seja <Negrita>acessível</Negrita> a todos, <CorteDesktop /> independentemente das habilidades que tenham.",
         "BUTTON": "Leia a declaração de acessibilidade de nosso site"
       }
     },

@@ -10,7 +10,7 @@
   "HOME": {
     "HERO": {
       "TITULO": "Expand your <CorteMobile /> <CorteDesktop /> global potential",
-      "BAJADA": "Specialized professionals empowered <CorteDesktop /> by the latest technology can{' '} <b>translate, <CorteDesktop /> localize and create content </b>{' '} to help you <CorteDesktop /> succeed in international markets.",
+      "BAJADA": "Specialized professionals empowered <CorteDesktop /> by the latest technology can{' '} <Negrita>translate, <CorteDesktop /> localize and create content </Negrita>{' '} to help you <CorteDesktop /> succeed in international markets.",
       "BUTTON": "Get in touch"
     },
     "MEET_YOUR_NEEDS": {
@@ -219,15 +219,15 @@
       "TITLE": "Our Approach to Excellence",
       "BAJADA": "Sustainability, accessibility, and high quality are the pillars of our work. Our professional localization services are certified to meet ISO 17100:2015 quality standards, as confirmed by our successful annual external audits.",
       "FIRST": {
-        "BAJADA": "We express our commitment to excellence <CorteDesktop /> with a <b>quality policy</b> that focuses on <CorteDesktop /> continuous improvement, client satisfaction, <CorteDesktop /> and confidentiality.",
+        "BAJADA": "We express our commitment to excellence <CorteDesktop /> with a <Negrita>quality policy</Negrita> that focuses on <CorteDesktop /> continuous improvement, client satisfaction, <CorteDesktop /> and confidentiality.",
         "BUTTON": "Read our Quality Policy"
       },
       "SECOND": {
-        "BAJADA": "We are committed to conducting our <CorteDesktop /> business in a socially responsible manner. <CorteDesktop /> Our Manifesto outlines our approach to <CorteDesktop /> <b>sustainability</b>, diversity, ethics, and <CorteDesktop /> community engagement.",
+        "BAJADA": "We are committed to conducting our <CorteDesktop /> business in a socially responsible manner. <CorteDesktop /> Our Manifesto outlines our approach to <CorteDesktop /> <Negrita>sustainability</Negrita>, diversity, ethics, and <CorteDesktop /> community engagement.",
         "BUTTON": "Read our ESG Manifesto"
       },
       "THIRD": {
-        "BAJADA": "We believe that localization involves <CorteDesktop /> not only translating content but also <CorteDesktop /> ensuring it is <b>accessible</b> to everyone, <CorteDesktop /> regardless of their abilities.",
+        "BAJADA": "We believe that localization involves <CorteDesktop /> not only translating content but also <CorteDesktop /> ensuring it is <Negrita>accessible</Negrita> to everyone, <CorteDesktop /> regardless of their abilities.",
         "BUTTON": "Website's Accessibility Statement"
       }
     },

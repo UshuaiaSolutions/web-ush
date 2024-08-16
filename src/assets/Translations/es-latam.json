@@ -10,7 +10,7 @@
   "HOME": {
     "HERO": {
       "TITULO": "Potencia tu <CorteMobile /> <CorteDesktop /> alcance global",
-      "BAJADA": "Profesionales especializados impulsados <CorteDesktop /> por las últimas tecnologías, que{' '} <b>traducen, <CorteDesktop /> localizan y crean contenido </b>{' '} para ayudarte a <CorteDesktop /> triunfar en mercados internacionales.",
+      "BAJADA": "Profesionales especializados impulsados <CorteDesktop /> por las últimas tecnologías, que <Negrita>traducen, <CorteDesktop /> localizan y crean contenido </Negrita> para ayudarte a <CorteDesktop /> triunfar en mercados internacionales.",
       "BUTTON": "Contáctanos"
     },
     "MEET_YOUR_NEEDS": {
@@ -219,15 +219,15 @@
       "TITLE": "Nuestro camino a la excelencia",
       "BAJADA": "La sustentabilidad, accesibilidad y alta calidad son los pilares de nuestro trabajo. Nuestros servicios de localización están certificados para cumplir con los estándares de calidad ISO 17100:2015, confirmado por nuestras exitosas auditorías externas anuales.",
       "FIRST": {
-        "BAJADA": "Expresamos nuestro compromiso con la excelencia <CorteDesktop /> mediante una <b>política de calidad</b> que se enfoca <CorteDesktop /> en la mejora continua, la satisfacción del cliente <CorteDesktop /> y la confidencialidad.",
+        "BAJADA": "Expresamos nuestro compromiso con la excelencia <CorteDesktop /> mediante una <Negrita>política de calidad</Negrita> que se enfoca <CorteDesktop /> en la mejora continua, la satisfacción del cliente <CorteDesktop /> y la confidencialidad.",
         "BUTTON": "Lee nuestra Política de calidad"
       },
       "SECOND": {
-        "BAJADA": "Nos comprometemos a llevar adelante <CorteDesktop /> nuestro trabajo de manera socialmente responsable. <CorteDesktop /> Nuestro Manifiesto describe nuestro enfoque <CorteDesktop /> hacia la <b>sustentabilidad</b>, diversidad, ética y <CorteDesktop /> compromiso con la comunidad.",
+        "BAJADA": "Nos comprometemos a llevar adelante <CorteDesktop /> nuestro trabajo de manera socialmente responsable. <CorteDesktop /> Nuestro Manifiesto describe nuestro enfoque <CorteDesktop /> hacia la <Negrita>sustentabilidad</Negrita>, diversidad, ética y <CorteDesktop /> compromiso con la comunidad.",
         "BUTTON": "Lee nuestro Manifiesto ESG"
       },
       "THIRD": {
-        "BAJADA": "Creemos que la localización implica <CorteDesktop /> no solo traducir contenido sino también <CorteDesktop /> volverlo <b>accesible</b> para todas las personas, <CorteDesktop /> sin distinciones.",
+        "BAJADA": "Creemos que la localización implica <CorteDesktop /> no solo traducir contenido sino también <CorteDesktop /> volverlo <Negrita>accesible</Negrita> para todas las personas, <CorteDesktop /> sin distinciones.",
         "BUTTON": "Lee sobre la accesibilidad de esta web"
       }
     },

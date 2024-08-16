@@ -10,7 +10,7 @@
   "HOME": {
     "HERO": {
       "TITULO": "Multipliqueu el vostre <CorteMobile /> <CorteDesktop /> potencial global",
-      "BAJADA": "Els nostres professionals <CorteDesktop /> fan ús de les últimes tecnologies i poden{' '} <b>traduir, <CorteDesktop /> localitzar i crear contingut </b>{' '} per a ajudar-vos a <CorteDesktop /> conquerir el mercat internacional.",
+      "BAJADA": "Els nostres professionals <CorteDesktop /> fan ús de les últimes tecnologies i poden{' '} <Negrita>traduir, <CorteDesktop /> localitzar i crear contingut </Negrita>{' '} per a ajudar-vos a <CorteDesktop /> conquerir el mercat internacional.",
       "BUTTON": "Contacteu amb nosaltres"
     },
     "MEET_YOUR_NEEDS": {
@@ -219,15 +219,15 @@
       "TITLE": "El nostre compromís amb la qualitat",
       "BAJADA": "La sostenibilitat, laccessibilitat i la qualitat són les bases fonamentals de la nostra feina. Els nostres serveis professionals de localització compleixen la normativa de qualitat ISO 17100:2015, d'acord amb les auditories externes anuals que realitzem.",
       "FIRST": {
-        "BAJADA": "Fem palès el nostre compromís amb lexcel·lència <CorteDesktop /> a través duna <b>política de privadesa</b> que anteposa <CorteDesktop /> la millora continua, la satisfacció del client <CorteDesktop /> i la confidencialitat",
+        "BAJADA": "Fem palès el nostre compromís amb lexcel·lència <CorteDesktop /> a través duna <Negrita>política de privadesa</Negrita> que anteposa <CorteDesktop /> la millora continua, la satisfacció del client <CorteDesktop /> i la confidencialitat",
         "BUTTON": "Consulteu la nostra política de qualitat"
       },
       "SECOND": {
-        "BAJADA": "Gestionem la nostra <CorteDesktop /> empresa duna manera socialment responsable. <CorteDesktop /> El nostre manifest inclou la nostra filosofia de <CorteDesktop /> <b>sostenibilitat</b>, diversitat, ètica i <CorteDesktop /> compromís amb la comunitat.",
+        "BAJADA": "Gestionem la nostra <CorteDesktop /> empresa duna manera socialment responsable. <CorteDesktop /> El nostre manifest inclou la nostra filosofia de <CorteDesktop /> <Negrita>sostenibilitat</Negrita>, diversitat, ètica i <CorteDesktop /> compromís amb la comunitat.",
         "BUTTON": "Consulteu el nostre manifest ESG"
       },
       "THIRD": {
-        "BAJADA": "Considerem que la localització no <CorteDesktop /> només implica traduir els continguts, sinó també <CorteDesktop /> assegurar-se que és <b>accessible</b> per a tothom, <CorteDesktop /> independentment de les seves habilitats.",
+        "BAJADA": "Considerem que la localització no <CorteDesktop /> només implica traduir els continguts, sinó també <CorteDesktop /> assegurar-se que és <Negrita>accessible</Negrita> per a tothom, <CorteDesktop /> independentment de les seves habilitats.",
         "BUTTON": "Consulteu la declaració daccessibilitat de la nostra pàgina web"
       }
     },
