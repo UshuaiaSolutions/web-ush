@@ -43,7 +43,7 @@ function OurApproach() {
           </div>
           <ContentContainer>
             <Content>
-              <p className="txt-regular-mobile destacado-regular text-left text-center-mobile mb-16-mobile">
+              <p className="txt-regular-mobile destacado-regular text-left text-center-mobile mb-16-mobile w-50-desktop">
                 <Translator text={text.EXPERTISE.EXCELLENCE.FIRST.BAJADA} />
               </p>
               <div>
@@ -75,7 +75,7 @@ function OurApproach() {
               />
             </EstrellaVioleta>
             <Content>
-              <p className="txt-regular-mobile destacado-regular text-left text-center-mobile mb-16-mobile">
+              <p className="txt-regular-mobile destacado-regular text-left text-center-mobile mb-16-mobile w-50-desktop">
                 <Translator text={text.EXPERTISE.EXCELLENCE.SECOND.BAJADA} />
               </p>
               <div>
@@ -107,7 +107,7 @@ function OurApproach() {
               />
             </EstrellaVioleta>
             <Content>
-              <p className="txt-regular-mobile destacado-regular text-left text-center-mobile mb-16-mobile">
+              <p className="txt-regular-mobile destacado-regular text-left text-center-mobile mb-16-mobile w-50-desktop">
                 <Translator text={text.EXPERTISE.EXCELLENCE.THIRD.BAJADA} />
               </p>
               <div>

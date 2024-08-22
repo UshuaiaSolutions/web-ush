@@ -15,7 +15,7 @@ function Needs() {
     <StyledContainer>
       <Container>
         <ContentDesktop>
-          <div>
+          <div className="w-50-desktop">
             <h1 className="h3-mobile h2-web mb-16-mobile mb-32 text-center-mobile">
               <Translator text={text.HOME.MEET_YOUR_NEEDS.TITLE} />
             </h1>
@@ -25,7 +25,7 @@ function Needs() {
             <IlustracionNeeds />
           </div>
           {/* <div className="desktop-chico-exacto">  */}
-          <div className="">
+          <div className="w-40-desktop">
             <Column>
               <h3 className="body-bold-mobile  h3-web mb-16-mobile mb-32">
                 01/&ensp;&ensp;

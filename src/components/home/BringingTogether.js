@@ -16,7 +16,7 @@ function BringingTogether() {
     <StyledContainer>
       <Container>
         <div className="container-content">
-          <Content>
+          <Content className="w-50-desktop">
             <h2 className="h3-mobile h2-web mb-16-mobile mb-32 text-center-mobile">
               <Translator text={text.HOME.BRINGING_TOGETHER.TITLE} />
             </h2>

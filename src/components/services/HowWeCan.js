@@ -20,7 +20,7 @@ function HowWeCan() {
     <Container>
       <StyledContainer>
         <RowContainer className="mb-40">
-          <Column>
+          <Column className="w-90-desktop">
             <Row>
               <Uno />
               <h3 className="h2-web h3-mobile">
@@ -35,7 +35,7 @@ function HowWeCan() {
         </RowContainer>
         <RowContainer className="mb-40">
           <EstrellaVerde />
-          <Column>
+          <Column className="w-90-desktop">
             <Row>
               <h3 className="h2-web h3-mobile">
                 <Translator text={text.SERVICES.HERO.SECOND.TITLE} />
@@ -48,7 +48,7 @@ function HowWeCan() {
           </Column>
         </RowContainer>
         <RowContainer className="mb-40">
-          <Column>
+          <Column className="w-90-desktop">
             <Row>
               <Tres />
               <h3 className="h2-web h3-mobile width-tres">
@@ -63,7 +63,7 @@ function HowWeCan() {
         </RowContainer>
         <RowContainer className="">
           <EstrellaVioleta />
-          <Column>
+          <Column className="w-90-desktop">
             <Row>
               <h3 className="h2-web h3-mobile">
                 <Translator text={text.SERVICES.HERO.FOURTH.TITLE} />

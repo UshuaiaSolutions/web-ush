@@ -17,11 +17,19 @@ function Teaming() {
       <Mapa />
       <StyledContainer>
         <Container>
-          <div style={{ zIndex: "2", position: "relative" }}>
-            <h1 className="h1-mobile h1-web mb-16-mobile mb-32 text-center">
+          <div
+            style={{
+              zIndex: "2",
+              position: "relative",
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+            }}
+          >
+            <h1 className="h1-mobile h1-web mb-16-mobile mb-32 text-center w-60-desktop">
               <Translator text={text.EXPERTISE.TEAMING.TITLE} />
             </h1>
-            <p className="txt-regular-mobile destacado-regular text-center">
+            <p className="txt-regular-mobile destacado-regular text-center w-60-desktop">
               <Translator text={text.EXPERTISE.TEAMING.BAJADA} />
             </p>
           </div>

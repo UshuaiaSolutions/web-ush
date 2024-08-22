@@ -28,7 +28,7 @@ function Memberships() {
             <h2 className="h2-web h3-mobile mb-40 mb-16-mobile">
               {text.EXPERTISE.MEMBERSHIPS.TITLE}
             </h2>
-            <p className="txt-regular-mobile destacado-regular mb-32-mobile mb-80 text-center">
+            <p className="txt-regular-mobile destacado-regular mb-32-mobile mb-80 text-center w-50-desktop auto-sides-desktop">
               <Translator text={text.EXPERTISE.MEMBERSHIPS.BAJADA} />
             </p>
           </div>

@@ -11,7 +11,7 @@ function FollowUS() {
   return (
     <Container>
       <CirculoMobile />
-      <div>
+      <div className="w-60-desktop">
         <h2 className="h2-web mb-60 text-center-mobile mb-16-mobile h1-mobile">
           <Translator text={text.BLOG.HERO.TITULO} />
         </h2>

@@ -14,7 +14,7 @@ const Hero = () => {
   return (
     <Container>
       <Content>
-        <div className="mb-20-mobile">
+        <div className="mb-20-mobile w-50-desktop">
           <h1 className="h1-web h1-mobile mb-32 mb-16-mobile">
             <Translator text={text.HOME.HERO.TITULO} />
           </h1>

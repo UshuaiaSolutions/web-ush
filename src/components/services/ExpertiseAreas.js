@@ -18,7 +18,7 @@ function ExpertiseAreas() {
         <h2 className="h3-mobile h2-web mb-40 mb-16-mobile">
           {text.SERVICES.AREAS.TITLE}
         </h2>
-        <p className="txt-regular-mobile destacado-regular mb-16-mobile mb-60">
+        <p className="txt-regular-mobile destacado-regular mb-16-mobile mb-60 w-90-desktop auto-sides-desktop">
           <Translator text={text.SERVICES.AREAS.BAJADA} />
         </p>
         <Row>

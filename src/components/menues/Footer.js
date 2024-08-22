@@ -192,7 +192,7 @@ function Footer() {
         <ContainerDesktop>
           <LogoUSH />
           <RowDesktop className="mt-40 mb-10">
-            <p className="texto-regular text-left">
+            <p className="texto-regular text-left w-50-desktop">
               <Translator text={text.FOOTER} />
             </p>
             <Column>

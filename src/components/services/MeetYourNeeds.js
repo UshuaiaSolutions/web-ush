@@ -11,10 +11,10 @@ function MeetYourNeeds() {
   return (
     <Container>
       <StyledContainer>
-        <h2 className="h1-web h1-mobile mb-16-mobile mb-50 text-center-mobile">
+        <h2 className="h1-web h1-mobile mb-16-mobile mb-50 text-center-mobile w-50-desktop">
           <Translator text={text.SERVICES.HERO.TITULO} />
         </h2>
-        <p className="txt-regular-mobile destacado-regular mb-32-mobile mb-40 text-center-mobile">
+        <p className="txt-regular-mobile destacado-regular mb-32-mobile mb-40 text-center-mobile w-50-desktop">
           <Translator text={text.SERVICES.HERO.BAJADA} />
         </p>
       </StyledContainer>

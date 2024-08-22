@@ -23,7 +23,6 @@ export const StyledContainer = styled.div`
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
-  width: fit-content;
   align-items: center;
   position: relative;
   transition: 0.2s;

@@ -16,7 +16,7 @@ function BookMeetingSmall() {
           <h1 className="h2-web h3-mobile mb-16-mobile text-center-mobile">
             {text.SERVICES.MEETING_SMALL.TITLE}
           </h1>
-          <Content>
+          <Content className="w-50-desktop">
             <p className="text-center-mobile destacados-italic-mobile destacado-italic mb-20-mobile mb-50">
               <Translator text={text.SERVICES.MEETING_SMALL.BAJADA} />
             </p>
