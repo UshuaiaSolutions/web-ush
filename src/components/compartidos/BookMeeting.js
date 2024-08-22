@@ -102,7 +102,7 @@ const BookMeeting = () => {
                 </ContainerInput>
                 <ContainerInput className="d-flex flex-column">
                   <label htmlFor="company" className="label-form mb-8">
-                    {text.HOME.BOOK_MEETING.FORM.COUNTRY} *
+                    {text.HOME.BOOK_MEETING.FORM.COMPANY} *
                   </label>
                   <input
                     name="company"
