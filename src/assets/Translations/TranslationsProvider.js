@@ -1,16 +1,16 @@
 import React, { createContext, useEffect, useState } from "react";
-import es from "./es-esp.json";
-import latam from "./es-latam.json";
-import ca from "./ca.json";
-import en from "./en.json";
-import pt from "./pr.json";
+import ES from "./es-esp.json";
+import LATAM from "./es-latam.json";
+import CA from "./ca.json";
+import EN from "./en.json";
+import PT from "./pr.json";
 
-const translations = { es, latam, ca, en, pt };
+const translations = { ES, LATAM, CA, EN, PT };
 
 const TranslationContext = createContext();
 
 const TranslationProvider = ({ children }) => {
-  const defaultLanguage = localStorage.getItem("language") || "en";
+  const defaultLanguage = localStorage.getItem("language") || "EN";
   const [language, setLanguage] = useState(defaultLanguage);
   const [text, setText] = useState(translations[language]);
 

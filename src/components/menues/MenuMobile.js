@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import {
   Fondo,
   Logo,
@@ -9,9 +9,12 @@ import {
 } from "./MenuMobileComp";
 import { ContainerRed, RedImage } from "./FooterComp";
 import { useTheme } from "styled-components";
+import { TranslationContext } from "../../assets/Translations/TranslationsProvider";
 
 function MenuMobile({ func }) {
   const theme = useTheme();
+
+  const { text } = useContext(TranslationContext);
 
   return (
     <Fondo>
@@ -20,19 +23,19 @@ function MenuMobile({ func }) {
         Home
       </StyledLink>
       <StyledLink onClick={() => func(false)} to="/about">
-        About
+        {text.HEADER.ABOUT}
       </StyledLink>
       <StyledLink onClick={() => func(false)} to="/services">
-        Services
+        {text.HEADER.SERVICES}
       </StyledLink>
       <StyledLink onClick={() => func(false)} to="/expertise">
-        Expertise
+        {text.HEADER.EXPERTISE}
       </StyledLink>
       <StyledLink onClick={() => func(false)} to="/ush-blog">
-        USH Blog
+        {text.HEADER.BLOG}
       </StyledLink>
       <StyledLink onClick={() => func(false)} to="/contact">
-        <StyledBoton>Get started</StyledBoton>
+        <StyledBoton>{text.HEADER.GET_IN_TOUCH}</StyledBoton>
       </StyledLink>
       <Follow>Follow us on social media</Follow>
       <ContainerRedesFooter>

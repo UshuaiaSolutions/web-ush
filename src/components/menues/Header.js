@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import MenuMobile from "./MenuMobile";
 import {
-  // Container,
   Content,
   StyledLink,
   StyledBoton,
@@ -15,13 +14,38 @@ import Container from "../base/Container";
 import Logo from "../../assets/USH-logo";
 import { useTheme } from "styled-components";
 import { colors } from "../base/breakpoints";
+import { TranslationContext } from "../../assets/Translations/TranslationsProvider";
+import {
+  DropdownContainer,
+  DropdownItem,
+  DropdownMenu,
+  DropdownToggle,
+} from "./ToogleLanguage";
 
 function Header({ toggler }) {
   const [openMobile, setOpenMobile] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   let location = useLocation();
 
   const theme = useTheme();
+
+  const { language, text, changeLanguage } = useContext(TranslationContext);
+
+  const languages = [
+    { value: "EN", label: "English" },
+    { value: "ES", label: "Español ES" },
+    { value: "LATAM", label: "Español LATAM" },
+    { value: "CA", label: "Català" },
+    { value: "PT", label: "Português" },
+  ];
+
+  const toggleDropdown = () => setIsOpen(!isOpen);
+
+  const selectLanguage = (language) => {
+    changeLanguage(language);
+    setIsOpen(false);
+  };
 
   return (
     <Content>
@@ -33,30 +57,45 @@ function Header({ toggler }) {
           <div className="mob">
             <ContainerMenu className="d-flex align-center">
               <StyledLink to="/about" selected={location.pathname === "/about"}>
-                About us
+                {text.HEADER.ABOUT}
               </StyledLink>
               <StyledLink
                 to="/services"
                 selected={location.pathname === "/services"}
               >
-                Services
+                {text.HEADER.SERVICES}
               </StyledLink>
               <StyledLink
                 to="/expertise"
                 selected={location.pathname === "/expertise"}
               >
-                Expertise
+                {text.HEADER.EXPERTISE}
               </StyledLink>
               <StyledLink
                 to="/ush-blog"
                 selected={location.pathname === "/ush-blog"}
               >
-                USH Blog
+                {text.HEADER.BLOG}
               </StyledLink>
               <Link to="/contact">
-                <StyledBoton>Get in touch</StyledBoton>
+                <StyledBoton>{text.HEADER.GET_IN_TOUCH}</StyledBoton>
               </Link>
             </ContainerMenu>
+            <DropdownContainer>
+              <DropdownToggle onClick={toggleDropdown}>
+                {language}
+              </DropdownToggle>
+              <DropdownMenu isOpen={isOpen}>
+                {languages.map((language) => (
+                  <DropdownItem
+                    key={language.value}
+                    onClick={() => selectLanguage(language.value)}
+                  >
+                    {language.label}
+                  </DropdownItem>
+                ))}
+              </DropdownMenu>
+            </DropdownContainer>
             <div
               type="button"
               tabIndex={0}
