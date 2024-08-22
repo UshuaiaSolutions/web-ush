@@ -7,7 +7,7 @@ import Learning from "../../assets/Valores/Learning";
 import Teamwork from "../../assets/Valores/Teamwork";
 import Empathy from "../../assets/Valores/Empathy";
 import { TranslationContext } from "../../assets/Translations/TranslationsProvider";
-import Translator from "../../assets/Translations/Translator";
+import { CorteDesktop, CorteMobile } from "../base/Cortes";
 
 function Valores() {
   const { text } = useContext(TranslationContext);
@@ -34,7 +34,9 @@ function Valores() {
           <Card>
             <Learning />
             <span className="texto-regular mt-10 txt-mobile mt-5-mobile text-center">
-              <Translator text={text.ABOUT.VALUES.CONTINUOS} />
+              {text.ABOUT.VALUES.CONTINUOS}
+              <CorteDesktop />
+              <CorteMobile /> {text.ABOUT.VALUES.LEARNING}
             </span>
           </Card>
           <Card>
