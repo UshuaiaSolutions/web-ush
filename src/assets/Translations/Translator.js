@@ -1,27 +1,14 @@
 import React from "react";
-import {
-  CorteMobile,
-  CorteDesktop,
-  Negrita,
-} from "../../components/base/Cortes";
+import { Negrita } from "../../components/base/Cortes";
 
 const componentMap = {
-  "<CorteMobile />": <CorteMobile />,
-  "<CorteDesktop />": <CorteDesktop />,
+  // "<CorteMobile />": <CorteMobile />,
+  // "<CorteDesktop />": <CorteDesktop />,
+  "<CorteMobile />": <></>,
+  "<CorteDesktop />": <></>,
   "<Negrita>": "startNegrita",
   "</Negrita>": "endNegrita",
 };
-
-// function parseTranslation(text) {
-//   return text
-//     .split(/(<CorteMobile \/>)|(<CorteDesktop \/>)|(<Negrita \/>)?/g)
-//     .map((part, index) => {
-//       if (componentMap[part]) {
-//         return React.cloneElement(componentMap[part], { key: index });
-//       }
-//       return part;
-//     });
-// }
 
 function parseTranslation(text) {
   const parts = text.split(
