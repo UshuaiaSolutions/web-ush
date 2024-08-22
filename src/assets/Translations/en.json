@@ -35,7 +35,7 @@
     "BRINGING_TOGETHER": {
       "TITLE": "Bringing together Latin <CorteDesktop /> America and Europe",
       "BAJADA": "We're where you need us, when you need us. <CorteDesktop /> With a unified localization team across the globe, <CorteDesktop /> we can help you unlock your business potential in <CorteDesktop /> America, Europe and the whole world.",
-      "BUTTON": "Lean more about us"
+      "BUTTON": "Learn more about us"
     },
     "TEAMING": {
       "TITLE": "Teaming with clients worldwide",
@@ -53,7 +53,7 @@
       },
       "THIRD": {
         "TITLE": "Experience",
-        "TEXT": "Our workflow complies with the requirements of the ISO 17100 International Standards. We provide confidential information management."
+        "TEXT": "With more than 20 years in the language services industry, we have carefully selected and trained our team of linguists, designers and IT professionals."
       }
     },
     "BOOK_MEETING": {
@@ -208,7 +208,7 @@
   },
   "EXPERTISE": {
     "TEAMING": {
-      "TITLE": "Teaming with clients worldwide",
+      "TITLE": "Teaming with<CorteMobile /><CorteDesktop /> clients worldwide",
       "BAJADA": "Our expertise enables us to offer different <CorteDesktop /> localization solutions. We provide several <CorteDesktop /> services from file processing and content parsing <CorteDesktop /> to dubbing, MTPE, audio and video editing, DTP, <CorteDesktop /> voice-recording, copywriting and testing."
     },
     "CLIENTS": {
