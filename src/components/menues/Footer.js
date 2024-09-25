@@ -38,7 +38,7 @@ function Footer() {
           <div className="work">
             <Valores />
             <p className="dropdown-title-web mb-80 mt-80 body-bold-mobile mb-25-mobile mt-25-mobile text-center">
-              {text.HOME.WORK_WITH_US.TITLE}
+              <Translator text={text.HOME.WORK_WITH_US.TITLE} />
             </p>
             <a
               href="https://cloud.protemos.com/vendor-app/create?token=2883715efa8d9747213570c8257c0ec3"

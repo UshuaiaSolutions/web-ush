@@ -14,6 +14,7 @@ import {
 import { useTheme } from "styled-components";
 import { colors } from "../base/breakpoints";
 import { TranslationContext } from "../../assets/Translations/TranslationsProvider";
+import Translator from "../../assets/Translations/Translator";
 
 function WhyUSH() {
   const theme = useTheme();
@@ -67,7 +68,7 @@ function WhyUSH() {
                 {text.HOME.WHY_USH.FIRST.TITLE}
               </h3>
               <p className="texto-regular text-center txt-regular-mobile">
-                {text.HOME.WHY_USH.FIRST.TEXT}
+                <Translator text={text.HOME.WHY_USH.FIRST.TEXT} />
               </p>
             </Card>
             <Card>
@@ -97,7 +98,7 @@ function WhyUSH() {
                 {text.HOME.WHY_USH.SECOND.TITLE}
               </h3>
               <p className="texto-regular text-center txt-regular-mobile">
-                {text.HOME.WHY_USH.SECOND.TEXT}
+                <Translator text={text.HOME.WHY_USH.SECOND.TEXT} />
               </p>
             </Card>
             <Card>

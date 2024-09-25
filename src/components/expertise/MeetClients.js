@@ -29,7 +29,7 @@ function MeetClients() {
     <StyledContainer>
       <Container>
         <h1 className="h3-mobile h2-web mb-16-mobile mb-40 text-center">
-          {text.EXPERTISE.CLIENTS.TITLE}
+          <Translator text={text.EXPERTISE.CLIENTS.TITLE} />
         </h1>
         <p className="txt-regular-mobile destacado-regular mb-16-mobile mb-80 text-center w-70-desktop auto-sides-desktop">
           <Translator text={text.EXPERTISE.CLIENTS.BAJADA} />

@@ -6,7 +6,7 @@
     "BLOG": "Blog USH",
     "GET_IN_TOUCH": "Contáctanos"
   },
-  "FOOTER": "Nos comprometemos a proteger tu privacidad. La información que proporciones solo se utilizará para responder a tu consulta. <CorteDesktop /> <CorteDesktop /> Ushuaia Solutions es una empresa de servicios lingüísticos con certificación ISO y más de 20 años de experiencia. Tenemos oficinas en América Latina y Europa.",
+  "FOOTER": "Nos comprometemos a proteger tu privacidad. La información<CorteDesktop /> que brindes solo se utilizará para responder a tu consulta. <CorteDesktop />  <CorteDesktop />  Ushuaia Solutions es una empresa de servicios lingüísticos<CorteDesktop /> con certificación ISO y más de 20 años de experiencia. <CorteDesktop /> Tenemos oficinas en América Latina y Europa.",
   "HOME": {
     "HERO": {
       "TITULO": "Potencia tu alcance global",
@@ -15,41 +15,41 @@
     },
     "MEET_YOUR_NEEDS": {
       "TITLE": "Cubrimos tus necesidades",
-      "BAJADA": "Ofrecemos una combinación única de innovación tecnológica y experiencia profesional para resolver tus desafíos multilingües.",
+      "BAJADA": "Ofrecemos una combinación única<CorteDesktop /> de innovación tecnológica<CorteDesktop /> y experiencia profesional para resolver<CorteDesktop /> tus desafíos multilingües.",
       "FIRST": {
         "TITLE": "Servicios lingüísticos",
-        "BAJADA": "Traducción, localización, transcreación, edición y más. <CorteDesktop /> Brindamos soluciones multilingües personalizadas para ayudarte a alcanzar audiencias globales.",
+        "BAJADA": "Traducción, localización, transcreación, edición y más. <CorteDesktop />  Brindamos soluciones multilingües personalizadas para ayudarte<CorteDesktop /> a alcanzar audiencias globales.",
         "BUTTON": "Ver más"
       },
       "SECOND": {
         "TITLE": "Creación de contenido",
-        "BAJADA": "Nuestro equipo creativo puede potenciar tu estrategia de marketing. Trabajamos junto a tu equipo para crear contenido de redes sociales, que incluye diseño gráfico, redacción creativa y edición de video.",
+        "BAJADA": "Nuestro equipo creativo puede potenciar tu estrategia de marketing. Trabajamos junto a tu equipo para crear contenido<CorteDesktop /> de redes sociales, que incluye diseño gráfico, redacción creativa<CorteDesktop /> y edición de video.",
         "BUTTON": "Ver más"
       },
       "THIRD": {
         "TITLE": "Gestión de proyectos",
-        "BAJADA": "Puedes confiar en nosotros para coordinar tu proyecto de inicio a fin. Nuestros traductores, diseñadores y especialistas en TI están capacitados para adaptarse a cualquier tecnología y respetar las buenas prácticas y estándares de la industria.",
+        "BAJADA": "Puedes confiar en nosotros<CorteDesktop /> para coordinar tu proyecto de inicio a fin. Nuestros traductores, diseñadores y especialistas en TI están capacitados para adaptarse a cualquier tecnología y respetar las buenas prácticas y estándares de la industria.",
         "BUTTON": "Ver más"
       }
     },
     "BRINGING_TOGETHER": {
-      "TITLE": "Unimos Latinoamérica y Europa",
-      "BAJADA": "Estamos dónde y cuándo nos necesitan. <CorteDesktop /> Con un equipo de localización unificado con presencia internacional, podemos ayudarte a desbloquear el potencial de tu negocio en América, Europa y en todo el mundo.",
+      "TITLE": "Unimos Latinoamérica<CorteDesktop /> y Europa",
+      "BAJADA": "Estamos donde y cuando nos necesitan. <CorteDesktop />  Con un equipo de localización unificado con presencia internacional, podemos ayudarte a desbloquear el potencial de tu negocio<CorteDesktop /> en América, Europa y en todo el mundo.",
       "BUTTON": "Conoce más sobre USH"
     },
     "TEAMING": {
-      "TITLE": "Colaboramos con clientes en todo el mundo",
-      "BAJADA": "Nuestra prestigiosa lista de clientes incluye proveedores de servicios lingüísticos asociados y clientes B2B, que han llegado a confiar en nosotros como una extensión de sus equipos. ¡Podemos ayudarte a ti también!"
+      "TITLE": "Colaboramos con clientes<CorteDesktop /> en todo el mundo",
+      "BAJADA": "Nuestra prestigiosa lista de clientes incluye proveedores de servicios lingüísticos asociados y clientes B2B, que han llegado a confiar en nosotros como una extensión<CorteDesktop /> de sus equipos. ¡Podemos ayudarte a ti también!"
     },
     "WHY_USH": {
       "TITLE": "¿Por qué USH?",
       "FIRST": {
         "TITLE": "Escalabilidad",
-        "TEXT": "Tenemos la capacidad de formar y mantener equipos especializados que pueden adaptarse a cualquier tecnología o plataforma que utilices."
+        "TEXT": "Tenemos la capacidad de formar<CorteDesktop /> y mantener equipos especializados que pueden adaptarse a cualquier tecnología o plataforma<CorteDesktop /> que utilices."
       },
       "SECOND": {
         "TITLE": "Calidad",
-        "TEXT": "Nuestro flujo de trabajo cumple con los requisitos de las Normas Internacionales ISO 17100. Gestionamos la información de forma confidencial."
+        "TEXT": "Nuestro flujo de trabajo cumple con los requisitos de las Normas Internacionales ISO 17100. Gestionamos la información<CorteDesktop /> de forma confidencial."
       },
       "THIRD": {
         "TITLE": "Experiencia",
@@ -58,8 +58,8 @@
     },
     "BOOK_MEETING": {
       "TITLE": "¡Agenda una reunión!",
-      "BAJADA": "Dinos qué necesitas y te ayudaremos a triunfar en nuevos mercados. Aquí hay algunas preguntas para guiarte.",
-      "QUESTION_1": "¿Qué tipo de contenido quieres crear o localizar?",
+      "BAJADA": "Dinos qué necesitas y te ayudaremos<CorteDesktop /> a triunfar en nuevos mercados. Aquí hay algunas preguntas para guiarte.",
+      "QUESTION_1": "¿Qué tipo de contenido quieres<CorteDesktop /> crear o localizar?",
       "QUESTION_2": "¿Cuál es tu público objetivo?",
       "QUESTION_3": "¿Tu pedido es urgente?",
       "BUTTON": "Contáctanos",
@@ -84,25 +84,25 @@
   },
   "ABOUT": {
     "HERO": {
-      "TITULO": "Descubre a tu socio ideal en servicios lingüísticos",
-      "BAJADA": "Ofrecemos soluciones multilingües para ayudarte a afrontar y resolver los desafíos globales. <CorteDesktop /> Combinamos requisitos lingüísticos, técnicos, de marketing y culturales para ofrecerte una solución de traducción y localización optimizada.",
+      "TITULO": "Descubre a tu socio ideal<CorteDesktop /> en servicios lingüísticos",
+      "BAJADA": "Ofrecemos soluciones multilingües para ayudarte a afrontar y resolver<CorteDesktop /> los desafíos globales. <CorteDesktop />  Combinamos requisitos lingüísticos, técnicos, de marketing<CorteDesktop /> y culturales para ofrecerte una solución de traducción y localización optimizada.",
       "BUTTON": "Contáctanos",
       "FIRST": {
         "TITLE": "Experiencia",
-        "BAJADA": "Sabemos lo que hacemos. Con más de 20 años en la industria de servicios de localización, tenemos la capacidad de formar y mantener equipos profesionales especializados y dedicados a tus proyectos."
+        "BAJADA": "Sabemos lo que hacemos. <CorteDesktop /> Con más de 20 años en la industria<CorteDesktop /> de servicios de localización, tenemos<CorteDesktop /> la capacidad de formar y mantener<CorteDesktop /> equipos profesionales especializados<CorteDesktop /> y dedicados a tus proyectos."
       },
       "SECOND": {
         "TITLE": "Tecnología",
-        "BAJADA": "¡Nos apasiona la tecnología! Usamos estratégicamente las últimas tendencias para ayudarte a expandir tus posibilidades. Nuestra flexibilidad nos permite adaptarnos a cualquier tecnología, plataforma o proceso que uses."
+        "BAJADA": "¡Nos apasiona la tecnología! <CorteDesktop /> Usamos estratégicamente las últimas tendencias para ayudarte a expandir tus posibilidades. Nuestra flexibilidad nos permite adaptarnos a cualquier tecnología, plataforma<CorteDesktop /> o proceso que uses."
       },
       "THIRD": {
         "TITLE": "Cooperación",
-        "BAJADA": "El liderazgo positivo, la empatía y la honestidad son nuestros valores. Creemos firmemente que el esfuerzo conjunto de un equipo para alcanzar objetivos comunes genera soluciones mucho más efectivas y eficientes. <CorteDesktop /> ¡Mejor juntos!"
+        "BAJADA": "El liderazgo positivo, la empatía<CorteDesktop /> y la honestidad son nuestros valores. Creemos firmemente que el esfuerzo conjunto de un equipo para alcanzar objetivos comunes genera soluciones mucho más efectivas y eficientes. <CorteDesktop />  ¡Mejor juntos!"
       }
     },
     "MULTILINGUAL_CHALLENGES": {
-      "TITLE": "Podemos ayudarte a resolver desafíos multilingües",
-      "BAJADA": "Desde traducción hasta desktop publishing y redacción creativa, nuestro equipo puede eliminar barreras lingüísticas. <CorteDesktop /> Fomentamos los liderazgos positivos para motivar a nuestros talentosos profesionales a trabajar en equipo.",
+      "TITLE": "Podemos ayudarte<CorteDesktop /> a resolver<CorteDesktop /> desafíos multilingües",
+      "BAJADA": "Desde traducción hasta desktop publishing y redacción creativa, nuestro equipo puede eliminar barreras lingüísticas. <CorteDesktop />  Fomentamos los liderazgos positivos para motivar<CorteDesktop /> a nuestros talentosos profesionales<CorteDesktop /> a trabajar en equipo.",
       "FIRST": "Soluciones lingüísticas",
       "SECOND": "Gestión de proyectos",
       "THIRD": "Desktop Publishing",
@@ -124,51 +124,51 @@
   "SERVICES": {
     "HERO": {
       "TITULO": "Alcancemos mercados globales",
-      "BAJADA": "USH es sinónimo de flexibilidad, escalabilidad y eficiencia. Somos tu socio de servicios lingüísticos para América Latina, Europa y el mundo.",
+      "BAJADA": "USH es sinónimo de flexibilidad,<CorteDesktop /> escalabilidad y eficiencia. <CorteDesktop /> Somos tu socio de servicios lingüísticos<CorteDesktop /> para América Latina, Europa y el mundo.",
       "FIRST": {
-        "TITLE": "Dinos tus objetivos",
-        "BAJADA": "¿Más fácil decirlo que hacerlo? Podemos ayudarte a conectar con tu comunidad mediante servicios que van desde redacción multilingüe, traducción y transcreación hasta videos atractivos e iniciativas de e-learning, para cubrir tus necesidades lingüísticas internacionales."
+        "TITLE": "Nos dices tus objetivos",
+        "BAJADA": "¿Más fácil decirlo que hacerlo? Podemos ayudarte a conectar con tu comunidad mediante servicios que van desde redacción multilingüe, traducción y transcreación hasta videos atractivos e iniciativas<CorteDesktop /> de e-learning, para cubrir tus necesidades lingüísticas internacionales."
       },
       "SECOND": {
-        "TITLE": "Acordamos un plan de trabajo",
-        "BAJADA": "Ya sea para un proyecto específico o en el marco de una cooperación continua, personalizamos y automatizamos el proceso según sea necesario, utilizando las últimas tecnologías."
+        "TITLE": "Acordamos<CorteDesktop /> un plan de trabajo",
+        "BAJADA": "Ya sea para un proyecto específico o en el marco<CorteDesktop /> de una cooperación continua, personalizamos y automatizamos<CorteDesktop /> el proceso según sea necesario,<CorteDesktop /> utilizando las últimas tecnologías."
       },
       "THIRD": {
         "TITLE": "Sacas partido de nuestro equipo multidisciplinario",
-        "BAJADA": "Tendrás acceso a un equipo gestionado de traductores, redactores, diseñadores y mentes creativas que trabajarán estrechamente con tus propios equipos para ofrecer los servicios que necesites."
+        "BAJADA": "Tendrás acceso a un equipo gestionado de traductores, redactores, diseñadores y mentes creativas que trabajarán estrechamente<CorteDesktop /> con tus propios equipos para ofrecer los servicios que necesites."
       },
       "FOURTH": {
-        "TITLE": "Establecemos nuevos objetivos juntos",
-        "BAJADA": "Nos aseguramos de que nuestros servicios cumplan con altos estándares de calidad y se entreguen a tiempo a tarifas competitivas. Tras la entrega inicial, trabajamos junto a tu equipo para garantizar que el contenido te ayude a expandir tu potencial global."
+        "TITLE": "Establecemos<CorteDesktop /> nuevos objetivos juntos",
+        "BAJADA": "Nos aseguramos de que nuestros servicios cumplan con altos estándares de calidad y se entreguen a tiempo a tarifas competitivas. <CorteDesktop /> Tras la entrega inicial, trabajamos junto a tu equipo para garantizar<CorteDesktop /> que el contenido te ayude a expandir tu potencial global."
       }
     },
     "EXPLORE": {
       "TITLE": "Descubre cómo podemos ayudarte",
-      "BAJADA": "Combinamos requisitos lingüísticos, técnicos, de marketing y culturales para ofrecerte una solución de localización optimizada.",
+      "BAJADA": "Combinamos requisitos lingüísticos, técnicos, de marketing y culturales<CorteDesktop /> para ofrecerte una solución<CorteDesktop /> de localización optimizada.",
       "FIRST": {
         "TITLE": "Soluciones lingüísticas",
-        "BAJADA": "Brindamos servicios de traducción, localización y transcreación para ayudarte a llegar a una audiencia global. Nuestro equipo de lingüistas nativos, cuidadosamente seleccionados y capacitados, usa las últimas tecnologías de IA y NMT para brindar la más alta calidad."
+        "BAJADA": "Brindamos servicios de traducción, localización y transcreación para ayudarte a llegar a una audiencia global. <CorteDesktop /> Nuestro equipo de lingüistas nativos, cuidadosamente seleccionados y capacitados, usa las últimas tecnologías de IA y NMT<CorteDesktop /> para brindar la más alta calidad."
       },
       "SECOND": {
         "TITLE": "Gestión de proyectos",
-        "BAJADA": "Podemos guiar tu proyecto de inicio a fin: desde la evaluación, cotización y planificación hasta el control de calidad. <CorteDesktop /> Nuestro equipo utiliza los mejores procesos y buenas prácticas basados en más de 20 años de experiencia."
+        "BAJADA": "Podemos guiar tu proyecto de inicio a fin: desde la evaluación, cotización y planificación hasta el control de calidad. <CorteDesktop />  <CorteDesktop /> Nuestro equipo utiliza los mejores procesos y buenas prácticas basados en más de 20 años de experiencia."
       },
       "THIRD": {
         "TITLE": "Desktop Publishing y diseño gráfico",
-        "BAJADA": "Podemos ayudarte a crear y localizar contenido atractivo e impactante para llegar a tu público objetivo. Ofrecemos una amplia gama de servicios, como desktop publishing y diseño original para tus campañas de marketing."
+        "BAJADA": "Podemos ayudarte a crear y localizar contenido atractivo e impactante para llegar a tu público objetivo. <CorteDesktop /> Ofrecemos una amplia gama de servicios, como desktop publishing y diseño original para tus campañas de marketing."
       },
       "FOURTH": {
         "TITLE": "E-Learning & videos",
-        "BAJADA": "Podemos preparar, dar formato y asegurar la calidad de tu contenido de e-learning con textos, imágenes, videos y audio. Nuestro equipo puede ayudarte con las etapas de pre y posprocesamiento: desde transcripción y traducción hasta sincronización, subtitulado o doblaje."
+        "BAJADA": "Podemos preparar, dar formato y asegurar la calidad de tu contenido de e-learning con textos, imágenes, videos y audio. Nuestro equipo puede ayudarte con las etapas de pre y posprocesamiento: desde transcripción y traducción<CorteDesktop /> hasta sincronización, subtitulado o doblaje."
       },
       "FIFTH": {
         "TITLE": "Creación de contenido",
-        "BAJADA": "Trabajamos codo a codo junto a tu equipo de marketing para crear contenido atractivo y dar un mensaje unificado. <CorteDesktop /> Desde la conceptualización de campañas hasta el diseño, podemos guiar tu contenido y visuales para correos electrónicos corporativos, newsletters, redes sociales y merchandising."
+        "BAJADA": "Trabajamos codo a codo junto a tu equipo de marketing para crear contenido atractivo y dar un mensaje unificado. <CorteDesktop />  <CorteDesktop /> Desde la conceptualización de campañas hasta el diseño, podemos guiar tu contenido y visuales<CorteDesktop /> para correos electrónicos corporativos, newsletters, redes sociales y merchandising."
       }
     },
     "AREAS": {
       "TITLE": "Áreas de experiencia",
-      "BAJADA": "Hemos logrado seleccionar y capacitar a profesionales con amplia experiencia en diferentes áreas.",
+      "BAJADA": "Hemos logrado seleccionar y capacitar a profesionales<CorteDesktop /> con amplia experiencia en diferentes áreas.",
       "FIRST": {
         "TITLE": "Tecnología",
         "ITEM1": "Cloud computing",
@@ -178,14 +178,14 @@
       },
       "SECOND": {
         "TITLE": "Negocios",
-        "ITEM1": "Comercio minorista y e-Commerce",
+        "ITEM1": "Comercio minorista<CorteDesktop /> y e-Commerce",
         "ITEM2": "Seguros y Legal",
-        "ITEM3": "Marketing y Recursos Humanos",
+        "ITEM3": "Marketing<CorteDesktop /> y Recursos Humanos",
         "ITEM4": "Finanzas y bancos"
       },
       "THIRD": {
         "TITLE": "Industrias",
-        "ITEM1": " Automotriz y Maquinaria Pesada",
+        "ITEM1": " Automotriz<CorteDesktop /> y Maquinaria Pesada",
         "ITEM2": "Manufactura Industrial"
       },
       "FOURTH": {
@@ -194,7 +194,7 @@
         "ITEM2": "Arte y diseño"
       },
       "FIFTH": {
-        "TITLE": "Ciencias de la vida y Salud",
+        "TITLE": "Ciencias de la vida<CorteDesktop /> y Salud",
         "ITEM1": "Regulación",
         "ITEM2": "Dispositivos médicos",
         "ITEM3": "Ensayos clínicos"
@@ -202,33 +202,33 @@
     },
     "MEETING_SMALL": {
       "TITLE": "¡Agenda una reunión!",
-      "BAJADA": "Dinos qué necesitas y te ayudaremos a triunfar en nuevos mercados.",
+      "BAJADA": "Dinos qué necesitas y te ayudaremos<CorteDesktop /> a triunfar en nuevos mercados.",
       "BUTTON": "Contáctanos"
     }
   },
   "EXPERTISE": {
     "TEAMING": {
-      "TITLE": "Colaboramos con<CorteDesktop /><CorteMobile /> clientes en todo el mundo",
-      "BAJADA": "Nuestra experiencia nos permite ofrecer diversas soluciones de localización. Brindamos varios servicios, desde procesamiento de archivos y análisis de contenido hasta doblaje, MTPE, edición de audio y video, DTP, grabación de voz, redacción y testing."
+      "TITLE": "Colaboramos con clientesen todo el mundo",
+      "BAJADA": "Nuestra experiencia nos permite ofrecer<CorteDesktop /> diversas soluciones de localización. <CorteDesktop /> Brindamos varios servicios, desde procesamiento<CorteDesktop /> de archivos y análisis de contenido hasta doblaje,<CorteDesktop /> MTPE, edición de audio y video, DTP,<CorteDesktop /> grabación de voz, redacción y testing."
     },
     "CLIENTS": {
       "TITLE": "Conoce algunos de nuestros clientes",
-      "BAJADA": "Muchas empresas y proveedores lingüísticos confían en nosotros como una extensión de sus equipos internos. ¡También podemos ayudarte a ti!"
+      "BAJADA": "Muchas empresas y proveedores lingüísticos confían<CorteDesktop /> en nosotros como una extensión de sus equipos internos. ¡También podemos ayudarte a ti!"
     },
     "EXCELLENCE": {
       "TITLE": "Nuestro camino a la excelencia",
-      "BAJADA": "La sustentabilidad, accesibilidad y alta calidad son los pilares de nuestro trabajo. Nuestros servicios de localización están certificados para cumplir con los estándares de calidad ISO 17100:2015, confirmado por nuestras exitosas auditorías externas anuales.",
+      "BAJADA": "La sustentabilidad, accesibilidad y alta calidad son los pilares de nuestro trabajo. Nuestros servicios de localización están certificados para cumplir con los estándares<CorteDesktop /> de calidad ISO 17100:2015, confirmado por nuestras exitosas auditorías externas anuales.",
       "FIRST": {
-        "BAJADA": "Expresamos nuestro compromiso con la excelencia mediante una <Negrita>política de calidad</Negrita> que se enfoca en la mejora continua, la satisfacción del cliente y la confidencialidad.",
+        "BAJADA": "Expresamos nuestro compromiso<CorteDesktop /> con la excelencia mediante<CorteDesktop /> una <Negrita>política de calidad</Negrita> que se enfoca<CorteDesktop /> en la mejora continua, la satisfacción <CorteDesktop /> del cliente y la confidencialidad.",
         "BUTTON": "Lee nuestra Política de calidad"
       },
       "SECOND": {
-        "BAJADA": "Nos comprometemos a llevar adelante nuestro trabajo de manera socialmente responsable. <CorteDesktop /> Nuestro Manifiesto describe nuestro enfoque hacia la <Negrita>sustentabilidad</Negrita>, diversidad, ética y compromiso con la comunidad.",
+        "BAJADA": "Nos comprometemos a llevar adelante nuestro trabajo de manera socialmente responsable. <CorteDesktop />  Nuestro Manifiesto describe nuestro enfoque hacia la <Negrita>sustentabilidad</Negrita>, diversidad, ética y compromiso<CorteDesktop /> con la comunidad.",
         "BUTTON": "Lee nuestro Manifiesto ESG"
       },
       "THIRD": {
-        "BAJADA": "Creemos que la localización implica no solo traducir contenido sino también volverlo <Negrita>accesible</Negrita> para todas las personas, sin distinciones.",
-        "BUTTON": "Lee sobre la accesibilidad de esta web"
+        "BAJADA": "Creemos que la localización implica<CorteDesktop /> no solo traducir contenido<CorteDesktop /> sino también volverlo <Negrita>accesible</Negrita><CorteDesktop /> para todas las personas, sin distinciones.",
+        "BUTTON": "Lee sobre la accesibilidad<CorteDesktop /> de esta web"
       }
     },
     "MEMBERSHIPS": {
@@ -239,7 +239,7 @@
   "BLOG": {
     "HERO": {
       "TITULO": "¡Lo mejor está por venir!",
-      "BAJADA": "Estamos trabajando en una nueva sección de blog donde encontrarás las últimas novedades de la industria de la localización. <CorteDesktop /> Si te dedicas a la traducción, diseño gráfico, TI, redacción, o edición de video, no te pierdas nuestras entrevistas, oportunidades laborales y más."
+      "BAJADA": "Estamos trabajando en una nueva sección de blog<CorteDesktop /> donde encontrarás las últimas novedades<CorteDesktop /> de la industria de la localización. <CorteDesktop />  <CorteDesktop /> Si te dedicas a la traducción, diseño gráfico, TI, redacción,<CorteDesktop /> o edición de video, no te pierdas<CorteDesktop /> nuestras entrevistas, oportunidades laborales y más."
     },
     "SOCIAL": "Mientras esperas, síguenos en redes sociales"
   }

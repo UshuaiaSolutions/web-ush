@@ -120,7 +120,7 @@ function OurApproach() {
                     )
                   }
                 >
-                  {text.EXPERTISE.EXCELLENCE.THIRD.BUTTON}
+                  <Translator text={text.EXPERTISE.EXCELLENCE.THIRD.BUTTON} />
                 </StyledBoton>
               </div>
             </Content>

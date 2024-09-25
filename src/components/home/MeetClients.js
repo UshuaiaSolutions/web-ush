@@ -29,7 +29,7 @@ function MeetClients() {
     <StyledContainer>
       <Container>
         <h1 className="h3-mobile h2-web mb-16-mobile mb-40 text-center-mobile text-center">
-          {text.HOME.TEAMING.TITLE}
+          <Translator text={text.HOME.TEAMING.TITLE} />
         </h1>
         <p className="txt-regular-mobile destacado-regular mb-25-mobile mb-70 text-center-mobile text-center">
           <Translator text={text.HOME.TEAMING.BAJADA} />

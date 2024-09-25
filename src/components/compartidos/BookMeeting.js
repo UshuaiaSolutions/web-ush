@@ -59,7 +59,7 @@ const BookMeeting = () => {
         <MediaContainer className="d-flex justify-between">
           <FirstContainer className="d-flex flex-column">
             <h1 className="h3-mobile h2-web mb-16-mobile mb-40 text-center-mobile">
-              {text.HOME.BOOK_MEETING.TITLE}
+              <Translator text={text.HOME.BOOK_MEETING.TITLE} />
             </h1>
             <p className="txt-regular-mobile destacado-regular mb-80 mb-20-mobile text-center-mobile">
               <Translator text={text.HOME.BOOK_MEETING.BAJADA} />

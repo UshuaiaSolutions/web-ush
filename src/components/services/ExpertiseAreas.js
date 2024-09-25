@@ -56,13 +56,13 @@ function ExpertiseAreas() {
                 <Translator text={text.SERVICES.AREAS.SECOND.ITEM1} />
               </li>
               <li className="destacado-regular txt-mobile text-center-mobile">
-                {text.SERVICES.AREAS.SECOND.ITEM2}
+                <Translator text={text.SERVICES.AREAS.SECOND.ITEM2} />
               </li>
               <li className="destacado-regular txt-mobile text-center-mobile">
-                {text.SERVICES.AREAS.SECOND.ITEM3}
+                <Translator text={text.SERVICES.AREAS.SECOND.ITEM3} />
               </li>
               <li className="destacado-regular txt-mobile text-center-mobile">
-                {text.SERVICES.AREAS.SECOND.ITEM4}
+                <Translator text={text.SERVICES.AREAS.SECOND.ITEM4} />
               </li>
             </ul>
           </Card>

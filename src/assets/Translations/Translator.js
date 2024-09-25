@@ -1,11 +1,11 @@
 import React from "react";
-import { Negrita } from "../../components/base/Cortes";
+import { CorteDesktop, Negrita } from "../../components/base/Cortes";
 
 const componentMap = {
   // "<CorteMobile />": <CorteMobile />,
-  // "<CorteDesktop />": <CorteDesktop />,
+  "<CorteDesktop />": <CorteDesktop />,
   "<CorteMobile />": <></>,
-  "<CorteDesktop />": <></>,
+  // "<CorteDesktop /> ": <></>,
   "<Negrita>": "startNegrita",
   "</Negrita>": "endNegrita",
 };

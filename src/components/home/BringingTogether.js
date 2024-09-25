@@ -26,7 +26,7 @@ function BringingTogether() {
             </p>
             <Link to="/expertise">
               <BotonSecundario>
-                {text.HOME.BRINGING_TOGETHER.BUTTON}
+                <Translator text={text.HOME.BRINGING_TOGETHER.BUTTON} />
               </BotonSecundario>
             </Link>
           </Content>
