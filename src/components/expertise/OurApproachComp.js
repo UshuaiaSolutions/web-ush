@@ -30,7 +30,7 @@ export const Content = styled.div`
   ${breakpoints.min_desktop} {
     justify-content: space-between;
     flex-direction: row;
-    align-items: end;
+    align-items: center;
 
     & .abs {
       width: auto;

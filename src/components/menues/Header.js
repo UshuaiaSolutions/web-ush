@@ -34,9 +34,9 @@ function Header({ toggler }) {
 
   const languages = [
     { value: "EN", label: "English" },
-    { value: "ES", label: "Español ES" },
+    // { value: "ES", label: "Español ES" },
     { value: "LATAM", label: "Español LATAM" },
-    { value: "CA", label: "Català" },
+    // { value: "CA", label: "Català" },
     { value: "PT", label: "Português" },
   ];
 

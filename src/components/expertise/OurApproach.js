@@ -48,7 +48,7 @@ function OurApproach() {
               </p>
               <div>
                 <StyledBoton
-                  className="mb-32 mb-16-mobile"
+                  className="mb-16-mobile"
                   onClick={() =>
                     handleDownload(
                       "/pdf/Quality_Policy.pdf",
@@ -80,7 +80,7 @@ function OurApproach() {
               </p>
               <div>
                 <StyledBoton
-                  className="mb-32 mb-16-mobile"
+                  className="mb-16-mobile"
                   onClick={() =>
                     handleDownload(
                       "/pdf/Ushuaia_Solutions-ESG_Manifesto.pdf",
@@ -112,7 +112,7 @@ function OurApproach() {
               </p>
               <div>
                 <StyledBoton
-                  className="mb-32 mb-16-mobile"
+                  className="mb-16-mobile"
                   onClick={() =>
                     handleDownload(
                       "/pdf/Websites_Accessibility_Statement.pdf",

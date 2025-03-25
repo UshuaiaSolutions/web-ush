@@ -124,7 +124,7 @@ function WhyUSH() {
                 {text.HOME.WHY_USH.THIRD.TITLE}
               </h3>
               <p className="texto-regular text-center txt-regular-mobile">
-                {text.HOME.WHY_USH.THIRD.TEXT}
+                <Translator text={text.HOME.WHY_USH.THIRD.TEXT} />
               </p>
             </Card>
           </CardContainer>

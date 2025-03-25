@@ -45,7 +45,7 @@
       "TITLE": "¿Por qué USH?",
       "FIRST": {
         "TITLE": "Escalabilidad",
-        "TEXT": "Tenemos la capacidad de formar<CorteDesktop /> y mantener equipos especializados que pueden adaptarse a cualquier tecnología o plataforma<CorteDesktop /> que utilices."
+        "TEXT": "Tenemos la capacidad de formar<CorteDesktop /> y mantener equipos especializados que pueden adaptarse a cualquier tecnología<CorteDesktop /> o plataforma que utilices."
       },
       "SECOND": {
         "TITLE": "Calidad",
@@ -53,7 +53,7 @@
       },
       "THIRD": {
         "TITLE": "Experiencia",
-        "TEXT": "Nuestro flujo de trabajo cumple con los requisitos de las Normas Internacionales ISO 17100. Gestionamos la información de forma confidencial."
+        "TEXT": "Con más de 20 años en la industria, hemos seleccionado y capacitado a un gran equipo de lingüistas, diseñadores y profesionales de TI."
       }
     },
     "BOOK_MEETING": {
@@ -85,7 +85,7 @@
   "ABOUT": {
     "HERO": {
       "TITULO": "Descubre a tu socio ideal<CorteDesktop /> en servicios lingüísticos",
-      "BAJADA": "Ofrecemos soluciones multilingües para ayudarte a afrontar y resolver<CorteDesktop /> los desafíos globales. <CorteDesktop />  Combinamos requisitos lingüísticos, técnicos, de marketing<CorteDesktop /> y culturales para ofrecerte una solución de traducción y localización optimizada.",
+      "BAJADA": "Ofrecemos soluciones multilingües para ayudarte a<CorteDesktop /> afrontar y resolver los desafíos globales.<CorteDesktop /> Combinamos requisitos lingüísticos, técnicos, de marketing<CorteDesktop /> y culturales para ofrecerte una solución de traducción y localización optimizada.",
       "BUTTON": "Contáctanos",
       "FIRST": {
         "TITLE": "Experiencia",
@@ -102,7 +102,7 @@
     },
     "MULTILINGUAL_CHALLENGES": {
       "TITLE": "Podemos ayudarte<CorteDesktop /> a resolver<CorteDesktop /> desafíos multilingües",
-      "BAJADA": "Desde traducción hasta desktop publishing y redacción creativa, nuestro equipo puede eliminar barreras lingüísticas. <CorteDesktop />  Fomentamos los liderazgos positivos para motivar<CorteDesktop /> a nuestros talentosos profesionales<CorteDesktop /> a trabajar en equipo.",
+      "BAJADA": "Desde traducción hasta desktop publishing y redacción creativa, nuestro equipo puede eliminar barreras lingüísticas. <CorteDesktop />  Fomentamos los liderazgos positivos para motivar a nuestros talentosos profesionales<CorteDesktop /> a trabajar en equipo.",
       "FIRST": "Soluciones lingüísticas",
       "SECOND": "Gestión de proyectos",
       "THIRD": "Desktop Publishing",
@@ -208,7 +208,7 @@
   },
   "EXPERTISE": {
     "TEAMING": {
-      "TITLE": "Colaboramos con clientesen todo el mundo",
+      "TITLE": "Colaboramos con clientes en todo el mundo",
       "BAJADA": "Nuestra experiencia nos permite ofrecer<CorteDesktop /> diversas soluciones de localización. <CorteDesktop /> Brindamos varios servicios, desde procesamiento<CorteDesktop /> de archivos y análisis de contenido hasta doblaje,<CorteDesktop /> MTPE, edición de audio y video, DTP,<CorteDesktop /> grabación de voz, redacción y testing."
     },
     "CLIENTS": {
@@ -223,7 +223,7 @@
         "BUTTON": "Lee nuestra Política de calidad"
       },
       "SECOND": {
-        "BAJADA": "Nos comprometemos a llevar adelante nuestro trabajo de manera socialmente responsable. <CorteDesktop />  Nuestro Manifiesto describe nuestro enfoque hacia la <Negrita>sustentabilidad</Negrita>, diversidad, ética y compromiso<CorteDesktop /> con la comunidad.",
+        "BAJADA": "Nos comprometemos a llevar adelante nuestro trabajo de manera socialmente responsable. <CorteDesktop />  Nuestro Manifiesto describe nuestro enfoque hacia la <Negrita>sustentabilidad</Negrita>, diversidad, ética y compromiso con la comunidad.",
         "BUTTON": "Lee nuestro Manifiesto ESG"
       },
       "THIRD": {
@@ -239,7 +239,7 @@
   "BLOG": {
     "HERO": {
       "TITULO": "¡Lo mejor está por venir!",
-      "BAJADA": "Estamos trabajando en una nueva sección de blog<CorteDesktop /> donde encontrarás las últimas novedades<CorteDesktop /> de la industria de la localización. <CorteDesktop />  <CorteDesktop /> Si te dedicas a la traducción, diseño gráfico, TI, redacción,<CorteDesktop /> o edición de video, no te pierdas<CorteDesktop /> nuestras entrevistas, oportunidades laborales y más."
+      "BAJADA": "Estamos trabajando en una nueva sección de blog<CorteDesktop /> donde encontrarás las últimas novedades<CorteDesktop /> de la industria de la localización. <CorteDesktop />  <CorteDesktop /> Si te dedicas a la traducción, diseño gráfico, TI, redacción, o edición de video, no te pierdas<CorteDesktop /> nuestras entrevistas, oportunidades laborales y más."
     },
     "SOCIAL": "Mientras esperas, síguenos en redes sociales"
   }
