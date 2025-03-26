@@ -22,13 +22,17 @@ function Explore() {
     }
   };
 
-  const { text } = useContext(TranslationContext);
+  const { language, text } = useContext(TranslationContext);
 
   return (
     <StyledContainer>
       <Container>
         <RowDesktop className="mb-40 mb-10-mobile">
-          <h2 className="h3-mobile h2-web text-center-mobile mb-16-mobile">
+          <h2
+            className={`h3-mobile ${
+              language === "PT" ? "h2-web-servicios" : "h2-web"
+            } text-center-mobile mb-16-mobile`}
+          >
             <Translator text={text.SERVICES.EXPLORE.TITLE} />
           </h2>
           <p className="destacado-regular txt-regular-mobile text-center-mobile">

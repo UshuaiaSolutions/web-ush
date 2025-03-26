@@ -10,7 +10,7 @@
   "HOME": {
     "HERO": {
       "TITULO": "Amplie seu potencial global",
-      "BAJADA": "Profissionais especializados e capacitados com as tecnologias mais recentes podem <Negrita>traduzir, localizar e criar conteúdo </Negrita> para ajudar você a ter sucesso nos mercados internacionais.",
+      "BAJADA": "Os profissionais especializados e capacitados com as tecnologias mais recentes podem <Negrita>traduzir, localizar e criar conteúdo </Negrita> para ajudar você a ter sucesso nos mercados internacionais.",
       "BUTTON": "Entre em contato"
     },
     "MEET_YOUR_NEEDS": {
@@ -53,7 +53,7 @@
       },
       "THIRD": {
         "TITLE": "Experiência",
-        "TEXT": "Nosso fluxo de trabalho está em conformidade com os requisitos das Normas Internacionais ISO 17100. Oferecemos gestão de informações confidenciais."
+        "TEXT": "Com mais de 20 anos no setor de serviços linguísticos, selecionamos e treinamos cuidadosamente nossa equipe de linguistas, designers e profissionais de TI."
       }
     },
     "BOOK_MEETING": {
@@ -77,7 +77,7 @@
       }
     },
     "WORK_WITH_US": {
-      "TITLE": "Se você é linguista, tradutor, designer gráfico ou especialista em TI, junte-se à nossa equipe!",
+      "TITLE": "Se você é linguista, tradutor, designer gráfico ou especialista em TI,<CorteDesktop /> junte-se à nossa equipe!",
       "BUTTON": "Trabalhe conosco"
     },
     "BACK": "Retornar ao início"
@@ -85,7 +85,7 @@
   "ABOUT": {
     "HERO": {
       "TITULO": "Encontre seu parceiro de serviços linguísticos",
-      "BAJADA": "Fornecemos soluções multilíngues para ajudar você a enfrentar e resolver seus desafios globais. <CorteDesktop />  Podemos combinar requisitos linguísticos, técnicos, de marketing e culturais para oferecer uma solução otimizada de tradução e localização.",
+      "BAJADA": "Fornecemos soluções multilíngues para ajudar você a enfrentar<CorteDesktop /> e resolver seus desafios globais. <CorteDesktop />  Podemos combinar requisitos linguísticos, técnicos, de marketing e culturais para oferecer uma solução otimizada de tradução e localização.",
       "BUTTON": "Entre em contato",
       "FIRST": {
         "TITLE": "Experiência",
@@ -102,7 +102,7 @@
     },
     "MULTILINGUAL_CHALLENGES": {
       "TITLE": "Podemos ajudar você a resolver desafios multilíngues",
-      "BAJADA": "Desde a tradução até a editoração eletrônica e o copywriting, nossa equipe pode ajudar você a eliminar barreiras linguísticas. <CorteDesktop />  Além disso, encorajamos a liderança positiva para motivar nossos profissionais talentosos a trabalharem juntos como um só.",
+      "BAJADA": "Desde a tradução até a editoração<CorteDesktop /> eletrônica e o copywriting,<CorteDesktop /> nossa equipe pode ajudar você<CorteDesktop /> a eliminar barreiras linguísticas. <CorteDesktop />  Promovemos a liderança positiva<CorteDesktop /> para motivar nossos profissionais talentosos<CorteDesktop /> a trabalharem juntos como um só.",
       "FIRST": "Soluções linguísticas",
       "SECOND": "Gestão de projetos",
       "THIRD": "Editoração eletrônica",
@@ -115,19 +115,19 @@
       "VALUES": "Nossos valores",
       "INNOVATION": "Inovação",
       "RELIABILITY": "Confiabilidade",
-      "CONTINUOS": "Contínuo",
-      "LEARNING": "Aprendizado",
+      "CONTINUOS": "Aprendizado",
+      "LEARNING": "Contínuo",
       "TEAMWORK": "Trabalho em equipe",
       "EMPATHY": "Empatia"
     }
   },
   "SERVICES": {
     "HERO": {
-      "TITULO": "Vamos alcançar os mercados globais",
+      "TITULO": "Alcance os mercados globais",
       "BAJADA": "A USH é sinônimo de flexibilidade, escalabilidade e eficiência. Somos seu parceiro de serviços linguísticos na América Latina, Europa e no mundo todo.",
       "FIRST": {
-        "TITLE": "Conte seus objetivos para a gente",
-        "BAJADA": "É mais fácil falar do que fazer? Podemos ajudar você a alcançar sua comunidade com serviços que variam desde copywriting multilíngue, tradução e transcriação até conteúdos de vídeos envolventes e iniciativas de e-learning para atender às necessidades linguísticas da sua equipe internacional."
+        "TITLE": "Compartilhe seus objetivos",
+        "BAJADA": "É mais fácil falar do que fazer? Podemos ajudar você a alcançar sua comunidade com serviços que variam desde copywriting multilíngue, tradução e transcriação até conteúdos de vídeos envolventes e iniciativas de e-learning para atender às necessidades linguísticas da sua equipe internacional. Conte seus objetivos para a gente."
       },
       "SECOND": {
         "TITLE": "Conciliamos um plano de trabalho",
@@ -143,7 +143,7 @@
       }
     },
     "EXPLORE": {
-      "TITLE": "Descubra como podemos ajudar você",
+      "TITLE": "Podemos ajudar você!",
       "BAJADA": "Podemos combinar requisitos linguísticos, técnicos, de marketing e culturais para oferecer uma solução otimizada de tradução e localização.",
       "FIRST": {
         "TITLE": "Soluções linguísticas",
@@ -217,7 +217,7 @@
     },
     "EXCELLENCE": {
       "TITLE": "Nosso enfoque de excelência",
-      "BAJADA": "Sustentabilidade, acessibilidade e alta qualidade são os pilares do nosso trabalho. Nossos serviços de localização profissional são certificados para atender aos padrões de qualidade ISO 17100:2015, conforme confirmado por nossas auditorias externas anuais bem-sucedidas.",
+      "BAJADA": "Sustentabilidade, acessibilidade e alta qualidade são os pilares do nosso trabalho. Nossos serviços de localização profissional são certificados para atender<CorteDesktop /> aos padrões de qualidade ISO 17100:2015, confirmado por nossas auditorias<CorteDesktop /> externas anuais bem-sucedidas.",
       "FIRST": {
         "BAJADA": "Expressamos nosso compromisso com a excelência por meio de uma <Negrita>política de qualidade</Negrita> que se concentra no aprimoramento contínuo, na satisfação do cliente e na confidencialidade.",
         "BUTTON": "Leia nossa Política de Qualidade"
@@ -241,6 +241,6 @@
       "TITULO": "Algo incrível está chegando em breve!",
       "BAJADA": "No momento, estamos trabalhando em uma seção de blog na qual você poderá ver as últimas notícias do setor de localização. <CorteDesktop />  Se você é linguista, designer gráfico, especialista em TI, escritor ou editor de vídeo, continue ligado para descobrir webinários, oportunidades de trabalho e muito mais."
     },
-    "SOCIAL": "Enquanto espera, nos siga nas redes sociais"
+    "SOCIAL": "Enquanto espera, siga-nos nas redes sociais"
   }
 }
