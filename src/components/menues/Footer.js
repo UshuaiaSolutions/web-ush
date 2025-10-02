@@ -18,7 +18,7 @@ import {
   RowDesktop,
   ButtonHover,
 } from "./FooterComp";
-import LogoISO from "../../assets/Logo-ISO";
+// import LogoISO from "../../assets/Logo-ISO";
 import LogoUSH from "../../assets/Logo-USH";
 import { useTheme } from "styled-components";
 import BotonSecundario from "../base/BotonSecundario";
@@ -29,7 +29,7 @@ import Translator from "../../assets/Translations/Translator";
 function Footer() {
   const theme = useTheme();
 
-  const { text } = useContext(TranslationContext);
+  const { text, language } = useContext(TranslationContext);
 
   return (
     <Content>
@@ -179,11 +179,33 @@ function Footer() {
           </ContainerText>
 
           <ColumnSecond>
-            <LogoISO />
-            <span className="txt-regular-mobile text-center-mobile">
-              © 2024
-              <CorteMobile />
-              Ushuaia Solutions
+            <a
+              href="https://www.certipedia.com/quality_marks/9000018610?locale=es&certificate_number=01+10506+2129892"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {language === "LATAM" ? (
+                theme.nombre === "dark" ? (
+                  <img alt="ISO" src="iso-es-dark.svg" />
+                ) : (
+                  <img alt="ISO" src="iso-es-light.svg" />
+                )
+              ) : theme.nombre === "dark" ? (
+                <img alt="ISO" src="iso-en-dark.svg" />
+              ) : (
+                <img alt="ISO" src="iso-en-light.svg" />
+              )}
+            </a>
+            <span className="txt-regular-mobile text-center-mobile mt-40">
+              © 2025 ULS Language Services SL <CorteMobile />  Email: 
+              <a
+                href="mailto:info@ushuaiasolutions.com"
+                target="_blank"
+                rel="noreferrer"
+                style={{ color: theme.texto }}
+              >
+                info@ushuaiasolutions.com
+              </a>
             </span>
             <LogoUSH />
           </ColumnSecond>
@@ -228,7 +250,23 @@ function Footer() {
               </StyledLink>
             </Column>
           </RowDesktop>
-          <LogoISO />
+          <a
+            href="https://www.certipedia.com/quality_marks/9000018610?locale=es&certificate_number=01+10506+2129892"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {language === "LATAM" ? (
+              theme.nombre === "dark" ? (
+                <img alt="ISO" src="iso-es-dark.svg" />
+              ) : (
+                <img alt="ISO" src="iso-es-light.svg" />
+              )
+            ) : theme.nombre === "dark" ? (
+              <img alt="ISO" src="iso-en-dark.svg" />
+            ) : (
+              <img alt="ISO" src="iso-en-light.svg" />
+            )}
+          </a>
           <RowDesktop>
             <ContainerRedesFooter>
               {/* linkedin */}
@@ -316,7 +354,17 @@ function Footer() {
                 </RedImage>
               </ContainerRed>
             </ContainerRedesFooter>
-            <span className="txt-regular">© 2024 Ushuaia Solutions</span>
+            <span className="txt-regular">
+              © 2025 ULS Language Services SL | Email: 
+              <a
+                href="mailto:info@ushuaiasolutions.com"
+                target="_blank"
+                rel="noreferrer"
+                style={{ color: theme.texto }}
+              >
+                info@ushuaiasolutions.com
+              </a>
+            </span>
           </RowDesktop>
         </ContainerDesktop>
       </Container>

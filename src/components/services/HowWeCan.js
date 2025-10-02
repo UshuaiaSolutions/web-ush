@@ -14,7 +14,7 @@ import { TranslationContext } from "../../assets/Translations/TranslationsProvid
 import Translator from "../../assets/Translations/Translator";
 
 function HowWeCan() {
-  const { text } = useContext(TranslationContext);
+  const { text, language } = useContext(TranslationContext);
 
   return (
     <Container>
@@ -23,7 +23,11 @@ function HowWeCan() {
           <Column className="w-90-desktop">
             <Row>
               <Uno />
-              <h3 className="h2-web h3-mobile">
+              <h3
+                className={`${
+                  language === "LATAM" ? "h2-web-servicios-latam" : "h2-web"
+                } h3-mobile`}
+              >
                 <Translator text={text.SERVICES.HERO.FIRST.TITLE} />
               </h3>
             </Row>
@@ -37,7 +41,11 @@ function HowWeCan() {
           <EstrellaVerde />
           <Column className="w-90-desktop">
             <Row>
-              <h3 className="h2-web h3-mobile">
+              <h3
+                className={`${
+                  language === "LATAM" ? "h2-web-servicios-latam" : "h2-web"
+                } h3-mobile`}
+              >
                 <Translator text={text.SERVICES.HERO.SECOND.TITLE} />
               </h3>
               <Dos />
@@ -51,7 +59,11 @@ function HowWeCan() {
           <Column className="w-90-desktop">
             <Row>
               <Tres />
-              <h3 className="h2-web h3-mobile width-tres">
+              <h3
+                className={`${
+                  language === "LATAM" ? "h2-web-servicios-latam" : "h2-web"
+                } h3-mobile width-tres`}
+              >
                 <Translator text={text.SERVICES.HERO.THIRD.TITLE} />
               </h3>
             </Row>
@@ -65,7 +77,11 @@ function HowWeCan() {
           <EstrellaVioleta />
           <Column className="w-90-desktop">
             <Row>
-              <h3 className="h2-web h3-mobile">
+              <h3
+                className={`${
+                  language === "LATAM" ? "h2-web-servicios-latam" : "h2-web"
+                } h3-mobile`}
+              >
                 <Translator text={text.SERVICES.HERO.FOURTH.TITLE} />
               </h3>
               <Cuatro />

@@ -35,7 +35,7 @@ function Header({ toggler }) {
   const languages = [
     { value: "EN", label: "English" },
     // { value: "ES", label: "Español ES" },
-    { value: "LATAM", label: "Español LATAM" },
+    { value: "LATAM", label: "Español" },
     // { value: "CA", label: "Català" },
     { value: "PT", label: "Português" },
   ];
@@ -83,7 +83,7 @@ function Header({ toggler }) {
             </ContainerMenu>
             <DropdownContainer>
               <DropdownToggle onClick={toggleDropdown}>
-                {language}
+                {language === "LATAM" ? "ES" : language}
               </DropdownToggle>
               <DropdownMenu isOpen={isOpen}>
                 {languages.map((language) => (

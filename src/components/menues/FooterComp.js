@@ -74,7 +74,7 @@ export const ContainerRedesFooter = styled.div`
   margin: 0 24px 25px;
 
   ${breakpoints.min_desktop} {
-    margin: 0;
+    margin: 25px 0 0 0;
   }
 `;
 
